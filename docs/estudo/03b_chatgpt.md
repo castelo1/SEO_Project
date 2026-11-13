@@ -13,6 +13,32 @@
   devolveram **403** à ferramenta. O que elas diriam aparece numa tabela à parte (seção 3.2), marcada **não conferido /
   não conclusivo**, com o endereço para o dono abrir no navegador. Nada dali entrou como classe A.
 
+## Complemento da sessão principal — ajuda oficial da OpenAI lida no navegador (13/11/2026, 20:37)
+
+A página de ajuda que deu 403 à ferramenta do subagente abriu no navegador pessoal, sem conta. É **classe A** (OpenAI
+sobre o próprio produto; quem ganha: OpenAI). Fonte: "Searching the web with ChatGPT",
+https://help.openai.com/en/articles/9237897-searching-the-web-with-chatgpt (a página diz "atualizada há 25 dias", isto
+é, por volta de 19/10/2026). O que ela diz, com o trecho curto que decide:
+
+| Ponto | Trecho literal (lido no texto da página) | O que significa |
+|---|---|---|
+| Provedores parceiros | "ChatGPT search sometimes partners with other search providers." | A OpenAI **declara** que usa provedores de busca de terceiros, "às vezes". Não diz quais são todos |
+| Quais provedores aparecem | A página manda ver a política de privacidade de dois: "Microsoft privacy statement" e "Shopify privacy policy" | **A Microsoft (Bing) é o único buscador nomeado.** O Google não é citado. Isso não prova que o Google não é usado por via indireta (ponto disputado da seção 1) |
+| Reescrita da consulta | "ChatGPT search typically rewrites your query into one or more targeted queries that it sends those providers." | Confirma, em fonte primária, a reescrita em uma ou mais buscas curtas (seção 6) |
+| Localização na busca | ChatGPT "collects general location information based on your IP address and may share that general location with third-party search providers"; exemplo da página: "good restaurants near me" vira "top restaurants San Francisco" | Pedido local sem bairro é reescrito com a cidade inferida do IP. **Para o roteiro de teste: escrever o bairro na pergunta e anotar se a rede tinha VPN** |
+| Memória | "If memory is enabled, ChatGPT may use relevant saved memories when rewriting a search query." | Conta com memória ligada muda a busca: o roteiro deve usar conversa temporária ou memória desligada (deixa de ser premissa não conferida) |
+| Dados locais | Para resultados mais ajustados, o ChatGPT pode compartilhar a localização com "trusted third-party providers that help provide more local information, such as nearby business listings or weather reports" | A OpenAI **declara** que listagens de empresas próximas vêm de provedores terceiros; **não diz quais** (exceto, para reserva de restaurante, OpenTable, Resy e Yelp, com Resy e Yelp restritos aos Estados Unidos e Canadá) |
+| Mapa | "On iOS and Android, relevant results may also include a map." | Mapa só no aplicativo de celular, segundo a página |
+| Critério de escolha | "ChatGPT ranks search results using multiple factors intended to help users find relevant, reliable information. Placement is not guaranteed." | A OpenAI não publica os fatores; ninguém garante posição |
+| O que o site precisa permitir | "To make a website eligible for inclusion, allow OAI-Searchbot to crawl the site and confirm that the website host or content delivery network allows traffic from OpenAI's published searchbot IP addresses." | Confirma a seção 2: liberar o `OAI-SearchBot` no `robots.txt` **e** na hospedagem ou rede de distribuição |
+| Quem pode buscar | "People who are not signed in can also use web search." | O teste deslogado é possível |
+
+**O que continua não conferido:** a página "Publishers and developers FAQ"
+(`https://help.openai.com/en/articles/12627856-publishers-and-developers-faq`) hoje **redireciona para um artigo sem
+relação** (aposentadoria de um navegador da OpenAI); logo, `utm_source=chatgpt.com` e a regra de `noindex` seguem
+**sem fonte primária lida**. As páginas de `openai.com` (anúncio da busca, anúncios pagos, subprocessadores) não foram
+tentadas no navegador.
+
 ## Legenda das classes (regra de evidência de `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/RODADA.md`)
 
 | Classe | O que é aqui | Vira regra? |
