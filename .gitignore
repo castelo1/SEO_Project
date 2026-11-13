@@ -1,0 +1,7 @@
+# segredos e lixo local
+.env
+*.key
+.DS_Store
+__pycache__/
+*.local.*
+*.local/

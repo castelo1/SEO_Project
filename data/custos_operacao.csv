@@ -1,0 +1,80 @@
+item,categoria,valor_min,valor_base,valor_max,unidade,fonte,data,confianca
+Piso Controlador de Pragas/Dedetizador SP 2026 (44h),mao_de_obra,2062.37,2062.37,2800,R$/mes,https://www.siemaco-grs.com.br/wp/wp-content/uploads/2026/05/CCT-Controle-de-Pragas-2026.pdf | https://sites.diretasistemas.com.br/sites/1748/wp-content/uploads/2026/05/25140303/Convencao-Coletiva-de-Trabalho-SINDPRAG.pdf | https://www.siemaco.com.br/wp-content/uploads/2024/03/CCT-REGISTRADA-SINDPRAG-SIEMACO-SP-24.pdf,2026-09-25,Alta
+Piso Auxiliar de Controle de Pragas 2026,mao_de_obra,1886.91,1886.91,1886.91,R$/mes,https://www.siemaco-grs.com.br/wp/wp-content/uploads/2026/05/CCT-Controle-de-Pragas-2026.pdf,2026-09-25,Alta
+Salario minimo federal 2026,mao_de_obra,1621,1621,1621,R$/mes,https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/decreto/d12797.htm,2026-09-25,Alta
+Adicional insalubridade (20% SM),mao_de_obra,324.20,324.20,648.40,R$/mes,CCT SINDPRAG 2026 cl.8a (max = 40% se laudo grau maximo),2026-09-25,Alta
+Ticket refeicao por dia trabalhado,mao_de_obra,25.20,25.20,25.20,R$/dia,CCT SINDPRAG 2026 cl.13a (desconto ate R$1.46),2026-09-25,Alta
+Cesta basica,mao_de_obra,170,170,170,R$/mes,CCT SINDPRAG 2026 cl.12a,2026-09-25,Alta
+PPR anual,mao_de_obra,462,462,462,R$/ano,CCT SINDPRAG 2026,2026-09-25,Alta
+Assistencia medico-odonto (instituto) + Beneficio Social Familiar,mao_de_obra,70.60,70.60,70.60,R$/mes/empregado,CCT SINDPRAG 2026 Guarulhos/Piracicaba (capital a confirmar),2026-09-25,Media
+Contribuicao patronal SINDPRAG,mao_de_obra,14,14,14,R$/mes/empregado,CCT SINDPRAG 2026,2026-09-25,Media
+Encargos folha Simples Anexo IV (CPP 20% + RAT + FGTS 8%),mao_de_obra,29,31,31,% remuneracao,https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cobrancas-e-intimacoes/contribuicao-previdenciaria-anexo-iv-do-simples-nacional,2026-09-25,Alta
+VT liquido (estimativa),mao_de_obra,0,100,150,R$/mes,estimativa,2026-09-25,Baixa
+Custo total carregado 1 tecnico,mao_de_obra,4690,4850,5760,R$/mes,calculo proprio (ver md secao 2.3),2026-09-25,Media
+Custo por hora vendavel tecnico (132 h/mes),mao_de_obra,35.5,36.74,43.6,R$/h,calculo proprio,2026-09-25,Baixa
+Horas vendaveis por tecnico,produtividade,110,132,150,h/mes,premissa 176h x 75%,2026-09-25,Baixa
+RT terceirizado,responsavel_tecnico,800,1500,3500,R$/mes,https://chamaopro.com.br/blog/como-abrir-empresa-dedetizacao/ | https://www.crbio01.gov.br/cidadao/pisos-e-honorarios,2026-09-25,Baixa
+Honorario referencia biologo Junior 1 (CFBio),responsavel_tecnico,100.60,100.60,372.31,R$/h,https://www.crbio01.gov.br/cidadao/pisos-e-honorarios,2026-09-25,Media
+Piso recomendado biologo CLT (6 SM),responsavel_tecnico,9726,9726,9726,R$/mes,https://www.crbio01.gov.br/cidadao/pisos-e-honorarios,2026-09-25,Media
+TRT CRBio,responsavel_tecnico,0,0,0,R$/emissao,https://cfbio.gov.br/2025/11/14/cfbio-publica-resolucao-no-748-2025-com-valores-de-anuidades-e-servicos-para-2026/,2026-09-25,Media
+Anuidade biologo 2026,responsavel_tecnico,734.33,734.33,734.33,R$/ano,https://cfbio.gov.br/2025/11/14/cfbio-publica-resolucao-no-748-2025-com-valores-de-anuidades-e-servicos-para-2026/,2026-09-25,Media
+Anuidade PJ CRBio 2026,responsavel_tecnico,207.22,207.22,2146.04,R$/ano,https://cfbio.gov.br/2025/11/14/cfbio-publica-resolucao-no-748-2025-com-valores-de-anuidades-e-servicos-para-2026/,2026-09-25,Media
+ART CREA 2026 (contrato ate R$15 mil),responsavel_tecnico,108.39,108.39,285.59,R$/ART,https://www.confea.org.br/anuidades-servicos-multas-e-arts-tem-valores-definidos-para-2026,2026-09-25,Media
+Pulverizador compressao previa Guarany 8 L,capex,200,204,222,R$/un,https://tdppragas.com.br/produto/pulverizador-de-compressao-previa-6-7-litros-guarany/,2026-09-25,Media
+Polvilhadeira de mao,capex,95,110,128,R$/un,https://tdppragas.com.br/produto/polvilhadeira-de-mao/,2026-09-25,Media
+Atomizador costal motorizado Guarany 11 L,capex,3239,3239,3239,R$/un,https://tdppragas.com.br/produto/atomizador-costal-motorizado-guarany-11-litros/,2026-09-25,Media
+Termonebulizador Guarany,capex,8027,8027,8712,R$/un,https://www.lcferragens.com.br/produto/termonebulizador-guarany-standart-6-litros/,2026-09-25,Media
+Mascara 3M 6200 + cartucho 6003 (kit),capex,185,280,373,R$/kit,https://www.fg.com.br/kit-respirador-semifacial-6200-com-cartucho-de-filtros-6003-amarelo-3m/p | https://www.adecil.com.br/produto/kit-respirador-semi-facial-p-servicos-gerais-3m-6200-ca4115-74663,2026-09-25,Alta
+Macacao impermeavel + luvas + oculos + botas,capex,300,450,600,R$/kit,https://www.bertoimports.com.br/MLB-2679095647-macaco-saneamento-com-bota-e-luva-acoplada-impermeavel-_JM,2026-09-25,Media
+EPI 2 kits completos (referencia),capex,1200,1460,2500,R$,https://chamaopro.com.br/blog/como-abrir-empresa-dedetizacao/,2026-09-25,Media
+Porta-isca Ratox III,capex,7.90,7.90,34.90,R$/un,https://tdppragas.com.br/produto/porta-isca-raticida-ratox-iii-caixa-c-50und/,2026-09-25,Media
+Estoque inicial de produtos,capex,2000,2000,5000,R$,https://chamaopro.com.br/blog/como-abrir-empresa-dedetizacao/,2026-09-25,Baixa
+Adaptacao veiculo compartimento isolado (RDC Art.13),capex,800,1500,3000,R$,estimativa,2026-09-25,Baixa
+Uniformes,capex,200,300,500,R$,estimativa,2026-09-25,Baixa
+Celular/tablet para OS,capex,800,1200,2000,R$,estimativa,2026-09-25,Baixa
+CAPEX minimo 1 equipe (veiculo alugado),capex,5000,7600,11000,R$,calculo proprio,2026-09-25,Media
+Fiat Fiorino 2021 (FIPE set/2026),veiculo,72907,73500,74074,R$,https://www.chavesnamao.com.br/tabela-fipe/fiat/fiorino/2021/,2026-09-25,Alta
+Fiorino usada antiga,veiculo,23900,40000,56900,R$,https://www.webmotors.com.br/carros/sp-sao-paulo/fiat/fiorino,2026-09-25,Media
+Assinatura/aluguel utilitario,veiculo,3009,3037,3500,R$/mes,https://meoo.localiza.com/assinatura/personalize-seu-plano/utilitario/fiat-fiorino/001176A,2026-09-25,Media
+Veiculo proprio usado (parcela/deprec+seguro+IPVA+manut),veiculo,1400,1850,2500,R$/mes,estimativa,2026-09-25,Baixa
+Deslocamento variavel (combustivel+estacionamento),veiculo,12,20,35,R$/servico,estimativa,2026-09-25,Baixa
+Deposito/sala comercial exclusiva ~45-50 m2,operacao,1500,2200,3200,R$/mes,https://www.znimovel.com.br/imoveis/galpoes-saloes/alugar/zona-norte/sao-paulo/,2026-09-25,Baixa
+Software OS PestFacil,operacao,69.99,99.99,197.89,R$/mes,https://www.pestfacil.com/,2026-09-25,Alta
+Software OS concorrentes,operacao,300,600,1500,R$/mes,https://benuerp.com/pestfacil-sistema-pequenas-dedetizadoras/,2026-09-25,Baixa
+Contabilidade,operacao,300,600,800,R$/mes,https://chamaopro.com.br/blog/como-abrir-empresa-dedetizacao/,2026-09-25,Baixa
+Licencas/alvara/conselhos (rateio),operacao,100,200,400,R$/mes,https://chamaopro.com.br/blog/como-abrir-empresa-dedetizacao/,2026-09-25,Baixa
+Custo fixo mensal 1 equipe (sem pro-labore/marketing),operacao,10950,12840,15000,R$/mes,calculo proprio,2026-09-25,Baixa
+Maxforce Prime gel 30 g,insumo,53,62,70,R$/seringa (varejo),https://lista.mercadolivre.com.br/maxforce-prime-gel,2026-09-25,Alta
+Advion gel barata 30 g,insumo,58,69,79,R$/seringa (varejo),https://www.ferroracoes.com.br/MLB-4888405958-advion-baratas-syngenta-gel-30g-_JM,2026-09-25,Alta
+Demand 2.5 CS 1 L,insumo,219,240,306,R$/L (distribuidor),https://tdppragas.com.br/produto/demand-cs/ | https://www.lvs.bio.br/demand-25-cs-1litro,2026-09-25,Alta
+Demand diluicao,insumo,30,30,30,mL produto/L calda (25 m2/L),https://www.fullvet.com.br/products/demand-2-5-cs-inseticida-syngenta-para-controle-de-insetos-1-l,2026-09-25,Media
+Cipermetrina 250 CE 1 L,insumo,81,97,225,R$/L,https://www.lojashopagro.com.br/inseticidas/cypergran-250-ce-1lt-cipermetrina-25-pv | https://comprardefensivos.com/product/cyptrin-250-ce-1-litro/,2026-09-25,Alta
+Cipermetrina diluicao,insumo,10,10,10,mL produto/L calda (50 mL/m2),https://kelldrin.com.br/produto/cipermetrina-250ce/,2026-09-25,Media
+Klerat bloco parafinado 1 kg,insumo,45.30,90,103,R$/kg,https://tdppragas.com.br/produto/klerat-bloco-20g-syngenta/ | https://www.agrocidi.com.br/klerat-blocos-raticida-pc-1-kg,2026-09-25,Alta
+Termidor 25 CE 1 L (cupinicida),insumo,106.70,142,149.90,R$/L,https://tdppragas.com.br/produto/termidor-25-ce-basf/,2026-09-25,Alta
+Hipoclorito de sodio 12% 5 L,insumo,27.30,30,45,R$/galao,https://www.casadosquimicos.com.br/produto/hipoclorito-de-sodio-12-5-litros-151522,2026-09-25,Media
+Insumo por servico: apartamento 70 m2 desinsetizacao,insumo_servico,15,35,60,R$/servico,calculo proprio,2026-09-25,Media
+Insumo por servico: restaurante pequeno visita mensal,insumo_servico,50,100,170,R$/visita,calculo proprio,2026-09-25,Media
+Insumo por servico: condominio areas comuns,insumo_servico,60,150,250,R$/visita,calculo proprio,2026-09-25,Media
+Insumo por servico: caixa d'agua 5000 L,insumo_servico,15,25,150,R$/servico,calculo proprio (max inclui analise laboratorial),2026-09-25,Media
+Tempo aplicacao apartamento 90 m2,produtividade,0.5,0.75,1,h,https://aquarelladesentupidora.com.br/quanto-tempo-para-dedetizar-um-apartamento/,2026-09-25,Media
+Tempo total servico apartamento (c/ deslocamento),produtividade,1.5,2,2.5,h,estimativa,2026-09-25,Baixa
+Tempo total servico restaurante,produtividade,1.5,2,3,h,estimativa,2026-09-25,Baixa
+Tempo total servico condominio,produtividade,2.5,3.5,5,h,estimativa,2026-09-25,Baixa
+Tempo total servico caixa d'agua 5000 L,produtividade,3,4.5,6,h,estimativa,2026-09-25,Baixa
+Servicos por tecnico por dia (apartamentos),produtividade,3,4,5,servicos/dia,estimativa,2026-09-25,Baixa
+Capacidade 1 tecnico (mix proposto),produtividade,45,53,60,servicos/mes,calculo proprio,2026-09-25,Baixa
+Taxa de retorno em garantia,produtividade,5,10,15,% servicos,estimativa,2026-09-25,Baixa
+Preco apartamento 2 quartos desinsetizacao SP,receita,149,280,400,R$/servico,https://dedetizarsp.eco.br/tabela-de-preco-de-dedetizacao/ | https://desinsecta.com.br/quanto-custa-dedetizacao-residencial/ | https://cupim.eco.br/d/tabela-de-preco-de-dedetizacao/,2026-09-25,Alta
+Preco restaurante pequeno contrato mensal SP,receita,250,450,900,R$/mes,https://www.freelasemcrise.com.br/quanto-cobrar/dedetizacao | https://chamaopro.com.br/blog/como-abrir-empresa-dedetizacao/,2026-09-25,Baixa
+Preco condominio areas comuns (10 andares) por visita,receita,400,600,1000,R$/visita,https://dedetizarsp.eco.br/tabela-de-preco-de-dedetizacao/,2026-09-25,Media
+Preco caixa d'agua 5000 L,receita,550,800,1880,R$/servico,https://www.cronoshare.com.br/quanto-custa/limpar-caixa-dagua | https://construsuldedetizadora.com.br/quanto-custa-para-limpar-uma-caixa-dagua-de-5-000-litros/,2026-09-25,Media
+Simples Nacional Anexo IV aliquota efetiva (ano 1-2),imposto,4.5,6,6.75,% receita,https://confirp.com.br/tabela-simples-nacional-para-prestacao-de-servicos-anexo-iv/,2026-09-25,Alta
+Taxa meio de pagamento,imposto,0,1.5,3,% receita,estimativa,2026-09-25,Baixa
+MC apartamento 70 m2 (antes MO),unit_economics,120,204,300,R$/servico,calculo proprio,2026-09-25,Media
+MC restaurante mensal (antes MO),unit_economics,150,296,650,R$/visita,calculo proprio,2026-09-25,Baixa
+MC condominio (antes MO),unit_economics,200,385,750,R$/visita,calculo proprio,2026-09-25,Media
+MC caixa d'agua 5000 L (antes MO),unit_economics,450,695,1600,R$/servico,calculo proprio,2026-09-25,Media
+Ponto de equilibrio 1 equipe,unit_economics,36,42,50,servicos/mes,calculo proprio,2026-09-25,Baixa
+Receita de equilibrio 1 equipe,unit_economics,15200,17900,21000,R$/mes,calculo proprio,2026-09-25,Baixa
+Repasse a dedetizadora parceira (intermediacao),subcontratacao,60,70,75,% preco cliente final,estimativa (sem fonte publica),2026-09-25,Baixa
