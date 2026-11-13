@@ -68,7 +68,7 @@ owner fazer** (texto, roteiro ou arquivo local), nunca feito.
   busca aberta do Google e do Maps.
 - No Maps e nos resultados: não clique em "ligar", "WhatsApp", "orçamento", "rota", "avaliar", "sugerir edição" nem
   "reivindicar este perfil". Para ver o site de um anunciante, copie o endereço exibido e abra-o direto.
-- Limites de busca ao vivo: no máximo 150 buscas na rodada, pelo menos 20 segundos entre uma e outra. Verificação de
+- Limites de busca ao vivo: no máximo 600 buscas na rodada, pelo menos 20 segundos entre uma e outra. Verificação de
   robô ou "tráfego incomum": **não resolva**; pare as buscas ao vivo por 2 horas; na segunda ocorrência, pare de vez e
   feche o item com a amostra que houver.
 - Resultado da ferramenta de busca na web não é posição no Google: só o que foi visto no navegador entra como
@@ -121,7 +121,7 @@ jurídico é levantamento com fonte, não parecer, e diz isso.
 
 Atualize a cada mudança de estado e, enquanto houver trabalho, no mínimo a cada 60 minutos.
 - Topo: "atualizado em <dia HH:MM Brasília>", fase (itens / reserva / segunda passada / espera), item em curso, próximo.
-- Tabela: item em palavras · estado · evidência (caminho absoluto) · horas gastas · buscas ao vivo usadas (de 150).
+- Tabela: item em palavras · estado · evidência (caminho absoluto) · horas gastas · buscas ao vivo usadas (de 600).
 - Fila do owner: pergunta fechada · opção padrão adotada · reversível?
 - Dúvidas e premissas · Desdobramentos (não executados) · Hooks ignorados.
 
