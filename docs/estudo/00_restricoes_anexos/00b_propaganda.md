@@ -202,7 +202,8 @@ regulamento próprio (paráfrase; https://www.planalto.gov.br/ccivil_03/leis/l63
 - Os arts. 66 e 67 tipificam como crime a afirmação falsa ou a omissão de informação relevante e a publicidade que
   se sabe (ou se deveria saber) enganosa ou abusiva (paráfrase; lidos 1 vez). O art. 3º define fornecedor de forma
   ampla, incluindo quem presta serviço (paráfrase; lido 1 vez).
-- **Norma silente:** o CDC não usa as palavras "intermediário", "plataforma" nem "cadeia de fornecimento". Que o
+- **Norma silente:** o CDC só usa "intermediário" nos arts. 54-B e 54-D (oferta de crédito; correção do verificador
+  do item 2) e não usa "plataforma" nem "cadeia de fornecimento". Que o
   gerador de leads responda solidariamente com a dedetizadora por um dano do serviço é leitura de tribunal, **não
   levantada aqui**.
 

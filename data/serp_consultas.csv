@@ -1,0 +1,90 @@
+id,grupo,grupo_descricao,termo,superficie
+A01,A,genérica cidade,dedetização são paulo,busca web
+A02,A,genérica cidade,dedetizadora são paulo,busca web
+A03,A,genérica cidade,dedetizadora sp,busca web
+A04,A,genérica cidade,controle de pragas são paulo,busca web
+A05,A,genérica cidade,dedetização sp preço,busca web
+A06,A,genérica cidade,dedetizadora perto de mim,busca web
+A07,A,genérica cidade,dedetização 24 horas são paulo,busca web
+A08,A,genérica cidade,dedetizadora 24 horas sp,busca web
+A09,A,genérica cidade,quanto custa dedetização são paulo,busca web
+A10,A,genérica cidade,melhor dedetizadora são paulo,busca web
+B01,B,praga + cidade,dedetização de baratas são paulo,busca web
+B02,B,praga + cidade,desratização são paulo,busca web
+B03,B,praga + cidade,descupinização são paulo,busca web
+B04,B,praga + cidade,dedetização de cupim sp,busca web
+B05,B,praga + cidade,controle de escorpião são paulo,busca web
+B06,B,praga + cidade,dedetização de percevejo de cama são paulo,busca web
+B07,B,praga + cidade,dedetização de pulgas são paulo,busca web
+B08,B,praga + cidade,dedetização de formigas são paulo,busca web
+B09,B,praga + cidade,controle de pombos são paulo,busca web
+B10,B,praga + cidade,dedetização de mosquito da dengue são paulo,busca web
+B11,B,praga + cidade,dedetização de carrapatos são paulo,busca web
+B12,B,praga + cidade,remoção de morcegos são paulo,busca web
+B13,B,praga + cidade,dedetização de aranhas são paulo,busca web
+C01,C,região,dedetizadora zona sul sp,busca web
+C02,C,região,dedetizadora zona leste sp,busca web
+C03,C,região,dedetizadora zona norte sp,busca web
+C04,C,região,dedetizadora zona oeste sp,busca web
+C05,C,região,dedetizadora centro de são paulo,busca web
+D01,D,bairro,dedetizadora moema,busca web
+D02,D,bairro,dedetização pinheiros,busca web
+D03,D,bairro,dedetizadora vila mariana,busca web
+D04,D,bairro,dedetização tatuapé,busca web
+D05,D,bairro,dedetizadora santana,busca web
+D06,D,bairro,dedetização lapa sp,busca web
+D07,D,bairro,dedetizadora itaim bibi,busca web
+D08,D,bairro,dedetização santo amaro,busca web
+D09,D,bairro,dedetizadora mooca,busca web
+D10,D,bairro,dedetização perdizes,busca web
+D11,D,bairro,dedetizadora santa cecília,busca web
+D12,D,bairro,dedetização higienópolis,busca web
+D13,D,bairro,dedetizadora butantã,busca web
+D14,D,bairro,dedetização ipiranga,busca web
+D15,D,bairro,dedetizadora penha sp,busca web
+D16,D,bairro,dedetização jabaquara,busca web
+D17,D,bairro,dedetizadora itaquera,busca web
+D18,D,bairro,dedetização campo limpo,busca web
+D19,D,bairro,dedetizadora bela vista sp,busca web
+D20,D,bairro,dedetização vila madalena,busca web
+E01,E,praga × bairro,dedetização de baratas moema,busca web
+E02,E,praga × bairro,desratização tatuapé,busca web
+E03,E,praga × bairro,descupinização pinheiros,busca web
+E04,E,praga × bairro,cupim vila mariana dedetizadora,busca web
+E05,E,praga × bairro,controle de escorpião butantã,busca web
+E06,E,praga × bairro,percevejo de cama bela vista dedetização,busca web
+E07,E,praga × bairro,dedetização de baratas santana,busca web
+E08,E,praga × bairro,desratização mooca,busca web
+E09,E,praga × bairro,descupinização perdizes,busca web
+E10,E,praga × bairro,dedetização de pulgas ipiranga,busca web
+E11,E,praga × bairro,dedetização de formigas lapa,busca web
+E12,E,praga × bairro,controle de pombos santa cecília,busca web
+F01,F,empresa × residência,dedetização para restaurante são paulo,busca web
+F02,F,empresa × residência,dedetização restaurante comprovante vigilância sanitária sp,busca web
+F03,F,empresa × residência,controle de pragas para restaurantes sp,busca web
+F04,F,empresa × residência,dedetização condomínio são paulo,busca web
+F05,F,empresa × residência,dedetização para condomínios sp,busca web
+F06,F,empresa × residência,dedetização de apartamento são paulo,busca web
+F07,F,empresa × residência,dedetização residencial são paulo,busca web
+F08,F,empresa × residência,dedetização comercial são paulo,busca web
+F09,F,empresa × residência,controle de pragas para empresas são paulo,busca web
+F10,F,empresa × residência,dedetização para bares e lanchonetes sp,busca web
+F11,F,empresa × residência,dedetização escola são paulo,busca web
+F12,F,empresa × residência,controle de pragas indústria alimentícia são paulo,busca web
+F13,F,empresa × residência,certificado de dedetização são paulo,busca web
+G01,G,urgência,dedetização urgente são paulo,busca web
+G02,G,urgência,dedetizadora 24h zona leste,busca web
+G03,G,urgência,dedetização hoje são paulo,busca web
+G04,G,urgência,dedetização emergencial sp,busca web
+G05,G,urgência,dedetizadora aberta agora,busca web
+G06,G,urgência,desratização 24 horas sp,busca web
+H01,H,"confiança, preço, informativa",dedetizadora confiável são paulo,busca web
+H02,H,"confiança, preço, informativa",dedetizadora com licença vigilância sanitária sp,busca web
+H03,H,"confiança, preço, informativa",como saber se dedetizadora é licenciada,busca web
+H04,H,"confiança, preço, informativa",preço dedetização apartamento sp,busca web
+H05,H,"confiança, preço, informativa",tabela de preço dedetização,busca web
+H06,H,"confiança, preço, informativa",dedetização vale a pena,busca web
+H07,H,"confiança, preço, informativa",como acabar com baratas em apartamento,busca web
+H08,H,"confiança, preço, informativa",dedetização é segura para pets,busca web
+H09,H,"confiança, preço, informativa",quanto tempo dura dedetização,busca web
+H10,H,"confiança, preço, informativa",orçamento dedetização sp,busca web
