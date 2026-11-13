@@ -5,3 +5,9 @@
 __pycache__/
 *.local.*
 *.local/
+# harness e saídas locais
+.claude/
+node_modules/
+dist/
+_site/
+.cache/

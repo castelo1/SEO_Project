@@ -1,3 +1,7 @@
+> **FOCO ANTERIOR — SÓ HISTÓRICO (marcado em 13/11/2026).** Esta ficha descreve o estudo de abrir uma empresa de
+> controle de pragas, que o owner encerrou em 13/11. Ela **não define item, portão nem entregável** da rodada: vale o
+> `RODADA.md` ao lado. Também está desatualizada nos fatos (a pasta já é repositório git em `~/pessoal/SEO_Project`).
+
 # Ficha de frente — 10. Controle de pragas (pessoal)
 
 Preenchida em 13/11/2026 por leitura de `/home/ancastelo/pessoal/SEO_Project` (8 arquivos, todos de 25/09/2026
