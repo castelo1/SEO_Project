@@ -1,6 +1,6 @@
 # Estado do projeto — SEO para leads (ponto de retomada)
 
-Escrito em 13/11/2026 (sexta), 19:55 Brasília, no item 1 da rodada `docs/fds-2026-11-13/RODADA.md`.
+Escrito em 13/11/2026 (sexta), 19:33 Brasília (corrigido às 19:41 depois da verificação), no item 1 da rodada `docs/fds-2026-11-13/RODADA.md`.
 Raiz do projeto: `/home/ancastelo/pessoal/SEO_Project`. Os caminhos abaixo são relativos a ela, salvo indicação.
 
 ## 1. O que o projeto é agora (decisão do owner em 13/11/2026)
@@ -29,7 +29,7 @@ item indicado.
 | Quem só gera leads é inelegível ao perfil de empresa do Google; o perfil exige endereço real e contato presencial | `research/03_modelos_negocio_escala.md` linhas 13 e 102–108 | 2(a) |
 | Propaganda de controle de pragas tem de identificar a executora e o número da licença, e não pode usar "atóxico", "seguro", "aprovado pela vigilância" (RDC 622/2022, art. 22) | `research/01_regulacao_licencas.md` linhas 44 e 157–159 (e 188) | 2(b) |
 | Repasse do contato exige consentimento ("autorizo repassar meu contato a até N empresas licenciadas") | `research/03_modelos_negocio_escala.md` linha 167 (e linhas 91 e 165) | 2(c) |
-| O lead vale R$ 20–60 e a receita realista de quem só gera leads é de R$ 3–10 mil por mês (confiança baixa) | `arquivo/2026-09_foco_anterior/PROMPT_PLANO.md` linha 50; conta em `research/03_modelos_negocio_escala.md` linhas 15–16 e 79–83 | 5 |
+| O lead vale R$ 20–60 e a receita realista de quem só gera leads é de R$ 3–10 mil por mês (confiança baixa) | `arquivo/2026-09_foco_anterior/PROMPT_PLANO.md` linhas 50–51; conta em `research/03_modelos_negocio_escala.md` linhas 15–16 e 79–83 | 5 |
 
 ### 2.2 Regulação que atinge o site e o repasse (base do item 2 e do desenho)
 
@@ -55,7 +55,7 @@ item indicado.
   linhas 93–109; em planilha, `data/servicos.csv` (21 serviços, com fonte e confiança por linha). É a semente do mapa de
   palavras-chave por praga.
 - Sazonalidade (pico de outubro a março; cupim de setembro a dezembro): `research/02_mercado_servicos_precos.md`
-  linhas 164–176. Volume de busca: **não obtido** (linha 173) — continua sendo lacuna.
+  linha 25 (resumo) e linhas 164–176 (tabela por praga). Volume de busca: **não obtido** (linha 173) — continua sendo lacuna.
 - Medo de golpe ("golpe do cupim", cobrança sem orçamento) como ângulo de conteúdo e de confiança:
   `research/02_mercado_servicos_precos.md` linhas 153–160.
 
@@ -88,6 +88,10 @@ item indicado.
   `arquivo/2026-09_foco_anterior/PROMPT_PLANO.md` linha 118. Vira pergunta fixa no item 8.
 
 ## 3. O que fica só como histórico
+
+As seções abaixo são históricas **exceto as linhas citadas na seção 2**, que continuam valendo como hipótese com
+endereço (por exemplo `research/01_regulacao_licencas.md` linhas 78–84, 130 e 188;
+`research/03_modelos_negocio_escala.md` linhas 41–44; `research/04_mao_de_obra_custos_operacao.md` linhas 228–250).
 
 | Material | Por que é histórico |
 |---|---|
