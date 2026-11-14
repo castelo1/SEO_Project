@@ -86,15 +86,15 @@ navegador pessoal do owner, parâmetros `hl=pt-BR&gl=br&pws=0`. "Local exibido" 
 | G04 | urgência | dedetização emergencial sp | 21:14:58 | sim | Osasco, SP | sim | 2 | 3 | 9 | lote_07.jsonl |
 | G05 | urgência | dedetizadora aberta agora | 21:15:36 | sim | Osasco, SP | sim | 2 | 3 + 1 | 8 | lote_07.jsonl |
 | G06 | urgência | desratização 24 horas sp | 21:16:03 | sim | São Paulo, SP | sim | 2 | 3 | 9 | lote_07.jsonl |
-| H01 | confiança, preço, informativa | dedetizadora confiável são paulo | **não buscado** | — | — | — | — | — | — | — |
-| H02 | confiança, preço, informativa | dedetizadora com licença vigilância sanitária sp | **não buscado** | — | — | — | — | — | — | — |
-| H03 | confiança, preço, informativa | como saber se dedetizadora é licenciada | **não buscado** | — | — | — | — | — | — | — |
-| H04 | confiança, preço, informativa | preço dedetização apartamento sp | **não buscado** | — | — | — | — | — | — | — |
-| H05 | confiança, preço, informativa | tabela de preço dedetização | **não buscado** | — | — | — | — | — | — | — |
-| H06 | confiança, preço, informativa | dedetização vale a pena | **não buscado** | — | — | — | — | — | — | — |
-| H07 | confiança, preço, informativa | como acabar com baratas em apartamento | **não buscado** | — | — | — | — | — | — | — |
-| H08 | confiança, preço, informativa | dedetização é segura para pets | **não buscado** | — | — | — | — | — | — | — |
-| H09 | confiança, preço, informativa | quanto tempo dura dedetização | **não buscado** | — | — | — | — | — | — | — |
-| H10 | confiança, preço, informativa | orçamento dedetização sp | **não buscado** | — | — | — | — | — | — | — |
+| H01 | confiança, preço, informativa | dedetizadora confiável são paulo | 23:18:29 | sim | São Paulo, SP | sim | 5 | 3 + 1 | 9 | lote_08.jsonl |
+| H02 | confiança, preço, informativa | dedetizadora com licença vigilância sanitária sp | 23:20:33 | sim | — | sim | 6 | 0 | 9 | lote_08.jsonl |
+| H03 | confiança, preço, informativa | como saber se dedetizadora é licenciada | 23:21:47 | sim | — | sim | 0 | 0 | 10 | lote_08.jsonl |
+| H04 | confiança, preço, informativa | preço dedetização apartamento sp | 23:22:58 | sim | — | sim | 5 | 0 | 9 | lote_08.jsonl |
+| H05 | confiança, preço, informativa | tabela de preço dedetização | 23:24:22 | sim | — | sim | 5 | 0 | 8 | lote_08.jsonl |
+| H06 | confiança, preço, informativa | dedetização vale a pena | 23:25:30 | sim | — | sim | 2 | 0 | 9 | lote_08.jsonl |
+| H07 | confiança, preço, informativa | como acabar com baratas em apartamento | 23:26:45 | sim | — | sim | 0 | 0 | 7 | lote_08.jsonl |
+| H08 | confiança, preço, informativa | dedetização é segura para pets | 23:28:16 | sim | — | sim | 1 | 0 | 8 | lote_08.jsonl |
+| H09 | confiança, preço, informativa | quanto tempo dura dedetização | 23:29:31 | sim | — | sim | 0 | 0 | 8 | lote_08.jsonl |
+| H10 | confiança, preço, informativa | orçamento dedetização sp | 23:30:54 | sim | São Paulo, SP | sim | 2 | 3 + 1 | 9 | lote_08.jsonl |
 
-Total: 79 buscas com registro, de 89 planejadas.
+Total: 89 buscas com registro, de 89 planejadas.

@@ -4,7 +4,7 @@ frequência (data/serp_dominios.csv) e gera docs/mercado/serp_sp_dominios.md. Us
 import csv, glob, os, collections
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); RAIZ = os.path.dirname(BASE)
 rows = list(csv.DictReader(open(os.path.join(BASE, 'serp_sp.csv'), encoding='utf-8')))
-org = [r for r in rows if r['superficie'] == 'orgânico']
+org = [r for r in rows if r['superficie'] == 'orgânico' and r['grupo'] != 'H']   # só a amostra principal (grupos A a G); o grupo H é analisado à parte
 cls = {}
 for f in sorted(glob.glob(os.path.join(BASE, 'serp_dominios_classe_parte*.csv'))):
     for r in csv.DictReader(open(f, encoding='utf-8')): cls[r['dominio'].strip()] = r
@@ -25,7 +25,7 @@ def harmonizada(d, c):
     return c
 def classe(d):
     if d in cls: return harmonizada(d, cls[d]['classe']), 'leitura de 1 a 3 páginas do site (subagente, 13/11/2026)'
-    if d.endswith('.gov.br') or d in ('puspc.usp.br',): return 'governo_universidade', 'pelo domínio'
+    if d.endswith('.gov.br') or d in ('gov.br', 'puspc.usp.br'): return 'governo_universidade', 'pelo domínio'
     if d in SOCIAL: return 'rede_social_forum', 'pelo domínio'
     return 'nao_classificado', 'não lido'
 dom = collections.Counter(r['dominio'] for r in org); cons = collections.defaultdict(set); top3 = collections.Counter()

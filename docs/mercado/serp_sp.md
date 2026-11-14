@@ -1,20 +1,23 @@
 # Mapa do mercado de busca — dedetização em São Paulo (item 4)
 
 - **O que é:** quem aparece no Google quando alguém busca dedetização em São Paulo — no resultado orgânico, no bloco de
-  mapa e nos anúncios — numa **amostra declarada** de 79 buscas feitas ao vivo em sexta, 13/11/2026, das 20:26 às
-  21:16 (Brasília). **Não é censo, não é posição média, não é volume de busca.**
+  mapa e nos anúncios — numa **amostra declarada** de 89 buscas feitas ao vivo em sexta, 13/11/2026 (Brasília), em duas
+  janelas: 79 (grupos A a G) das 20:26 às 21:16 e 10 (grupo H) das 23:18 às 23:31; mais 5 repetições das 23:32 às
+  23:37. **Não é censo, não é posição média, não é volume de busca.**
+- **Como ler:** as contas das seções 1 (itens 1 a 7) e 3 a 9 são da **amostra principal** (79 buscas, grupos A a G).
+  O grupo H está na seção 12 e as repetições, na seção 13.
 - **Arquivos:**
-  - `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` — 1.060 linhas, uma por resultado visto (anúncio, perfil no
+  - `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` — 1.180 linhas (1.060 dos grupos A a G e 120 do grupo H), uma por resultado visto (anúncio, perfil no
     bloco de mapa, resultado orgânico), com termo, hora, logado, local exibido.
   - `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_registro.md` — o registro de cada busca (termo, hora,
     conta logada, localização que o Google mostrou).
   - `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv` e
-    `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_dominios.md` — os 157 domínios do orgânico, por
+    `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_dominios.md` — os 157 domínios do orgânico dos grupos A a G, por
     frequência, com a classe (empresa, diretório, rede ou satélite) dos 77 mais frequentes.
   - `/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv` — 1.260 termos por praga × local × intenção, com
     "volume: não medido" (seção 10).
-  - Brutos e scripts: `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/` (lotes `lote_01.jsonl` a `lote_07.jsonl`,
-    `coletor.js`, `monta_csv.py`, `monta_registro.py`) e `/home/ancastelo/pessoal/SEO_Project/data/gera_palavras_chave.py`.
+  - Brutos e scripts: `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/` (lotes `lote_01.jsonl` a `lote_08.jsonl`,
+    as repetições em `repeticao_01.jsonl`, `coletor.js`, `monta_csv.py`, `monta_registro.py`) e `/home/ancastelo/pessoal/SEO_Project/data/gera_palavras_chave.py`.
 - **Fonte de todo número deste arquivo**, salvo indicação: os arquivos acima (Brasil, cidade de São Paulo, 13/11/2026).
   Para refazer as contas: `python3 /home/ancastelo/pessoal/SEO_Project/data/serp_raw/monta_csv.py`.
 
@@ -43,8 +46,16 @@
 7. **Busca informativa de risco à saúde é do governo:** em "controle de escorpião" (cidade e Butantã), 12 dos 16
    resultados são de órgãos públicos e do Instituto Butantan; não há bloco de mapa.
 8. **Não sei:** volume de busca de qualquer termo; o que a "Visão geral criada por IA" citou em cada busca (só a
-   presença foi registrada); o resultado para quem busca de outro ponto da cidade, deslogado ou pelo celular; as 10
-   buscas de confiança, preço e informação (grupo H), que não foram feitas (seção 2.4).
+   presença foi registrada); o resultado para quem busca de outro ponto da cidade, deslogado ou pelo celular.
+9. **As buscas de confiança, preço e informação (grupo H, 10 buscas) mostram outra página de resultado:** resumo de
+   IA em 10 de 10; bloco de mapa só em 2 (as duas com "sp" ou "são paulo" e intenção de contratar); nenhum anúncio em
+   3. No orgânico (86 resultados, 60 domínios), 28 domínios não tinham aparecido nas 79 buscas anteriores. Nas quatro
+   buscas informativas, três primeiras posições são de imprensa, de um site de fabricante e de uma loja de produtos
+   para animais; em "como saber se dedetizadora é licenciada", a consulta pública de licenças do estado aparece em
+   segundo; nas três de preço, a mesma página de "tabela de preço" de uma dedetizadora está em primeiro (seção 12).
+10. **Cinco buscas repetidas de 2 a 3 horas depois deram quase o mesmo:** o primeiro resultado é o mesmo nas cinco e os
+    três primeiros domínios são os mesmos nas cinco; o bloco de mapa repetiu os três perfis em 3 delas e dois de três
+    em 2 (seção 13). Vale para a mesma noite, o mesmo navegador e a mesma conta.
 
 ## 2. Método e amostra
 
@@ -63,8 +74,8 @@ plausíveis, não os termos mais buscados:** não há volume medido (seção 10)
 | E | praga × bairro ("descupinização pinheiros") | 12 | 12 |
 | F | empresa × residência (restaurante, condomínio, apartamento, escola, indústria) | 13 | 13 |
 | G | urgência ("24 horas", "urgente", "hoje", "aberta agora") | 6 | 6 |
-| H | confiança, preço e informação ("dedetizadora com licença…", "quanto tempo dura…") | 10 | **0** |
-| | **Total** | **89** | **79** |
+| H | confiança, preço e informação ("dedetizadora com licença…", "quanto tempo dura…") | 10 | 10 (segunda janela, 23:18–23:31) |
+| | **Total** | **89** | **89** |
 
 ### 2.2 Como foi buscado
 
@@ -72,12 +83,12 @@ plausíveis, não os termos mais buscados:** não há volume medido (seção 10)
   navegador pessoal do owner (Chrome, computador), numa aba aberta pela sessão. **Não é o aplicativo nem o site do
   Google Maps:** o "mapa" deste arquivo é o bloco "Empresas" que a busca web mostra (em geral 3 perfis, às vezes mais
   um patrocinado).
-- **Conta:** **logado** na conta Google do owner em todas as 79 (só leitura; nenhum painel aberto). O parâmetro
+- **Conta:** **logado** na conta Google do owner em todas as 89 (só leitura; nenhum painel aberto). O parâmetro
   `pws=0` pede resultado sem personalização; **não garante** que ela esteja ausente.
-- **Localização que o Google mostrou:** "São Paulo, SP" em 33 buscas, "Osasco, SP" em 10, nenhuma em 36 (a página não
-  exibiu local). O Google atribuiu ao navegador uma posição na zona oeste da Grande São Paulo; o bloco de mapa reflete
+- **Localização que o Google mostrou:** "São Paulo, SP" em 33 das 79 buscas da amostra principal, "Osasco, SP" em 10,
+  nenhuma em 36 (a página não exibiu local); no grupo H, "São Paulo, SP" em 2 e nenhuma em 8. O Google atribuiu ao navegador uma posição na zona oeste da Grande São Paulo; o bloco de mapa reflete
   isso (seção 5).
-- **Quando:** sexta-feira à noite, 20:26 a 21:16. Hora de cada busca: lida do relógio da própria página (momento da
+- **Quando:** sexta-feira à noite, 20:26 a 21:16 (grupos A a G) e 23:18 a 23:37 (grupo H e repetições). Hora de cada busca: lida do relógio da própria página (momento da
   navegação). Uma atualização central do Google estava em curso desde 10/11/2026
   (`/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`): os resultados podem estar em movimento.
 - **O que se leu de cada página**, por um script que só lê o que está na tela
@@ -86,7 +97,8 @@ plausíveis, não os termos mais buscados:** não há volume medido (seção 10)
   caminho e título dos resultados orgânicos da primeira página (9, em geral). Telefones foram mascarados como `[tel]`
   antes de sair da página. **Nada foi clicado:** nem anúncio, nem "ligar", nem "WhatsApp", nem "rota", nem site.
 - **Intervalo entre buscas:** mediana de 28 segundos (mínimo 17, máximo 224). **Três intervalos ficaram abaixo dos 20 segundos da regra da
-  rodada, por erro meu na montagem do lote:** B11→B12 (18 s), D02→D03 (19 s) e E02→E03 (17 s).
+  rodada, por erro meu na montagem do lote:** B11→B12 (18 s), D02→D03 (19 s) e E02→E03 (17 s). Na segunda janela (grupo H e
+  repetições) o intervalo ficou entre 67 e 124 segundos.
 
 ### 2.3 Limites da amostra (ler antes de usar qualquer número)
 
@@ -94,13 +106,14 @@ plausíveis, não os termos mais buscados:** não há volume medido (seção 10)
    noite, logado. O bloco de mapa depende de onde está quem busca e de quem está aberto na hora
    (`/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md`, seções 4.3 e 6). O orgânico também pode
    variar.
-2. **Uma busca por termo.** Sem repetição: não dá para separar o que é estável do que é ruído.
+2. **Uma busca por termo**, salvo cinco repetidas na mesma noite (seção 13): não dá para separar o que é estável do
+   que é ruído entre dias, lugares e contas.
 3. **Só a primeira página, só a busca web.** A lista completa do Maps não foi coletada (fica na fila de reserva 1).
 4. **Ordem vertical não registrada.** O script não guardou se o bloco de mapa e os anúncios vinham acima do orgânico;
    a premissa do guia (a) de que vêm acima **continua não conferida**.
 5. **"Visão geral criada por IA": só a presença.** O script detectou o rótulo na página; não registrou se o resumo
    estava aberto, o que dizia nem que fontes citava.
-6. **Títulos e caminhos cortados.** Título em até 60 caracteres nos lotes 1 e 2 e em 34 nos lotes 3 a 7; caminho em 50.
+6. **Títulos e caminhos cortados.** Título em até 60 caracteres nos lotes 1 e 2 e em 34 nos lotes 3 a 8; caminho em 50.
    Contagens de palavras no título ("24 horas", "preço") são piso, não valor exato.
 7. **Anunciante não identificado em 31 dos 102 anúncios de texto** (a leitura do domínio falhou; saiu "google.com").
 8. **Tipo de página pelo endereço, não pelo conteúdo.** "Página interna por local" = o caminho contém o nome de um
@@ -115,14 +128,16 @@ plausíveis, não os termos mais buscados:** não há volume medido (seção 10)
 
 - **Verificação de robô às 21:16.** Na 80ª busca válida (H01, "dedetizadora confiável são paulo"), depois de cerca de
   28 minutos de coleta contínua, o Google mostrou a página de "tráfego incomum". **Não foi resolvida.** As buscas ao
-  vivo pararam por 2 horas, como manda a regra da rodada; a aba foi fechada. O grupo H ficou sem coleta.
+  vivo pararam por 2 horas, como manda a regra da rodada; a aba foi fechada.
+- **Retomada às 23:18**, duas horas depois, só com o que faltava: as 10 buscas do grupo H e 5 repetições, com 67
+  segundos ou mais entre uma e outra. **Não houve nova verificação de robô.** A aba foi fechada às 23:38.
 - **Lotes de teste descartados (20:10–20:22).** Um lote de 5 buscas estourou o tempo da ferramenta, continuou rodando e
   se sobrepôs ao seguinte, com buscas a menos de 20 segundos e rótulos trocados. Descartei tudo e recomecei; desde
   então cada registro guarda o termo lido do título da própria página.
 - **Queda de conexão às 20:55.** Um lote seguiu rodando sem resposta; um registro saiu duplicado (D17), removido ao
   gravar; uma busca (D18) pode ter sido enviada duas vezes.
-- **Total gasto do limite de 600:** cerca de 95 buscas — 79 válidas, 1 barrada e cerca de 15 perdidas em testes e
-  lotes descartados.
+- **Total gasto do limite de 600:** cerca de 110 buscas — 89 válidas, 5 repetições, 1 barrada e cerca de 15 perdidas
+  em testes e lotes descartados.
 
 ## 3. O que a página mostra, por grupo de busca
 
@@ -359,8 +374,9 @@ padrão:** o desenho do projeto não pode depender de prática que a política l
    diferença nenhuma, contra cerca de 150 domínios, e carregando o risco da política. *(observação + inferência)*
 2. **O que quase ninguém mostra é o que a norma pede e o que um intermediário honesto pode oferecer:** quem executa,
    com o número da licença conferido, e como a pessoa confere. Só 12 de 67 sites mostram o número. É **hipótese** de
-   diferencial, não medida: as buscas em que isso apareceria ("dedetizadora com licença…", "como saber se é
-   licenciada") são do grupo H, que não foi coletado.
+   diferencial, não medida. Nas buscas em que isso apareceria ("dedetizadora com licença…", "como saber se é
+   licenciada"; grupo H, seção 12), algumas dedetizadoras já têm páginas com esses termos (3 de 9 resultados
+   numa delas), e a consulta pública do estado aparece em segundo na outra.
 3. **Diretório existe e aparece no meio da página** (ohub em 21 de 79 buscas, posição mediana 5). Um comparador novo
    disputaria esse lugar, não o primeiro. *(observação)*
 4. **Preço com fonte é lacuna visível:** quase nenhum site mostra preço; os que mostram usam "a partir de". *(observação;
@@ -382,14 +398,14 @@ padrão:** o desenho do projeto não pode depender de prática que a política l
 
 ## 10. Mapa de palavras-chave (`/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv`)
 
-- **O que tem:** 1.260 termos. As 89 consultas da coleta (79 feitas, 10 planejadas) e 1.171 **combinações geradas**
+- **O que tem:** 1.260 termos. As 89 consultas da coleta (todas feitas) e 1.171 **combinações geradas**
   por `/home/ancastelo/pessoal/SEO_Project/data/gera_palavras_chave.py`: 14 serviços (dedetização, dedetizadora e 12
   pragas) × 26 locais (cidade, 5 regiões, 20 bairros) × 3 intenções com local (contratar, urgência "24 horas", preço),
   mais termos de confiança por local, de público (restaurante, condomínio, apartamento, empresa, escola) por cidade e
   região, e 21 termos informativos sem local.
 - **Colunas:** `termo`, `praga`, `tipo_local`, `local`, `intencao`, `publico`, `volume` (sempre "não medido"),
-  `origem_do_termo` (consulta da coleta ou combinação gerada), `id_na_coleta`, `situacao_na_coleta` (coletado,
-  planejado ou não buscado).
+  `origem_do_termo` (consulta da coleta ou combinação gerada), `id_na_coleta`, `situacao_na_coleta` (coletado
+  ou não buscado).
 - **Por intenção:** contratar 421; urgência 371; preço 368; confiança 79; informativa 21.
 - **O que o arquivo não é:** lista de termos que as pessoas buscam. É uma grade de hipóteses. Uma combinação gerada
   pode não ter busca nenhuma; termos reais podem faltar (os bairros são só 20 dos distritos da cidade).
@@ -408,11 +424,94 @@ padrão:** o desenho do projeto não pode depender de prática que a política l
 
 ## 11. O que não foi feito e o que não sei
 
-- **Grupo H (10 buscas de confiança, preço e informação):** não coletado, por causa da verificação de robô.
 - **Lista completa do Google Maps** e dados de cada perfil (endereço, categoria, horário, recência das avaliações).
 - **Conteúdo das páginas que ranqueiam:** tamanho, estrutura, dados estruturados, se exibem licença (a classificação
-  da seção 7 leu de 1 a 3 páginas por domínio, por ferramenta que resume). A análise de 10 páginas está na fila de
-  reserva 2.
+  da seção 7 leu de 1 a 3 páginas por domínio, por ferramenta que resume). A análise de 10 páginas foi feita depois e está em
+  `/home/ancastelo/pessoal/SEO_Project/docs/mercado/paginas_top10.md`.
 - **O que a "Visão geral criada por IA" diz e cita** nessas buscas.
 - **Volume de busca, custo por clique, taxa de clique.**
-- **Estabilidade:** nenhuma busca foi repetida em outro dia, outra hora, outro lugar, deslogado ou no celular.
+- **Estabilidade:** cinco buscas foram repetidas na mesma noite (seção 13); nenhuma em outro dia, outro lugar,
+  deslogado ou no celular.
+
+## 12. Grupo H — confiança, preço e informação (10 buscas, 23:18 a 23:31)
+
+Coletado depois da pausa de duas horas, com o mesmo script, a mesma conta e o mesmo navegador. Os números desta seção
+**não entram** nas contas das seções 3 a 9. A classe de cada domínio é a da seção 7 quando ele já tinha aparecido; os
+28 domínios novos **não foram lidos** (escrito às 23:41).
+
+### 12.1 O que a página mostra
+
+| Busca | Resumo de IA | Anúncios de texto | Bloco de mapa | Primeiro resultado orgânico |
+|---|---|---|---|---|
+| H01 dedetizadora confiável são paulo | sim | 5 | 3 perfis + 1 patrocinado | ohub.com.br (diretório) |
+| H02 dedetizadora com licença vigilância sanitária sp | sim | 6 | não | heloindedetizadora.com.br (dedetizadora, página de cidade vizinha) |
+| H03 como saber se dedetizadora é licenciada | sim | 0 | não | dethetiza.com (não lido; página "como conferir") |
+| H04 preço dedetização apartamento sp | sim | 5 | não | dedetizadoranovatec.com.br (página "tabela de preço") |
+| H05 tabela de preço dedetização | sim | 5 | não | dedetizadoranovatec.com.br (a mesma página) |
+| H06 dedetização vale a pena | sim | 2 | não | imoveis.estadao.com.br (imprensa) |
+| H07 como acabar com baratas em apartamento | sim | 0 | não | br.envu.com (não lido; pelo endereço, site de fabricante de produto) |
+| H08 dedetização é segura para pets | sim | 1 | não | petlove.com.br (não lido; loja de produtos para animais) |
+| H09 quanto tempo dura dedetização | sim | 0 | não | ecoservicos.com.br (dedetizadora, artigo) |
+| H10 orçamento dedetização sp | sim | 2 | 3 perfis + 1 patrocinado | dedetizadoranovatec.com.br (a mesma página de preço) |
+
+- Resumo de IA em 10 de 10 (na amostra principal: 73 de 79). Bloco de mapa em 2 de 10 (68 de 79). Anúncio de texto em
+  7 de 10 (60 de 79): 26 anúncios, 11 do mesmo anunciante da amostra principal e 8 não identificados.
+- O bloco de mapa só apareceu nas duas buscas que juntam cidade e intenção de contratar ("confiável são paulo",
+  "orçamento … sp").
+
+### 12.2 Orgânico
+
+- 86 resultados, 60 domínios. **28 domínios (30 resultados, 35%) não tinham aparecido nas 79 buscas anteriores.**
+- Tipo de página pelo endereço: página interna de serviço ou outra, 46; blog ou artigo, 20; rede social ou fórum, 8;
+  página inicial, 7; governo, 3; página interna por local, 2. Na amostra principal, página interna por local era 45%
+  dos resultados (316 de 709); aqui é 2%.
+- Por classe (a da seção 7, onde havia; governo e rede social pelo domínio): domínio novo, não lido, 27; empresa
+  identificada sem número de licença, 16; empresa com número de licença, 12; rede social ou fórum, 8; diretório ou
+  marketplace, 6; rede ou domínio satélite, 6; não classificado, 4; governo, 3; não abriu, 2; marca sem identificação,
+  2.
+- **Por tipo de busca:**
+
+| Tipo | Buscas | Resultados | O que domina | Anúncios |
+|---|---|---|---|---|
+| Confiança | H01, H02, H03 | 28 | Dedetizadoras já classificadas (11), domínios novos não lidos (7), governo (3: um documento da prefeitura em 9º em H02; a consulta pública de licenças do estado em 2º e o portal gov.br em 10º em H03) | 11 |
+| Preço | H04, H05, H10 | 26 | Dedetizadoras (14) com páginas de "tabela de preço" e "quanto custa"; marketplaces (5: triider nas três, pedegas e ohub em H10) | 12 |
+| Informativa | H06 a H09 | 32 | Domínios novos não lidos (16: pelos endereços, imprensa, portal imobiliário, loja, associação de consumidores e blogs de dedetizadoras); rede social e fórum (7) | 3 |
+
+- **dedetizadora.srv.br**, o domínio mais frequente da amostra principal, está em 7 dos 86 resultados e em 6 das 10
+  buscas — inclusive com artigos ("evita multas da vigilância sanitária", "tabela de preços médios").
+- Em H02 ("dedetizadora com licença vigilância sanitária sp"), 3 dos 9 resultados trazem no título ou no endereço
+  "certificada e legalizada", "critérios legais" ou "vigilância sanitária"; 5 são páginas genéricas de dedetizadora e
+  1 é documento da prefeitura (títulos cortados em 34 caracteres: piso).
+
+### 12.3 O que isto diz ao projeto (inferências, marcadas; dez buscas não sustentam regra)
+
+1. **Nas buscas de informação há resultado que não é de dedetizadora** (imprensa, loja, governo, fórum). É onde um
+   guia de praga ou de "como conferir a licença" disputaria lugar. *(observação de 4 buscas)*
+2. **"Como conferir a licença" já tem resposta oficial em segundo lugar** (a consulta pública do estado) e um site de
+   conteúdo em primeiro. Uma página do projeto sobre isso teria de acrescentar algo — o passo a passo, que não foi
+   lido — e apontar para a consulta. *(observação de 1 busca)*
+3. **Preço é disputado por páginas de "tabela de preço" das próprias dedetizadoras e por marketplaces.** A hipótese
+   "preço com origem declarada é lacuna" (seção 9, item 4) fica mais fraca: há oferta de página de preço; o que não
+   sei é se os preços têm origem e data. *(observação de 3 buscas; páginas não lidas)*
+4. **A premissa de que licença visível atrai busca não sai confirmada:** nas buscas com "licença" e "confiável", o
+   resultado é de dedetizadoras e de anúncios (11 anúncios em 3 buscas). *(observação; volume não medido)*
+
+## 13. Repetição de cinco buscas (23:32 a 23:37)
+
+Cinco das 79 buscas foram sorteadas (`shuf` com a semente "repeticao-item4-20261113") e refeitas na mesma noite, de 2
+a 3 horas depois, no mesmo navegador, logado na mesma conta. Brutos:
+`/home/ancastelo/pessoal/SEO_Project/data/serp_raw/repeticao_01.jsonl` (não entram em `serp_sp.csv`).
+
+| Busca | 1ª vez | 2ª vez | Mesmo 1º resultado? | Mesmos três primeiros domínios? | Domínios em comum na página | Perfis do bloco de mapa em comum (de 3) | Local exibido | Anúncios (1ª → 2ª) |
+|---|---|---|---|---|---|---|---|---|
+| F10 dedetização para bares e lanchonetes sp | 21:10 | 23:32 | sim | sim | 7 de 7 | 3 | São Paulo, SP nas duas | 2 → 2 |
+| G01 dedetização urgente são paulo | 21:13 | 23:33 | sim | sim | 8 de 9 | 3 | São Paulo, SP nas duas | 2 → 2 |
+| A03 dedetizadora sp | 20:27 | 23:34 | sim | sim | 8 de 9 | 3 | São Paulo, SP nas duas | 2 → 2 |
+| B04 dedetização de cupim sp | 20:34 | 23:36 | sim | sim | 9 de 9 | 2 | Osasco, SP nas duas | 2 → 1 |
+| D16 dedetização jabaquara | 20:55 | 23:37 | sim | sim | 9 de 9 | 2 | Osasco, SP nas duas | 0 → 2 |
+
+- **O que dá para dizer:** em poucas horas, do mesmo lugar e com a mesma conta, o orgânico da primeira página quase
+  não muda e o bloco de mapa muda pouco. Os anúncios variam mais.
+- **O que não dá para dizer:** nada sobre outro dia, outro ponto da cidade, outra conta, deslogado ou celular. Cinco
+  buscas não medem ruído; só mostram que a coleta não foi um acaso de minuto.
+

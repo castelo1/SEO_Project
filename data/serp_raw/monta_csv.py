@@ -12,7 +12,7 @@ LOCAIS = ['zona-leste','zona-norte','zona-oeste','zona-sul','centro','moema','pi
 SOCIAL = ('instagram.com','facebook.com','reddit.com','youtube.com','tiktok.com','linkedin.com')
 def tipo_pagina(host, path):
     p = sem_acento(path)
-    if host.endswith('.gov.br') or host in ('puspc.usp.br',): return 'governo/universidade'
+    if host.endswith('.gov.br') or host in ('gov.br', 'puspc.usp.br'): return 'governo/universidade'
     if host in SOCIAL: return 'rede social/fórum'
     if p in ('', '/'): return 'página inicial'
     if any(x in p for x in ('/blog', '/artigo', '/noticias', '/tag/')): return 'blog/artigo'
@@ -48,7 +48,9 @@ campos = ['id','grupo','termo','data','hora_navegacao','logado','local_exibido',
           'caminho','titulo_ou_nome','nota','avaliacoes','tipo_pagina']
 with open(os.path.join(BASE, 'serp_sp.csv'), 'w', newline='', encoding='utf-8') as fh:
     w = csv.DictWriter(fh, fieldnames=campos); w.writeheader(); w.writerows(linhas)
-org = [l for l in linhas if l['superficie'] == 'orgânico']
+# A tabela de domínios e as contagens do texto principal usam só os grupos A a G (amostra principal de 79 buscas);
+# o grupo H (10 buscas de confiança, preço e informação, feitas depois da pausa) entra em serp_sp.csv e é analisado à parte.
+org = [l for l in linhas if l['superficie'] == 'orgânico' and l['grupo'] != 'H']
 dom = collections.Counter(); top3 = collections.Counter(); cons = collections.defaultdict(set)
 for l in org:
     dom[l['dominio']] += 1; cons[l['dominio']].add(l['id'])
