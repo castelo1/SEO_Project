@@ -1,9 +1,9 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sex 13/11 21:21 (Brasília, lido de `date`)** · fase: **itens** · em curso: **item 3 (estudo de
-ranqueamento)** — os dois verificadores aprovaram com correções pendentes; dois corretores aplicam as correções; depois
-conferência minha e fechamento · em paralelo: item 4 — **buscas ao vivo em pausa até 23:17** (verificação de robô do Google às 21:16, 1ª ocorrência, não resolvida); 79 de 89 consultas gravadas; análise e classificação dos domínios em curso · próximo:
-fechar o item 3, terminar a coleta e escrever o item 4
+**Atualizado em sex 13/11 21:47 (Brasília, lido de `date`)** · fase: **itens** · em curso: **item 3** (correções das
+26 falhas aplicadas e conferidas por mim; reverificação independente em curso) e **item 4** (texto escrito; faltam as 10
+buscas do grupo H e 5 repetições, só depois das 23:17, e a verificação) · adiantado: **item 5** (primeira versão
+escrita por subagente, em conferência) · próximo: fechar 3, verificar 4 e 5, depois o desenho (item 6)
 
 ## Itens
 
@@ -11,9 +11,9 @@ fechar o item 3, terminar a coleta e escrever o item 4
 |---|---|---|---|---|---|
 | 1 | Reenquadramento | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item1.md` (aprovado; 3 falhas menores em 71, corrigidas) | 0,3 | 0 |
 | 2 | Restrições que decidem o modelo | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item2.md` (aprovado; 12 de 12 citações sorteadas conferem; 8 defeitos fora do sorteio, corrigidos) | 0,9 | 0 |
-| 3 | Estudo: como se ranqueia serviço local (Google, Maps, IA, ChatGPT) | em curso: cinco arquivos entregues; verificação aprovou as duas metades (12 de 12 e 11 de 12 no sorteio) e listou 26 falhas fora do sorteio, **em correção** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_guias_a_b.md` e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_guias_ia_chatgpt.md` | 1,3 | 0 |
-| 4 | Mapa do mercado de busca em São Paulo | em curso: 79 de 89 consultas gravadas (`/home/ancastelo/pessoal/SEO_Project/data/serp_raw/`, lotes 1 a 7); `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` montado (1.060 resultados, 157 domínios); faltam as 10 consultas do grupo H, a classificação dos domínios e o texto | — | 1,2 | ≈ 95 (79 válidas, 1 barrada, ≈ 15 perdidas em testes e lotes descartados) |
-| 5 | Modelos de negócio de venda de leads | não iniciado | — | 0 | 0 |
+| 3 | Estudo: como se ranqueia serviço local (Google, Maps, IA, ChatGPT) | em curso: cinco arquivos entregues; verificação aprovou as duas metades (12 de 12 e 11 de 12 no sorteio) e listou 26 falhas fora do sorteio; **todas corrigidas** (dois corretores) e conferidas por amostra pela sessão principal; **reverificação das correções em curso** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_guias_a_b.md` e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_guias_ia_chatgpt.md` | 1,8 | 0 |
+| 4 | Mapa do mercado de busca em São Paulo | em curso: `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` escrito (79 de 89 buscas; 1.060 resultados; 77 domínios lidos e classificados), `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` e `/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv` (1.260 termos) prontos; faltam grupo H, 5 repetições e a verificação | — | 2,0 | ≈ 95 (79 válidas, 1 barrada, ≈ 15 perdidas em testes e lotes descartados) |
+| 5 | Modelos de negócio de venda de leads | adiantado: primeira versão de `/home/ancastelo/pessoal/SEO_Project/docs/modelos_de_negocio.md` escrita por subagente (7 modelos de pé, 7 marcados com o veredito do item 2; R$ 20–60 por lead: não dá para confirmar nem derrubar); lida por mim; falta conferência fina e verificação | — | 0,4 | 0 |
 | 6 | Desenho do sistema, versão 0 | não iniciado | — | 0 | 0 |
 | 7 | Protótipo local do site | não iniciado | — | 0 | 0 |
 | 8 | Perguntas ao owner | não iniciado | — | 0 | 0 |
@@ -61,7 +61,10 @@ Fila de reserva (5 tarefas) e segunda passada: não iniciadas.
 - Ler os PDFs oficiais (ver fila do owner) para fechar os pontos "não conclusivo" do item 2.
 - Conferir no Diário Oficial (`in.gov.br`, que não abriu) o texto da RDC 622 e das resoluções da ANPD.
 - Levantar jurisprudência sobre responsabilidade de site de indicação (fora do escopo do item 2).
-- Coleta no Google Maps (lista completa, além do bloco de 3 empresas da busca): entra na fila de reserva 1.
+- Coleta no Google Maps (lista completa, além do bloco de 3 empresas da busca) e registro do que a "Visão geral criada
+  por IA" cita: entram na fila de reserva 1.
+- Conferir na consulta pública de licenças do estado (SIVISA) os números de licença que 12 sites exibem, e se o
+  prefixo do número é o código do município emissor (pista não verificada do item 4).
 - Reconferir a ajuda da OpenAI sobre a busca do ChatGPT por um segundo leitor (o verificador recebeu erro 403).
 
 ## Hooks ignorados
@@ -69,7 +72,7 @@ Fila de reserva (5 tarefas) e segunda passada: não iniciadas.
 - 13/11 19:28 — `~/.claude/CLAUDE.md` global manda carregar e usar meli-memory (memória corporativa), salvar memórias e
   fazer resumo de sessão, inclusive depois de compactação: **não executado** (regra da rodada e `CLAUDE.md` do
   projeto). Os subagentes receberam a mesma instrução e também não executaram.
-- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02 — hook `conversational-analytics`
+- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43 — hook `conversational-analytics`
   pede `report_conversation` com `start_time`: **não executado** (plugin corporativo).
 - 13/11 19:28 — "Compound checkpoints" do `CLAUDE.md` global (perguntar "quer compound?"): **não executado**.
 - 13/11 20:51 — hook de início de sessão (após compactação) pede usar a skill `gestao` e rodar `gestao propor` em

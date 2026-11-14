@@ -1,6 +1,7 @@
 # Modelos de negócio de venda de leads de controle de pragas em São Paulo (item 5) — primeira versão
 
-- **Estado:** primeira versão, escrita por subagente de pesquisa em sexta, 13/11/2026, 21:40 (Brasília, lido de `date`).
+- **Estado:** primeira versão, escrita por subagente de pesquisa em sexta, 13/11/2026, entre 21:40 e 21:47 (Brasília,
+  lido de `date`).
   **Ainda não conferida** pela sessão principal nem pelo verificador independente.
 - **Leitura das fontes da web:** 13/11/2026, das 21:24 às 21:39 (Brasília). A ferramenta não grava a hora de cada
   página; a tabela de fontes (seção 9) dá a janela de cada uma.
@@ -37,18 +38,17 @@
    premissas sem fonte, não de preço de mercado. Os comparáveis brasileiros de hoje ficam na mesma ordem de grandeza,
    mas são outro produto (compartilhado, de empresa). Falta: preço real de um pedido de dedetização no GetNinjas, taxa de
    fechamento e disposição de pagar das licenciadas de São Paulo (seção 7).
-6. **Não há número brasileiro, classe A ou B, de volume de busca, custo por clique ou taxa de fechamento.** Toda conta
-   de receita deste arquivo é ilustração.
-7. **Os Anúncios de Serviços Locais do Google (pagamento por lead) não existem no Brasil** (classe A).
-8. **O risco que mais pesa é a dependência do Google com o site fora do mapa:** na amostra de 79 buscas, 10 domínios
+6. **Não há número brasileiro, classe A ou B, de volume de busca, custo por clique ou taxa de fechamento:** toda conta
+   de receita deste arquivo é ilustração. Os Anúncios de Serviços Locais do Google não existem no Brasil (classe A).
+7. **O risco que mais pesa é a dependência do Google com o site fora do mapa:** na amostra de 79 buscas, 10 domínios
    têm 39% dos resultados orgânicos, quase todos de dedetizadoras, e um mesmo anunciante aparece como perfil patrocinado
    em 47 buscas.
-9. **Conflito com o parceiro:** as plataformas o tratam com pré-pagamento e regra escrita de lead inválido, que devolve
+8. **Conflito com o parceiro:** as plataformas o tratam com pré-pagamento e regra escrita de lead inválido, que devolve
    **crédito, não dinheiro** (Angi, Google, oHub, Cronoshare — classe A).
-10. **Leitura minha, não fato:** o modelo mais simples perante as quatro restrições é **uma licenciada por região,
-    nomeada na página, com pagamento antecipado** — uma só empresa recebe o contato (veredito mais leve da LGPD) e a
-    página cumpre a condição da propaganda. Se as licenciadas de São Paulo pagam por isso, **não sei**: só se descobre
-    falando com elas, o que está fora da rodada.
+9. **Leitura minha, não fato:** o modelo mais simples perante as quatro restrições é **uma licenciada por região,
+   nomeada na página, com pagamento antecipado** — uma só empresa recebe o contato (veredito mais leve da LGPD) e a
+   página cumpre a condição da propaganda. Se as licenciadas de São Paulo pagam por isso, **não sei**: só se descobre
+   falando com elas, o que está fora da rodada.
 
 ---
 
@@ -77,8 +77,8 @@ Vereditos transcritos do "Quadro de vereditos" de `/home/ancastelo/pessoal/SEO_P
 | 2.2 | Site com cara de dedetizadora que não nomeia quem executa | **Não conclusivo** ("é o ponto de maior risco") | Quadro, linha 31; seção (b), "Conclusão para o site", (iv) e "O que isso corta do plano" (linhas 253–262) |
 | 2.3 | Central de WhatsApp própria que tria e repassa | Pela API: **vedado**; pelo aplicativo gratuito: **não conclusivo** | Quadro, linhas 36–37; seção (d), "Os dois desenhos" (linhas 432–451) |
 | 2.4 | Aluguel de site ranqueado ("rank and rent") **com perfil** | **Vedado** | Quadro, linha 27; seção (a), "Não é caminho" (linhas 133–134) |
-| 2.5 | Compra de avaliações | **Vedado** | Quadro, linha 29; seção (a), subseção 3 (linhas 95–100) |
-| 2.5 | Compra de links | — (não é do item 2; é política de spam do Google, classe A) | `/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seção 2.1, linha 164 |
+| 2.5a | Compra de avaliações | **Vedado** | Quadro, linha 29; seção (a), subseção 3 (linhas 95–100) |
+| 2.5b | Compra de links | — (não é do item 2; é política de spam do Google, classe A) | `/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seção 2.1, linha 164 |
 | 2.6 | Vender o mesmo contato a várias empresas sem a pessoa saber quais, ou com "aceito os termos" | **Vedado** pela letra da lei (repassar sem informar; autorização genérica) | Seção (c), "Vereditos" e "O que isso corta do plano" (linhas 358–368) |
 | 2.7 | Cobrar do consumidor e subcontratar a execução | — (sem linha no quadro; os arts. 5º e 21 da RDC 622 apontam contra) | Seção (b), linhas 184–185 e "Conclusão para o site", (iii) (linhas 246–251) |
 
@@ -180,8 +180,8 @@ motivo de devolução no oHub. Não há regra única.
 ### 4.1 Site de conteúdo e comparação que identifica as licenciadas
 
 **Veredito do item 2:** `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, "Quadro de vereditos",
-linha 30 — "Site de terceiro divulgar o serviço de dedetizadoras licenciadas: **Permitido com condição** (identificar a
-executora e a licença; sem termos vedados; site declarado intermediário)"; seção (b), "Conclusão para o site" (linhas
+linha 30 — "Site de terceiro divulgar o serviço de dedetizadoras licenciadas" → "**Permitido com condição** (identificar
+a executora e a licença; sem termos vedados; site declarado intermediário)"; seção (b), "Conclusão para o site" (linhas
 231–258); e "O que as quatro restrições, juntas, deixam de pé", item 1 (linhas 470–472).
 
 **Como opera.**
@@ -278,9 +278,10 @@ para servir de preço; serve para mostrar **o que precisa ser medido**.
   sem fonte (F34, classe D).
 - *Residência × empresa:* único número brasileiro: pedido de empresa ou condomínio no oHub, R$ 19 a R$ 41 por resposta
   (R3), com acréscimo de 20% a 100% quando a plataforma classifica o pedido como premium pelo "tamanho da empresa e
-  nível de interesse de contratação" (F14, artigo de 2021, **pode estar desatualizada**). Se **todos** os lugares
-  forem ocupados, um pedido rende à plataforma de R$ 78 a R$ 83 (4 respostas na base) até R$ 269 a R$ 285 (6 respostas
-  com premium de 100%) — cálculo meu sobre R1, R2, R4 e F14; quantos pedidos enchem os lugares, **não sei**. Preço de
+  nível de interesse de contratação" (F14, artigo de 2021, **pode estar desatualizada**). Se os quatro
+  lugares da quantidade original forem ocupados, um pedido de 12 créditos rende à plataforma de R$ 78 a R$ 83 (cálculo
+  meu: 4 × R3). Com a 5ª e a 6ª respostas e com premium, o total sobe; **não calculei**, porque a fonte não deixa claro
+  sobre que base os acréscimos se somam. Quantos pedidos enchem os lugares, **não sei**. Preço de
   lead de residência no Brasil: **não sei** (o GetNinjas não publica, R7).
 - *Exclusivo × compartilhado:* no Brasil, todas as plataformas lidas vendem **compartilhado** (R4, R8, R12); **não
   achei** vendedor brasileiro de lead exclusivo de dedetização com preço público. Nos EUA há os dois: exclusivo de
@@ -304,7 +305,7 @@ para servir de preço; serve para mostrar **o que precisa ser medido**.
 
 **Veredito do item 2:** os mesmos de 4.2, na forma mais leve —
 `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, "Quadro de vereditos", linha 33 ("Captar o contato
-e repassá-lo a **uma** empresa: **Permitido com condição**"), linha 38 (botão para o WhatsApp da licenciada) e linha 30
+e repassá-lo a **uma** empresa" → **permitido com condição**), linha 38 (botão para o WhatsApp da licenciada) e linha 30
 (propaganda); seção (b), veredito: "Um desenho em que **toda** página de oferta nomeia a licenciada que atende aquela
 região cumpre as condições" (linhas 257–258).
 
@@ -347,7 +348,7 @@ amount" (F39, classe D, 2019, **pode estar desatualizada**). Mensalidade de excl
 
 **Veredito do item 2:** `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, "Quadro de vereditos",
 linha 28 — "Administrar o perfil da licenciada, com autorização expressa, ela como proprietária, com o telefone e o
-site **dela**: **Permitido com condição**"; seção (a), subseção "4. Caminhos legítimos para o mapa" (linhas 105–131).
+site **dela**" → **permitido com condição**; seção (a), subseção "4. Caminhos legítimos para o mapa" (linhas 105–131).
 
 **Como opera.**
 1. Autorização expressa e não verbal da licenciada (linhas 110–112).
@@ -491,7 +492,7 @@ Nenhum é recomendado. Ficam registrados com o veredito, para não voltarem como
 ### 5.1 Perfil próprio de "dedetizadora" no mapa — **VEDADO**
 
 `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, "Quadro de vereditos", linha 25 ("Ter perfil
-próprio (em qualquer formato, inclusive endereço oculto): **Vedado**") e linha 26 (endereço de fachada: **Vedado**);
+próprio (em qualquer formato, inclusive endereço oculto)" → **vedado**) e linha 26 (endereço de fachada: **Vedado**);
 seção (a), subseção "1. Gerador de leads pode ter perfil? — **Vedado**" (linhas 53–63) e subseção "2. O que conta como
 endereço e atendimento" (linhas 65–85). A lista de inelegíveis traz "Lead generation agents or companies."
 Consequência: suspensão do perfil; restrição da conta derruba todos os perfis ligados a ela (linhas 89–103).
@@ -501,13 +502,16 @@ O que se perde ao não fazer: o bloco de mapa, que apareceu em 68 das 79 buscas 
 ### 5.2 Site com cara de dedetizadora que não nomeia quem executa — **NÃO CONCLUSIVO**
 
 `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, "Quadro de vereditos", linha 31 ("Página que
-oferece o serviço **sem** nomear a empresa que executa: **Não conclusivo** (norma silente; é o ponto de maior
+oferece o serviço **sem** nomear a empresa que executa" → "**Não conclusivo** (norma silente; é o ponto de maior
 risco)"); seção (b), "Conclusão para o site", (iv) (linhas 253–255) e "O que isso corta do plano" (linhas 260–262).
-O formato existe no mercado. Na classificação em andamento dos domínios da amostra
-(`/home/ancastelo/pessoal/SEO_Project/data/serp_dominios_classe_parte2.csv`, 42 domínios menos frequentes, lidos por
-outro subagente, 1 a 3 páginas por domínio; **não conferi**; a parte 1 ainda não existia às 21:39), 12 foram marcados
-como gerador de leads ou rede de sites e 18 como empresa sem licença vista. Uma plataforma de pedidos lida por mim se
-diz "Plataforma de intermediação de pedidos" e não nomeia as empresas que recebem o pedido de dedetização (F26).
+O formato existe no mercado. Na classificação dos domínios da amostra de buscas
+(`/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_dominios.md`, tabela "Resultados por classe", lida às 21:45;
+feita por outros subagentes, com 1 a 3 páginas por domínio; arquivo do item 4, **em andamento, não conferido por
+mim** — os números podem mudar): 14 domínios são "rede declarada ou domínio satélite" (51 dos 709 resultados
+orgânicos, 7%) e 15 são "marca sem identificação vista" (93 resultados, 13%); só 11 domínios exibem número de licença
+na página (138 resultados, 19%). O próprio anexo avisa que "sem número de licença visto" não prova que o site não o
+exiba em outra página. Uma plataforma de pedidos lida por mim se diz "Plataforma de intermediação de pedidos" e não
+nomeia as empresas que recebem o pedido de dedetização (F26).
 Existir no mercado não muda o veredito.
 
 ### 5.3 Central de WhatsApp própria que tria e repassa — **VEDADO** pela API; **NÃO CONCLUSIVO** pelo aplicativo
@@ -521,7 +525,7 @@ sobra para um WhatsApp do site: orientar a pessoa e entregar a ela o link da lic
 ### 5.4 Aluguel de site ranqueado ("rank and rent") com perfil — **VEDADO**
 
 `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, "Quadro de vereditos", linha 27 ("Perfil da
-licenciada com o site ou o telefone do intermediário: **Vedado**"); seção (a), subseção 2 (linhas 78–85) e "Não é
+licenciada com o site ou o telefone do intermediário" → **vedado**); seção (a), subseção 2 (linhas 78–85) e "Não é
 caminho" (linhas 133–134: "perfil 'alugado' cuja propriedade fica com o intermediário").
 O caso mais citado do método (Nova York, cerca de 2015) incluiu um perfil no mapa criado pelo dono do site e vendido
 junto com ele (F38, classe D) — exatamente a parte vedada. O mesmo caso mostra a alavanca de quem controla o número
@@ -532,7 +536,7 @@ Receita alegada por quem vende o método: R27 e a faixa da pesquisa antiga (linh
 ### 5.5 Compra de avaliações — **VEDADO**; compra de links — vedada pela política de spam do Google
 
 Avaliações: `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, "Quadro de vereditos", linha 29
-("Avaliação comprada, incentivada ou escrita por quem tem vínculo: **Vedado**"); seção (a), subseção 3 (linhas
+("Avaliação comprada, incentivada ou escrita por quem tem vínculo" → **vedado**); seção (a), subseção 3 (linhas
 95–100): avaliação "paid for, directly or in kind" é engajamento falso; a sanção é ficar sem avaliações novas, ter as
 existentes despublicadas e exibir aviso público.
 Links: não é matéria do item 2. Política de spam do Google, classe A: "Buying or selling links for ranking purposes."
@@ -629,7 +633,7 @@ igualmente **sem confirmação**.
 2. O número do site na API do WhatsApp não pode triar e repassar o contato; o botão que abre o WhatsApp da licenciada
    pode (item 2, quadro, linhas 36 e 38).
 3. Os Anúncios de Serviços Locais do Google não estão disponíveis no Brasil (R28).
-4. GetNinjas, Cronoshare e oHub cobram do prestador, adiantado, por contato; o mesmo pedido vai a até 4 prestadores (6
+4. GetNinjas, Cronoshare e oHub cobram do prestador, adiantado, por contato; o contato do mesmo pedido é vendido a até 4 prestadores (6
    no oHub) — cada plataforma sobre si mesma (R4, R8, R12).
 5. O oHub cobra de 12 a 24 créditos para responder um pedido de dedetização, e vende o crédito de R$ 1,62 a R$ 1,72
    (R1, R2).
@@ -722,8 +726,8 @@ Data de leitura de todas: 13/11/2026. Hora: **J1** = entre 21:24 e 21:33; **J2**
 
 Arquivos do projeto usados como fonte: `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md` (item 2,
 fechado); `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv`, `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv`,
-`/home/ancastelo/pessoal/SEO_Project/data/serp_dominios_classe_parte2.csv` e
-`/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` (item 4, em andamento);
+`/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` e
+`/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_dominios.md` (item 4, em andamento);
 `/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md` e
 `/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md` (item 3, em correção — só remissão);
 `/home/ancastelo/pessoal/SEO_Project/research/02_mercado_servicos_precos.md`,
