@@ -3,9 +3,18 @@
 - **Estado:** escrito pela sessão principal em sábado, 14/11/2026, à 01:10 (Brasília, lido de `date`); a seção 11 é
   da 01:18. Conferido por verificador independente
   (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva1.md`: aprovado com ressalvas; 0 falha em 12 no sorteio;
-  21 correções pedidas, de leitura e não de conta). As 21 foram aplicadas pela sessão principal à 01:38, **sem nova
-  leitura**. Complementa `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` (item 4, verificado) e não
-  muda nenhum número dele.
+  21 correções pedidas, de leitura e não de conta). As 21 foram aplicadas pela sessão principal à 01:38, sem nova
+  leitura. **Segunda passada:** um revisor novo, em contexto limpo, releu tudo em 14/11/2026, das 02:01 às 02:14
+  (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_reserva1.md`: aprovado com ressalvas;
+  0 falha em 12 no sorteio; 14 achados). Os 14 foram conferidos nos dados e aplicados por um corretor em 14/11/2026
+  às 02:30 (Brasília, lido de `date`; relato em
+  `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes2_reserva1.md`), **sem nova leitura depois
+  da correção**. O que mudou: dois números (perfis distintos nas duas coletas, 96 → 95; perfis que não estavam na
+  amostra principal, 32 → 31), uma afirmação que era falsa (caminhos cortados entre os três primeiros: limite 5 e
+  seção 5.1) e redação (classe de evidência declarada; hipóteses marcadas; registro das repetições na seção 11). O
+  CSV e o registro **não** foram regravados: duas correções dependem de troca no script e estão descritas no relato.
+  Complementa `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` (item 4, verificado) e não muda nenhum
+  número dele.
 - **O que é:** 40 buscas novas feitas ao vivo no Google na madrugada de sábado, 14/11/2026, das 00:12 à 01:06 — 20
   bairros que não estavam na primeira amostra, 10 combinações de praga com esses bairros e 10 pragas ou serviços novos
   com a cidade — e a ampliação do mapa de palavras-chave de 1.260 para 2.721 termos. **Amostra declarada, não censo;
@@ -15,18 +24,30 @@
 - **Arquivos:**
   - `/home/ancastelo/pessoal/SEO_Project/data/serp_consultas_ampliacao.csv` — as 40 consultas (grupos I, J e K).
   - `/home/ancastelo/pessoal/SEO_Project/data/serp_sp_ampliacao.csv` — 537 linhas, uma por resultado visto (352
-    orgânicos, 93 perfis no bloco de mapa, 25 perfis patrocinados, 67 anúncios de texto), com as mesmas colunas de
-    `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv`.
-  - `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao_registro.md` — o registro de cada busca
-    (termo, hora, conta logada, localização exibida, ordem das camadas e posição em pixels).
+    orgânicos, 93 linhas de perfil no bloco de mapa, 25 linhas de perfil patrocinado — um único perfil —, 67 anúncios
+    de texto), com as mesmas colunas de `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv`.
+  - `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao_registro.md` — o registro de cada uma das 40
+    buscas (termo, hora, conta logada, localização exibida, ordem das camadas e posição em pixels). As 5 repetições
+    não estão nesse arquivo, que é gerado por script só a partir dos lotes das 40: o registro delas, com os mesmos
+    campos e a hora em segundos, está na seção 11 deste documento.
   - Brutos e scripts: `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/ampliacao_01.jsonl` a `ampliacao_04.jsonl`, as repetições em
     `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/repeticao_02.jsonl`,
     `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/coletor.js` (função `fx2`) e
     `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/monta_ampliacao.py`.
   - `/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv` — o mapa ampliado (seção 8).
 - **Fonte de todo número deste arquivo**, salvo indicação: os arquivos acima (Brasil, cidade de São Paulo,
-  14/11/2026). Para refazer as contas: `python3 /home/ancastelo/pessoal/SEO_Project/data/serp_raw/monta_ampliacao.py`.
+  14/11/2026). Para refazer as contas: `python3 /home/ancastelo/pessoal/SEO_Project/data/serp_raw/monta_ampliacao.py`
+  (atenção: esse script regrava o CSV e o registro). As contas da segunda passada, só de leitura, estão em
+  `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/corr2res1_contas.py`.
   "Amostra principal" = as 79 buscas dos grupos A a G do item 4 (13/11/2026, 20:26 a 21:16).
+- **Classe de evidência desta coleta** (regra de `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/RODADA.md`):
+  **B — dado próprio, com amostra, método e bruto expostos**, que dá para conferir nos arquivos acima. O limite da
+  amostra acompanha todo número: 40 buscas numa madrugada (sábado, 14/11/2026, 00:12 à 01:06), uma conta logada, um
+  ponto de acesso, uma busca por termo, só a primeira página, coleta por script (seção 2.3). A segunda
+  verificação conferiu arquivo contra arquivo, sem repetir busca ao vivo; as cinco repetições da seção 11 foram
+  feitas por quem coletou. Os números são **observação desta amostra, não regra**; as leituras da seção 9 são inferência, marcadas uma a uma; a classe de cada domínio vem do
+  item 4. Quem ganha com a afirmação: ninguém vende nada aqui, mas quem coletou é o próprio projeto, que também
+  escolheu os termos (seção 2.1).
 
 ## 1. Em uma página
 
@@ -45,19 +66,25 @@
    com bloco; o primeiro anúncio de texto vem **depois** do primeiro orgânico em 34 das 35 buscas com anúncio. O
    primeiro resultado orgânico fica abaixo da primeira tela em 23 das 40 buscas (17 das 20 no grupo I). Uma medida
    por busca, de quatro marcadores; variou em duas das cinco repetições (seção 11).
-5. **A coincidência "licença exibida × primeira posição" se mantém igual nas buscas de bairro e não aparece nas de
-   praga nova com a cidade.** Pela classe dada no item 4, as 40 primeiras posições se dividem em: marca sem
-   identificação vista, 11; empresa com número de licença na página, 11; empresa identificada sem número visto, 10;
-   governo, 3; domínio novo não lido, 3; outros, 2. Sites com número de licença na primeira posição: bairro, 8 de 20
-   (7 de 20 no grupo D do item 4); praga × bairro, 2 de 10 (2 de 12 no grupo E); praga ou serviço novo com a cidade,
-   1 de 10 (7 de 13 no grupo B). O total do item 4 (37 de 79) inclui grupos sem par aqui (A, C, F e G: 21 de 34) e
-   não se compara com 11 de 40.
+5. **A coincidência "licença exibida × primeira posição" fica parecida nas buscas de bairro e, nas de praga nova com
+   a cidade, ficou em 1 de 10 — que é piso.** Pela classe dada no item 4, as 40 primeiras posições se dividem em:
+   marca sem identificação vista, 11; empresa com número de licença na página, 11; empresa identificada sem número
+   visto, 10; governo, 3; domínio novo não lido, 3; outros, 2. Sites com número de licença na primeira posição:
+   bairro, 8 de 20 (7 de 20 no grupo D do item 4) — sete das oito são de um mesmo site, lunardedetizadora.com.br (no
+   grupo D, as sete eram de três sites); praga × bairro, 2 de 10 (2 de 12 no grupo E); praga ou serviço novo com a
+   cidade, 1 de 10 (7 de 13 no grupo B) — piso, porque das 10 primeiras posições do grupo K 3 são de governo e 2 de
+   domínio novo não lido, e as pragas do grupo K não são as do grupo B. O total do item 4 (37 de 79) inclui grupos
+   sem par aqui (A, C, F e G: 21 de 34) e não se compara com 11 de 40.
 6. **O mesmo anunciante segue dominante:** anúncio de texto dele em 33 das 40 buscas e perfil patrocinado em 25.
 7. **46 domínios novos** (55 resultados, 16%) não tinham aparecido nas 89 buscas do item 4; **não foram lidos**. Nas
-   129 buscas das duas coletas há 231 domínios distintos no orgânico e 96 perfis distintos no bloco de mapa.
+   129 buscas das duas coletas há 231 domínios distintos no orgânico e 95 perfis distintos no bloco de mapa (pelo
+   nome; a coluna de nome do CSV dá 96, porque um perfil ficou com a nota grudada no nome — seção 6).
 8. **Sem verificação de robô.** Intervalo entre buscas de 72 a 190 segundos (mediana 77). Cinco buscas repetidas de
    31 a 60 minutos depois deram o mesmo orgânico, na mesma ordem, e os mesmos perfis no bloco (seção 11). Total
-   gasto do limite de 600 na rodada: cerca de 155 (110 do item 4, 40 desta ampliação e 5 repetições).
+   gasto do limite de 600 na rodada: cerca de 155 (110 do item 4, 40 desta ampliação e 5 repetições). Dessas, 139
+   têm registro bruto (89 buscas e 5 repetições do item 4; 40 e 5 daqui); as outras cerca de 16, do item 4 (1
+   barrada e cerca de 15 perdidas em testes, segundo
+   `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/PAINEL.md`), não têm bruto e não dá para conferi-las.
 
 ## 2. Método
 
@@ -93,8 +120,13 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
 ### 2.3 Limites (ler antes de usar qualquer número)
 
 1. **Um ponto, uma hora, uma conta — e outra hora que a do item 4.** Madrugada de sábado, do mesmo lugar (zona oeste
-   da Grande São Paulo), logado. O bloco de mapa e os anúncios dependem da hora (empresa aberta, orçamento do
-   anunciante): **a ordem e a quantidade de anúncios vistas aqui não valem para o horário comercial.**
+   da Grande São Paulo), logado. O bloco de mapa pode depender da hora: num estudo de 2023 (Estados Unidos, classe B,
+   "pode estar desatualizada"; confirmação do Google lida de segunda mão), estar aberto na hora da busca esteve
+   associado a posição melhor — `/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md`, seção
+   4.3, linha "Horário ('aberto agora')"; a seção 6 do mesmo guia trata da distância entre quem busca e a base da
+   empresa. Que os anúncios também mudem com a hora (por exemplo, pelo orçamento do anunciante) é **hipótese minha,
+   sem fonte neste projeto**. Nada disso foi medido aqui: **a ordem e a quantidade de anúncios e de perfis vistas
+   nesta madrugada não podem ser estendidas ao horário comercial.**
 2. **Uma busca por termo, só a primeira página.**
 3. **A posição vertical é de uma janela de computador.** No celular a página é outra. A altura do resumo de IA não
    foi medida (só onde começa); se estava aberto ou recolhido, não sei. Cada posição foi medida uma vez, de 11 a 17
@@ -106,10 +138,18 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
    anúncio, se houve, não foram lidos. Em 28 dos 67 anúncios o domínio não foi identificado.
 5. **Tipo de página pelo endereço**, como no item 4; a lista de locais do script ganhou os 20 bairros novos. Páginas
    não lidas: **não afirmo que sejam "páginas de entrada"**. A regra erra para os dois lados: uma notícia do g1
-   (J05, 6º) conta como página por local por causa de "centro", e pelo menos três caminhos cortados em 50 caracteres
-   (I05, I08, J10) contam como página de serviço e têm cara de página de local. Efeito de cerca de 1 ponto
-   percentual; nenhum entre os três primeiros. No grupo I, 147 das 157 páginas por local trazem o bairro buscado; as
-   outras 10 são de região ou têm o caminho cortado.
+   (J05, 6º) conta como página por local por causa de "centro", e o coletor corta o caminho em 50 caracteres (54 dos
+   352 resultados têm caminho com exatamente 50, cortado ou no limite), o que esconde o nome do local quando ele vem
+   no fim. Quatro resultados contam como página de serviço e terminam no começo de um nome de bairro: I05, 6º
+   ("…-em-int", busca de Interlagos); K10, 2º ("…-no-jardim-paulist"); e um mesmo endereço em I08, 4º, e em J10, 3º
+   ("…-em-sao", que tanto pode ser São Miguel, o bairro das duas buscas, quanto São Paulo, que a regra não conta como
+   local); fica de fora uma página de consulta de empresas (I17, 9º), em que o que está cortado é o nome de uma
+   empresa. **Dois dos quatro estão entre os três primeiros** (J10, 3º, e K10, 2º). Se os quatro contassem como página por
+   local, o efeito seria de cerca de 1 ponto percentual em cada grupo (I: 157 → 159 de 179; J: 58 → 59 de 88; K: 2 →
+   3 de 85); nos três primeiros lugares, 80 páginas por local e 29 de serviço, em vez de 78 e 31; e 22 das 30 buscas
+   com bairro teriam os três primeiros todos por local, em vez de 21 (5 de 10 no grupo J, em vez de 4) — seção 5.1.
+   Os números deste documento seguem a regra como está no CSV; essas páginas não foram abertas. No grupo I, 147 das
+   157 páginas por local trazem o bairro buscado; as outras 10 são de região ou têm o caminho cortado.
 6. **Classe dos domínios:** a do item 4, onde havia. Os 46 domínios novos não foram lidos nem classificados.
 7. **Consulta automática:** vale o que está no item 4, seção 2.3, item 9 — é prática que a política do Google veda; a
    decisão de manter o limite da rodada está na fila do owner.
@@ -156,9 +196,11 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
 - **O que isto responde:** a premissa do guia (a) e do desenho, de que mapa e anúncios ficam acima do orgânico, vale
   **em parte** nesta amostra: o resumo de IA e, nas buscas de bairro, o bloco de mapa vêm antes do orgânico; o
   primeiro anúncio de texto, nesta hora, ficou abaixo do primeiro orgânico em 34 de 35 buscas (se no fim da página,
-  não foi medido); o perfil patrocinado, que é anúncio dentro do bloco de mapa, ficou acima do primeiro orgânico em
-  18 das 25 buscas em que apareceu (14 de 15 no grupo I). *(observação de 40 buscas numa madrugada; não
-  vale para o horário comercial — limite 1)*
+  não foi medido); o bloco que contém o perfil patrocinado (anúncio dentro do bloco de mapa) começa acima do primeiro
+  orgânico em 18 das 25 buscas em que o patrocinado apareceu (14 de 15 no grupo I). **A posição da linha patrocinada
+  não foi medida:** o coletor mede o título do bloco, e a linha patrocinada é a primeira da lista em 11 dessas buscas
+  e a última em 14. *(observação de 40 buscas numa madrugada; não pode ser estendida ao horário comercial — limite
+  1)*
 
 ## 5. Resultado orgânico
 
@@ -173,11 +215,20 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
 | *E praga × bairro, amostra principal (107)* | *79* | *10* | *1* | *2* | *7* | *1* |
 | *B praga + cidade, amostra principal (116)* | *4* | *69* | *8* | *9* | *9* | *1* |
 
+- **Duas listas de locais na mesma tabela:** as linhas I, J e K usam a lista de locais com os 20 bairros novos; as
+  linhas do item 4 (D, E e B) usam o tipo gravado em `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv`, com a
+  lista de 13/11. Com a lista ampliada, D e E não mudam; no grupo B um resultado muda (B01, 8º, linha 159 desse CSV,
+  caminho terminado em "-no-morumbi"): página por local, 6 de 116 (5%, em vez de 4%); de serviço, 79 de 116 (68%, em
+  vez de 69%).
 - Nos três primeiros lugares das 40 buscas (120 resultados): 78 páginas internas por local, 31 de serviço, 5
   iniciais, 5 de governo, 1 de blog. Em 21 das 30 buscas com bairro (I e J), os três primeiros são todos páginas por
-  local (17 de 20 em I; 4 de 10 em J).
-- **Domínio com o nome exato do bairro** aparece em 5 das 20 buscas de bairro novo (Brooklin, Saúde, Vila Prudente,
-  Tucuruvi, Vila Maria), uma vez em primeiro lugar (Saúde) — não lidos.
+  local (17 de 20 em I; 4 de 10 em J). Ressalva do limite 5: dois caminhos cortados que contam como serviço estão
+  entre os três primeiros (J10, 3º, e K10, 2º); se contassem como página por local, seriam 80 e 29, e 22 das 30 (5
+  de 10 em J). As páginas não foram abertas.
+- **Domínio com o nome do bairro** aparece em 5 das 20 buscas de bairro novo (Brooklin, Saúde, Vila Prudente,
+  Tucuruvi, Vila Maria), uma vez em primeiro lugar (Saúde) — não lidos. O de Tucuruvi é subdomínio
+  (`dedetizadoranotucuruvisp.pgmp.com.br`); na busca de Vila Maria há dois: o 2º lugar e, em 9º, o guia de bairro
+  citado na seção 5.3.
 
 ### 5.2 Concentração e domínios
 
@@ -193,7 +244,7 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
   dedetizadoraddpilar.com.br e ambientalepragas.com.br (5 cada). Oito deles estão entre os treze que apareciam em 5 ou
   mais das 20 buscas de bairro da amostra principal.
 - **Os dez domínios mais frequentes da amostra principal** aparecem todos aqui (de 5 a 22 resultados cada). No grupo
-  K, o mais frequente é uniprag.com.br (6), com artigos de blog.
+  K, o mais frequente é uniprag.com.br (6 resultados: cinco artigos de blog e uma página de serviço).
 - **Domínios novos:** 46 de 119 (55 resultados, 16%); no grupo K são 21 de 54 (28% dos resultados). Entre eles,
   três de governo (`sp156.prefeitura.sp.gov.br`, `servicos.sp.gov.br`, `agricultura.sp.gov.br`), um portal de
   síndicos, uma página de consulta de empresas e sites de uma praga só (cupim, abelhas, piolho de pombo) — pelo
@@ -219,9 +270,11 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
 
 - **Leitura (observação, com os limites do item 4, seção 7.1):** nas buscas de bairro novo, as duas marcas que mais
   ocupam o primeiro lugar são uma "marca sem identificação vista" e uma "empresa com número de licença". Os totais
-  (37 de 79 no item 4; 11 de 40 aqui) não se comparam: os grupos são outros. Grupo a grupo: bairro 35% → 40%; praga ×
-  bairro 17% → 20%; praga com a cidade 54% → 10% (10 buscas). Continua sem prova de que exibir a licença acompanhe
-  posição. A classe "sem identificação
+  (37 de 79 no item 4; 11 de 40 aqui) não se comparam: os grupos são outros. Grupo a grupo: bairro 35% → 40% (7 de
+  20 → 8 de 20; sete das oito são de um mesmo site); praga × bairro 17% → 20% (2 de 12 → 2 de 10); praga com a cidade
+  54% → 10% (7 de 13 → 1 de 10). Este último não mede queda: são 10 buscas, de pragas que não são as do grupo B, e 1
+  de 10 é piso — 3 das 10 primeiras posições são de governo e 2 de domínio novo não lido. Continua sem prova de que
+  exibir a licença acompanhe posição. A classe "sem identificação
   vista" depende de 1 a 3 páginas lidas por ferramenta que resume: **"não visto" não prova ausência.**
 - Diretório: ohub.com.br em 5 das 20 buscas de bairro novo e em nenhuma das de praga; nenhum outro marketplace; há
   dois outros sites de lista no grupo I, não lidos: listazn.com.br (I11, 6º; já visto no item 4) e
@@ -230,15 +283,22 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
 ## 6. Bloco de mapa
 
 - 93 linhas, 60 perfis distintos (pelo nome; "Ddtizz" aparece com duas notas e dois números de avaliações — 5,0 com
-  327 e 4,9 com 632 — e pode ser dois perfis) nas 31 buscas com bloco; **32 perfis não tinham aparecido na amostra principal**.
+  327 e 4,9 com 632 — e pode ser dois perfis) nas 31 buscas com bloco; **31 perfis não tinham aparecido na amostra principal**.
+  A coluna de nome do CSV dá 32 (e o script também): um perfil (busca I07, linha 98 de
+  `/home/ancastelo/pessoal/SEO_Project/data/serp_sp_ampliacao.csv`) ficou com a nota e o resto da linha grudados no
+  nome, porque o Google mostrou o número de avaliações dele como "1,1 mil"; por isso não casa com o mesmo perfil no
+  item 4 (busca B06, linha 218 de `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv`). O CSV não foi regravado.
   Mais frequentes: SJG Controle de Pragas Urbanas (9), Sanitech (5), Primordial Dedetização (4).
 - **Nas 18 buscas de bairro novo com bloco: 45 perfis distintos em 54 linhas** — só 12 deles tinham aparecido nas
   buscas de bairro da amostra principal. O bloco muda de bairro para bairro mais do que o orgânico. *(observação de
   uma só localização)*
-- Nota: mediana 5,0, mínima 4,0; 92% das 92 linhas com nota lida têm 4,8 ou mais. Avaliações por perfil (59 lidos):
-  mediana 82 nos 59 perfis das 40 buscas (146 nos 61 da amostra principal), de 1 a 867. Só bairro: 76,5 (44 perfis do
-  grupo I) contra 130 (35 perfis do grupo D). As coletas foram em horas diferentes e o bloco depende da hora (limite
-  1): é diferença observada, não característica dos bairros.
+- Nota: mediana 5,0, mínima 4,0; 92% das 92 linhas com nota lida têm 4,8 ou mais (a 93ª linha é a do perfil do "1,1
+  mil", com nota 5,0; com ela, 86 de 93, também 92%). Avaliações por perfil (59 lidos, de 60): mediana 82 nos 59
+  perfis das 40 buscas (146 nos 61 da amostra principal), de 1 a 867. O 60º perfil mostra "1,1 mil" e ficou fora da
+  conta, aqui e no item 4; com ele, a mediana daqui seria 86 e o máximo, cerca de 1.100. Só bairro: 76,5 (44 perfis
+  lidos do grupo I; 78 com o perfil do "1,1 mil", que é do grupo I) contra 130 (35 perfis do grupo D). As coletas
+  foram em horas diferentes e o bloco pode depender da hora (limite 1, com a fonte): é diferença observada, não
+  característica dos bairros.
 - Nenhum diretório no bloco; perfis não foram abertos (vale o que diz o item 4, seção 5).
 
 ## 7. Anúncios
@@ -254,7 +314,11 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
   `/home/ancastelo/pessoal/SEO_Project/data/gera_palavras_chave.py`: 18 serviços (dedetização, dedetizadora e 16
   pragas — entraram moscas, lacraias, marimbondos e brocas de madeira) × 46 locais (cidade, 5 regiões, 40 bairros) ×
   3 intenções com local, mais termos de confiança por local, de público por cidade e região e 21 informativos sem
-  local.
+  local. Sem termo repetido; há 10 pares de variantes quase iguais, que só diferem por preposição, ordem das palavras
+  ou "sp" no lugar de "são paulo". Em 9 deles uma das duas foi buscada e a outra está como "não buscado" — dois são
+  desta ampliação: K08, linha 128 ("tratamento broca de madeira são paulo"), com a linha 2405 ("tratamento de broca
+  de madeira são paulo"), e J04, linha 114, com a linha 1167; sete são do item 4 (linhas 6, 9, 55, 65, 72, 80 e 82).
+  No décimo par (linhas 3 e 4) as duas foram buscadas.
 - **Por intenção:** contratar 892; urgência 835; preço 833; confiança 140; informativa 21. **Por tipo de local:**
   bairro 2.289; região (`tipo_local` = zona) 315; cidade 92; sem local 25. A consulta K10 ("dedetização piolho de
   pombo são paulo") está com `praga` = pombos; piolho de pombo é outra praga — classificação discutível, mantida.
@@ -274,8 +338,9 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
    posição medida — começa na primeira tela em 8 de 10. *(observação +
    inferência; sem volume medido não sei se há busca que compense)*
 3. **Nas 40 buscas, o rótulo do resumo de IA foi o primeiro dos quatro marcadores medidos em 38 das 39 em que
-   apareceu;** se o resumo estava aberto e o que mais havia acima não foi medido. "Ser citável" pesa mais do que o item 4
-   conseguia dizer; o que o resumo cita continua sem registro. *(observação de 40 buscas + inferência)*
+   apareceu;** se o resumo estava aberto e o que mais havia acima não foi medido. "Ser citável" **pode** pesar mais do
+   que o item 4 conseguia dizer — hipótese: a posição do rótulo não mede clique nem citação, e o que o resumo cita
+   continua sem registro. *(observação de 40 buscas + hipótese, não medida)*
 4. **A hipótese de que mostrar a licença é diferencial segue sem apoio na posição:** os primeiros lugares dos bairros
    novos se dividem entre sites com e sem número de licença visto. O argumento do desenho para exibir a licença é a
    norma (RDC 622, art. 22), não a posição. *(observação)*
@@ -296,7 +361,24 @@ Cinco das 40 buscas foram sorteadas (`shuf -n 5 --random-source=<(openssl enc -a
 pass:"repeticao-reserva1-20261114" -nosalt </dev/zero 2>/dev/null)` sobre a coluna `id` de
 `/home/ancastelo/pessoal/SEO_Project/data/serp_consultas_ampliacao.csv`, na ordem do arquivo; com `-pbkdf2` o resultado é outro) e refeitas na mesma madrugada, no mesmo navegador, logado na mesma conta, com 73
 a 77 segundos entre uma e outra. Brutos: `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/repeticao_02.jsonl` (não entram em
-`serp_sp_ampliacao.csv`).
+`/home/ancastelo/pessoal/SEO_Project/data/serp_sp_ampliacao.csv`).
+
+**Registro das cinco repetições** (mesmos campos de
+`/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao_registro.md`, que é gerado por script e só traz as
+40 buscas). Lido de `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/repeticao_02.jsonl`, linhas 1 a 5; Google,
+14/11/2026 (sábado, madrugada), horário de Brasília; "—" = a página não mostrou local; pixels a partir do topo da
+página, janela de 945 pixels de altura. A primeira repetição saiu 403 segundos depois da última das 40 buscas
+(01:06:01).
+
+| id | termo (lido do título da página) | hora da navegação | logado | local exibido | IA | anúncios de texto | perfis no bloco (+ patrocinado) | orgânicos | ordem na página | IA (px) | 1º anúncio (px) | mapa (px) | 1º orgânico (px) | 1ª vez (hora da navegação) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| J01r | dedetização de baratas brooklin | 01:12:44 | sim | — | sim | 1 | 3 + 1 | 9 | IA > orgânico > mapa > anúncio | 249 | 2296 | 814 | 704 | 00:41:39 |
+| I08r | dedetização são miguel paulista | 01:14:01 | sim | — | sim | 2 | 3 + 1 | 9 | IA > mapa > orgânico > anúncio | 250 | 2308 | 666 | 1654 | 00:21:26 |
+| I20r | dedetização aclimação | 01:15:17 | sim | — | sim | 2 | 3 + 1 | 9 | IA > mapa > orgânico > anúncio | 250 | 2336 | 666 | 1682 | 00:39:55 |
+| I04r | dedetização campo belo | 01:16:30 | sim | Osasco, SP | sim | 1 | 3 | 9 | IA > mapa > orgânico > anúncio | 251 | 2144 | 667 | 1490 | 00:16:08 |
+| I14r | dedetização casa verde | 01:17:43 | sim | Osasco, SP | sim | 2 | 3 + 1 | 9 | IA > mapa > orgânico > anúncio | 203 | 2307 | 619 | 1653 | 00:31:23 |
+
+**Comparação com a primeira vez:**
 
 | Busca | 1ª vez | 2ª vez | Mesmo 1º resultado? | Mesmos 9 endereços, na mesma ordem? | Perfis do bloco em comum (de 3) | Local exibido | Anúncios de texto (1ª → 2ª) | 1º orgânico (px, 1ª → 2ª) | 1º anúncio (px, 1ª → 2ª) |
 |---|---|---|---|---|---|---|---|---|---|

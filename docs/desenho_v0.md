@@ -466,8 +466,8 @@ pública); seção 8 (último item, "68 das 79 buscas"); seção 9; seção 10, 
 de 14/11); as seções citadas aqui continuam dizendo o mesmo.
 
 **Grupo H, feito depois (23:18 a 23:31 de 13/11):** as 10 buscas de confiança, preço e informação estão em [S], seção
-12. O que elas mostram sobre a premissa 1, com o limite de serem dez buscas: nas de "licença" e "confiável", o
-resultado é de dedetizadoras e de anúncios (11 anúncios, em duas das três buscas), e a consulta pública de licenças do estado aparece em segundo em "como
+12. O que elas mostram sobre a premissa 1, com o limite de serem dez buscas: nas três de "licença" e "confiável", 11 dos 28 resultados são de dedetizadoras já classificadas, 7 de domínios não lidos e 3 de
+governo, e houve 11 anúncios em duas delas; a consulta pública de licenças do estado aparece em segundo em "como
 saber se dedetizadora é licenciada"; nas três de preço, a mesma página de "tabela de preço" de uma dedetizadora está
 em primeiro. **A premissa 1 não foi testada por essas buscas, e por isso não sai confirmada**; as buscas informativas, onde há resultado que não é de dedetizadora,
 são onde um guia de praga ou a página "como conferir a licença" disputaria lugar (nota acrescentada às 23:44 de
