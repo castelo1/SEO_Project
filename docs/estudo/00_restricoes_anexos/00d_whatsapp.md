@@ -86,7 +86,7 @@ Trechos que decidem:
 - *Vender/compartilhar dados obtidos pelo WhatsApp?* Na **API**: vedado na letra da cláusula 4.1(b), sem exceção por consentimento. No **app**: silente quanto a terceiros; valem a trava de finalidade da seção 3 (dados "obtained from us", exceto o conteúdo da conversa) e a exigência de consentimento para compartilhar.
 - *Agir em nome de terceiros?* Só há a figura do "Solution Provider" (opera a API em nome da empresa) e a proibição de se registrar ou se passar por outra pessoa ou entidade.
 
-**Para o gerador de leads:** o número do site ligado à API não pode, pela letra dos Meta Terms, repassar nem vender à dedetizadora o que obteve pela API (telefone, conteúdo da triagem). No app gratuito não há a mesma cláusula, mas há trava de finalidade e exigência de consentimento, e a venda de "dados obtidos de nós" aparece proibida nos termos comuns.
+**Para o gerador de leads:** o número do site ligado à API não pode, pela letra dos Meta Terms, repassar nem vender à dedetizadora o que obteve pela API (telefone, conteúdo da triagem). No app gratuito não há a mesma cláusula, mas há trava de finalidade (que não alcança o conteúdo da conversa: "other than the content of message threads") e exigência de consentimento, e a venda de "dados obtidos de nós" aparece proibida nos termos comuns, cuja aplicação à conta Business não está declarada (qualificadores acrescentados em 14/11/2026, alinhados ao arquivo principal, `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, seção (d)).
 
 ---
 

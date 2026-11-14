@@ -273,7 +273,7 @@ de dedetizadoras licenciadas; as condições saem do art. 22 da RDC 622 e dos ar
 
 **Parte não conclusiva:** (a) página genérica sem empresa nomeada — norma silente; (b) qual número vale na capital
 (CEVS ou CMVS) — anexo vigente não lido; (c) vigência da CVS 9/2000 e conteúdo da CVS 1/2024 — fonte primária não
-lida. Um desenho em que **toda** página de oferta nomeia a parceira cumpre as condições mesmo com (a)–(c) em aberto.
+lida. Um desenho em que **toda** página de oferta nomeia a parceira atende ao que as normas lidas pedem da propaganda da empresa especializada, mesmo com (a)–(c) em aberto; se isso basta para o site de terceiro, a norma é silente (redação alinhada em 14/11/2026 ao arquivo principal, `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, veredito da seção (b); antes dizia "cumpre as condições").
 
 ---
 

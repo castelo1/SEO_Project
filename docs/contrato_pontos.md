@@ -404,7 +404,7 @@ exclusividade em plataformas de entrega.
 | eLocal, critérios de ligação válida | artigo ligado a partir de P9; não aberto | Não lido | Lista de motivos da eLocal: não levantada |
 | Guia da ANPD sobre agentes de tratamento (controladoria conjunta) | citado pelo glossário [L15] | **Não lido: PDF** | Papéis na via B seguem não conclusivos |
 | Estudo do Cade sobre cláusulas de exclusividade | apareceu na busca, em PDF | **Não lido: PDF** | Seção 3.5: "não achei" |
-| Portaria CVS 9/2000 (razão social e endereço na publicidade) | fonte oficial inacessível no item 2 [R, linhas 170–174] | Não tentei de novo | Continua indício |
+| Portaria CVS 9/2000 (razão social e endereço na publicidade) | no item 2 o site do Centro de Vigilância Sanitária devolveu erro 403; a segunda passada registrou uma cópia em PDF no portal da Secretaria de Estado da Saúde, que abre mas não teve o texto extraído [R, linhas 170–174 e "O que não foi lido e por quê"] | Não tentei de novo | Continua indício, até o PDF ser lido |
 
 **Página que pediu ação:** nenhuma.
 

@@ -82,8 +82,8 @@ devolvidos 1x].
 - **Consentimento:** não existe guia nem norma da ANPD. O item "Hipótese Legal – Consentimento" está na Agenda
   Regulatória 2025–2026 como "Em andamento", com consulta "Não realizada até o momento. Ação regulatória em fase de
   elaboração interna." [2x] (AGENDA, tabela de 12/11/2026).
-- **Compartilhamento ou venda de dados a terceiros:** não há norma nem guia específico (REG e a página de guias não
-  listam nenhum). O item "Agregadores de dados pessoais" da agenda está na mesma situação do consentimento [2x].
+- **Compartilhamento ou venda de dados a terceiros:** não há norma nem guia específico **da autoridade de dados** (REG e a página de guias não
+  listam nenhum); a lei em si trata do compartilhamento entre controladores no art. 7º, § 5º (ver o arquivo principal, `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, seção (c); nota de 14/11/2026). O item "Agregadores de dados pessoais" da agenda está na mesma situação do consentimento [2x].
 - **Sinal de fiscalização (CASO, 08/06/2026):** a ANPD abriu processo sancionador por compartilhamento de dados de
   clientes entre duas empresas; "Entre as possíveis infrações [...] estão o compartilhamento excessivo de dados"
   [2x], a falta de transparência e a dificuldade de acesso ao encarregado [paráfrase]. É abertura de processo, não
