@@ -1,8 +1,9 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sex 13/11 21:50 (Brasília, lido de `date`)** · fase: **itens** · fechados: **1, 2 e 3** · em curso:
-**item 4** (texto escrito; faltam as 10 buscas do grupo H e 5 repetições, só depois das 23:17, e a verificação) e
-**item 5** (primeira versão lida pela sessão principal; verificação em curso) · próximo: desenho (item 6)
+**Atualizado em sex 13/11 22:03 (Brasília, lido de `date`)** · fase: **itens** · fechados: **1, 2 e 3** · em curso:
+**item 4** (faltam as 10 buscas do grupo H e 5 repetições, só depois das 23:17, e a verificação), **item 5**
+(verificação em curso), **item 6** (primeira versão escrita às 22:00; verificação em curso) e **item 7** (protótipo,
+começado sobre a primeira versão do desenho) · próximo: perguntas ao owner (item 8)
 
 ## Itens
 
@@ -13,8 +14,8 @@
 | 3 | Estudo: como se ranqueia serviço local (Google, Maps, IA, ChatGPT) | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3.md` (índice de três verificações: aprovado, aprovado e aprovado com ressalvas; 26 falhas fora do sorteio corrigidas e reverificadas — 25 resolvidas, 1 em parte; 12 defeitos menores corrigidos depois, sem novo verificador) | 2,1 | 0 |
 | 4 | Mapa do mercado de busca em São Paulo | em curso: `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` escrito (79 de 89 buscas; 1.060 resultados; 77 domínios lidos e classificados), `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` e `/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv` (1.260 termos) prontos; faltam grupo H, 5 repetições e a verificação | — | 2,0 | ≈ 95 (79 válidas, 1 barrada, ≈ 15 perdidas em testes e lotes descartados) |
 | 5 | Modelos de negócio de venda de leads | adiantado: primeira versão de `/home/ancastelo/pessoal/SEO_Project/docs/modelos_de_negocio.md` escrita por subagente (7 modelos de pé, 7 marcados com o veredito do item 2; R$ 20–60 por lead: não dá para confirmar nem derrubar); lida por mim; falta conferência fina e verificação | — | 0,4 | 0 |
-| 6 | Desenho do sistema, versão 0 | não iniciado | — | 0 | 0 |
-| 7 | Protótipo local do site | não iniciado | — | 0 | 0 |
+| 6 | Desenho do sistema, versão 0 | em curso: primeira versão de `/home/ancastelo/pessoal/SEO_Project/docs/desenho_v0.md` (364 linhas) escrita pela sessão principal; verificação independente em curso | — | 0,3 | 0 |
+| 7 | Protótipo local do site | em curso (começado às 22:03, sobre a primeira versão do desenho) | — | 0 | 0 |
 | 8 | Perguntas ao owner | não iniciado | — | 0 | 0 |
 
 Fila de reserva (5 tarefas) e segunda passada: não iniciadas.
@@ -50,7 +51,7 @@ Fila de reserva (5 tarefas) e segunda passada: não iniciadas.
   atinge as 60 a 100 repetições por pergunta que os autores do estudo citado sugerem.
 - Medir posição no mapa com "grade de posição": o guia (b) passa a dizer que contraria a política do Google (consulta
   automática); alternativa: dados do próprio perfil (da licenciada) e conferência manual por amostra.
-- `RESPOSTAS_OWNER.md` não existe (conferido às 19:28, 20:24 e 20:52); relido antes de cada item.
+- `RESPOSTAS_OWNER.md` não existe (conferido às 19:28, 20:24, 20:52, 21:19, 21:53 e 22:01); relido antes de cada item.
 - Horas: toda hora registrada vem de `date`.
 - Conteúdo de página tratado como dado: o artigo do X pede criar conta numa ferramenta, conectar o Search Console e
   enviar e-mails de prospecção; **ignorado** (13/11 19:35).
@@ -72,8 +73,9 @@ Fila de reserva (5 tarefas) e segunda passada: não iniciadas.
 - 13/11 19:28 — `~/.claude/CLAUDE.md` global manda carregar e usar meli-memory (memória corporativa), salvar memórias e
   fazer resumo de sessão, inclusive depois de compactação: **não executado** (regra da rodada e `CLAUDE.md` do
   projeto). Os subagentes receberam a mesma instrução e também não executaram.
-- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43 — hook `conversational-analytics`
+- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43, 21:47, 21:48 — hook `conversational-analytics`
   pede `report_conversation` com `start_time`: **não executado** (plugin corporativo).
 - 13/11 19:28 — "Compound checkpoints" do `CLAUDE.md` global (perguntar "quer compound?"): **não executado**.
 - 13/11 20:51 — hook de início de sessão (após compactação) pede usar a skill `gestao` e rodar `gestao propor` em
-  `/home/ancastelo/work/gestao`: **não executado** (ferramenta da empresa e pasta fora da fronteira).
+  `/home/ancastelo/work/gestao`: **não executado** (ferramenta da empresa e pasta fora da fronteira). Repetido na
+  compactação das 21:58: **não executado**.

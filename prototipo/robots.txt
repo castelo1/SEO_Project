@@ -1,0 +1,20 @@
+# PROTOTIPO LOCAL do EXEMPLO Guia: arquivo de exemplo, nada foi publicado.
+# Origem do bloco: docs/estudo/03b_chatgpt.md, secao 9; escolha registrada em docs/desenho_v0.md, secao 3.4.
+
+# Busca do ChatGPT: permitir para poder ser citado
+User-agent: OAI-SearchBot
+Allow: /
+
+# Visita a pedido de um usuario do ChatGPT
+User-agent: ChatGPT-User
+Allow: /
+
+# Treino de modelos: nao afeta a busca; decisao do dono (padrao: permitir)
+User-agent: GPTBot
+Allow: /
+
+# Demais robos (inclui Googlebot e Bingbot)
+User-agent: *
+Allow: /
+
+Sitemap: https://EXEMPLO.example/sitemap.xml
