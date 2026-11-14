@@ -1,10 +1,10 @@
-# Leitura — SEO para leads · 19 min · gerada em sáb 14/11 00:07
+# Leitura — SEO para leads · 19 min · gerada em sáb 14/11 00:29
 
-> Reescrita ao fechar o item 4. **Os oito itens estão fechados e verificados** (1 a 8), cada um com o arquivo do
+> Reescrita ao fechar o item 4 e a tarefa 3 da reserva. **Os oito itens estão fechados e verificados** (1 a 8), cada um com o arquivo do
 > verificador; as correções pedidas depois de cada verificação foram aplicadas e **ainda não relidas por terceiro**
-> (é o trabalho da segunda passada). Da fila de reserva: fechadas a análise de dez páginas, os pontos de contrato e a
-> planilha de medição; o plano de conteúdo foi **reprovado** na primeira verificação e está sendo refeito; a
-> ampliação da amostra de buscas não começou.
+> (é o trabalho da segunda passada). Da fila de reserva: fechadas a análise de dez páginas, o plano de conteúdo de 90
+> dias (na segunda tentativa), os pontos de contrato e a planilha de medição; a ampliação da amostra de buscas (40
+> buscas novas) está em curso.
 
 ## 1. Veredito em três linhas
 
@@ -128,7 +128,9 @@ de cada seção do arquivo).
   e descrições), os pontos de um contrato de venda de leads (`/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md`; levantamento, não
   minuta) e o modelo de planilha de medição (`/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md`). O plano de conteúdo de 90 dias
   (`/home/ancastelo/pessoal/SEO_Project/docs/plano_conteudo_90d.md`) foi **reprovado** na primeira verificação (6 afirmações mais fortes que a
-  fonte) e está sendo refeito: **não use ainda**.
+  fonte), refeito e **aprovado com ressalvas** na segunda (1 falha em 12; 24 correções aplicadas por mim, não
+  relidas). Ele **não** ordena as páginas por volume de busca (não há volume medido): a ordem é base, depois guias
+  de praga, depois páginas que dependem de licenciada; a ordem entre os guias é premissa.
 - **Achado do levantamento de contrato que toca o desenho:** o Marco Civil, art. 15, pode exigir guardar registros
   de acesso por 6 meses, o que conflita com "guardar pelo menor tempo possível"; está no desenho (seção 5.1) e na
   pergunta 8 como ponto para o advogado. Não foi levantado a fundo.

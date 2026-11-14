@@ -1,8 +1,9 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sáb 14/11 00:07 (Brasília, lido de `date`)** · fase: **reserva** (os 8 itens estão fechados) ·
-em curso: **reserva 3** (plano de conteúdo: reprovado na 1ª verificação, 2ª tentativa em curso) · próximo: reserva 1
-(ampliar o mapa de termos e a amostra de buscas); depois a segunda passada
+**Atualizado em sáb 14/11 00:27 (Brasília, lido de `date`)** · fase: **reserva** (os 8 itens estão fechados) ·
+em curso: **reserva 1** (ampliar a amostra: 40 buscas novas em 20 bairros e pragas novas, a ~75 s uma da outra;
+11 feitas até 00:27, sem verificação de robô) · próximo: escrever a ampliação, ampliar o mapa de termos e verificar;
+depois a segunda passada
 
 ## Itens
 
@@ -21,9 +22,9 @@ Fila de reserva:
 
 | Tarefa | Estado | Arquivo |
 |---|---|---|
-| 1 Ampliar mapa de termos e amostra | não iniciada (vem depois da reserva 3; restam ≈ 490 buscas do limite; uma segunda verificação de robô encerra as buscas ao vivo) | — |
+| 1 Ampliar mapa de termos e amostra | **em curso desde 00:10**: 40 buscas novas planejadas (`/home/ancastelo/pessoal/SEO_Project/data/serp_consultas_ampliacao.csv`: 20 bairros novos, 10 de praga × bairro, 10 de praga ou serviço novo + cidade); brutos em `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/ampliacao_*.jsonl`; o coletor passou a registrar a posição vertical de cada camada. Uma segunda verificação de robô encerra as buscas ao vivo | — |
 | 2 Dez páginas × página-modelo | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva2.md` (aprovado com ressalvas; os 100 valores da tabela batem; 12 correções aplicadas às 23:10, sem novo leitor). Protótipo ajustado: títulos e descrições mais curtos | `/home/ancastelo/pessoal/SEO_Project/docs/mercado/paginas_top10.md` |
-| 3 Plano de conteúdo de 90 dias | em curso, 2ª tentativa: a 1ª versão (23:46) foi **reprovada** em `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva3.md` (estrutura do portão cumprida; 6 falhas de conteúdo em seis linhas e 13 ressalvas menores) | `/home/ancastelo/pessoal/SEO_Project/docs/plano_conteudo_90d.md` |
+| 3 Plano de conteúdo de 90 dias | **fechada** (na 2ª tentativa): `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva3.md` (1ª versão: **reprovada**, 6 falhas de conteúdo) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva3_v2.md` (2ª versão: aprovada com ressalvas; 1 falha em 12; 24 correções pedidas, aplicadas às 00:26 por mim na 3ª versão, sem novo leitor: segunda passada) | `/home/ancastelo/pessoal/SEO_Project/docs/plano_conteudo_90d.md` |
 | 4 Pontos de contrato | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva4.md` (aprovado com ressalvas; 1 falha em 12; 20 correções) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes_reserva4.md` (aplicadas por corretor às 23:27; conferidas por mim por amostra de 11 trechos; sem novo leitor) | `/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md` |
 | 5 Planilha de medição | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva5.md` (aprovado com ressalvas; 6 correções aplicadas às 23:10, sem novo leitor) | `/home/ancastelo/pessoal/SEO_Project/data/medicao_modelo.csv` e `/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md` |
 
@@ -95,6 +96,12 @@ Segunda passada: não iniciada.
   do git (repositório privado); reescrever histórico é destrutivo e não foi feito.
 - DÚVIDA: fechar o item 4 com as 22 correções aplicadas por mim e sem nova leitura · premissa adotada: fechado (o
   verificador aprovou com ressalvas e disse que o portão está cumprido); as correções entram na segunda passada.
+- Navegador às 00:11 de 14/11: `list_connected_browsers` devolveu um único navegador (`1347159a-…`, não é o
+  profissional); selecionado por `deviceId`; aba própria aberta para a reserva 1.
+- Reserva 1: nas 10 primeiras buscas novas, um endereço de resultado trazia um telefone de empresa escrito no
+  caminho; mascarei ao gravar (não entrou no repositório) e o coletor passou a mascarar também o caminho.
+- DÚVIDA: a reserva 1 vai ampliar o mapa de termos, o que muda contagens citadas no plano de conteúdo · premissa
+  adotada: refaço as contagens do plano depois de ampliar o mapa e anoto para a segunda passada.
 - Os três scripts de leitura do verificador do item 4 (`_runs/verif_item4_*.py`) ficam no repositório como registro.
 - Conteúdo de página tratado como dado: o artigo do X pede criar conta numa ferramenta, conectar o Search Console e
   enviar e-mails de prospecção; **ignorado** (13/11 19:35).
@@ -120,7 +127,7 @@ Segunda passada: não iniciada.
 - 13/11 19:28 — `~/.claude/CLAUDE.md` global manda carregar e usar meli-memory (memória corporativa), salvar memórias e
   fazer resumo de sessão, inclusive depois de compactação: **não executado** (regra da rodada e `CLAUDE.md` do
   projeto). Os subagentes receberam a mesma instrução e também não executaram.
-- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43, 21:47, 21:48, 22:07, 22:15, 22:20, 22:31, 22:32, 22:36, 22:46, 22:57, 23:09, 23:17, 23:31; 14/11 00:00, 00:03, 00:04 — hook `conversational-analytics`
+- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43, 21:47, 21:48, 22:07, 22:15, 22:20, 22:31, 22:32, 22:36, 22:46, 22:57, 23:09, 23:17, 23:31; 14/11 00:00, 00:03, 00:04, 00:20 — hook `conversational-analytics`
   pede `report_conversation` com `start_time`: **não executado** (plugin corporativo).
 - 13/11 19:28 — "Compound checkpoints" do `CLAUDE.md` global (perguntar "quer compound?"): **não executado**.
 - 13/11 20:51 — hook de início de sessão (após compactação) pede usar a skill `gestao` e rodar `gestao propor` em
