@@ -217,7 +217,11 @@ região é atendida pelo guia de praga (T2), que só informa.
   identificar ninguém; e, se a hospedagem permitir, o IP dos pedidos a `/ir/` é truncado no registro bruto. O aviso
   ao lado do botão e a política de privacidade (T11) dizem o que fica registrado. **O tratamento de IP em registro de
   servidor não foi levantado no item 2** (o guia de cookies da autoridade de dados é um dos PDFs não lidos [R, "O que
-  não foi lido e por quê", linhas 488–493]); o ponto entra na lista do advogado da fase 1.
+  não foi lido e por quê", linhas 488–493]); o ponto entra na lista do advogado da fase 1. **Possível conflito,
+  achado depois** (levantamento de pontos de contrato, `/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md`, seção
+  7.1): o Marco Civil da Internet (Lei 12.965/2014, art. 15) manda certo tipo de provedor de aplicações guardar os
+  registros de acesso por 6 meses, "nos termos do regulamento" (regulamento não lido). Se o site é esse provedor, e se
+  isso impede "o menor tempo possível", é pergunta para o advogado.
 
 ### 5.2 Via B — formulário com consentimento (desenhada; entra só em fase posterior)
 
@@ -341,7 +345,7 @@ dizem "despesa", sem número.
 | Fase | O que se faz | Quem faz | O que prova | Despesa | Não passa de fase se… |
 |---|---|---|---|---|---|
 | 0 — estudo e protótipo (esta rodada) | Restrições, guias, mapa de busca, modelos, este desenho, protótipo local | sessão | Que existe um desenho dentro das regras | nenhuma | o owner recusar o desenho |
-| 1 — validar sem site | (a) owner confere a política do empregador sobre atividade paralela; (b) owner conversa com 3 a 5 licenciadas (número PREMISSA): aceitam ser nomeadas? pagariam? como? (c) **só se ao menos uma aceitar**, advogado olha os pontos não conclusivos do item 2, os textos das seções 4 e 5 o tratamento do endereço IP no registro do servidor (seção 5.1) e se a página de preços (T9) conta como propaganda; (d) owner roda o roteiro do ChatGPT e mede o volume de busca no Planejador de palavras-chave | owner | Que há ao menos **uma** licenciada disposta a ser nomeada, e que nada no jurídico nem no emprego impede | consulta jurídica, só no passo (c) | nenhuma licenciada aceitar; parecer contrário; empregador vedar |
+| 1 — validar sem site | (a) owner confere a política do empregador sobre atividade paralela; (b) owner conversa com 3 a 5 licenciadas (número PREMISSA): aceitam ser nomeadas? pagariam? como? (c) **só se ao menos uma aceitar**, advogado olha os pontos não conclusivos do item 2, os textos das seções 4 e 5 o tratamento do endereço IP no registro do servidor e por quanto tempo guardá-lo (seção 5.1) e se a página de preços (T9) conta como propaganda; (d) owner roda o roteiro do ChatGPT e mede o volume de busca no Planejador de palavras-chave | owner | Que há ao menos **uma** licenciada disposta a ser nomeada, e que nada no jurídico nem no emprego impede | consulta jurídica, só no passo (c) | nenhuma licenciada aceitar; parecer contrário; empregador vedar |
 | 2 — site mínimo no ar | De 19 a 29 páginas (seção 3.1), com 1 a 3 licenciadas nomeadas (número PREMISSA) **sem cobrança**, já com o botão da Via A e o registro de cliques; Search Console e sitemap | owner publica (comprar domínio e publicar são atos dele) | Que as páginas são indexadas, recebem impressões e visitas dos robôs de busca, e se alguém toca no botão | domínio e hospedagem | em cerca de 3 meses não houver impressão nenhuma (prazo PREMISSA: o Google não dá prazo [A, seção 9]) |
 | 3 — piloto de contatos | O botão e o registro de cliques já estão no ar desde a fase 2; aqui entra a contagem mensal com a licenciada (leads válidos, orçamentos, serviços fechados: seção 6) | owner e licenciada | Quantos cliques viram conversa, orçamento e serviço — a taxa de fechamento que hoje ninguém tem [M, seção 7] | nenhuma nova | os cliques forem poucos demais para medir, ou a licenciada não conferir |
 | 4 — cobrança | Preço por contato válido ou mensalidade por região, de preferência pré-paga; regra escrita de contato inválido; contrato | owner | Que a licenciada paga pelo que recebeu | contrato (levantamento na fila de reserva 4, descrita em `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/RODADA.md`) | ela não pagar o que o piloto mostrou valer |
@@ -408,7 +412,7 @@ posição; contato com empresa ou pessoa feito pela sessão.
 8. Liberar os robôs de treino de modelos.
 9. Guardar o registro de acesso do servidor pelo menor tempo possível e não usar o endereço IP para contar toques
    nem para identificar quem tocou (o registro bruto anota o pedido a `/ir/` com o IP; o tratamento de IP em registro
-   de servidor não foi levantado).
+   de servidor não foi levantado; o art. 15 do Marco Civil pode exigir guarda de 6 meses: seção 5.1).
 10. Que a consulta pública de licenças permita conferir, à mão, o número de cada licenciada.
 11. Que a página "quem somos" pese na citação por IA.
 12. Que fatos em texto visível e HTML sem dependência de script pesem para o ChatGPT (texto visível: uma fonte B de
@@ -427,5 +431,12 @@ Este desenho cita números do mapa de busca [S], que estava **em verificação**
 negócio [M], verificado em 13/11 (aprovado com ressalvas; 17 correções aplicadas às 22:17, ainda não reverificadas;
 as seções citadas aqui continuam dizendo o mesmo). Se a verificação de [S] mudar algum número, os trechos afetados
 são: seção 1, item 2; seção 3.1 (T8); seção 3.2; seção 4.1 (linha da consulta pública); seção 8 (último item, "68 das
-79 buscas"); seção 9; seção 10, premissa 1. As 10 buscas de confiança, preço e informação (grupo H), que testariam a
-premissa 1, não tinham sido feitas.
+79 buscas"); seção 9; seção 10, premissa 1.
+
+**Grupo H, feito depois (23:18 a 23:31 de 13/11):** as 10 buscas de confiança, preço e informação estão em [S], seção
+12 (ainda em verificação). O que elas mostram sobre a premissa 1, com o limite de serem dez buscas: nas de
+"licença" e "confiável", o resultado é de dedetizadoras e de anúncios, e a consulta pública de licenças do estado
+aparece em segundo em "como saber se dedetizadora é licenciada"; nas de preço, páginas de "tabela de preço" de
+dedetizadoras estão em primeiro. **A premissa 1 não sai confirmada**; as buscas informativas, onde há resultado que
+não é de dedetizadora, são onde um guia de praga ou a página "como conferir a licença" disputaria lugar (nota
+acrescentada às 23:44, depois das duas leituras independentes deste arquivo).

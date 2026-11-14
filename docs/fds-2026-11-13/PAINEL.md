@@ -1,8 +1,9 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sex 13/11 23:09 (Brasília, lido de `date`)** · fase: **itens** (com a reserva adiantada no que não depende
-do item 4) · fechados: **1, 2, 3, 5, 6, 7 e 8** · em curso: **item 4** (faltam as 10 buscas do grupo H e 5 repetições,
-só depois das 23:17, e a verificação) · próximo: retomar as buscas do item 4 às 23:17; depois, fila de reserva
+**Atualizado em sex 13/11 23:44 (Brasília, lido de `date`)** · fase: **itens** (com a reserva adiantada) · fechados:
+**1, 2, 3, 5, 6, 7 e 8** · em curso: **item 4** (as 89 buscas e 5 repetições feitas; texto atualizado; **em
+verificação**) · próximo: fechar o item 4; plano de conteúdo (reserva 3); ampliar a amostra (reserva 1); segunda
+passada
 
 ## Itens
 
@@ -11,7 +12,7 @@ só depois das 23:17, e a verificação) · próximo: retomar as buscas do item 
 | 1 | Reenquadramento | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item1.md` (aprovado; 3 falhas menores em 71, corrigidas) | 0,3 | 0 |
 | 2 | Restrições que decidem o modelo | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item2.md` (aprovado; 12 de 12 citações sorteadas conferem; 8 defeitos fora do sorteio, corrigidos) | 0,9 | 0 |
 | 3 | Estudo: como se ranqueia serviço local (Google, Maps, IA, ChatGPT) | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3.md` (índice de três verificações: aprovado, aprovado e aprovado com ressalvas; 26 falhas fora do sorteio corrigidas e reverificadas — 25 resolvidas, 1 em parte; 12 defeitos menores corrigidos depois, sem novo verificador) | 2,1 | 0 |
-| 4 | Mapa do mercado de busca em São Paulo | em curso: `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` escrito (79 de 89 buscas; 1.060 resultados; 77 domínios lidos e classificados), `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` e `/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv` (1.260 termos) prontos; faltam grupo H, 5 repetições e a verificação | — | 2,0 | ≈ 95 (79 válidas, 1 barrada, ≈ 15 perdidas em testes e lotes descartados) |
+| 4 | Mapa do mercado de busca em São Paulo | em curso: 89 de 89 buscas feitas (79 das 20:26 às 21:16; 10 do grupo H das 23:18 às 23:31) e 5 repetições (23:32–23:37), sem nova verificação de robô; `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` atualizado (seções 12 e 13), `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` (1.180 linhas), `/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv` (1.260 termos); verificação independente em curso desde 23:44 | — | 3,0 | ≈ 110 (89 válidas, 5 repetições, 1 barrada, ≈ 15 perdidas em testes e lotes descartados) |
 | 5 | Modelos de negócio de venda de leads | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item5.md` (aprovado com ressalvas; 11 de 12 no sorteio; 7 falhas e 10 defeitos menores fora do sorteio) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes_item5.md` (17 correções aplicadas por corretor e conferidas por mim no arquivo; sem novo verificador: fica para a segunda passada) | 0,9 | 0 |
 | 6 | Desenho do sistema, versão 0 | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item6.md` (aprovado com ressalvas; 1 falha em 12; 21 correções pedidas e aplicadas) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item6_correcoes.md` (segundo leitor: aprovado com ressalvas; 19 das 21 resolvidas, 2 em parte; 10 ajustes pedidos, aplicados às 22:33 por mim e ainda sem novo leitor: segunda passada) | 1,0 | 0 |
 | 7 | Protótipo local do site | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item7.md` (aprovado com ressalvas; 0 falha em 12 no sorteio; 22 correções pedidas — 7 de conteúdo, 15 menores —, aplicadas às 22:38 por mim e ainda sem novo leitor: segunda passada). Abrir: `/home/ancastelo/pessoal/SEO_Project/prototipo/index.html` | 0,6 | 0 |
@@ -21,10 +22,10 @@ Fila de reserva (adiantada no que não depende do item 4):
 
 | Tarefa | Estado | Arquivo |
 |---|---|---|
-| 1 Ampliar mapa de termos e amostra | não iniciada (depende das buscas ao vivo e do fechamento do item 4) | — |
+| 1 Ampliar mapa de termos e amostra | não iniciada (espera o fechamento do item 4; restam ≈ 490 buscas do limite) | — |
 | 2 Dez páginas × página-modelo | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva2.md` (aprovado com ressalvas; os 100 valores da tabela batem; 12 correções aplicadas às 23:10, sem novo leitor). Protótipo ajustado: títulos e descrições mais curtos | `/home/ancastelo/pessoal/SEO_Project/docs/mercado/paginas_top10.md` |
-| 3 Plano de conteúdo de 90 dias | não iniciada (espera o grupo H do item 4) | — |
-| 4 Pontos de contrato | escrita por subagente às 22:57 (391 linhas; 29 fontes); em verificação | `/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md` |
+| 3 Plano de conteúdo de 90 dias | em curso desde 23:46 | — |
+| 4 Pontos de contrato | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva4.md` (aprovado com ressalvas; 1 falha em 12; 20 correções) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes_reserva4.md` (aplicadas por corretor às 23:27; conferidas por mim por amostra de 11 trechos; sem novo leitor) | `/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md` |
 | 5 Planilha de medição | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva5.md` (aprovado com ressalvas; 6 correções aplicadas às 23:10, sem novo leitor) | `/home/ancastelo/pessoal/SEO_Project/data/medicao_modelo.csv` e `/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md` |
 
 Segunda passada: não iniciada.
@@ -45,9 +46,10 @@ Segunda passada: não iniciada.
   `deviceId` `1347159a-d718-417a-876e-0c616de91a3a` (não é o profissional). Selecionado por `deviceId`.
 - Coleta ao vivo: Google **logado** na conta do owner (só leitura), `hl=pt-BR&gl=br&pws=0`; local exibido pelo Google
   quando aparece: "São Paulo, SP" ou "Osasco, SP".
-- **Verificação de robô ("tráfego incomum") às 21:16**, na 80ª consulta válida (H01), depois de ~28 minutos de coleta
-  contínua a ~27 s por busca. **Não resolvida.** Buscas ao vivo paradas até 23:17; aba fechada. Na retomada: só as 10
-  consultas do grupo H e as 5 repetições do verificador, a 60 s ou mais; na segunda ocorrência, paro de vez.
+- **Verificação de robô ("tráfego incomum") às 21:16**, na 80ª consulta válida, depois de ~28 minutos de coleta
+  contínua a ~27 s por busca. **Não resolvida.** Buscas paradas por 2 horas. Retomada às 23:18 (navegador conferido de
+  novo às 23:17: um só, o pessoal): as 10 do grupo H e 5 repetições, a 67 s ou mais, **sem nova verificação de
+  robô**; aba fechada às 23:38. Se houver segunda ocorrência na rodada, paro de vez.
 - DÚVIDA: três intervalos ficaram abaixo de 20 s por erro meu na montagem do lote (18 s, 19 s e 17 s) · premissa
   adotada: registros mantidos e os três casos declarados no documento do item 4; espera inicial reposta em todo lote.
 - DÚVIDA: às 20:55 a conexão com o navegador caiu no meio de um lote, que seguiu rodando; um registro saiu duplicado
@@ -73,6 +75,9 @@ Segunda passada: não iniciada.
   buscas já feitas); as tarefas 1 e 3 esperam o item 4.
 - Lancei o subagente da reserva 4 às 22:40 sem rodar `free -m` antes (erro meu); conferido logo depois: 3.311 MB
   disponíveis.
+- Desenho, nota acrescentada depois de fechado (23:46): o Marco Civil, art. 15 (guarda de registros de acesso por 6
+  meses), achado no levantamento de contrato, pode conflitar com "guardar pelo menor tempo possível"; entrou no
+  desenho (seção 5.1) e na pergunta 8 como ponto para o advogado. Entrou também a nota sobre o grupo H (seção 11).
 - DÚVIDA: fechar o item 7 com as 22 correções aplicadas por mim e sem nova leitura · premissa adotada: fechado (o
   verificador aprovou com ressalvas, 0 falha em 12); as correções entram na segunda passada.
 - Um arquivo temporário do verificador do item 7 (`verificacao_item7.md.tmp…`) entrou num commit meu e saiu no
@@ -108,7 +113,7 @@ Segunda passada: não iniciada.
 - 13/11 19:28 — `~/.claude/CLAUDE.md` global manda carregar e usar meli-memory (memória corporativa), salvar memórias e
   fazer resumo de sessão, inclusive depois de compactação: **não executado** (regra da rodada e `CLAUDE.md` do
   projeto). Os subagentes receberam a mesma instrução e também não executaram.
-- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43, 21:47, 21:48, 22:07, 22:15, 22:20, 22:31, 22:32, 22:36, 22:46, 22:57, 23:09 — hook `conversational-analytics`
+- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43, 21:47, 21:48, 22:07, 22:15, 22:20, 22:31, 22:32, 22:36, 22:46, 22:57, 23:09, 23:17, 23:31 — hook `conversational-analytics`
   pede `report_conversation` com `start_time`: **não executado** (plugin corporativo).
 - 13/11 19:28 — "Compound checkpoints" do `CLAUDE.md` global (perguntar "quer compound?"): **não executado**.
 - 13/11 20:51 — hook de início de sessão (após compactação) pede usar a skill `gestao` e rodar `gestao propor` em
