@@ -1,7 +1,7 @@
 # Verificação — fila de reserva, tarefa 1 (ampliação do mapa de palavras-chave e da amostra de buscas)
 
 - **Quem:** verificador em contexto limpo (subagente), sem a conclusão de quem produziu.
-- **Quando:** sábado, 14/11/2026, das 01:21 à 01:33 (Brasília, lido de `TZ=America/Sao_Paulo date`).
+- **Quando:** sábado, 14/11/2026, das 01:21 à 01:36 (Brasília, lido de `TZ=America/Sao_Paulo date`).
 - **Portão (transcrito de `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/RODADA.md`, linha 70):** "Ampliar o
   mapa de palavras-chave e a amostra de buscas para mais bairros e pragas, dentro do limite de buscas."
 - **Como:** só leitura. Não usei navegador nem busca ao vivo; não rodei os scripts do projeto. Recalculei tudo a

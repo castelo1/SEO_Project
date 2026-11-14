@@ -3,7 +3,7 @@
 - **Quem:** revisor em contexto limpo, sem a conclusão de ninguém. Não abri nenhum arquivo `verificacao*` nem
   `correcoes*` de `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/` e ignorei o que os próprios guias
   dizem sobre verificações e correções anteriores.
-- **Quando:** sábado, 14/11/2026, das 01:22 às 01:33 (Brasília, saída de `TZ=America/Sao_Paulo date`). Toda "data de
+- **Quando:** sábado, 14/11/2026, das 01:22 às 01:37 (Brasília, saída de `TZ=America/Sao_Paulo date`). Toda "data de
   leitura" deste relatório é 14/11/2026.
 - **Como:** só leitura de arquivo local e leitura de página pública pela ferramenta de leitura (sem navegador, sem
   busca ao vivo no Google, sem conta, sem formulário). A ferramenta responde por um modelo pequeno e corta citações em
@@ -39,13 +39,17 @@ inconsistências de classe de evidência. Nenhuma ressalva muda uma conduta reco
 
 ## O que abri (páginas, todas em 14/11/2026)
 
-Google, documentação da Busca: `https://developers.google.com/search/docs/essentials` ·
-`.../essentials/technical` · `.../essentials/spam-policies` (2 leituras) ·
+Google, documentação da Busca (`...` = `https://developers.google.com/search/docs`):
+`https://developers.google.com/search/docs/essentials` ·
+`.../essentials/technical` · `.../essentials/spam-policies` (3 leituras) ·
+`.../fundamentals/how-search-works` ·
 `.../fundamentals/creating-helpful-content` · `.../fundamentals/using-gen-ai-content` ·
 `.../fundamentals/seo-starter-guide` · `.../fundamentals/third-party-seo` · `.../fundamentals/do-i-need-seo` ·
 `.../appearance/ai-features` · `.../appearance/ranking-systems-guide` · `.../appearance/core-updates` ·
 `.../appearance/page-experience` · `.../appearance/aggregator-features` ·
-`.../appearance/structured-data/review-snippet` · `.../crawling-indexing/url-structure` ·
+`.../appearance/structured-data/review-snippet` · `.../appearance/structured-data/sd-policies` ·
+`.../crawling-indexing/url-structure` · `.../crawling-indexing/links-crawlable` ·
+`.../crawling-indexing/mobile/mobile-sites-mobile-first-indexing` ·
 `https://developers.google.com/search/updates` (2 leituras; só os primeiros 100 mil caracteres de 199 mil) ·
 `https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMi/history` ·
 `https://www.google.com/search/howsearchworks/how-search-works/ranking-results/`.
@@ -148,7 +152,10 @@ Vitals" no guia dos sistemas (linha 91); "waiting at least a full week" e "Delet
 guarantee a #1 ranking on Google." e ausência de prazo em meses (linha 386); as três regras dos trechos de avaliação
 (linhas 278–279); unidades de agregador só no Espaço Econômico Europeu (linhas 138, 283); "aggregated and anonymized
 interaction data" e o exemplo da pizza (linhas 69, 333); guia de iniciantes (linhas 74, 383); experiência na página
-(linha 260); todas as datas do registro de mudanças citadas nas linhas 126–139 que caem nos primeiros 100 mil
+(linha 260); "doesn't guarantee that it will crawl, index, or serve" e o exemplo da oficina de bicicleta (linhas 64,
+67, 334); consequências, compra, troca e link pago na política de spam (linhas 164–166, 175–177); bloco de cidades
+(linha 163); links rastreáveis e texto âncora (linhas 250–252, 293); indexação pelo celular (linha 259); diretrizes
+gerais de dados estruturados (linhas 232–234, 273–274); todas as datas do registro de mudanças citadas nas linhas 126–139 que caem nos primeiros 100 mil
 caracteres da página, inclusive a frase "will no longer appear in Google Search starting May 7, 2026"; frase da
 seção "Machine-generated traffic" (linha 367), literal; Near Media, SparkToro, First Page Sage e Backlinko (11,8
 milhões) nos números. Não confere inteiramente: linha 340 (achado 1) e "em laboratório" na linha 339 (achado 2).
@@ -202,9 +209,8 @@ Guia (b):
 
 ### 3. Consenso, disputado, não sei
 
-Guia (a): os 15 itens de consenso (linhas 444–464) são todos classe A e conferi a fonte de cada um, com exceção do
-item 10 na parte "não marque o que o leitor não vê" (`sd-policies`, não reaberta) e do item 12 na parte de indexação
-pelo celular (não reaberta). O que não fecha está fora do consenso, com o motivo (linhas 466–471): efeito do resumo
+Guia (a): os 15 itens de consenso (linhas 444–464) são todos classe A e reabri a fonte de cada um; a frase que
+sustenta cada item está na página oficial citada. O que não fecha está fora do consenso, com o motivo (linhas 466–471): efeito do resumo
 de IA no clique (uma B independente) e fatia do mapa (duas B com interesse comercial, uma antiga). O que as fontes
 disputam está na tabela de disputado (peso dos links, título, cliques, autoridade de site, dados estruturados,
 `LocalBusiness` de terceiros, poda, taxa de clique). Não achei ponto disputado posto como consenso.
@@ -366,11 +372,12 @@ Gravidade: **média** = muda como a afirmação pode ser usada no desenho; **bai
 Para a revisão valer mesmo onde não há achado: citações literais das políticas de spam, de avaliações e de
 representação da empresa; todas as datas de 2025–2026 dos painéis oficiais; todos os números dos estudos de classe B
 dos dois guias, exceto os da BrightLocal de 2018 e da Backlinko de taxa de clique (não reabertos); país e amostra de
-cada estudo reaberto; os 31 itens de consenso; as duas tabelas de disputado; os ponteiros de linha do guia (b) para o
+cada estudo reaberto; os 30 itens vigentes de consenso (15 em cada guia); as duas tabelas de disputado; os ponteiros de linha do guia (b) para o
 item 2; a ausência de promessa de posição ou de prazo; a ausência de dado pessoal.
 
-Não reabri (ficam pela palavra do guia): as páginas de dados estruturados fora da de trechos de avaliação; as três
-páginas de ajuda do Search Console; as páginas de sitemap, `robots.txt`, links rastreáveis, título e trecho; a
+Não reabri (ficam pela palavra do guia): as páginas de dados estruturados fora das de trechos de avaliação e de
+diretrizes gerais; as três páginas de ajuda do Search Console; as páginas de sitemap, `robots.txt`, canonização,
+título e trecho; a
 Wikipedia, o SparkToro e o iPullRank sobre o vazamento, e The Register; as páginas 6103862, 9455399 e 9049526 da
 ajuda do perfil; a página do selo de Local Services Ads (7549288); a Local Falcon; os testes da Sterling Sky de
 endereço oculto, página vinculada, serviços, postagens, nome e "openness".

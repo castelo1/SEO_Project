@@ -1,7 +1,10 @@
 # Ampliação da amostra de buscas — mais bairros e pragas (fila de reserva, tarefa 1)
 
-- **Estado:** escrito pela sessão principal em sábado, 14/11/2026, à 01:10 (Brasília, lido de `date`). **Não
-  verificado.** Complementa `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` (item 4, verificado) e não
+- **Estado:** escrito pela sessão principal em sábado, 14/11/2026, à 01:10 (Brasília, lido de `date`); a seção 11 é
+  da 01:18. Conferido por verificador independente
+  (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva1.md`: aprovado com ressalvas; 0 falha em 12 no sorteio;
+  21 correções pedidas, de leitura e não de conta). As 21 foram aplicadas pela sessão principal à 01:38, **sem nova
+  leitura**. Complementa `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` (item 4, verificado) e não
   muda nenhum número dele.
 - **O que é:** 40 buscas novas feitas ao vivo no Google na madrugada de sábado, 14/11/2026, das 00:12 à 01:06 — 20
   bairros que não estavam na primeira amostra, 10 combinações de praga com esses bairros e 10 pragas ou serviços novos
@@ -30,21 +33,25 @@
 1. **Os 20 bairros novos repetem o padrão dos 20 primeiros.** Nas 20 buscas "dedetizadora/dedetização + bairro"
    (grupo I), 88% dos 179 resultados orgânicos são páginas internas com o nome do local no endereço (87% no grupo D
    da amostra principal), e em 17 das 20 os três primeiros são todos desse tipo.
-2. **Poucos sites cobrem quase todos os bairros.** protecpragas.com.br aparece em 17 das 20 buscas de bairro novo,
+2. **Três sites aparecem em 13 a 17 das 20 buscas de bairro novo.** protecpragas.com.br aparece em 17 das 20 buscas de bairro novo,
    primordialdedetizacao.com.br em 14 e lunardedetizadora.com.br em 13; os dois primeiros lugares mais frequentes são
    protecpragas.com.br (8 de 20) e lunardedetizadora.com.br (7 de 20). Dos 66 domínios do grupo I, 39 já tinham
    aparecido nas buscas de bairro da amostra principal.
-3. **Praga nova com a cidade (grupo K) mostra outra página:** 72% dos 85 resultados são páginas internas de serviço,
+3. **Praga ou serviço novo com a cidade (grupo K) mostra outra página:** 72% dos 85 resultados são páginas internas de serviço,
    2% são páginas por local; governo aparece em 5 das 10 buscas e é o primeiro resultado em 3 (mosquitos, ratos,
    fumacê para condomínio); o bloco de mapa só aparece em 5 de 10.
 4. **Ordem na página (40 buscas, janela de computador com 945 pixels de altura):** o resumo de IA é a primeira
    camada em 38 das 39 buscas em que apareceu; o bloco de mapa vem antes do primeiro orgânico em 21 das 31 buscas
    com bloco; o primeiro anúncio de texto vem **depois** do primeiro orgânico em 34 das 35 buscas com anúncio. O
-   primeiro resultado orgânico fica abaixo da primeira tela em 23 das 40 buscas (17 das 20 no grupo I).
-5. **A coincidência "licença exibida × primeira posição" do item 4 não se repete com a mesma força.** Pela classe
-   dada no item 4, as 40 primeiras posições se dividem em: marca sem identificação vista, 11; empresa com número de
-   licença na página, 11; empresa identificada sem número visto, 10; governo, 3; domínio novo não lido, 3; outros, 2. Na amostra
-   principal eram 37 de 79 para os sites com número de licença.
+   primeiro resultado orgânico fica abaixo da primeira tela em 23 das 40 buscas (17 das 20 no grupo I). Uma medida
+   por busca, de quatro marcadores; variou em duas das cinco repetições (seção 11).
+5. **A coincidência "licença exibida × primeira posição" se mantém igual nas buscas de bairro e não aparece nas de
+   praga nova com a cidade.** Pela classe dada no item 4, as 40 primeiras posições se dividem em: marca sem
+   identificação vista, 11; empresa com número de licença na página, 11; empresa identificada sem número visto, 10;
+   governo, 3; domínio novo não lido, 3; outros, 2. Sites com número de licença na primeira posição: bairro, 8 de 20
+   (7 de 20 no grupo D do item 4); praga × bairro, 2 de 10 (2 de 12 no grupo E); praga ou serviço novo com a cidade,
+   1 de 10 (7 de 13 no grupo B). O total do item 4 (37 de 79) inclui grupos sem par aqui (A, C, F e G: 21 de 34) e
+   não se compara com 11 de 40.
 6. **O mesmo anunciante segue dominante:** anúncio de texto dele em 33 das 40 buscas e perfil patrocinado em 25.
 7. **46 domínios novos** (55 resultados, 16%) não tinham aparecido nas 89 buscas do item 4; **não foram lidos**. Nas
    129 buscas das duas coletas há 231 domínios distintos no orgânico e 96 perfis distintos no bloco de mapa.
@@ -60,7 +67,7 @@
 |---|---|---|
 | I | bairro novo: Brooklin, Morumbi, Saúde, Campo Belo, Interlagos, Capão Redondo (sul); Vila Prudente, São Miguel Paulista, Sapopemba, Guaianases (leste); Tucuruvi, Pirituba, Freguesia do Ó, Casa Verde, Vila Maria (norte); Vila Leopoldina, Jaguaré (oeste); Liberdade, Consolação, Aclimação (centro) | 20 |
 | J | praga × bairro novo ("desratização tucuruvi", "descupinização morumbi"…) | 10 |
-| K | praga ou serviço que não estava na primeira amostra + cidade (traças, mosquitos, marimbondos, moscas, lacraias, "controle de ratos", cupim de solo, broca de madeira, fumacê para condomínio, piolho de pombo) | 10 |
+| K | praga ou serviço que não estava na primeira amostra + cidade (traças, mosquitos, marimbondos, moscas, lacraias, "controle de ratos", cupim de solo, broca de madeira, fumacê para condomínio, piolho de pombo) — seis são pragas que não estavam na primeira coleta (traças, marimbondos, moscas, lacraias, broca de madeira, piolho de pombo) e quatro são termo ou serviço novo de praga já buscada (mosquitos, ratos, cupim de solo, fumacê) | 10 |
 | | **Total** | **40** |
 
 Os termos foram escolhidos por mim; **são plausíveis, não os mais buscados** (não há volume medido). Os bairros foram
@@ -90,11 +97,19 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
    anunciante): **a ordem e a quantidade de anúncios vistas aqui não valem para o horário comercial.**
 2. **Uma busca por termo, só a primeira página.**
 3. **A posição vertical é de uma janela de computador.** No celular a página é outra. A altura do resumo de IA não
-   foi medida (só onde começa); se estava aberto ou recolhido, não sei.
+   foi medida (só onde começa); se estava aberto ou recolhido, não sei. Cada posição foi medida uma vez, de 11 a 17
+   segundos depois da navegação, e não diz se o elemento estava visível nem o que há entre uma camada e outra. Em
+   cinco buscas repetidas, bloco e orgânico mudaram cerca de 1.100 pixels em uma e o primeiro anúncio mais de 1.000
+   em duas (seção 11): as ordens e as medianas se mantêm; os extremos e as contagens "na primeira tela" têm folga de
+   pelo menos uma busca. "Ordem na página" é a ordem de quatro marcadores, não de tudo o que a página mostra.
 4. **"Primeiro anúncio de texto" = o primeiro elemento que a página marca como anúncio de texto.** Outros formatos de
    anúncio, se houve, não foram lidos. Em 28 dos 67 anúncios o domínio não foi identificado.
 5. **Tipo de página pelo endereço**, como no item 4; a lista de locais do script ganhou os 20 bairros novos. Páginas
-   não lidas: **não afirmo que sejam "páginas de entrada"**.
+   não lidas: **não afirmo que sejam "páginas de entrada"**. A regra erra para os dois lados: uma notícia do g1
+   (J05, 6º) conta como página por local por causa de "centro", e pelo menos três caminhos cortados em 50 caracteres
+   (I05, I08, J10) contam como página de serviço e têm cara de página de local. Efeito de cerca de 1 ponto
+   percentual; nenhum entre os três primeiros. No grupo I, 147 das 157 páginas por local trazem o bairro buscado; as
+   outras 10 são de região ou têm o caminho cortado.
 6. **Classe dos domínios:** a do item 4, onde havia. Os 46 domínios novos não foram lidos nem classificados.
 7. **Consulta automática:** vale o que está no item 4, seção 2.3, item 9 — é prática que a política do Google veda; a
    decisão de manter o limite da rodada está na fila do owner.
@@ -112,7 +127,8 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
 - Sem resumo de IA: só "dedetizadora freguesia do ó". Sem bloco de mapa (9): Guaianases e Pirituba (grupo I);
   percevejo na Liberdade e escorpião em Pirituba (J); marimbondos, lacraias, broca de madeira, fumacê para condomínio
   e piolho de pombo (K).
-- As duas amostras foram feitas em horas diferentes; a diferença nos percentuais **não** mede efeito de bairro novo.
+- As duas amostras foram feitas em horas diferentes e com grupos de busca diferentes; a diferença nos percentuais
+  **não** mede efeito de bairro novo. Bairro com bairro: grupo D 16, 17, 9 e 14 de 20; grupo I 19, 18, 19 e 15 de 20.
 
 ## 4. Ordem na página (o que o item 4 não tinha)
 
@@ -138,8 +154,10 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
   orgânico fica abaixo da primeira tela em 17 de 20 (abaixo de duas telas em 4). Nas de praga nova com cidade (K), o
   orgânico vem antes do mapa em 4 das 5 buscas com bloco e começa na primeira tela em 8 de 10.
 - **O que isto responde:** a premissa do guia (a) e do desenho, de que mapa e anúncios ficam acima do orgânico, vale
-  **em parte** nesta amostra: o resumo de IA e, nas buscas de bairro, o bloco de mapa vêm antes do orgânico; os
-  anúncios de texto, nesta hora, vieram quase sempre no fim da página. *(observação de 40 buscas numa madrugada; não
+  **em parte** nesta amostra: o resumo de IA e, nas buscas de bairro, o bloco de mapa vêm antes do orgânico; o
+  primeiro anúncio de texto, nesta hora, ficou abaixo do primeiro orgânico em 34 de 35 buscas (se no fim da página,
+  não foi medido); o perfil patrocinado, que é anúncio dentro do bloco de mapa, ficou acima do primeiro orgânico em
+  18 das 25 buscas em que apareceu (14 de 15 no grupo I). *(observação de 40 buscas numa madrugada; não
   vale para o horário comercial — limite 1)*
 
 ## 5. Resultado orgânico
@@ -181,8 +199,10 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
   síndicos, uma página de consulta de empresas e sites de uma praga só (cupim, abelhas, piolho de pombo) — pelo
   endereço; não lidos.
 - **Governo:** 9 resultados em 6 buscas — escorpião em Pirituba (3º), mosquitos (1º, 5º e 6º), marimbondos (2º),
-  ratos (1º e 6º), broca de madeira (8º) e fumacê para condomínio (1º). Reforça, com mais quatro pragas, o que o item
-  4 viu nas duas buscas de escorpião. *(observação; 10 buscas não sustentam regra)*
+  ratos (1º e 6º), broca de madeira (8º) e fumacê para condomínio (1º). O item 4 já tinha visto governo em
+  desratização e em mosquito da dengue (5ª posição em cada); pragas novas com governo são duas (marimbondos e broca
+  de madeira). Aqui o governo tem de 1 a 3 resultados por busca e é o primeiro em três; nas de escorpião do item 4
+  era a maior parte da página (12 de 16). *(observação; 10 buscas não sustentam regra)*
 
 ### 5.3 Classe (a do item 4, onde havia)
 
@@ -198,21 +218,27 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
 | Rede social, diretório, não abriu | 18 | 4 | 0 |
 
 - **Leitura (observação, com os limites do item 4, seção 7.1):** nas buscas de bairro novo, as duas marcas que mais
-  ocupam o primeiro lugar são uma "marca sem identificação vista" e uma "empresa com número de licença". A fatia das
-  primeiras posições com sites que mostram número de licença cai de 47% (37 de 79, amostra principal) para 28% (11 de
-  40) — o que enfraquece ainda mais a leitura de que exibir a licença acompanhe posição. A classe "sem identificação
+  ocupam o primeiro lugar são uma "marca sem identificação vista" e uma "empresa com número de licença". Os totais
+  (37 de 79 no item 4; 11 de 40 aqui) não se comparam: os grupos são outros. Grupo a grupo: bairro 35% → 40%; praga ×
+  bairro 17% → 20%; praga com a cidade 54% → 10% (10 buscas). Continua sem prova de que exibir a licença acompanhe
+  posição. A classe "sem identificação
   vista" depende de 1 a 3 páginas lidas por ferramenta que resume: **"não visto" não prova ausência.**
-- Diretório: ohub.com.br em 5 das 20 buscas de bairro novo e em nenhuma das de praga; nenhum outro marketplace.
+- Diretório: ohub.com.br em 5 das 20 buscas de bairro novo e em nenhuma das de praga; nenhum outro marketplace; há
+  dois outros sites de lista no grupo I, não lidos: listazn.com.br (I11, 6º; já visto no item 4) e
+  encontravilamaria.com.br (I15, 9º; guia de bairro, domínio novo).
 
 ## 6. Bloco de mapa
 
-- 93 linhas, 60 perfis distintos nas 31 buscas com bloco; **32 perfis não tinham aparecido na amostra principal**.
+- 93 linhas, 60 perfis distintos (pelo nome; "Ddtizz" aparece com duas notas e dois números de avaliações — 5,0 com
+  327 e 4,9 com 632 — e pode ser dois perfis) nas 31 buscas com bloco; **32 perfis não tinham aparecido na amostra principal**.
   Mais frequentes: SJG Controle de Pragas Urbanas (9), Sanitech (5), Primordial Dedetização (4).
 - **Nas 18 buscas de bairro novo com bloco: 45 perfis distintos em 54 linhas** — só 12 deles tinham aparecido nas
   buscas de bairro da amostra principal. O bloco muda de bairro para bairro mais do que o orgânico. *(observação de
   uma só localização)*
 - Nota: mediana 5,0, mínima 4,0; 92% das 92 linhas com nota lida têm 4,8 ou mais. Avaliações por perfil (59 lidos):
-  mediana 82 (146 na amostra principal), de 1 a 867 — os perfis dos bairros novos têm menos avaliações.
+  mediana 82 nos 59 perfis das 40 buscas (146 nos 61 da amostra principal), de 1 a 867. Só bairro: 76,5 (44 perfis do
+  grupo I) contra 130 (35 perfis do grupo D). As coletas foram em horas diferentes e o bloco depende da hora (limite
+  1): é diferença observada, não característica dos bairros.
 - Nenhum diretório no bloco; perfis não foram abertos (vale o que diz o item 4, seção 5).
 
 ## 7. Anúncios
@@ -230,7 +256,8 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
   3 intenções com local, mais termos de confiança por local, de público por cidade e região e 21 informativos sem
   local.
 - **Por intenção:** contratar 892; urgência 835; preço 833; confiança 140; informativa 21. **Por tipo de local:**
-  bairro 2.289; região 315; cidade 92; sem local 25.
+  bairro 2.289; região (`tipo_local` = zona) 315; cidade 92; sem local 25. A consulta K10 ("dedetização piolho de
+  pombo são paulo") está com `praga` = pombos; piolho de pombo é outra praga — classificação discutível, mantida.
 - **Volume: "não medido" em todas as linhas.** Continua sendo uma grade de hipóteses, não uma lista do que as pessoas
   buscam. Quatro dos bairros novos têm nome que é também palavra comum (Saúde, Liberdade, Consolação, Aclimação): uma
   combinação como "dedetização saúde" pode não ser lida como bairro — a própria coleta usou "sp" em duas delas.
@@ -241,11 +268,13 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
 ## 9. O que isto diz ao projeto (inferências, marcadas)
 
 1. **A observação central do item 4 se sustenta em mais 20 bairros:** busca com bairro traz página do bairro, de
-   poucos sites que têm página para quase todo bairro. *(observação; 40 bairros num total de duas noites)*
+   poucos sites que aparecem na maioria das buscas de bairro (um em 17 de 20; dois em 14 e 13). *(observação; 40 bairros num total de duas noites)*
 2. **Para o desenho, que não faz página por bairro, a porta continua sendo outra:** nas buscas de praga com a cidade
-   (grupo K e grupo B), o orgânico é de páginas de serviço e de governo, e começa mais perto do topo. *(observação +
+   (grupo K e grupo B), o orgânico é de páginas de serviço e de governo; no grupo K — o único dos dois com
+   posição medida — começa na primeira tela em 8 de 10. *(observação +
    inferência; sem volume medido não sei se há busca que compense)*
-3. **A página de resultado, no computador, abre com o resumo de IA.** "Ser citável" pesa mais do que o item 4
+3. **Nas 40 buscas, o rótulo do resumo de IA foi o primeiro dos quatro marcadores medidos em 38 das 39 em que
+   apareceu;** se o resumo estava aberto e o que mais havia acima não foi medido. "Ser citável" pesa mais do que o item 4
    conseguia dizer; o que o resumo cita continua sem registro. *(observação de 40 buscas + inferência)*
 4. **A hipótese de que mostrar a licença é diferencial segue sem apoio na posição:** os primeiros lugares dos bairros
    novos se dividem entre sites com e sem número de licença visto. O argumento do desenho para exibir a licença é a
@@ -263,21 +292,23 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
 
 ## 11. Repetição de cinco buscas (01:12 a 01:17)
 
-Cinco das 40 buscas foram sorteadas (`shuf -n 5` sobre os 40 ids, fonte aleatória `openssl enc -aes-256-ctr` com a
-senha "repeticao-reserva1-20261114") e refeitas na mesma madrugada, no mesmo navegador, logado na mesma conta, com 73
+Cinco das 40 buscas foram sorteadas (`shuf -n 5 --random-source=<(openssl enc -aes-256-ctr -pass
+pass:"repeticao-reserva1-20261114" -nosalt </dev/zero 2>/dev/null)` sobre a coluna `id` de
+`/home/ancastelo/pessoal/SEO_Project/data/serp_consultas_ampliacao.csv`, na ordem do arquivo; com `-pbkdf2` o resultado é outro) e refeitas na mesma madrugada, no mesmo navegador, logado na mesma conta, com 73
 a 77 segundos entre uma e outra. Brutos: `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/repeticao_02.jsonl` (não entram em
 `serp_sp_ampliacao.csv`).
 
-| Busca | 1ª vez | 2ª vez | Mesmo 1º resultado? | Mesma ordem dos 9 domínios? | Perfis do bloco em comum (de 3) | Local exibido | Anúncios de texto (1ª → 2ª) | 1º orgânico (px, 1ª → 2ª) |
-|---|---|---|---|---|---|---|---|---|
-| J01 dedetização de baratas brooklin | 00:41 | 01:12 | sim | sim | 3 | nenhum nas duas | 2 → 1 | 704 → 704 |
-| I08 dedetização são miguel paulista | 00:21 | 01:14 | sim | sim | 3 | nenhum nas duas | 2 → 2 | 1.654 → 1.654 |
-| I20 dedetização aclimação | 00:39 | 01:15 | sim | sim | 3 | nenhum nas duas | 2 → 2 | 1.682 → 1.682 |
-| I04 dedetização campo belo | 00:16 | 01:16 | sim | sim | 3 | Osasco, SP nas duas | 2 → 1 | 1.490 → 1.490 |
-| I14 dedetização casa verde | 00:31 | 01:17 | sim | sim | 3 | Osasco, SP nas duas | 2 → 2 | 2.758 → 1.653 |
+| Busca | 1ª vez | 2ª vez | Mesmo 1º resultado? | Mesmos 9 endereços, na mesma ordem? | Perfis do bloco em comum (de 3) | Local exibido | Anúncios de texto (1ª → 2ª) | 1º orgânico (px, 1ª → 2ª) | 1º anúncio (px, 1ª → 2ª) |
+|---|---|---|---|---|---|---|---|---|---|
+| J01 dedetização de baratas brooklin | 00:41 | 01:12 | sim | sim | 3 | nenhum nas duas | 2 → 1 | 704 → 704 | 2.295 → 2.296 |
+| I08 dedetização são miguel paulista | 00:21 | 01:14 | sim | sim | 3 | nenhum nas duas | 2 → 2 | 1.654 → 1.654 | 3.344 → 2.308 |
+| I20 dedetização aclimação | 00:39 | 01:15 | sim | sim | 3 | nenhum nas duas | 2 → 2 | 1.682 → 1.682 | 2.336 → 2.336 |
+| I04 dedetização campo belo | 00:16 | 01:16 | sim | sim | 3 | Osasco, SP nas duas | 2 → 1 | 1.490 → 1.490 | 2.144 → 2.144 |
+| I14 dedetização casa verde | 00:31 | 01:17 | sim | sim | 3 | Osasco, SP nas duas | 2 → 2 | 2.758 → 1.653 | 4.470 → 2.307 |
 
 - **O que dá para dizer:** em até uma hora, do mesmo lugar e com a mesma conta, o orgânico e o bloco de mapa não
-  mudaram. A posição vertical mudou numa das cinco (Casa Verde: o bloco de mapa e o primeiro orgânico começaram cerca
-  de 1.100 pixels mais acima na segunda vez), o que mostra que a medida da seção 4 **varia de uma carga da página para
-  outra**; o número de anúncios variou em duas.
+  mudaram. A posição do bloco de mapa e do primeiro orgânico mudou numa das cinco (Casa Verde: 1.724 → 619 e 2.758 →
+  1.653, 1.105 pixels mais acima). A do primeiro anúncio de texto mudou em duas (São Miguel Paulista: 3.344 → 2.308;
+  Casa Verde: 4.470 → 2.307). A ordem das quatro camadas foi a mesma nas cinco. Isso mostra que as posições da seção
+  4 **variam de uma carga da página para outra**; o número de anúncios variou em duas.
 - **O que não dá para dizer:** nada sobre outro dia, outro horário, outro ponto da cidade, outra conta ou celular.
