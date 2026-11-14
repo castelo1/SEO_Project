@@ -1,4 +1,4 @@
-# Leitura — SEO para leads · 19 min · gerada em sáb 14/11 00:29
+# Leitura — SEO para leads · 19 min · gerada em sáb 14/11 00:30
 
 > Reescrita ao fechar o item 4 e a tarefa 3 da reserva. **Os oito itens estão fechados e verificados** (1 a 8), cada um com o arquivo do
 > verificador; as correções pedidas depois de cada verificação foram aplicadas e **ainda não relidas por terceiro**
