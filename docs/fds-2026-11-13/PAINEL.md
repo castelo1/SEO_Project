@@ -1,6 +1,6 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sex 13/11 22:39 (Brasília, lido de `date`)** · fase: **itens** · fechados: **1, 2, 3, 5, 6 e 7** · em
+**Atualizado em sex 13/11 22:42 (Brasília, lido de `date`)** · fase: **itens** · fechados: **1, 2, 3, 5, 6 e 7** · em
 curso: **item 4** (faltam as 10 buscas do grupo H e 5 repetições, só depois das 23:17, e a verificação) e **item 8**
 (primeira versão reprovada; segunda versão em verificação) · próximo: retomar as buscas do item 4 às 23:17; depois,
 fila de reserva
@@ -18,7 +18,10 @@ fila de reserva
 | 7 | Protótipo local do site | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item7.md` (aprovado com ressalvas; 0 falha em 12 no sorteio; 22 correções pedidas — 7 de conteúdo, 15 menores —, aplicadas às 22:38 por mim e ainda sem novo leitor: segunda passada). Abrir: `/home/ancastelo/pessoal/SEO_Project/prototipo/index.html` | 0,6 | 0 |
 | 8 | Perguntas ao owner | em curso, 2ª tentativa: a primeira versão foi **reprovada** (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item8.md`: 4 perguntas com afirmação mais forte que a fonte ou com decisões coladas); `/home/ancastelo/pessoal/SEO_Project/docs/perguntas_owner.md` reescrito às 22:34; nova verificação em curso | — | 0,3 | 0 |
 
-Fila de reserva (5 tarefas) e segunda passada: não iniciadas.
+Fila de reserva: **4** (pontos de contrato) em curso por subagente desde 22:40 → `/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md`;
+**5** (planilha de medição) escrita às 22:41, não verificada → `/home/ancastelo/pessoal/SEO_Project/data/medicao_modelo.csv` e
+`/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md`; **1, 2 e 3** dependem das buscas ao vivo e do fechamento do item 4. Segunda passada: não
+iniciada.
 
 ## Fila do owner
 
@@ -56,6 +59,11 @@ Fila de reserva (5 tarefas) e segunda passada: não iniciadas.
   corrigido na hora.
 - Desenho: a medição de posição "na tela" passa a ser só manual (pessoa digitando, sem script); o desenho diz que a
   coleta por script do item 4 não é modelo para o site.
+- DÚVIDA: a fila de reserva vem "depois dos 8 itens, na ordem", mas os itens 4 e 8 esperam janela e verificador ·
+  premissa adotada: adianto as tarefas 4 e 5 da reserva, que não dependem de item aberto nem de busca ao vivo; as
+  tarefas 1, 2 e 3 esperam o item 4.
+- Lancei o subagente da reserva 4 às 22:40 sem rodar `free -m` antes (erro meu); conferido logo depois: 3.311 MB
+  disponíveis.
 - DÚVIDA: fechar o item 7 com as 22 correções aplicadas por mim e sem nova leitura · premissa adotada: fechado (o
   verificador aprovou com ressalvas, 0 falha em 12); as correções entram na segunda passada.
 - Um arquivo temporário do verificador do item 7 (`verificacao_item7.md.tmp…`) entrou num commit meu e saiu no
