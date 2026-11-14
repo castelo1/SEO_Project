@@ -1,8 +1,8 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sex 13/11 21:08 (Brasília, lido de `date`)** · fase: **itens** · em curso: **item 3 (estudo de
+**Atualizado em sex 13/11 21:21 (Brasília, lido de `date`)** · fase: **itens** · em curso: **item 3 (estudo de
 ranqueamento)** — os dois verificadores aprovaram com correções pendentes; dois corretores aplicam as correções; depois
-conferência minha e fechamento · em paralelo: coleta de buscas ao vivo do item 4 (66 de 89 consultas feitas) · próximo:
+conferência minha e fechamento · em paralelo: item 4 — **buscas ao vivo em pausa até 23:17** (verificação de robô do Google às 21:16, 1ª ocorrência, não resolvida); 79 de 89 consultas gravadas; análise e classificação dos domínios em curso · próximo:
 fechar o item 3, terminar a coleta e escrever o item 4
 
 ## Itens
@@ -12,7 +12,7 @@ fechar o item 3, terminar a coleta e escrever o item 4
 | 1 | Reenquadramento | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item1.md` (aprovado; 3 falhas menores em 71, corrigidas) | 0,3 | 0 |
 | 2 | Restrições que decidem o modelo | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item2.md` (aprovado; 12 de 12 citações sorteadas conferem; 8 defeitos fora do sorteio, corrigidos) | 0,9 | 0 |
 | 3 | Estudo: como se ranqueia serviço local (Google, Maps, IA, ChatGPT) | em curso: cinco arquivos entregues; verificação aprovou as duas metades (12 de 12 e 11 de 12 no sorteio) e listou 26 falhas fora do sorteio, **em correção** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_guias_a_b.md` e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_guias_ia_chatgpt.md` | 1,3 | 0 |
-| 4 | Mapa do mercado de busca em São Paulo | em curso: 89 consultas definidas; 60 registros válidos gravados em `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/` (lotes 1 a 5); coleta segue | — | 1,0 | ≈ 81 (≈ 15 perdidas em testes e lotes descartados) |
+| 4 | Mapa do mercado de busca em São Paulo | em curso: 79 de 89 consultas gravadas (`/home/ancastelo/pessoal/SEO_Project/data/serp_raw/`, lotes 1 a 7); `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` montado (1.060 resultados, 157 domínios); faltam as 10 consultas do grupo H, a classificação dos domínios e o texto | — | 1,2 | ≈ 95 (79 válidas, 1 barrada, ≈ 15 perdidas em testes e lotes descartados) |
 | 5 | Modelos de negócio de venda de leads | não iniciado | — | 0 | 0 |
 | 6 | Desenho do sistema, versão 0 | não iniciado | — | 0 | 0 |
 | 7 | Protótipo local do site | não iniciado | — | 0 | 0 |
@@ -34,7 +34,10 @@ Fila de reserva (5 tarefas) e segunda passada: não iniciadas.
 - Navegador: `list_connected_browsers` (13/11 19:33, 20:04, 20:52 e 20:56) devolveu um único navegador, "Browser 1",
   `deviceId` `1347159a-d718-417a-876e-0c616de91a3a` (não é o profissional). Selecionado por `deviceId`.
 - Coleta ao vivo: Google **logado** na conta do owner (só leitura), `hl=pt-BR&gl=br&pws=0`; local exibido pelo Google
-  quando aparece: "São Paulo, SP" ou "Osasco, SP". Nenhuma verificação de robô até 21:08.
+  quando aparece: "São Paulo, SP" ou "Osasco, SP".
+- **Verificação de robô ("tráfego incomum") às 21:16**, na 80ª consulta válida (H01), depois de ~28 minutos de coleta
+  contínua a ~27 s por busca. **Não resolvida.** Buscas ao vivo paradas até 23:17; aba fechada. Na retomada: só as 10
+  consultas do grupo H e as 5 repetições do verificador, a 60 s ou mais; na segunda ocorrência, paro de vez.
 - DÚVIDA: três intervalos ficaram abaixo de 20 s por erro meu na montagem do lote (18 s, 19 s e 17 s) · premissa
   adotada: registros mantidos e os três casos declarados no documento do item 4; espera inicial reposta em todo lote.
 - DÚVIDA: às 20:55 a conexão com o navegador caiu no meio de um lote, que seguiu rodando; um registro saiu duplicado
