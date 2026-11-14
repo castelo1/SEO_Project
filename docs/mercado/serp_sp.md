@@ -14,8 +14,8 @@
   - `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv` e
     `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_dominios.md` — os 157 domínios do orgânico dos grupos A a G, por
     frequência, com a classe (empresa, diretório, rede ou satélite) de 77 deles (quais, na seção 7.1).
-  - `/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv` — 1.260 termos por praga × local × intenção, com
-    "volume: não medido" (seção 10).
+  - `/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv` — 2.721 termos por praga × local × intenção (1.260 quando o
+    item 4 foi verificado; ampliado em 14/11/2026 pela fila de reserva 1), com "volume: não medido" (seção 10).
   - Brutos e scripts: `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/` (lotes `lote_01.jsonl` a `lote_08.jsonl`,
     as repetições em `repeticao_01.jsonl`, `coletor.js`, `monta_csv.py`, `monta_registro.py`) e `/home/ancastelo/pessoal/SEO_Project/data/gera_palavras_chave.py`.
 - **Fonte de todo número deste arquivo**, salvo indicação: os arquivos acima (Brasil, cidade de São Paulo, 13/11/2026).
@@ -110,9 +110,11 @@ plausíveis, não os termos mais buscados:** não há volume medido (seção 10)
    variar.
 2. **Uma busca por termo**, salvo cinco repetidas na mesma noite (seção 13): não dá para separar o que é estável do
    que é ruído entre dias, lugares e contas.
-3. **Só a primeira página, só a busca web.** A lista completa do Maps não foi coletada (fica na fila de reserva 1).
+3. **Só a primeira página, só a busca web.** A lista completa do Maps não foi coletada (a ampliação de 14/11 também não a
+   incluiu; está em "Desdobramentos" no painel).
 4. **Ordem vertical não registrada.** O script não guardou se o bloco de mapa e os anúncios vinham acima do orgânico;
-   a premissa do guia (a) de que vêm acima **continua não conferida**.
+   a premissa do guia (a) de que vêm acima **não foi conferida nesta amostra**; a ampliação de 14/11 registrou a
+   posição vertical em 40 buscas (`/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md`, seção 4; não verificado).
 5. **"Visão geral criada por IA": só a presença.** O script detectou o rótulo na página; não registrou se o resumo
    estava aberto, o que dizia nem que fontes citava.
 6. **Títulos e caminhos cortados.** Título em até 60 caracteres nos lotes 1 e 2 e em 34 nos lotes 3 a 8 (três títulos do
@@ -286,7 +288,7 @@ frequentes no topo; "melhor" (4% e 3%) e "orçamento", menos. As diferenças sã
   nome parecido entre os 157 do orgânico. O perfil patrocinado tem o nome do anunciante da seção 6 (brasiltechs.com,
   que mostra número de licença na página).
 - **O que não foi observado:** endereço visível ou oculto, categoria, horário, data das últimas avaliações, respostas
-  do dono, site e telefone de cada perfil (exigiria abrir cada perfil; fila de reserva 1).
+  do dono, site e telefone de cada perfil (exigiria abrir cada perfil; não feito — "Desdobramentos" no painel).
 
 ## 6. Anúncios
 
@@ -438,17 +440,21 @@ lista como spam.
 
 ## 10. Mapa de palavras-chave (`/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv`)
 
-- **O que tem:** 1.260 termos. As 89 consultas da coleta (todas feitas) e 1.171 **combinações geradas**
-  por `/home/ancastelo/pessoal/SEO_Project/data/gera_palavras_chave.py`: 14 serviços (dedetização, dedetizadora e 12
-  pragas) × 26 locais (cidade, 5 regiões, 20 bairros) × 3 intenções com local (contratar, urgência "24 horas", preço),
-  mais termos de confiança por local, de público (restaurante, condomínio, apartamento, empresa, escola) por cidade e
-  região, e 21 termos informativos sem local.
+- **O que tem:** 2.721 termos desde a ampliação de 14/11/2026, 01:08 (fila de reserva 1; ver
+  `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md`, seção 8). Quando o item 4 foi verificado eram 1.260: as 89 consultas
+  da coleta e 1.171 combinações geradas (14 serviços × 26 locais × 3 intenções com local, mais confiança, público e
+  21 informativos). Hoje: as 129 consultas das duas coletas (todas feitas) e 2.592 **combinações geradas** por
+  `/home/ancastelo/pessoal/SEO_Project/data/gera_palavras_chave.py`: 18 serviços (dedetização, dedetizadora e 16 pragas) × 46 locais (cidade, 5
+  regiões, 40 bairros) × 3 intenções com local (contratar, urgência "24 horas", preço), mais termos de confiança
+  por local, de público (restaurante, condomínio, apartamento, empresa, escola) por cidade e região, e 21 termos
+  informativos sem local.
 - **Colunas:** `termo`, `praga`, `tipo_local`, `local`, `intencao`, `publico`, `volume` (sempre "não medido"),
   `origem_do_termo` (consulta da coleta ou combinação gerada), `id_na_coleta`, `situacao_na_coleta` (coletado
   ou não buscado).
-- **Por intenção:** contratar 419; urgência 371; preço 369; confiança 80; informativa 21.
+- **Por intenção:** contratar 892; urgência 835; preço 833; confiança 140; informativa 21 (no mapa de 1.260 termos
+  verificado no item 4, depois das correções: 419; 371; 369; 80; 21).
 - **O que o arquivo não é:** lista de termos que as pessoas buscam. É uma grade de hipóteses. Uma combinação gerada
-  pode não ter busca nenhuma; termos reais podem faltar (os bairros são só 20 dos distritos da cidade).
+  pode não ter busca nenhuma; termos reais podem faltar (os bairros são só 40 dos distritos da cidade).
 - **Como medir o volume depois (nenhum destes foi usado; os dois primeiros exigem a conta do owner; como cada
   ferramenta funciona não foi conferido em fonte nesta rodada):**
   1. **Planejador de palavras-chave do Google Ads** — colar a coluna `termo`, com local "São Paulo" e idioma
@@ -459,7 +465,7 @@ lista como spam.
   3. **Google Trends** (página pública): só compara termos entre si, em índice de 0 a 100, e não mostra termo de
      pouco volume. Serve para sazonalidade (por exemplo escorpião e mosquito no verão), não para volume.
   4. **Sugestões do próprio Google** (autocompletar, "As pessoas também perguntam", buscas relacionadas): mostram como
-     as pessoas escrevem; entram na fila de reserva 1, dentro do limite de buscas ao vivo.
+     as pessoas escrevem; não foram coletadas ("Desdobramentos" no painel).
 - **Coluna a acrescentar quando houver medição:** `volume_faixa`, `fonte_do_volume`, `data_da_medicao`.
 
 ## 11. O que não foi feito e o que não sei

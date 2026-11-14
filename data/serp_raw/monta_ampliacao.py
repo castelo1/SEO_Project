@@ -125,8 +125,14 @@ for g in sorted({c['grupo'] for c in consultas.values()}) + ['todos']:
     novos = [d for d in dc if d not in dom_ant]
     P('  domínios novos (não vistos nas 89 buscas do item 4):', len(novos), 'de', len(dc), '| resultados deles:', pct(sum(dc[d] for d in novos), len(org)))
     P('   ', sorted(novos))
-    cl = collections.Counter((classes[l['dominio']]['classe'] or 'não lido') if l['dominio'] in classes else ('novo (não lido)') for l in org)
-    P('  classe (a do item 4, onde havia):', cl.most_common())
+    def classe(l):  # a do item 4, onde havia; domínio novo de governo ou de rede social é classificado pelo domínio
+        if l['dominio'] in classes: return classes[l['dominio']]['classe'] or 'não lido'
+        if l['tipo_pagina'] == 'governo/universidade': return 'governo_universidade'
+        if l['tipo_pagina'] == 'rede social/fórum': return 'rede_social_forum'
+        return 'novo (não lido)'
+    P('  classe (a do item 4, onde havia):', collections.Counter(classe(l) for l in org).most_common())
+    P('  classe top3:', collections.Counter(classe(l) for l in t3).most_common())
+    P('  classe 1ª posição:', collections.Counter(classe(l) for l in org if l['posicao'] == 1).most_common())
     P('  dos 10 domínios mais frequentes da amostra principal, presentes aqui:', [(d, dc.get(d, 0)) for d, _ in dom_princ.most_common(10)])
     mp = [l for l in L if l['superficie'] == 'mapa (bloco Empresas)']
     pc = collections.Counter(l['titulo_ou_nome'] for l in mp)
