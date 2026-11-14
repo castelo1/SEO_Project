@@ -6,6 +6,10 @@
 - **O ChatGPT não está aqui:** tem guia próprio em `/home/ancastelo/pessoal/SEO_Project/docs/estudo/03b_chatgpt.md`.
 - **Leitura das fontes:** sexta, 13/11/2026, das 19:48 às 20:11 (Brasília; `TZ=America/Sao_Paulo date`). Toda "data de
   leitura" abaixo é 13/11/2026.
+- **Corrigido em:** sexta, 13/11/2026, concluída às 21:23 (Brasília; `TZ=America/Sao_Paulo date`), depois da verificação independente
+  (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_guias_ia_chatgpt.md`, 12 falhas
+  numeradas). A correção não foi verificada de novo. Fontes abertas na correção: os dois textos sobre listas
+  autopromocionais (Peec e Lily Ray, seção 5) e, de novo, o estudo da SparkToro/Gumshoe (seção 7.3).
 - **Como li:** só busca e leitura de página pública. Nenhum assistente de IA foi aberto para teste. A ferramenta de
   leitura responde por meio de um modelo pequeno; por isso, trecho entre aspas só aparece quando a página oficial foi
   aberta e o trecho foi confirmado numa segunda chamada. O que foi lido uma vez só está em paráfrase, sem aspas.
@@ -319,7 +323,7 @@ ChatGPT fica para `/home/ancastelo/pessoal/SEO_Project/docs/estudo/03b_chatgpt.m
 | 4.7 | Citação barata comprada rende como mídia grande; redes de blogs | **Contrariada por A** (spam de links; manipulação de resposta de IA). A eficácia alegada não tem estudo: D | F9, F2 |
 | 4.8 | Reddit pesa de forma diferente por motor e cai no ChatGPT; comentar nos tópicos que o modelo lê | **Parte B.** Varia por motor (Peec, B fraca, EUA). **No Brasil o Reddit é o 6º domínio citado na Visão geral (3,3% do top 100)**; YouTube e Instagram lideram (Ahrefs, B). Queda no ChatGPT: 03b. Método de comentar: D | Ahrefs 23/10/2026; Peec 31/03/2026; Pew 22/07/2025 |
 | 4.9 | Ocupar a primeira tela com vídeo, rede social e lista de terceiros, porque o domínio só leva duas posições | **Parte A, parte B, resto hipótese.** A: o sistema de diversidade de sites em geral não mostra mais de duas listagens do mesmo site (https://developers.google.com/search/docs/appearance/ranking-systems-guide, lido uma vez). B: vídeo e rede social são os domínios mais citados na Visão geral no Brasil. Que isso traga lead: sem dado | ranking systems guide; Ahrefs 23/10/2026 |
-| 4.10 | Testar à mão, deslogado, uma vez por mês, porque a API devolve fontes diferentes do aplicativo | **Teste manual: razoável.** **"Uma vez por mês", com uma execução por pergunta: não mede uma pergunta isolada** (B × 2: a resposta muda a cada execução); só serve como **amostra agregada** das 30, pela regra de medição da seção 7.3, que acrescenta repetições obrigatórias. **"Deslogado":** é só um dos perfis. **"API ≠ aplicativo":** uma B (Resoneo) apoia; os autores da SparkToro tratam como questão em aberto; não é consenso | SparkToro/Gumshoe 28/01/2026; BrightLocal 16/09/2026; Resoneo, julho–agosto de 2026 (https://think.resoneo.com/chatgpt-retrieval/; é a fonte F13 do 03b) |
+| 4.10 | Testar à mão, deslogado, uma vez por mês, porque a API devolve fontes diferentes do aplicativo | **Teste manual: razoável.** **"Uma vez por mês", com uma execução por pergunta: não mede uma pergunta isolada** (B × 2: a resposta muda a cada execução); só serve como **amostra agregada** das 30, pela regra de medição da seção 7.3, que acrescenta repetições obrigatórias. **"Deslogado":** é só um dos perfis. **"API ≠ aplicativo":** uma B (Resoneo) apoia; os autores da SparkToro tratam como questão em aberto; não é consenso | SparkToro/Gumshoe 28/01/2026; BrightLocal 16/09/2026; Resoneo, julho–agosto de 2026 (https://think.resoneo.com/chatgpt-retrieval/; classe B; quem ganha: consultoria francesa de SEO/GEO; é a fonte F13 do 03b, onde foi lida) |
 
 Resumo: o exemplo **acertou** onde repetiu a documentação do Google (4.1, 4.4, o mecanismo de 4.3). **Errou** ao
 tratar uma execução mensal como medida de cada pergunta (4.10; ela só vale como amostra agregada, seção 7.3) e ao

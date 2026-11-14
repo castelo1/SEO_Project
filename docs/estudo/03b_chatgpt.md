@@ -2,6 +2,10 @@
 
 - **Leitura das fontes:** sexta, 13/11/2026, das 19:47 às 20:16 (Brasília; `TZ=America/Sao_Paulo date`). Toda "data de leitura"
   deste arquivo é 13/11/2026.
+- **Corrigido em:** sexta, 13/11/2026, concluída às 21:23 (Brasília; `TZ=America/Sao_Paulo date`), depois da verificação independente
+  (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_guias_ia_chatgpt.md`, 12 falhas
+  numeradas). A correção não foi verificada de novo. Nenhuma fonte nova entrou neste arquivo; a frase "usually at least
+  60-100X" da SparkToro (F23) foi reaberta e confirmada na correção.
 - **Pergunta-guia:** o que acontece quando alguém escreve "preciso de uma dedetizadora confiável na Vila Mariana" no
   ChatGPT, hoje, e o que um site que **gera leads e não presta o serviço** pode fazer a respeito.
 - **Como foi lido:** só busca na web e leitura de página pública. O ChatGPT **não** foi aberto; nenhuma pergunta foi
@@ -137,7 +141,7 @@ uso do Bing em contas Enterprise/Edu (seção 3.2).
 |---|---|---|
 | Em abril de 2025, no julgamento do Google nos EUA, o chefe do ChatGPT disse (segundo a Reuters, relatada pela PYMNTS) que o Google **recusou** um pedido de parceria feito em agosto (o ano não está no trecho lido), que não havia parceria com o Google e que o ChatGPT estava a anos de atender a maioria das consultas com busca própria. A matéria dá o **Bing** como provedor de busca do ChatGPT na época; se isso foi dito no depoimento ou é atribuição do veículo, não conferi | F12 | C · **pode estar desatualizada** |
 | Em agosto de 2025, o The Information (pago; lido por relato) publicou que a OpenAI usava resultados do Google raspados pela SerpApi, para temas de atualidade (notícias, esportes). Sem comentário da OpenAI nem do Google no relato | F11 | C · **pode estar desatualizada** |
-| Em 19/12/2025 o Google processou a SerpApi; diz que ela burla proteções, raspa resultados e revende o conteúdo. O comunicado **não cita** a OpenAI | F10 | A só para o fato do processo |
+| Em 19/12/2025 o Google processou a SerpApi; diz que ela burla proteções, raspa resultados e revende o conteúdo. O comunicado **não cita** a OpenAI | F10 | A só para o fato do processo · **pode estar desatualizada** |
 | Em meados de setembro de 2025 o Google deixou de aceitar o parâmetro de 100 resultados por página. Na mesma época as citações do ChatGPT a Reddit e Wikipedia caíram (Reddit: de perto de 60% das respostas para cerca de 10%; Wikipedia: de cerca de 55% para menos de 20%; país não declarado). A própria Semrush **duvida** que o parâmetro seja a causa principal | F29 | B para a queda; C para a causa · **pode estar desatualizada** |
 
 ### 1.4 Estudos com dado, 2026

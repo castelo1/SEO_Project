@@ -55,7 +55,7 @@ correção de 13/11/2026). Onde a versão oficial em português foi lida, ela ap
 - **BrightLocal**: vende plataforma de SEO local, grade de posição, citações e gestão de reputação.
 - **Sterling Sky** (agência do Canadá): vende SEO local, auditoria e recuperação de perfil suspenso.
 - **Search Atlas**: vende plataforma de automação de SEO, inclusive ferramenta de perfil e de citações.
-- **Local Falcon**: vende a grade de posição ("rank map").
+- **Local Falcon**: vende a grade de posição ("rank map": mapa de posições).
 - **Places Scout**: ferramenta de rastreamento de posição local; forneceu os dados de estudos da Sterling Sky (o que
   vende não foi lido no site dela).
 - **rankings.io**: agência de marketing para advogados.
@@ -94,7 +94,7 @@ estudo.
    melhor num estudo dos EUA de 2023 (**pode estar desatualizada**).
    A diretriz manda informar o horário real de atendimento: "24 horas" só se for verdade.
 9. **[A + B]** Avaliações: pode-se pedir a todo cliente real, sem incentivo, sem escolher só os satisfeitos e sem
-   tentar influenciar o conteúdo. Consumidores (EUA, 2026, n = 1.002) exigem nota alta e avaliação recente. Efeito do
+   tentar influenciar o conteúdo, e sem meta nem prêmio a funcionário por avaliação. Consumidores (EUA, 2026, n = 1.002) exigem nota alta e avaliação recente. Efeito do
    **texto** da avaliação na posição: **disputado**.
 10. **[A]** Perguntas e respostas: a API foi desligada em 03/11/2025 e a seção pública está sendo trocada por respostas
     de IA; o chat próprio do perfil acabou em 31/07/2024 e hoje há link de WhatsApp ou SMS "em regiões selecionadas"
@@ -452,7 +452,7 @@ pronto para o owner**, nunca feito.
 | Prometer cobertura da cidade inteira com uma base | seção 6 | A (a distância é fator) + B (EUA, 2021, pode estar desatualizada) · que uma base não cubra São Paulo inteira é inferência, não medida aqui |
 | Avaliação comprada, incentivada, filtrada, roteirizada ou escrita por quem tem vínculo; meta ou prêmio a funcionário por avaliação | item 2 (a), `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, subseção 3, itens "Avaliações" e "Sanção ao perfil por avaliação falsa", linhas 95–100, e veredito da linha 29 do quadro; https://support.google.com/contributionpolicy/answer/7400114 | A |
 | Pôr praga, bairro, "24 horas" ou "perto de mim" no nome | https://support.google.com/business/answer/3038177 | A |
-| Pôr o telefone, o WhatsApp ou o site do intermediário no perfil; usar um WhatsApp compartilhado entre parceiras | item 2 (a), `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, subseção 2, item "Telefone e site do perfil" e "Vereditos", linhas 78–85; veredito da linha 27 do quadro; para o WhatsApp, quadro, linhas 36–37 | A |
+| Pôr o telefone, o WhatsApp ou o site do intermediário no perfil; usar um WhatsApp compartilhado entre parceiras | item 2 (a), `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, subseção 2, item "Telefone e site do perfil" e "Vereditos", linhas 78–85; veredito da linha 27 do quadro; para o WhatsApp, quadro, linhas 36–37 | A (telefone e site do intermediário: vedado) · WhatsApp compartilhado: fora do que o item 2 permite (repasse vedado na API, não conclusivo no aplicativo): não usar |
 | Criar perfil por bairro, em endereço de fachada, ou "alugado" em nome do intermediário | item 2 (a), `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, subseção "2. O que conta como endereço e atendimento", linhas 65–85, e "Não é caminho", linhas 133–134 | A |
 | Mostrar endereço onde ela não atende, ou informar horário que ela não cumpre | https://support.google.com/business/answer/3038177 | A |
 | Reter o perfil, a senha ou o acesso | item 2 (a), `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, subseção "4. Caminhos legítimos para o mapa", itens de propriedade e de devolução do controle, linhas 113–116 | A |
@@ -468,14 +468,15 @@ Fonte de todas as linhas: `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_re
 
 | Não cabe / vedado | Onde está no item 2 |
 |---|---|
-| Perfil de empresa do site de leads, em qualquer formato, inclusive com endereço oculto | linhas 50–60 e 79–82 |
-| Perfil em caixa postal, escritório virtual ou coworking sem equipe | linhas 64–68 |
-| Perfil da licenciada com o telefone, o WhatsApp ou o site do intermediário | linhas 75–77 e 114–116 |
-| Perfil "alugado": criado e mantido pelo intermediário, com a propriedade dele | linhas 110–112 e 128–129 |
-| Avaliação comprada, incentivada, selecionada ou de quem tem vínculo | linhas 92–97 |
-| Promessa de posição | linhas 121–123 |
-| **Tudo o que este guia lista como tática vale só para o perfil da licenciada**, feito por ela ou por gestor autorizado | linhas 102–135 |
-| Anúncio no mapa pelo site de leads: depende de perfil vinculado (seção 7), logo também não cabe ao site | https://support.google.com/google-ads/answer/3246303 + linhas 50–60 |
+| Perfil de empresa do site de leads, em qualquer formato, inclusive com endereço oculto | subseção "1. Gerador de leads pode ter perfil? — Vedado", linhas 53–63; "Vereditos" da subseção 2, linhas 82–85; quadro, linha 25 |
+| Perfil em caixa postal, escritório virtual ou coworking sem equipe | subseção "2. O que conta como endereço e atendimento", linhas 67–71; quadro, linha 26 |
+| Perfil da licenciada com o telefone, o WhatsApp ou o site do intermediário | subseção 2, item "Telefone e site do perfil", linhas 78–80; subseção 4, linhas 117–119; quadro, linha 27 |
+| Perfil "alugado": criado e mantido pelo intermediário, com a propriedade dele | subseção "4. Caminhos legítimos para o mapa", linhas 113–115; "Não é caminho", linhas 133–134 |
+| Avaliação comprada, incentivada, selecionada ou de quem tem vínculo (inclui meta ou prêmio a funcionário por avaliação: seção 3.1 deste guia) | subseção "3. O que acontece com perfil fora da regra", itens "Avaliações" e "Sanção", linhas 95–100; quadro, linha 29 |
+| Promessa de posição | subseção 4, "Caminhos que sobram", item 1, linhas 124–128 |
+| **Tudo o que este guia lista como tática vale só para o perfil da licenciada**, feito por ela ou por gestor autorizado | subseção "4. Caminhos legítimos para o mapa" inteira, até "O que isso corta do plano", linhas 105–140 |
+| Anúncio no mapa pelo site de leads: depende de perfil vinculado (seção 7), logo também não cabe ao site | https://support.google.com/google-ads/answer/3246303 + subseção "1. Gerador de leads pode ter perfil? — Vedado", linhas 53–63 |
+| Grade ou rastreador de posição rodado ou contratado pelo projeto (consulta automática de posição) | não é do item 2: política de spam do Google, https://developers.google.com/search/docs/essentials/spam-policies (seção 9 deste guia) |
 | Usar o formulário de denúncia contra concorrentes; criar conta em ferramenta de grade; abrir o painel de um perfil | regras da rodada (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/SISTEMA.md`, "Proibido, sem exceção") |
 
 O que sobra ao projeto no mapa: **vender gestão de perfil** a licenciadas (seção 10) e **observar** o mapa (item 4). O
@@ -490,16 +491,17 @@ origem; o autor diz que o bloco de negócio local não é caso dele).
 
 | # | Tática do artigo | Veredito | Por quê (fonte) |
 |---|---|---|---|
-| 2.12 | Negócio local: ranquear o perfil, não o site; o mapa mostra três perfis; o Google escolhe por proximidade, relevância e "autoridade" | **Fatores: confirmados por A** (o termo oficial é "destaque", não "autoridade"). **"Três perfis": não conferido** (a página oficial lida não dá número; é observação do item 4). **"Ranquear o perfil": não cabe para gerador de leads** | https://support.google.com/business/answer/7091; item 2 (a), linhas 131–135. A frase "não o site" também simplifica: o destaque conta links para o site, e o site vinculado tem de ser o da empresa |
-| 2.13 | Medir o perfil numa grade de pontos e resumir em "% de pontos no top 3" | **Permanece D** como métrica; o **método da grade** é o usado em estudos B. Só cabe no perfil da licenciada, com autorização e ferramenta paga | seção 9 |
+| 2.12 | Negócio local: ranquear o perfil, não o site; o mapa mostra três perfis; o Google escolhe por proximidade, relevância e "autoridade" | **Fatores: confirmados por A** (o termo oficial é "destaque", não "autoridade"). **"Três perfis": não conferido** (a página oficial lida não dá número; é observação do item 4). **"Ranquear o perfil": não cabe para gerador de leads** | https://support.google.com/business/answer/7091; item 2 (a), `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, "O que isso corta do plano", linhas 136–140. A página 7091 lista os três fatores sem ordená-los. A frase "não o site" também simplifica: o destaque conta links para o site, e o site vinculado tem de ser o da empresa |
+| 2.13 | Medir o perfil numa grade de pontos e resumir em "% de pontos no top 3" | **Permanece D** como métrica; o **método da grade** é o usado em estudos B, mas é consulta automática de posição, que a política de spam do Google veda (A): **contraria a política do Google; não recomendada; se o owner decidir usar, é decisão dele e fica registrada como risco.** Dentro da regra: dados de desempenho do próprio perfil (que só a licenciada vê) e conferência manual por amostra | seção 9; https://developers.google.com/search/docs/essentials/spam-policies |
 | 2.14 | Auditoria: várias categorias verdadeiras (até 10), 20 a 40 serviços, descrição completa, 20 fotos, atributos, postagem semanal; não deixar o modelo inventar categoria | **Parte confirmada, parte contrariada, números permanecem D.** "Até 10": o limite existe (1 + 9, classe A), mas a diretriz manda usar **o mínimo** — encher as vagas contraria a fonte. "20 a 40 serviços" e "20 fotos": **sem fonte A ou B**. Descrição: limite de 750 caracteres (A); efeito na posição, só opinião (171º). Atributos: confirmados por A. Postagem semanal: **contrariada como tática de posição** (B fraco: sem efeito; opinião: 148º). "Não inventar categoria": coerente com A | seção 1.2; seção 4.3 |
-| 2.15 | Pedir ao cliente que mencione o serviço feito no texto da avaliação | **Contrariada pela política (A), na minha leitura, e disputada no efeito.** O Google permite pedir avaliação sem "attempting to influence the rating or the contents of the review"; pedir que o texto cite o serviço é tentar influenciar o conteúdo. Efeito na posição: um teste diz que não (C/D), um modelo diz que há correlação (B fraco) | https://support.google.com/contributionpolicy/answer/7400114; seção 3.3. **Não adotar.** Pedir "conte como foi" é permitido |
+| 2.15 | Pedir ao cliente que mencione o serviço feito no texto da avaliação | **Contrariada pela política (A), na minha leitura, e disputada no efeito.** O Google permite pedir avaliação sem "attempting to influence the rating or the contents of the review" (tentar influenciar a nota ou o conteúdo da avaliação); pedir que o texto cite o serviço é tentar influenciar o conteúdo. Efeito na posição: um teste diz que não (D), um modelo diz que há correlação (B fraco) | https://support.google.com/contributionpolicy/answer/7400114; seção 3.3. **Não adotar.** Pedir "conte como foi" é permitido |
 | 2.16 | Página de destino do perfil: título e H1 com categoria + cidade, mapa incorporado, categorias secundárias como H2, avaliações, endereço e telefone idênticos | **Permanece D, com um ponto confirmado por A:** nome consistente entre perfil e site e site da própria empresa. Telefone e endereço idênticos: só opinião (15º). Mapa incorporado e categorias como H2: **nenhuma fonte A ou B**. Vale para o site **da licenciada**, não para o do projeto | seção 5 |
 | 2.17 | "Núcleo de 30": o site espelha o perfil, uma página por categoria e por serviço | **Permanece D** (o número é regra de bolso). Para o mapa não há fonte A ou B. Como estrutura de site, é assunto do guia (a) | seção 4.1 (opinião: página dedicada por serviço é o 1º fator do **orgânico** local) |
 | 2.18 | Páginas de bairro escritas sobre o lugar; trocar só o nome é página de entrada | **Não é tática de mapa:** página de bairro não substitui base no bairro (distância é classe A; "endereço físico na cidade da busca" é o 4º na opinião). A conferência da política de páginas de entrada é do guia (a); **aqui não conferida** | seção 6 |
 
 **Resumo:** o artigo acertou os três fatores e a existência dos campos; errou ao tratar o perfil como algo que "se
-ranqueia" preenchendo campos (o fator que mais pesa, a distância, não se edita); não provou nenhum dos números (10
+ranqueia" preenchendo campos (a distância, um dos três fatores, não se edita; qual dos três pesa mais o Google não
+diz, e é ponto disputado); não provou nenhum dos números (10
 categorias como meta, 20–40 serviços, 20 fotos, postagem semanal, top 3); e propôs uma prática de avaliação (2.15) que
 esbarra na política. Para um gerador de leads, o bloco inteiro só existe como serviço prestado à licenciada.
 
@@ -509,7 +511,9 @@ esbarra na política. Para um gerador de leads, o bloco inteiro só existe como 
 
 Só classe A, ou duas fontes B independentes.
 
-1. Os fatores do resultado local são relevância, distância e destaque. (A — 7091)
+1. Os fatores do resultado local são relevância, distância e destaque; a frase-resumo da página usa "popularity"
+   (popularidade) e o título da seção do terceiro fator usa "Prominence" (destaque). O Google os lista **sem ordená-los
+   nem dar peso**. (A — 7091)
 2. Mais avaliações e notas positivas ajudam a posição; o destaque considera também quantos sites apontam para a
    empresa. (A — 7091)
 3. Não se paga nem se pede posição; terceiro não pode prometê-la. (A — 7091 e 7163406)
@@ -521,22 +525,32 @@ Só classe A, ou duas fontes B independentes.
 7. A ajuda do Google **não** diz que a área de cobertura muda a posição. (A, por ausência — 9157481)
 8. Pode-se pedir avaliação de experiência real, sem incentivo, sem seleção e sem influenciar nota ou conteúdo;
    responder exige perfil verificado. (A — 7400114, 3474050)
-9. A distância pesa muito e a posição cai depressa ao se afastar da base. (A para o fator; B + B fraco para o tamanho:
-   rankings.io 2021, EUA; Search Atlas 2025 — os dois de fora do Brasil)
+9. *(Retirado do consenso na correção de 13/11/2026.)* O texto anterior, "a distância pesa muito e a posição cai
+   depressa ao se afastar da base", não tinha classe A nem duas fontes B independentes: a ajuda do Google lista os três
+   fatores sem ordená-los; só um estudo B mede a queda (rankings.io, EUA, 2021, pode estar desatualizada) e o outro é
+   "B fraco", só indício (Search Atlas, 2025). Que a distância é um dos três fatores já está no item 1. O resto foi
+   para "O que é disputado" (primeira linha) e para "O que não sei" (itens 2 e 3).
 10. Descrição: até 750 caracteres, sem link. Postagem: arquivada depois de 6 meses. (A)
 11. A API de perguntas e respostas acabou em 03/11/2025; o chat do perfil acabou em 31/07/2024 e foi trocado por link
     de WhatsApp ou SMS em regiões selecionadas. (A)
-12. Anúncios locais aparecem no Maps e dentro dos módulos orgânicos da busca, marcados "Sponsored"; dependem de perfil
+12. Anúncios locais aparecem no Maps e dentro dos módulos orgânicos da busca, marcados "Sponsored" (Patrocinado); dependem de perfil
     vinculado. (A — 3246303)
 13. A lista oficial de países com termos de Local Services Ads não inclui o Brasil. (A, por ausência — 7501778)
 14. Dados de desempenho só para perfil verificado e para quem o administra; o painel não informa posição. (A — 9918094)
-15. Em 2025 o Google removeu mais de 13 milhões de perfis falsos e 292 milhões de avaliações no mundo. (A — blog de
-    16/04/2026; diz o que foi pego, não o que restou)
+15. Em 2025 o Google removeu mais de 13 milhões de perfis falsos e bloqueou ou removeu mais de 292 milhões de
+    avaliações; abrangência (país) não informada pela fonte. (A — blog de 16/04/2026; diz o que foi pego, não o que
+    restou)
+16. A política de spam do Google lista o envio de consultas automáticas, inclusive para checar posição, entre as
+    práticas vedadas; por isso grade ou rastreador de posição entra neste guia como "contraria a política do Google;
+    não recomendada". (A — https://developers.google.com/search/docs/essentials/spam-policies; que a regra alcance a
+    consulta feita dentro do Maps é leitura minha. Acrescentado na correção de 13/11/2026, para os dois guias dizerem
+    o mesmo)
 
 ## O que é disputado
 
 | Ponto | Um lado | Outro lado | O que fazer enquanto isso |
 |---|---|---|---|
+| Qual dos três fatores pesa mais, e quanto a posição cai com a distância | A distância é o que mais pesa e a queda é rápida: modelo da Search Atlas (2025, "B fraco", país não informado; a própria grade infla a distância); queda média de cerca de 8 posições na primeira milha (https://rankings.io/proximity-data-study, EUA, 2021, advogados, uma busca, B, pode estar desatualizada) | O Google lista relevância, distância e destaque **sem ordená-los** (A — 7091); a opinião de praticantes põe a categoria em 1º e a proximidade em 2º (Whitespark, D); o estudo da rankings.io mede a queda, não compara fatores. Não há duas fontes B independentes: **não sei** | Tratar a distância como um dos três fatores, que o gestor não controla; não prometer alcance; não afirmar "é o que mais pesa" |
 | Palavra-chave no nome ranqueia? | Sim, e muito: opinião de praticantes (3º de 187, https://whitespark.ca/local-search-ranking-factors/); agência afirma ganho imediato, sem dado (https://www.sterlingsky.ca/google-business-name-ranking/) | Dado de 2022 (EUA): nomes com palavra-chave **caíram** depois de uma atualização (https://www.brightlocal.com/research/vicinity-gbp-spam-impact/); modelo de 2025: contribuição pequena (Search Atlas) | Nada: a política manda usar o nome real |
 | Endereço oculto prejudica a posição? | Sim: correlação negativa em 8.186 empresas e um caso (https://www.sterlingsky.ca/what-gets-you-ranking-for-near-me-2025/; https://www.sterlingsky.ca/hiding-address-google-business-ranking/); opinião: 7º | O autor da pesquisa da Whitespark não se convence e suspeita de falha do Google | Ocultar, porque é a regra; não usar endereço de fachada |
 | O texto da avaliação (palavras do serviço) melhora a posição? | Sim: relevância das palavras = 22,8% nas posições 1–10 (Search Atlas); avaliação com texto pesa mais (Sterling Sky + Places Scout) | Não: teste com avaliações contendo a palavra-chave não moveu a posição (https://www.sterlingsky.ca/does-the-text-of-a-google-review-affect-map-pack-rankings/) | Não roteirizar avaliação (política); pedir relato livre |
@@ -569,6 +583,10 @@ Só classe A, ou duas fontes B independentes.
 14. Se aplicar o **art. 22 da RDC 622** ao texto do perfil é exigível (leitura minha; é de advogado).
 15. O **período máximo** dos dados do painel de desempenho e se o painel separa busca de Maps (não consta do trecho lido).
 16. O que mudou nas páginas de ajuda em 2025–2026: não têm data e o arquivo histórico não abre pela ferramenta.
+17. **Qual dos três fatores pesa mais** (relevância, distância ou destaque): o Google não ordena; ver a primeira linha
+    de "O que é disputado".
+18. **Como cada ferramenta de grade ou rastreador de posição obtém o dado** e se alguma tem permissão expressa do
+    Google para consultas automáticas: não li em fonte que eu tenha aberto.
 
 ---
 
@@ -578,7 +596,7 @@ Só classe A, ou duas fontes B independentes.
 |---|---|---|
 | https://support.google.com/localservices/answer/6224841 (introdução aos Local Services Ads, com seletor de país) | tempo esgotado em duas tentativas | Lista de países conferida só pela página de termos (7501778) |
 | https://ads.google.com/localservices/signup/eligibility | abriu, mas sem seletor nem lista de países no texto entregue | Idem |
-| Publicação da conta de relações com a busca do Google no X (15/12/2023) sobre "openness" | X não abre pela ferramenta; navegador vetado a subagente | Confirmação do Google registrada como "lida de segunda mão" (Sterling Sky e BrightLocal) |
+| Publicação da conta de relações com a busca do Google no X (15/12/2023) sobre "openness" (estar aberto na hora da busca) | X não abre pela ferramenta; navegador vetado a subagente | Confirmação do Google registrada como "lida de segunda mão" (Sterling Sky e BrightLocal) |
 | Relatório completo "Decisão Local 2025" (Harmo / Reclame Aqui) | atrás de formulário; não preenchi | Dado brasileiro fica classe D, método não exposto |
 | https://whitespark.ca/local-search-ranking-factors/ — texto além dos primeiros 100 mil caracteres e os gráficos de peso por grupo | página de 372 mil caracteres; pesos só em imagem | Não cito percentuais por grupo; lista de fatores negativos incompleta |
 | https://support.google.com/business/answer/7091 — reprodução integral | a ferramenta recusou copiar a página inteira; respondeu a perguntas por trecho | Trechos conferidos em três leituras |

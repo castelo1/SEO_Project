@@ -1,6 +1,11 @@
 # Roteiro de teste no ChatGPT — 30 perguntas de dedetização em São Paulo (para o dono rodar na conta dele)
 
 - **Escrito em:** sexta, 13/11/2026, 20:18 (Brasília; `TZ=America/Sao_Paulo date`). Fontes lidas em 13/11/2026, entre 19:47 e 20:16.
+- **Corrigido em:** sexta, 13/11/2026, concluída às 21:23 (Brasília; `TZ=America/Sao_Paulo date`), depois da verificação independente
+  (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_guias_ia_chatgpt.md`, 12 falhas
+  numeradas). A correção não foi verificada de novo. Mudou: 5 perguntas de comerciante trocadas por perguntas de
+  morador e de síndico (as originais foram para o apêndice), urgência redistribuída, coluna `rede`, repetições
+  obrigatórias.
 - **Por que existe:** a sessão não abre o ChatGPT nem digita em página. Não há estudo com dado sobre quais fontes o
   ChatGPT cita para serviço local **no Brasil** (seção 5.4 de
   `/home/ancastelo/pessoal/SEO_Project/docs/estudo/03b_chatgpt.md`). Este roteiro produz esse dado.
@@ -43,7 +48,7 @@
 | **Modelo** | Deixar o padrão que o aplicativo oferecer; **não** escolher modo de raciocínio nem pesquisa aprofundada. Anotar o nome exibido | **Premissa, sem fonte:** o padrão é o que o morador comum usa. O modo muda a origem dos resultados (Resoneo, B) |
 | **Busca na web** | Conferir que a busca está **disponível** (não desativada nas configurações). Na primeira passada, **não** clicar no botão de buscar: deixe o ChatGPT decidir | Saber se ele busca sozinho é um dos dados. Se ele responder **sem** fonte, repita a mesma pergunta num chat novo com a busca selecionada e registre numa segunda linha, com `busca_forcada = sim` |
 | **Memória** | Fora de jogo pelo chat temporário, ou desligada; anotar em `observacoes` qual dos dois | Com a memória ligada, o ChatGPT pode usar memórias salvas ao reescrever a busca — conferido na ajuda oficial da OpenAI (https://help.openai.com/en/articles/9237897-searching-the-web-with-chatgpt, lida em 13/11/2026 pela sessão principal no navegador; o verificador independente recebeu erro 403 e não pôde reconferir). O **tamanho** do efeito: não sei. Por isso, isolar |
-| **Localização e rede** | Compartilhamento de localização do aparelho **desligado**; **sem VPN**; rede de São Paulo, a mesma em todas as execuções se possível; anotar na coluna `rede` se foi rede de casa, rede móvel ou VPN | O bairro está escrito em 28 das 30 perguntas: é ele a variável. **Sem bairro na pergunta, a cidade vem do endereço IP** (ajuda oficial da OpenAI, mesma ressalva): é o caso das perguntas **12 e 25**, que ficam sem bairro de propósito — nelas, o que diz "São Paulo" ao ChatGPT é o texto da pergunta e a rede. Com VPN ou rede de outra cidade, essas duas (e talvez as outras) mudam. Com a localização do aparelho ligada, mistura-se o bairro da pergunta com o lugar onde você está |
+| **Localização e rede** | Compartilhamento de localização do aparelho **desligado**; **sem VPN**; rede de São Paulo, a mesma em todas as execuções se possível; anotar na coluna `rede` se foi rede de casa, rede móvel ou VPN | O bairro está escrito em 28 das 30 perguntas: é ele a variável. **Sem bairro na pergunta, a cidade vem do endereço IP** (ajuda oficial da OpenAI, mesma ressalva): é o caso das perguntas **12 e 25**, que ficam sem bairro de propósito — nelas o texto só diz "São Paulo", e a localização que o ChatGPT acrescenta à busca (a cidade, pelo que a ajuda descreve) vem do endereço IP. Com VPN ou rede de outra cidade, essas duas (e talvez as outras) mudam. Com a localização do aparelho ligada, mistura-se o bairro da pergunta com o lugar onde você está |
 | **Idioma** | Aplicativo e perguntas em português do Brasil | — |
 | **Dispositivo** | O mesmo em todas as rodadas (recomendo o computador, pelo navegador: é mais fácil copiar os endereços das fontes) | Aplicativo de celular e navegador podem mostrar mapa e cartões de forma diferente: a ajuda da OpenAI só menciona mapa no iOS e no Android, sem dizer que é só lá. No computador o mapa pode não aparecer; a coluna `mostrou_mapa_ou_cartoes` registra o que vier |
 | **Instruções personalizadas** | Se houver, desligar durante o teste ou anotar | Podem alterar o tom e o conteúdo |
@@ -58,36 +63,39 @@ primeira resposta. Depois de anotar, feche o chat e abra outro.
 
 ## 2. As 30 perguntas
 
-Copie uma por vez.
+Copie uma por vez. As 30 são de **morador (de casa ou de apartamento) ou de síndico**, como pede o portão da rodada.
+As perguntas **12 e 25 não têm bairro, de propósito**: testam o pedido sem localização fina, e nelas a cidade que o
+ChatGPT usa na busca vem do endereço IP (seção 1, linha "Localização e rede"). As cinco perguntas de dono de bar,
+restaurante e lanchonete que estavam na primeira versão saíram das 30 e estão no apêndice, como extras opcionais.
 
 1. Apareceu barata na cozinha do meu apartamento na Vila Mariana. Preciso de uma dedetizadora confiável aqui no bairro. Quem você indica?
 2. Tem um rato andando no quintal da minha casa na Penha agora à noite. Qual empresa de desratização atende hoje na zona leste?
 3. Sou síndico de um prédio de 80 apartamentos em Santana e preciso contratar dedetização e desratização das áreas comuns para o mês que vem. Quais empresas devo cotar?
-4. Tenho um bar em Pinheiros e apareceu barata no salão bem na véspera do fim de semana. Quem faz dedetização de madrugada, ainda hoje?
+4. Apareceu barata na cozinha e no banheiro do meu apartamento em Pinheiros. Quero fazer uma dedetização na semana que vem. Qual empresa do bairro você indica?
 5. Achei cupim no batente da porta e no guarda-roupa do meu apartamento em Perdizes. Qual é a melhor empresa de descupinização de São Paulo para esse caso?
 6. Encontrei um escorpião no banheiro de casa, no Butantã, e tenho criança pequena. O que eu faço agora e quem eu chamo hoje?
 7. Acordei cheio de picadas e acho que é percevejo de cama. Moro num apartamento na Bela Vista. Que empresa resolve isso e quanto custa mais ou menos?
-8. Meu cachorro pegou pulga e agora a casa inteira, no Tatuapé, está infestada. Preciso de alguém que venha hoje. Quem atende?
-9. Tem formiga saindo das tomadas e do armário da cozinha no meu apartamento em Moema. Vale a pena chamar uma dedetizadora? Qual você recomenda?
+8. Meu cachorro pegou pulga e agora a casa inteira, no Tatuapé, está infestada. Quero contratar uma dedetização para esta semana. Qual empresa você indica?
+9. De ontem para hoje começou a sair muita formiga das tomadas e do armário da cozinha do meu apartamento em Moema. Tem dedetizadora que venha ainda hoje? Qual você recomenda?
 10. Os pombos tomaram conta do telhado e das sacadas do nosso condomínio na Mooca. Sou o síndico. Que empresa faz o controle de pombos ou instala tela?
 11. Está tendo muito mosquito da dengue na minha rua, no Jabaquara. Existe empresa que faz controle de mosquito em casa? Qual é confiável?
 12. Como eu sei se uma dedetizadora de São Paulo é licenciada pela vigilância sanitária? Onde eu consulto antes de contratar?
 13. Quanto custa dedetizar um apartamento de dois quartos contra baratas na Lapa? Quero uma faixa de preço e empresas para pedir orçamento.
-14. Preciso do certificado de dedetização para a fiscalização do meu restaurante na Liberdade. Quais empresas emitem o comprovante e atendem a região central?
+14. Sou síndico de um prédio residencial na Liberdade e a administradora pediu o certificado de dedetização em dia. Quais empresas emitem o comprovante e atendem a região central?
 15. Qual é a melhor dedetizadora da zona norte de São Paulo? Moro numa casa no Tucuruvi e quero fazer uma dedetização geral preventiva.
 16. Apareceram ratos na casa de máquinas e na garagem do nosso prédio, na Santa Cecília. Sou a síndica e os moradores estão cobrando. Quem faz desratização urgente em condomínio, ainda hoje?
 17. Tem cupim subindo pela parede da minha casa no Ipiranga. Quanto custa uma descupinização e quais empresas dão garantia?
 18. Achamos dois escorpiões na área de lazer do condomínio, em Itaquera, e tem criança brincando lá. Sou o síndico: o que eu faço agora e que empresa eu chamo hoje?
 19. Comprei um sofá usado e acho que veio com percevejo. Moro numa casa em Santo Amaro e quero resolver hoje, antes que espalhe. Quem atende?
-20. Tenho uma lanchonete na República e vi formigas perto da chapa e do balcão. Preciso de uma empresa que faça o controle fora do horário de funcionamento. Quem você indica?
-21. Os pombos estão sujando as mesas da calçada do meu restaurante na Vila Leopoldina. Tem empresa especializada em afastar pombos sem machucar os animais?
+20. Moro num apartamento na República e todo dia tem formiga na pia e no armário da cozinha. Trabalho fora e preciso de uma empresa que faça o controle à noite ou no fim de semana. Quem você indica?
+21. Os pombos fizeram ninho no telhado e na calha da minha casa na Vila Leopoldina. Tem empresa especializada em afastar pombos sem machucar os animais?
 22. Com o calor, aumentou muito o pernilongo no nosso condomínio no Campo Limpo. Sou síndico. Vale contratar controle de mosquitos para as áreas comuns? Quem faz?
-23. Meu gato está com pulga e o apartamento, na Casa Verde, também. A dedetização é segura para animais? Qual empresa trabalha com isso?
+23. Meu gato está com pulga e o apartamento, na Casa Verde, também: não dá para esperar. A dedetização é segura para animais? Qual empresa trabalha com isso e atende ainda hoje?
 24. Apareceu um ninho de baratas atrás da geladeira aqui em casa, em São Mateus, e não consigo dormir. Tem dedetizadora 24 horas que venha agora?
 25. Vi um anúncio de dedetização por 99 reais em São Paulo. Isso é golpe? Como eu comparo empresas sem cair em cilada?
-26. O que é melhor para acabar com ratos num sobrado na Freguesia do Ó: chamar uma dedetizadora ou resolver sozinho com ratoeira? Se for empresa, qual?
+26. Acabei de ver um rato na cozinha do meu sobrado na Freguesia do Ó. O que é melhor: chamar uma dedetizadora ainda hoje ou resolver sozinho com ratoeira? Se for empresa, qual atende hoje?
 27. Vou comprar um apartamento antigo na Consolação e a vistoria achou sinais de cupim. Que empresa faz a avaliação e o tratamento, e quanto tempo demora?
-28. O bar que eu administro na Vila Prudente recebeu uma reclamação de rato. Preciso de desratização ainda hoje, antes de abrir. Quem atende a zona leste com urgência?
+28. Vi sinais de rato na área de serviço do meu apartamento, no térreo de um prédio na Vila Prudente. Quero contratar uma desratização esta semana. Quem atende a zona leste?
 29. Compare para mim três dedetizadoras bem avaliadas que atendem Pirituba: preço, garantia e se têm licença. É para uma casa com baratas e formigas.
 30. Nosso condomínio no Bom Retiro quer fechar um contrato anual de controle de pragas. O que o contrato precisa ter e quais empresas de São Paulo atendem condomínios?
 
@@ -98,59 +106,76 @@ Copie uma por vez.
 | 1 | baratas | Vila Mariana (sul) | planejado | morador de apartamento | confiança |
 | 2 | ratos | Penha (leste) | agora/hoje | morador de casa | indicação |
 | 3 | baratas e ratos | Santana (norte) | planejado | síndico | indicação |
-| 4 | baratas | Pinheiros (oeste) | agora/hoje | dono de bar | indicação |
+| 4 | baratas | Pinheiros (oeste) | planejado | morador de apartamento | indicação |
 | 5 | cupim | Perdizes (oeste) | planejado | morador de apartamento | comparação ("a melhor") |
 | 6 | escorpião | Butantã (oeste) | agora/hoje | morador de casa | indicação |
 | 7 | percevejo | Bela Vista (centro) | planejado | morador de apartamento | preço |
-| 8 | pulgas | Tatuapé (leste) | agora/hoje | morador de casa | indicação |
-| 9 | formigas | Moema (sul) | planejado | morador de apartamento | indicação |
+| 8 | pulgas | Tatuapé (leste) | planejado | morador de casa | indicação |
+| 9 | formigas | Moema (sul) | agora/hoje | morador de apartamento | indicação |
 | 10 | pombos | Mooca (leste) | planejado | síndico | indicação |
 | 11 | mosquito | Jabaquara (sul) | planejado | morador de casa | confiança |
 | 12 | geral | São Paulo (cidade) | planejado | morador (não especificado) | confiança (licença) |
 | 13 | baratas | Lapa (oeste) | planejado | morador de apartamento | preço |
-| 14 | geral | Liberdade (centro) | planejado | dono de restaurante | confiança (comprovante) |
+| 14 | geral | Liberdade (centro) | planejado | síndico | confiança (comprovante) |
 | 15 | geral | Tucuruvi (norte) | planejado | morador de casa | comparação ("a melhor") |
 | 16 | ratos | Santa Cecília (centro) | agora/hoje | síndica | indicação |
 | 17 | cupim | Ipiranga (sul) | planejado | morador de casa | preço |
 | 18 | escorpião | Itaquera (leste) | agora/hoje | síndico | indicação |
 | 19 | percevejo | Santo Amaro (sul) | agora/hoje | morador de casa | indicação |
-| 20 | formigas | República (centro) | planejado | dono de lanchonete | indicação |
-| 21 | pombos | Vila Leopoldina (oeste) | planejado | dono de restaurante | indicação |
+| 20 | formigas | República (centro) | planejado | morador de apartamento | indicação |
+| 21 | pombos | Vila Leopoldina (oeste) | planejado | morador de casa | indicação |
 | 22 | mosquito | Campo Limpo (sul) | planejado | síndico | indicação |
-| 23 | pulgas | Casa Verde (norte) | planejado | morador de apartamento | confiança (segurança) |
+| 23 | pulgas | Casa Verde (norte) | agora/hoje | morador de apartamento | confiança (segurança) |
 | 24 | baratas | São Mateus (leste) | agora/hoje | morador de casa | indicação |
 | 25 | geral | São Paulo (cidade) | planejado | morador (não especificado) | confiança e preço |
-| 26 | ratos | Freguesia do Ó (norte) | planejado | morador de casa | comparação |
+| 26 | ratos | Freguesia do Ó (norte) | agora/hoje | morador de casa | comparação |
 | 27 | cupim | Consolação (centro) | planejado | morador de apartamento | indicação |
-| 28 | ratos | Vila Prudente (leste) | agora/hoje | dono de bar | indicação |
+| 28 | ratos | Vila Prudente (leste) | planejado | morador de apartamento | indicação |
 | 29 | baratas e formigas | Pirituba (norte) | planejado | morador de casa | comparação |
 | 30 | geral | Bom Retiro (centro) | planejado | síndico | indicação (contrato) |
 
-**Conferência da distribuição (soma 30 em cada recorte):**
+**Conferência da distribuição** (contagem refeita por script sobre a tabela acima, em 13/11/2026; **cada recorte soma
+30**):
 
-- Praga: baratas 5 (1, 4, 13, 24, 29, esta última com formigas) · baratas e ratos 1 (3) · ratos 4 · cupim 3 ·
-  escorpião 2 · percevejo 2 · pulgas 2 · formigas 2 · pombos 2 · mosquito 2 · geral 5.
-- Região: sul 6 · leste 6 · centro 6 · norte 5 · oeste 5 · cidade inteira 2.
-- Urgência: agora/hoje 9 · planejado 21.
-- Público: apartamento 7 · casa 10 · síndico 6 · restaurante, bar ou lanchonete 5 · não especificado 2.
-- Tipo: confiança 6 (1, 11, 12, 14, 23, 25) · preço 3 (7, 13, 17), mais a 25 · comparação 4 (5, 15, 26, 29).
+- Praga: baratas 4 (1, 4, 13, 24) · baratas e formigas 1 (29) · baratas e ratos 1 (3) · ratos 4 (2, 16, 26, 28) ·
+  cupim 3 (5, 17, 27) · escorpião 2 (6, 18) · percevejo 2 (7, 19) · pulgas 2 (8, 23) · formigas 2 (9, 20) · pombos 2
+  (10, 21) · mosquito 2 (11, 22) · geral 5 (12, 14, 15, 25, 30). Soma: 30.
+- Região: sul 6 (1, 9, 11, 17, 19, 22) · leste 6 (2, 8, 10, 18, 24, 28) · centro 6 (7, 14, 16, 20, 27, 30) · norte 5
+  (3, 15, 23, 26, 29) · oeste 5 (4, 5, 6, 13, 21) · cidade inteira, sem bairro 2 (12, 25). Soma: 30.
+- Urgência: agora/hoje 9 (2, 6, 9, 16, 18, 19, 23, 24, 26) · planejado 21. Soma: 30.
+- Público: morador de apartamento 10 (1, 4, 5, 7, 9, 13, 20, 23, 27, 28) · morador de casa 11 (2, 6, 8, 11, 15, 17,
+  19, 21, 24, 26, 29) · síndico ou síndica 7 (3, 10, 14, 16, 18, 22, 30) · morador, sem dizer casa ou apartamento 2
+  (12, 25). Soma: 30. Nenhuma pergunta de comerciante.
+- Tipo: indicação 17 (2, 3, 4, 6, 8, 9, 10, 16, 18, 19, 20, 21, 22, 24, 27, 28, 30) · confiança 6 (1, 11, 12, 14, 23,
+  25; a 25 também fala de preço) · comparação 4 (5, 15, 26, 29) · preço 3 (7, 13, 17). Soma: 30.
+
+**As 9 urgentes, cruzadas** (para a urgência não se confundir com a zona): por região — leste 3 (2, 18, 24) · sul 2
+(9, 19) · norte 2 (23, 26) · oeste 1 (6) · centro 1 (16); por público — casa 5 (2, 6, 19, 24, 26) · apartamento 2
+(9, 23) · síndico ou síndica 2 (16, 18).
+
+**Limite dos recortes.** Com 30 perguntas, cada recorte tem pouca coisa dentro: 2 perguntas na maioria das pragas, 5
+ou 6 por região, 9 urgentes. **Duas perguntas por praga não sustentam conclusão por praga**; o recorte por região e o
+por urgência indicam, no máximo, uma direção a conferir; e a urgência ainda pesa mais na leste (3 das 9) do que na
+oeste e no centro (1 cada). Use os recortes para levantar hipótese, não para concluir.
 
 As perguntas 6 e 18 (escorpião) pedem orientação de emergência: o registro é só do que o ChatGPT **cita**; não é
 orientação de saúde para seguir.
 
 ## 3. O que registrar por pergunta
 
-Uma linha por execução. Se a pergunta foi repetida com a busca forçada ou deslogado, é outra linha.
+Uma linha por execução. Se a pergunta foi repetida (repetições obrigatórias, busca forçada ou deslogado), é outra
+linha. São **22 colunas** (a coluna `rede` entrou depois da primeira versão, que tinha 21).
 
 | Coluna | O que escrever |
 |---|---|
 | `rodada` | ano e mês, por exemplo `2026-11` |
-| `data` · `hora` | dia e hora de Brasília em que a resposta saiu |
-| `n_pergunta` | 1 a 30 |
-| `execucao` | 1 na passada principal; 2, 3… se repetir |
+| `data` · `hora` | dia e hora de Brasília em que a resposta saiu (são duas colunas) |
+| `n_pergunta` | 1 a 30 (ou C1 a C5, se rodar as extras do apêndice) |
+| `execucao` | 1 na rodada mensal; 2 a 6 nas cinco repetições obrigatórias do subconjunto (1, 2, 12, 13, 16 e 29) |
 | `conta` | `logada-temporario`, `logada-normal` ou `deslogada` |
 | `plano` | gratuito, Go, Plus… ou `nenhum` (deslogado) |
 | `modelo_exibido` | o nome que o aplicativo mostra |
+| `rede` | `casa`, `movel` ou `vpn` — só o tipo de rede. **Não** escreva endereço IP, nome da rede, operadora nem endereço |
 | `localizacao_compartilhada` | sim ou não |
 | `busca_forcada` | sim se você selecionou a busca; não se o ChatGPT decidiu sozinho |
 | `buscou_na_web` | sim se a resposta trouxe fontes ou o aviso de busca; senão, não |
@@ -168,9 +193,9 @@ Uma linha por execução. Se a pergunta foi repetida com a busca forçada ou des
 Cabeçalho da planilha e duas linhas de **EXEMPLO fictício** (nomes e domínios inventados):
 
 ```csv
-rodada,data,hora,n_pergunta,execucao,conta,plano,modelo_exibido,localizacao_compartilhada,busca_forcada,buscou_na_web,qtd_empresas_citadas,empresas_citadas,fontes_citadas_dominios,tipos_de_fonte,mostrou_mapa_ou_cartoes,citou_licenca_ou_vigilancia,apareceu_intermediario,intermediarios_dominios,site_do_projeto_citado,observacoes
-EXEMPLO-2026-11,2026-11-14,10:05,1,1,logada-temporario,gratuito,EXEMPLO modelo padrao,nao,nao,sim,3,EXEMPLO Dedetizadora Alfa; EXEMPLO Controle de Pragas Beta; EXEMPLO Gama Saude Ambiental,exemplo-alfa.example; exemplo-guia-de-empresas.example; exemplo-mapa.example,site de empresa; diretorio; mapa,mapa e cartoes,nao,nao,,n.a.,EXEMPLO ficticio: indicou duas empresas de bairro vizinho
-EXEMPLO-2026-11,2026-11-14,10:09,12,1,logada-temporario,gratuito,EXEMPLO modelo padrao,nao,nao,nao,0,,,,nao,sim,nao,,n.a.,EXEMPLO ficticio: respondeu sem buscar e sem fonte; repetir com busca forcada em outra linha
+rodada,data,hora,n_pergunta,execucao,conta,plano,modelo_exibido,rede,localizacao_compartilhada,busca_forcada,buscou_na_web,qtd_empresas_citadas,empresas_citadas,fontes_citadas_dominios,tipos_de_fonte,mostrou_mapa_ou_cartoes,citou_licenca_ou_vigilancia,apareceu_intermediario,intermediarios_dominios,site_do_projeto_citado,observacoes
+EXEMPLO-2026-11,2026-11-14,10:05,1,1,logada-temporario,gratuito,EXEMPLO modelo padrao,casa,nao,nao,sim,3,EXEMPLO Dedetizadora Alfa; EXEMPLO Controle de Pragas Beta; EXEMPLO Gama Saude Ambiental,exemplo-alfa.example; exemplo-guia-de-empresas.example; exemplo-mapa.example,site de empresa; diretorio; mapa,mapa e cartoes,nao,nao,,n.a.,EXEMPLO ficticio: indicou duas empresas de bairro vizinho
+EXEMPLO-2026-11,2026-11-14,10:09,12,1,logada-temporario,gratuito,EXEMPLO modelo padrao,casa,nao,nao,nao,0,,,,nao,sim,nao,,n.a.,EXEMPLO ficticio: respondeu sem buscar e sem fonte; repetir com busca forcada em outra linha
 ```
 
 Onde guardar: sugiro um arquivo por rodada em
@@ -179,14 +204,39 @@ rodada).
 
 ## 4. Frequência e como comparar rodadas
 
-- **Mensal, sempre as mesmas 30 perguntas, no mesmo dispositivo e com a mesma preparação.** O sistema muda em escala de
-  semanas (em 2026, o campo que mostrava a origem dos resultados sumiu em 21/07 e as proporções entre as origens
-  mudaram em agosto — Resoneo, B); rodar mais vezes com uma execução por pergunta só acrescenta ruído.
-- **As respostas variam a cada execução. Uma rodada é uma amostra, não uma posição.** Não escreva "estamos em 2º
-  lugar". Escreva "aparecemos em 4 das 30 perguntas".
-- Opcional, para medir o ruído: na mesma sessão, repetir três vezes as perguntas 1, 3, 5, 12, 13 e 29 (chat novo a cada
-  vez; `execucao` = 2 e 3). Se a lista de empresas mudar muito entre repetições, diferença pequena entre meses não quer
-  dizer nada.
+**Regra de medição (texto igual em `/home/ancastelo/pessoal/SEO_Project/docs/estudo/03_respostas_de_ia.md`,
+`/home/ancastelo/pessoal/SEO_Project/docs/estudo/03b_chatgpt.md` e
+`/home/ancastelo/pessoal/SEO_Project/docs/estudo/03b_chatgpt_roteiro_de_teste.md`):**
+
+1. **Rodada mensal das 30 perguntas:** uma execução de cada pergunta, logado, em chat temporário, todas no mesmo dia.
+   É uma **amostra agregada**: responde "em quantas das 30 o site ou a empresa aparece". **Ela não mede uma pergunta
+   isolada.**
+2. **Obrigatório, todo mês:** um subconjunto fixo de **6 perguntas** (1, 2, 12, 13, 16 e 29) repetido **5 vezes, em
+   dias diferentes**, no mesmo perfil da rodada (30 execuções a mais por mês); e uma **subamostra deslogada** (janela
+   anônima) das mesmas 6, **uma vez**.
+3. **Limite declarado:** a SparkToro/Gumshoe dá como orientação prática repetir cada pergunta "usually at least
+   60-100X" e tirar a média
+   (https://sparktoro.com/blog/new-research-ais-are-highly-inconsistent-when-recommending-brands-or-products-marketers-should-take-care-when-tracking-ai-visibility/,
+   28/01/2026, lida em 13/11/2026). É opinião prática dos autores, não resultado medido — a mesma página lista "quantas
+   execuções bastam" como questão em aberto; a fonte é classe B de vendedor (a Gumshoe vende monitoramento de IA).
+   **Este roteiro não atinge esse número:** as 6 execuções logadas por pergunta do subconjunto (1 da rodada mais 5
+   repetições) mostram o tamanho do ruído; não estimam com precisão a frequência de uma pergunta.
+4. **"API ≠ aplicativo":** uma B (Resoneo) apoia; os autores da SparkToro tratam como questão em aberto; não é
+   consenso.
+
+Como aplicar:
+
+- **Sempre as mesmas 30 perguntas, no mesmo dispositivo, na mesma rede e com a mesma preparação.** Por que mensal: o
+  sistema muda em escala de semanas (em 2026, o campo que mostrava a origem dos resultados sumiu em 21/07 e as
+  proporções entre as origens mudaram em agosto — Resoneo, B). Rodar as 30 mais vezes no mês, com uma execução por
+  pergunta, não melhora a medida de nenhuma pergunta; o esforço extra vai para as repetições do item 2.
+- **As respostas variam a cada execução. Uma rodada é uma amostra agregada, não uma posição.** Não escreva "estamos em
+  2º lugar". Escreva "aparecemos em 4 das 30 perguntas". Não escreva "aparecemos na pergunta 7": uma execução não
+  mede uma pergunta.
+- **Repetições (item 2):** chat novo a cada vez; `execucao` de 2 a 6; dias diferentes entre si. O subconjunto (1, 2,
+  12, 13, 16 e 29) cobre as cinco regiões e a pergunta sem bairro, as duas urgências e os quatro tipos de pergunta.
+  Se a lista de empresas mudar muito entre repetições, diferença pequena entre meses não quer dizer nada.
+- **Subamostra deslogada (item 2):** as mesmas 6, uma vez, em janela anônima; `conta` = `deslogada`.
 
 O que comparar de um mês para o outro:
 
@@ -200,10 +250,12 @@ O que comparar de um mês para o outro:
 | Empresas recorrentes | para cada empresa, em quantas das 30 apareceu |
 | Intermediários | em quantas das 30 apareceu um site de comparação ou de leads, e quais |
 | Site do projeto | em quantas das 30 foi citado (quando existir) |
-| Logado × deslogado | para as dez perguntas da subamostra, quantas empresas e quantos domínios coincidem |
-| Recortes | os mesmos indicadores por praga, por região, por urgência e por público |
+| Logado × deslogado | para as seis perguntas do subconjunto, quantas empresas e quantos domínios coincidem |
+| Ruído das repetições | para cada uma das seis perguntas do subconjunto, em quantas das 6 execuções logadas cada empresa e cada domínio apareceu |
+| Recortes | os mesmos indicadores por região, por urgência e por público, **só como hipótese**; por praga não (2 perguntas por praga não sustentam conclusão — ver "Limite dos recortes", seção 2) |
 
-Regra de leitura: só tratar como mudança o que se repetir em **duas rodadas seguidas**.
+Regra de leitura — **premissa minha, sem fonte** (cautela diante da variação entre execuções): só tratar como mudança o
+que se repetir em **duas rodadas seguidas**.
 
 ## 5. Avisos
 
@@ -216,3 +268,19 @@ Regra de leitura: só tratar como mudança o que se repetir em **duas rodadas se
    copiado.** Nome de empresa e domínio podem. Não cole a resposta inteira do ChatGPT: preencha só as colunas.
 5. Se o ChatGPT pedir a sua localização ou sugerir lembrar algo, recuse e anote em `observacoes`.
 6. Se aparecer anúncio, anote "anúncio patrocinado" em `observacoes`; ele **não** conta como empresa citada.
+7. Na coluna `rede`, só o tipo (`casa`, `movel` ou `vpn`). Endereço IP, nome da rede e operadora ficam fora.
+
+## Apêndice — Perguntas extras de comerciante (fora das 30, opcionais)
+
+O portão da rodada pede 30 perguntas de **morador ou síndico**. As cinco abaixo são de dono de bar, restaurante ou
+lanchonete; estavam na primeira versão nos números 4, 14, 20, 21 e 28 e foram trocadas por perguntas de morador e de
+síndico, com a mesma praga e o mesmo bairro. **Não contam nas 30, não entram em nenhuma contagem da seção 2 nem nos
+indicadores "em quantas das 30".** Se quiser rodá-las, use a mesma preparação, registre `n_pergunta` como C1 a C5 e
+leia o resultado à parte. Valem os mesmos avisos: sem dado pessoal, sem clicar em botão de contato, sem contatar
+empresa.
+
+- **C1** (baratas · Pinheiros, oeste · agora/hoje · dono de bar · indicação): Tenho um bar em Pinheiros e apareceu barata no salão bem na véspera do fim de semana. Quem faz dedetização de madrugada, ainda hoje?
+- **C2** (geral · Liberdade, centro · planejado · dono de restaurante · confiança, comprovante): Preciso do certificado de dedetização para a fiscalização do meu restaurante na Liberdade. Quais empresas emitem o comprovante e atendem a região central?
+- **C3** (formigas · República, centro · planejado · dono de lanchonete · indicação): Tenho uma lanchonete na República e vi formigas perto da chapa e do balcão. Preciso de uma empresa que faça o controle fora do horário de funcionamento. Quem você indica?
+- **C4** (pombos · Vila Leopoldina, oeste · planejado · dono de restaurante · indicação): Os pombos estão sujando as mesas da calçada do meu restaurante na Vila Leopoldina. Tem empresa especializada em afastar pombos sem machucar os animais?
+- **C5** (ratos · Vila Prudente, leste · agora/hoje · dono de bar · indicação): O bar que eu administro na Vila Prudente recebeu uma reclamação de rato. Preciso de desratização ainda hoje, antes de abrir. Quem atende a zona leste com urgência?
