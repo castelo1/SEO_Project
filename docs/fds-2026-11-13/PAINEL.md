@@ -1,6 +1,6 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sex 13/11 22:48 (Brasília, lido de `date`)** · fase: **itens** (com a reserva adiantada no que não depende
+**Atualizado em sex 13/11 22:59 (Brasília, lido de `date`)** · fase: **itens** (com a reserva adiantada no que não depende
 do item 4) · fechados: **1, 2, 3, 5, 6, 7 e 8** · em curso: **item 4** (faltam as 10 buscas do grupo H e 5 repetições,
 só depois das 23:17, e a verificação) · próximo: retomar as buscas do item 4 às 23:17; depois, fila de reserva
 
@@ -17,10 +17,17 @@ só depois das 23:17, e a verificação) · próximo: retomar as buscas do item 
 | 7 | Protótipo local do site | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item7.md` (aprovado com ressalvas; 0 falha em 12 no sorteio; 22 correções pedidas — 7 de conteúdo, 15 menores —, aplicadas às 22:38 por mim e ainda sem novo leitor: segunda passada). Abrir: `/home/ancastelo/pessoal/SEO_Project/prototipo/index.html` | 0,6 | 0 |
 | 8 | Perguntas ao owner | **fechado** (na 2ª tentativa) | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item8.md` (1ª versão: **reprovada**) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item8_v2.md` (2ª versão: aprovada com ressalvas; 14 correções pedidas, aplicadas às 22:47 por mim na 3ª versão, ainda sem novo leitor: segunda passada). Abrir: `/home/ancastelo/pessoal/SEO_Project/docs/perguntas_owner.md` | 0,5 | 0 |
 
-Fila de reserva: **4** (pontos de contrato) em curso por subagente desde 22:40 → `/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md`;
-**5** (planilha de medição) escrita às 22:41, não verificada → `/home/ancastelo/pessoal/SEO_Project/data/medicao_modelo.csv` e
-`/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md`; **1, 2 e 3** dependem das buscas ao vivo e do fechamento do item 4. Segunda passada: não
-iniciada.
+Fila de reserva (adiantada no que não depende do item 4; nenhuma tarefa fechada ainda):
+
+| Tarefa | Estado | Arquivo |
+|---|---|---|
+| 1 Ampliar mapa de termos e amostra | não iniciada (depende das buscas ao vivo e do fechamento do item 4) | — |
+| 2 Dez páginas × página-modelo | escrita às 22:57; protótipo ajustado (títulos e descrições); em verificação | `/home/ancastelo/pessoal/SEO_Project/docs/mercado/paginas_top10.md` |
+| 3 Plano de conteúdo de 90 dias | não iniciada (espera o grupo H do item 4) | — |
+| 4 Pontos de contrato | escrita por subagente às 22:57 (391 linhas; 29 fontes); em verificação | `/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md` |
+| 5 Planilha de medição | escrita às 22:41; em verificação | `/home/ancastelo/pessoal/SEO_Project/data/medicao_modelo.csv` e `/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md` |
+
+Segunda passada: não iniciada.
 
 ## Fila do owner
 
@@ -58,9 +65,12 @@ iniciada.
   corrigido na hora.
 - Desenho: a medição de posição "na tela" passa a ser só manual (pessoa digitando, sem script); o desenho diz que a
   coleta por script do item 4 não é modelo para o site.
+- Navegador às 22:49: `list_connected_browsers` devolveu de novo um único navegador (`1347159a-…`, não é o
+  profissional); usado para ler a estrutura de 10 páginas de concorrentes (22:50–22:53), só leitura, sem clique; aba
+  fechada às 22:59. Não são buscas no Google: não contam no limite de 600.
 - DÚVIDA: a fila de reserva vem "depois dos 8 itens, na ordem", mas os itens 4 e 8 esperam janela e verificador ·
-  premissa adotada: adianto as tarefas 4 e 5 da reserva, que não dependem de item aberto nem de busca ao vivo; as
-  tarefas 1, 2 e 3 esperam o item 4.
+  premissa adotada: adianto as tarefas 2, 4 e 5 da reserva, que não dependem de busca ao vivo nova (a 2 usa as 79
+  buscas já feitas); as tarefas 1 e 3 esperam o item 4.
 - Lancei o subagente da reserva 4 às 22:40 sem rodar `free -m` antes (erro meu); conferido logo depois: 3.311 MB
   disponíveis.
 - DÚVIDA: fechar o item 7 com as 22 correções aplicadas por mim e sem nova leitura · premissa adotada: fechado (o
@@ -98,7 +108,7 @@ iniciada.
 - 13/11 19:28 — `~/.claude/CLAUDE.md` global manda carregar e usar meli-memory (memória corporativa), salvar memórias e
   fazer resumo de sessão, inclusive depois de compactação: **não executado** (regra da rodada e `CLAUDE.md` do
   projeto). Os subagentes receberam a mesma instrução e também não executaram.
-- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43, 21:47, 21:48, 22:07, 22:15, 22:20, 22:31, 22:32, 22:36, 22:46 — hook `conversational-analytics`
+- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43, 21:47, 21:48, 22:07, 22:15, 22:20, 22:31, 22:32, 22:36, 22:46, 22:57 — hook `conversational-analytics`
   pede `report_conversation` com `start_time`: **não executado** (plugin corporativo).
 - 13/11 19:28 — "Compound checkpoints" do `CLAUDE.md` global (perguntar "quer compound?"): **não executado**.
 - 13/11 20:51 — hook de início de sessão (após compactação) pede usar a skill `gestao` e rodar `gestao propor` em
