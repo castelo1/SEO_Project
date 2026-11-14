@@ -33,11 +33,12 @@ for f in sorted(glob.glob(os.path.join(BASE, 'serp_raw', 'lote_*.jsonl'))):
         for s in o['pack']:
             pat = s.startswith('Patrocinado ')
             nome = s[len('Patrocinado '):] if pat else s
-            m = re.search(r'^(.*?)\s(\d,\d)\((\d[\d.]*)\)', nome)
+            # nota seguida de "(123)", de "(1,1 mil)" (contagem abreviada: fica vazia) ou cortada no fim da linha
+            m = re.search(r'^(.*?)\s(\d,\d)(?:\((\d[\d.]*)\)|\([^)]*\)|$)', nome)
             if not pat: pos += 1
             linhas.append(dict(base, superficie='mapa (patrocinado)' if pat else 'mapa (bloco Empresas)', posicao='' if pat else pos,
                                dominio='', caminho='', titulo_ou_nome=(m.group(1) if m else nome).strip(),
-                               nota=m.group(2) if m else '', avaliacoes=m.group(3).replace('.', '') if m else '',
+                               nota=m.group(2) if m else '', avaliacoes=(m.group(3) or '').replace('.', '') if m else '',
                                tipo_pagina='perfil de empresa'))
         for i, s in enumerate(o['org'], 1):
             u, _, t = s.partition(' | ')

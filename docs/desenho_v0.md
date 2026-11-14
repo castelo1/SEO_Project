@@ -23,7 +23,7 @@
   - **[G]** parte do ChatGPT, item 3, fechado: `/home/ancastelo/pessoal/SEO_Project/docs/estudo/03b_chatgpt.md`
   - **[S]** mapa do mercado de busca, item 4, fechado em 14/11/2026 (nenhum número citado aqui mudou): `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md`
   - **[S2]** ampliação da amostra (40 buscas de 14/11, fila de reserva 1, verificada): `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md`
-  - **[M]** modelos de negócio, item 5, verificado (aprovado com ressalvas; correções ainda não reverificadas): `/home/ancastelo/pessoal/SEO_Project/docs/modelos_de_negocio.md`
+  - **[M]** modelos de negócio, item 5, verificado e relido na segunda passada (aprovado com ressalvas nas duas; 20 achados da segunda aplicados às 02:12 de 14/11): `/home/ancastelo/pessoal/SEO_Project/docs/modelos_de_negocio.md`
 - **Marcas usadas:** "classe A/B" = a escolha tem fonte oficial ou estudo com dado no arquivo citado; **PREMISSA** =
   escolha sem evidência A ou B (minha, ou de fonte C ou D), inclusive a adotada "por prudência" diante de um ponto não
   conclusivo; **INFERÊNCIA** = decorre de fonte A, mas a aplicação ao caso é leitura minha ou do guia citado;
@@ -39,7 +39,7 @@
    em cada oferta a empresa que executa, com o número da licença e o órgão que a emitiu, e leva a pessoa a falar
    **direto com ela**. Não tem perfil de empresa no Google, não se apresenta como dedetizadora e não tem central de
    WhatsApp. [R, "O que as quatro restrições, juntas, deixam de pé", linhas 468–477]
-2. **Onde está a diferença:** na amostra de 79 buscas, o orgânico é quase todo de sites que se apresentam como dedetizadora (568 dos 709 resultados, 80% [S, seção 7.3, item 1]), e 50 dos 67
+2. **Onde está a diferença:** na amostra principal de 79 buscas, o orgânico é quase todo de sites que se apresentam como dedetizadora (568 dos 709 resultados, 80% [S, seção 7.3, item 1]), e 50 dos 67
    sites de serviço lidos têm páginas por bairro, região ou cidade [S, seção 8]. Só 12 desses 67 mostram o número da
    licença [S, seção 7.3, item 4] — mas os 11 domínios classificados como "empresa com número de licença" ocupam 37 das 79 primeiras posições (47%; 28 delas são de dois domínios) e 30%
    dos três primeiros [S, seções 7.2 e 7.3, item 5]: o número é minoria entre os sites, **não é raro no topo** (na
@@ -105,7 +105,7 @@ há, em fonte A ou B, quantidade de páginas que um site novo sustenta [A, seç�
 | Escolha | Base | Marca |
 |---|---|---|
 | Começar por praga e por região, não por bairro | A política de spam dá como exemplo de página de entrada páginas por região que afunilam o usuário [A, seção 2.1]; a tabela de sinais de página legítima [A, seção 2.2, linhas 187–194] é inferência do guia | classe A (texto da política) + INFERÊNCIA (aplicação) |
-| Não copiar o formato dos concorrentes, embora ele esteja ranqueando | Na amostra, 79% a 87% dos resultados das buscas com bairro são páginas internas por local, e a leitura dos sites achou texto de molde com o nome trocado em cerca de dez sites — o próprio mapa chama essa base de fraca [S, seções 4.2 e 8]. O desenho não pode depender de prática que a política lista como spam (regra do item 6) | OBSERVAÇÃO DA AMOSTRA + REGRA DA RODADA |
+| Não copiar o formato dos concorrentes, embora ele esteja ranqueando | Na amostra, 79% a 87% dos resultados das buscas com bairro são páginas internas por local, e a leitura dos sites achou sinal de molde à mostra (quase sempre sobra de texto de outro lugar) em 15 dos 71 sites lidos, 11 sem contar quatro domínios de nome de bairro que saem de um molde só — o próprio mapa chama essa base de fraca [S, seções 4.2 e 8]. O desenho não pode depender de prática que a política lista como spam (regra do item 6) | OBSERVAÇÃO DA AMOSTRA + REGRA DA RODADA |
 | O conteúdo próprio de cada página de oferta é a **licença conferida** de quem atende ali | A RDC 622, art. 22, pede o número em toda propaganda de empresa especializada [R, linhas 186–187]. Só 12 de 67 sites lidos mostram o número [S, seção 7.3, item 4]; mas os 11 domínios classificados como "empresa com número de licença" têm 37 das 79 primeiras posições (47%), e [S] avisa que isso não prova efeito sobre a posição [S, seção 7.3, item 5] | classe A (a norma) + OBSERVAÇÃO DA AMOSTRA; que isso renda posição é PREMISSA |
 | Páginas de dúvida e de comparação valem mais para o intermediário do que "dedetizadora perto de mim" | [A], seção 7 (fecho: hipótese apoiada em duas fontes B de fora do Brasil) | PREMISSA |
 | Página de público (condomínio, restaurante) em vez de bairro para quem contrata como empresa | Nas buscas de empresa × residência, 68% dos resultados são "página interna de serviço ou outra" e 1% é página interna por local [S, seção 4.2, grupo F]; a mesma seção descreve as primeiras como páginas de segmento ("para restaurantes", "condomínios") | OBSERVAÇÃO DA AMOSTRA |
@@ -282,7 +282,7 @@ telefone com WhatsApp; bairro (lista); praga (lista); tipo de imóvel (lista).
 
 - **Para quantas empresas vai o contato:** uma por padrão (a da página); **no máximo três**, e só as que a pessoa
   marcar, cada uma nomeada. A lei não fixa número máximo [R, linha 368]; as plataformas brasileiras lidas repassam o
-  mesmo pedido a até 4 prestadores, ou a 6 no oHub (o "mais 2" vem de artigo de 2021 e **pode estar desatualizado**; no GetNinjas a mesma página diz 4 numa seção e 3 em outra) [M, seção 6 e seção 8, "Disputado"]. **Três é PREMISSA de prudência**, não exigência.
+  mesmo pedido a até 4 prestadores, ou a 6 no oHub (a página atual de planos diz 4 respostas e até 6, com adicional de 40% e de 80%; no GetNinjas a mesma página diz 4 numa seção e 3 em outra) [M, seção 6 e seção 8, "Disputado"]. **Três é PREMISSA de prudência**, não exigência.
 - **Quem chama a pessoa:** a licenciada, do WhatsApp **dela**; o site não conversa. [R, linhas 442–446]
 - **Por que canal o pedido chega à licenciada:** por e-mail para o endereço que ela indicar no contrato, ou por uma
   página restrita do próprio site em que ela vê só os pedidos dela; **nunca** por WhatsApp do site (o site não tem
@@ -374,7 +374,7 @@ dizem "despesa", sem número.
   botão é o que o site prova sozinho, e é o que [M] (seção 4.2) trata como unidade na Via A; este desenho **não** o
   adota como unidade de cobrança, porque não distingue toques repetidos (seção 5.1): o toque fica como indicador e
   como base para negociar a mensalidade. O lead válido depende da contagem da licenciada (seção 6). O **valor** não
-  tem fonte: o "R$ 20 a 60 por lead" da pesquisa antiga não se confirma nem se derruba [M, seção 7].
+  tem fonte: o "R$ 20 a 60 por lead" da pesquisa antiga fica "não confirmado": não se sustenta como número de trabalho e não foi derrubado por preço observado [M, seção 7].
 - **Prazo:** semanas para indexar; de 6 a 12 meses para saber se há tráfego — PREMISSA do guia [A, seção 9], sem
   garantia.
 - **Gestão do perfil da licenciada** (fase 5): é o único caminho do projeto até o bloco de mapa, que apareceu em 68
@@ -462,14 +462,14 @@ comparou a versão de [S] de 13/11 23:42 com a atual: **nenhum número citado aq
 lugar**; mudou a força de uma frase (a base do "texto de molde" passou a ser chamada de fraca: seção 3.2). Os trechos
 deste desenho que citam [S] são: seção 1, item 2; seção 3.1 (T2 e T8); seção 3.2; seção 4.1 (linha da consulta
 pública); seção 8 (último item, "68 das 79 buscas"); seção 9; seção 10, premissas 1 e 3. **Item 5 [M]:** verificado em
-13/11 e relido na segunda passada em 14/11 (aprovado com ressalvas nas duas; correções da segunda em curso quando esta
-nota foi escrita); as seções citadas aqui continuam dizendo o mesmo.
+13/11 e relido na segunda passada em 14/11 (aprovado com ressalvas nas duas; os 20 achados da segunda foram aplicados às 02:12
+de 14/11); as seções citadas aqui continuam dizendo o mesmo.
 
 **Grupo H, feito depois (23:18 a 23:31 de 13/11):** as 10 buscas de confiança, preço e informação estão em [S], seção
 12. O que elas mostram sobre a premissa 1, com o limite de serem dez buscas: nas de "licença" e "confiável", o
-resultado é de dedetizadoras e de anúncios, e a consulta pública de licenças do estado aparece em segundo em "como
+resultado é de dedetizadoras e de anúncios (11 anúncios, em duas das três buscas), e a consulta pública de licenças do estado aparece em segundo em "como
 saber se dedetizadora é licenciada"; nas três de preço, a mesma página de "tabela de preço" de uma dedetizadora está
-em primeiro. **A premissa 1 não sai confirmada**; as buscas informativas, onde há resultado que não é de dedetizadora,
+em primeiro. **A premissa 1 não foi testada por essas buscas, e por isso não sai confirmada**; as buscas informativas, onde há resultado que não é de dedetizadora,
 são onde um guia de praga ou a página "como conferir a licença" disputaria lugar (nota acrescentada às 23:44 de
 13/11).
 

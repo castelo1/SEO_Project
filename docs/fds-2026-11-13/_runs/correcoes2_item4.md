@@ -2,7 +2,7 @@
 
 - **Quem:** corretor de texto (subagente), sobre o relatório do revisor independente
   `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item4.md` (20 achados).
-- **Início:** sábado, 14/11/2026, 02:01 (Brasília). **Fim:** 14/11/2026, HH:MM (as duas horas lidas de
+- **Início:** sábado, 14/11/2026, 02:01 (Brasília). **Fim:** 14/11/2026, 02:19 (as duas horas lidas de
   `TZ=America/Sao_Paulo date`).
 - **Placar: 20 achados; 20 aplicados — 11 como o revisor pediu, 9 com ajuste; 0 não aplicados.** Nenhum achado
   improcedente: os 20 conferem com os dados.
@@ -14,10 +14,13 @@
   `verificacao_item*`, `verificacao_reserva*` nem `correcoes*`. Não usei navegador, busca na web nem leitura de
   página.
 - **Script meu, só de leitura:** `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/corr2item4_contas.py`
-  (biblioteca padrão; lê os brutos `lote_*.jsonl` e `repeticao_01.jsonl`, `serp_dominios.csv`, os dois CSV de classe,
+  (biblioteca padrão; lê os brutos `lote_*.jsonl` e `repeticao_01.jsonl` (e `ampliacao_*.jsonl`, só no teste da expressão do achado 11), `serp_dominios.csv`, os dois CSV de classe,
   `palavras_chave.csv` e `serp_sp.csv`; não grava nada). Uso: `python3 -B
   /home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/corr2item4_contas.py`. Aviso: a sessão principal
-  comitou esse arquivo no commit 18fa025 (02:04), junto com o trabalho dela, enquanto eu ainda editava.
+  comitou versões intermediárias enquanto eu ainda editava — o script no commit 18fa025 (02:04); este relatório (ainda
+  com a hora de fim em branco e linhas antigas), `serp_sp.md` e as duas notas no commit 8aaecae (02:18). `serp_sp.md` e as
+  notas foram comitados já na versão final; **a versão final do script e deste relatório está só na pasta de trabalho, sem
+  commit.**
 - **Fonte de todo número abaixo:** Brasil, cidade de São Paulo, coleta de 13/11/2026 (amostra principal de 79 buscas,
   grupos A a G, salvo quando digo grupo H), recalculado por mim a partir dos brutos em
   `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/`.
@@ -38,12 +41,12 @@ As linhas são as de `serp_sp.md` **depois** das edições.
 | 8 | "Diretório, 4%" é piso; pestwase não é diretório | **Aplicado, com ajuste.** Tirei pestwase das duas listas (item 3 da seção 1 e seção 4.4); tópico novo na 4.4 com os quatro domínios, marcado INFERÊNCIA (pelo endereço e pelo título), e a conta 25 → 31 de 709; avisos de "piso" na seção 1 (item 4) e na 7.3 (item 2) | 40–41; 44; 261–263; 265–269; 379–381 | Brutos: comerciosaopaulo.com.br A10 3º; znimovel.com.br C03 6º; encontrasantacecilia.com.br D11 9º; catalogohospitalar.com.br D18 7º; g1.globo.com B03 4º (caminho com "especial-publicitario"); coteibem A04 7º; listazn C03 2º; os seis estão em "não lido". Diretório lido: 25 de 709 = 3,5%; com os seis, 31 = 4,4% |
 | 9 | Duas remissões ao painel que não existiam | **Aplicado** como a sessão principal mandou: texto que se sustenta sozinho ("não feito nesta rodada; fica como desdobramento"), sem apontar o painel. Não editei o painel. Observação: quando li o painel (02:07), "Desdobramentos" já tinha uma linha com "dados de cada perfil" e "sugestões de busca do Google"; as outras duas remissões ao painel (lista do Maps, prefixo das licenças) existem e ficaram | 317–318; 527 | `PAINEL.md`, seção "Desdobramentos" (só leitura) |
 | 10 | "21 informativos" entre as combinações geradas | **Aplicado**, nos dois lugares, e acrescentei os totais por tipo de local (opcional do revisor) | 504; 507–508; 514 | `palavras_chave.csv`: 21 informativos = 17 "combinação gerada" + 4 da coleta (H06 a H09). No mapa de 1.260 (commit 8443220, lido com `git show`): também 17 + 4. Tipo de local: bairro 2.289; zona 315; cidade 92; sem local 25 |
-| 11 | 199 + 2 = 201, e as linhas são 202; linhas 218 e 537 do CSV | **Aplicado no texto.** "Nas outras 3 das 202 o script não leu…", com as três buscas; "96% das 199 linhas com nota lida"; declarei no texto que as linhas 218 e 537 do CSV carregam a nota no nome. CSV e script **não editados**: diagnóstico na seção 4 | 48–49; 287–291; 302–303 | Brutos: 202 linhas de perfil, 199 com nota e número lidos; 192 de 199 = 96,5% com 4,8 ou mais; as 3 não lidas são B06, D12 e D16 |
-| 12 | "de 2 a 3,1 horas"; 87% e "21 das 32" na mesma frase | **Aplicado** (três lugares) | 36–38; 63; 610–611 | Intervalos: 2,37; 2,34; 3,11; 3,02; 2,70 horas. Grupo D: 158 de 181 = 87,3%; grupo E: 85 de 107 = 79,4%; D e E: 243 de 288 = 84,4%; 21 de 32 buscas com os três primeiros por local (13 em D, 8 em E) |
+| 11 | 199 + 2 = 201, e as linhas são 202; linhas 218 e 537 do CSV | **Aplicado no texto.** "Nas outras 3 das 202 o script não leu…", com as três buscas; "96% das 199 linhas com nota lida"; declarei no texto que as linhas 218 e 537 do CSV carregam a nota no nome. CSV e script **não editados**: diagnóstico na seção 4 | 49–50; 287–291; 301–302 | Brutos: 202 linhas de perfil, 199 com nota e número lidos; 192 de 199 = 96,5% com 4,8 ou mais; as 3 não lidas são B06, D12 e D16 |
+| 12 | "de 2 a 3,1 horas"; 87% e "21 das 32" na mesma frase | **Aplicado** (três lugares) | 36–38; 63; 609–610 | Intervalos: 2,37; 2,34; 3,11; 3,02; 2,70 horas. Grupo D: 158 de 181 = 87,3%; grupo E: 85 de 107 = 79,4%; D e E: 243 de 288 = 84,4%; 21 de 32 buscas com os três primeiros por local (13 em D, 8 em E) |
 | 13 | "80ª busca válida"; "última pausa longa (20:52)" | **Aplicado** | 149–151 | Brutos (hora de navegação): D10→D11, 20:49:12→20:52:56, 224 s; depois dela D20→E01 92 s, E12→F01 80 s, F13→G01 100 s; primeira busca 20:26:51 |
-| 14 | A omissão da reclamação não alcança o histórico do git | **Aplicado**, sem reproduzir título nem endereço e sem mexer em git. A pergunta ao owner (reescrever o histórico?) fica para a sessão principal pôr no painel | 109–111 | `git show <commit>:<arquivo>` contando só marcas, sem imprimir conteúdo: `lote_03.jsonl` sem a marca de omissão em todos os commits anteriores a 8443220 (14/11, 00:08), desde 343047c; `serp_sp.csv` sem a marca em eda20e2 e cfd2330 |
+| 14 | A omissão da reclamação não alcança o histórico do git | **Aplicado**, sem reproduzir título nem endereço e sem mexer em git. A pergunta ao owner (reescrever o histórico?) fica para a sessão principal pôr no painel | 110–112 | `git show <commit>:<arquivo>` contando só marcas, sem imprimir conteúdo: `lote_03.jsonl` sem a marca de omissão em todos os commits anteriores a 8443220 (14/11, 00:08), desde 343047c; `serp_sp.csv` sem a marca em eda20e2 e cfd2330 |
 | 15 | "(…seção 4; não verificado)" | **Aplicado** com o estado dado pela sessão principal (aprovado com ressalvas; 21 correções aplicadas à 01:38 de 14/11) e o caminho do relatório | 129–131 | Não abri o arquivo de verificação (instrução). Conferi só o commit e436ae3: 14/11/2026 01:38, "reserva 1: fechada; 21 correcoes do verificador aplicadas" |
-| 16 | Forma: caminhos abreviados e relativos; caminho da pesquisa de 25/09; "levantamento, não parecer" | **Aplicado** nos quatro pontos | 341–344; 262; 399–400; linha 3 das duas notas | `research/02_mercado_servicos_precos.md` cita GetNinjas (linhas 28, 122, 155, 192, 248) e Habitissimo (linha 253) |
+| 16 | Forma: caminhos abreviados e relativos; caminho da pesquisa de 25/09; "levantamento, não parecer" | **Aplicado** nos quatro pontos | 341–344; 263; 399–400; linha 3 das duas notas | `research/02_mercado_servicos_precos.md` cita GetNinjas (linhas 28, 122, 155, 192, 248) e Habitissimo (linha 253) |
 | 17 | "às vezes mais um patrocinado" | **Aplicado**: "na maioria das vezes mais um patrocinado: 47 dos 68 blocos da amostra principal" | 91–92 | 47 buscas com patrocinado, todas com bloco; 47 de 68 = 69%. Blocos: 66 com 3 perfis, 2 com 2 |
 | 18 | "quase nenhum site mostra preço" | **Aplicado, com ajuste.** O revisor propôs "7 de 71, quase sempre 'a partir de'". As notas não sustentam "quase sempre": dos 7, três usam "a partir de" e quatro têm tabela, faixa ou média de preço (uma delas com fontes citadas; uma é de diretório). Escrevi isso. O título do item passou a "lacuna possível, não demonstrada". Por coerência, a linha "Preço à vista é raro" da seção 8 dizia "os demais dizem 'orçamento grátis'" e passou a trazer os 7 de 71 | 477–480; 434 | Notas, parte 1, item (b)7: 3 domínios (delta, heloin, universoambiental). Parte 2, item (b)8: valor em 4 (vilamadalena, no título; dedetizarsp.eco.br, desinsecta e triider, em tabela). "Melhor preço" e "mais barata" não são valor |
 | 19 | 12.3, item 4: "11 anúncios em 3 buscas"; conclusão que a página não permite | **Aplicado, com ajuste.** Título: "não foi testada (e por isso não sai confirmada)", para não contradizer quem cita "não sai confirmada". Texto do revisor, mais "(13, contando 2 de domínio satélite)", "o 1º de H01 é um diretório" e "5 em H01 e 6 em H02" | 601–605 | Brutos do grupo H: anúncios H01 5, H02 6, H03 0; 28 resultados: 5 de empresa com licença, 5 de empresa identificada, 1 de marca sem identificação (= 11), 2 de satélite, 7 de domínio novo não lido, 3 de governo, 2 de domínio antigo não lido, 1 diretório, 1 que não abriu, 1 de rede social |
@@ -84,13 +87,13 @@ tipo de local (achado 10); 192 de 199 e "outras 3 das 202" (achado 11); 243 de 2
 
 | Arquivo e linha | O que diz | O que `serp_sp.md` diz agora |
 |---|---|---|
-| `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/LEITURA.md`, linha 113 | "Cinco buscas repetidas de 2 a 3,1 horas depois" | "de 2,3 a 3,1 horas" (linhas 63 e 611) |
+| `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/LEITURA.md`, linha 113 | "Cinco buscas repetidas de 2 a 3,1 horas depois" | "de 2,3 a 3,1 horas" (linhas 63 e 610) |
 | `/home/ancastelo/pessoal/SEO_Project/docs/desenho_v0.md`, linha 108 | "texto de molde com o nome trocado em cerca de dez sites — o próprio mapa chama essa base de fraca [S, seções 4.2 e 8]" | sinal de molde à mostra em 15 dos 71 sites lidos (11 sem contar os quatro domínios de nome de bairro); a base segue "fraca" (linhas 427 e 455–457) |
 | `/home/ancastelo/pessoal/SEO_Project/docs/desenho_v0.md`, linhas 469–472 | nas buscas de "licença" e "confiável", "o resultado é de dedetizadoras e de anúncios… A premissa 1 não sai confirmada" | "não foi testada (e por isso não sai confirmada)"; 11 dos 28 resultados são de dedetizadoras já classificadas; 11 anúncios em duas das três buscas (linhas 601–605) |
 | `/home/ancastelo/pessoal/SEO_Project/docs/plano_conteudo_90d.md`, linha 67 | "nas buscas H01 e H02 o resultado é de dedetizadoras e de anúncios (11 anúncios nas três de confiança; S, seção 12.3, item 4: a premissa não sai confirmada)" | idem acima; os 11 anúncios são de H01 (5) e H02 (6), H03 não teve |
 | `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md`, linha 256 | "… e 21 informativos sem local" entre as combinações geradas | 17 gerados (21 com os 4 da coleta, H06 a H09) (linhas 507–508) |
 | `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md`, linhas 95–96 | "do mesmo lugar (zona oeste da Grande São Paulo)" como fato | a posição real do navegador não foi registrada; "Osasco ou perto" é INFERÊNCIA (linhas 96–100 e 119–120) |
-| `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/PAINEL.md`, fila do owner | não tem a pergunta sobre o histórico do git (achado 14) | o texto diz "reescrever o histórico é decisão do owner" (linha 111) |
+| `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/PAINEL.md`, fila do owner | não tem a pergunta sobre o histórico do git (achado 14) | o texto diz "reescrever o histórico é decisão do owner" (linha 112) |
 
 Coerentes, conferidos: `docs/plano_conteudo_90d.md`, linha 97 ("21 termos informativos, 4 deles coletados no grupo H");
 `docs/desenho_v0.md`, linha 322 ("verificação de robô na 80ª busca"); `docs/fds-2026-11-13/LEITURA.md`, linhas 109–112
@@ -136,8 +139,8 @@ o fim da linha. Nos dois casos novos o nome sai limpo, a nota é lida e `avaliac
 mil" em 1.100 de propósito: é número arredondado pelo Google, e entrar com ele mudaria a mediana e o máximo de
 avaliações do texto).
 
-**Testei a expressão nova, só em memória**, contra todos os brutos (trecho final de `corr2item4_contas.py` e um teste
-à parte sobre as 413 linhas de perfil): nos `lote_*.jsonl` (257 linhas de perfil) mudam só as 2 linhas acima; em
+**Testei a expressão nova, só em memória**, contra todos os brutos (bloco "ACHADO 11" de `corr2item4_contas.py`, sobre
+as 413 linhas de perfil): nos `lote_*.jsonl` (257 linhas de perfil) mudam só as 2 linhas acima; em
 `repeticao_01.jsonl` (38), nenhuma; nos `ampliacao_*.jsonl` (118), 1 — o mesmo perfil de B06, em `ampliacao_01.jsonl`,
 linha 7, busca I07, `pack[3]`. Essa é do outro script,
 `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/monta_ampliacao.py`, linha 55, que tem a mesma expressão: a mesma
@@ -156,8 +159,8 @@ troca serve lá, se a sessão principal quiser (fora do item 4).
 | Nomes com palavra de serviço | 51 | 51 |
 | Nomes que casam com a regra de local | 12 (10 reais + 2 falsos positivos) | 11 (10 reais + 1 falso positivo: o perfil de B06 deixa de casar) |
 
-**Frases de `serp_sp.md` a acertar depois da troca** (linhas atuais): 48–49 ("96% das 199 linhas com nota lida" → 201);
-287–291 (o trecho "Nas outras 3 das 202…" e a frase sobre as linhas 218 e 537 do CSV, que deixa de valer); 299–303
+**Frases de `serp_sp.md` a acertar depois da troca** (linhas atuais): 49–50 ("96% das 199 linhas com nota lida" → 201);
+287–291 (o trecho "Nas outras 3 das 202…" e a frase sobre as linhas 218 e 537 do CSV, que deixa de valer); 298–302
 ("12 casam… 2 são falso positivo… uma linha em que a cidade do perfil ficou grudada ao nome" → 11 e 1); 437 ("96% das
 199 linhas"). `monta_csv.py` também regrava `serp_dominios.csv` sem as colunas de classe: rodar
 `junta_classes.py` em seguida, como já é o procedimento. O que a troca **não** muda: a linha 587 (D16) e a frase "um
@@ -184,7 +187,7 @@ perfil exibia '1,1 mil', que o script não converteu".
    endereço da reclamação?).
 3. Acertar as repetições da seção 3 (`LEITURA.md`, `desenho_v0.md`, `plano_conteudo_90d.md`, `serp_sp_ampliacao.md`).
 4. Anotar a segunda passada do item 4 na leitura do owner, como manda o `RODADA.md`.
-5. Comitar: eu não rodei `git add`, `commit` nem `push`.
+5. Comitar a versão final de `corr2item4_contas.py` e deste relatório (eu não rodei `git add`, `commit` nem `push`).
 
 ## 7. Lembretes ignorados
 

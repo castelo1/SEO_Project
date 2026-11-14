@@ -46,7 +46,7 @@
 5. **O bloco de mapa muda com o bairro e com o lugar de quem busca** (a parte do lugar de quem busca é inferência:
    houve um só ponto de busca). 64 perfis distintos em 202 linhas; três perfis
    ocupam 43% das linhas, e um deles é de Osasco — a cidade que o Google exibiu como local em 10 das 79 buscas. Nas 20
-   buscas por bairro apareceram 37 perfis distintos. Nota mediana 5,0; 96% das 199 linhas com nota lida têm 4,8 ou
+   buscas por bairro apareceram 37 perfis distintos. Nota mediana 5,0; 194 das 201 linhas com nota lida (96,5%) têm 4,8 ou
    mais; mediana de 146 avaliações por perfil (61 perfis com número lido).
 6. **Um único anunciante domina a amostra:** aparece nos anúncios de texto de 58 das 79 buscas e como perfil
    patrocinado em 47. Nenhum anúncio foi clicado.
@@ -284,22 +284,24 @@ frequentes no topo; "melhor" (4% e 3%) e "orçamento", menos. As diferenças sã
   bairro; o nome do bairro na busca desloca o bloco para perto do bairro.
 - **Cidade exibida na linha do perfil:** São Paulo em 114 linhas, Osasco em 32, Embu das Artes em 1; 55 linhas sem
   cidade visível (endereço oculto ou texto cortado — não distingo).
-- **Nota e avaliações:** das 199 linhas em que o script leu nota e número, mediana 5,0, mínima 4,3; 96% com 4,8 ou
-  mais (192 de 199). Nas outras 3 das 202 o script não leu: em 2 a nota aparece (busca B06, perfil que exibia "1,1
-  mil" avaliações; busca D12, linha cortada em 80 caracteres logo depois da nota) e em 1 o nome ocupou os 80
-  caracteres (busca D16). Nessas duas primeiras, a coluna `titulo_ou_nome` de
-  `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` (linhas 218 e 537) carrega a nota junto do nome. Por perfil (61 com
+- **Nota e avaliações:** das 201 linhas com nota lida, mediana 5,0, mínima 4,3; 194 (96,5%) com 4,8 ou mais. Em 199
+  delas o script leu também o número de avaliações. Nas outras 2 a nota foi lida sem o número (busca B06, perfil que
+  exibia "1,1 mil" avaliações, contagem abreviada que o script não converte; busca D12, linha cortada em 80
+  caracteres logo depois da nota); na 202ª linha o nome ocupou os 80 caracteres e nem a nota chegou ao bruto (busca
+  D16). Até 14/11/2026, 02:22, essas duas primeiras linhas (218 e 537 de
+  `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv`) carregavam a nota junto do nome; o script foi corrigido
+  depois do achado 11 da segunda passada e o CSV regravado (só essas duas linhas mudaram). Por perfil (61 com
   número lido): mediana de 146 avaliações; um quarto tem até 42 e um quarto tem mais de 313; máximo lido, 867 (um
   perfil exibia "1,1 mil", que o script não converteu).
 - **"N anos no mercado"** aparece em pelo menos 156 das 202 linhas (58 nos lotes 1 e 2, por extenso; 98 nos lotes 3 a
   7, na forma abreviada pelo script; é piso, porque a linha do perfil foi cortada em 110 ou 80 caracteres), de 3 a
   35 anos.
 - **Nome do perfil:** 51 dos 64 nomes trazem palavra de serviço (regra: o nome, sem acento, contém "dedetiz",
-  "pragas" ou "cupi"). 12 casam com a regra de local ou "24h" (o nome contém "zona norte/sul/leste/oeste", "24h",
+  "pragas" ou "cupi"). 11 casam com a regra de local ou "24h" (o nome contém "zona norte/sul/leste/oeste", "24h",
   "são paulo", "sp" como palavra, "vila …", "osasco" ou um dos 20 bairros da coleta); desses, 10 são de fato local
-  ou "24h" no nome (por exemplo "… zona norte", "… na Vila Mariana", "… no Butantã", "… 24h SP") e 2 são falso
-  positivo da regra (uma empresa que se chama Santana e uma linha em que a cidade do perfil ficou grudada ao nome — a
-  da busca B06, acima).
+  ou "24h" no nome (por exemplo "… zona norte", "… na Vila Mariana", "… no Butantã", "… 24h SP") e 1 é falso
+  positivo da regra (uma empresa que se chama Santana). Antes da correção do script eram 12, com um segundo falso
+  positivo: a linha da busca B06, em que a cidade do perfil ficava grudada ao nome.
   **Não dá para dizer se o nome é o nome real da empresa:** sem o nome registrado de cada uma não se distingue nome
   legítimo de nome inflado (`/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md`, seção 8).
 - **Empresa, diretório ou gerador de leads, no mapa:** as 202 linhas são perfis com nome de empresa (a categoria, quando a
@@ -434,7 +436,7 @@ dos subagentes (seção 7.1), com a página e a hora.
 | Preço à vista é raro | Valor visto em 7 dos 71 sites lidos: "a partir de R$ 79" e "a partir de 69,90" em títulos; "planos a partir de R$ 150"; e quatro com tabela, faixa ou média de preço (um deles, diretório). Os demais não mostram valor nas páginas abertas (nas notas da parte 1, dizem "orçamento grátis" ou "preço justo") (valores lidos nas páginas, Brasil, 13/11/2026; não são preço de mercado) | leitura |
 | Agência de SEO no rodapé | pelo menos doze agências creditadas; uma delas se anuncia como de "performance para dedetizadoras" | leitura |
 | Selos | selos técnicos de site (W3C, PageSpeed, SSL) usados como "selo da empresa"; logotipos de órgãos; selo do Reclame Aqui; avaliações do Google incorporadas | leitura |
-| Perfil no mapa com nota perto de 5 e, na mediana, 146 avaliações | mediana de 146 avaliações por perfil (um quarto tem até 42; um quarto, mais de 313); 96% das 199 linhas com nota lida têm 4,8 ou mais | coleta (seção 5) |
+| Perfil no mapa com nota perto de 5 e, na mediana, 146 avaliações | mediana de 146 avaliações por perfil (um quarto tem até 42; um quarto, mais de 313); 194 das 201 linhas com nota lida (96,5%) têm 4,8 ou mais | coleta (seção 5) |
 | Anúncio | um anunciante em 58 das 79 buscas; um segundo domínio anunciante (8 anúncios) traz o nome do primeiro no rodapé — indício, não prova de mesmo dono (seção 7.3, item 3) | coleta (seção 6) + leitura |
 
 **Só entre os primeiros colocados (conta da segunda passada).** As linhas de "leitura" da tabela contam sobre os 67

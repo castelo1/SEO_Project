@@ -2,7 +2,7 @@
 """Corretor da segunda passada do item 4 — recalcula, SÓ LEITURA, os números que entram em
 /home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md por conta dos achados de verificacao2_item4.md.
 Não grava nada. Biblioteca padrão. Uso: python3 -B corr2item4_contas.py
-Fonte: data/serp_raw/lote_*.jsonl e repeticao_01.jsonl (brutos), data/serp_dominios.csv,
+Fonte: data/serp_raw/lote_*.jsonl e repeticao_01.jsonl (brutos; ampliacao_*.jsonl só no teste do achado 11), data/serp_dominios.csv,
 data/serp_dominios_classe_parte{1,2}.csv, data/palavras_chave.csv, data/serp_sp.csv (só para o achado 11)."""
 import csv, glob, json, os, re, statistics, unicodedata, collections
 
@@ -164,21 +164,48 @@ with open(os.path.join(DATA, 'serp_sp.csv'), encoding='utf-8', newline='') as fh
     for n, row in enumerate(csv.reader(fh), 1):
         if n > 1 and row[8].startswith('mapa') and (not row[13] or re.search(r'\d,\d', row[12])):
             print('   CSV linha', n, '|', row[0], '| superfície', row[8], '| posição', row[9], '| nome', repr(row[12]), '| nota', repr(row[13]), '| aval', repr(row[14]))
-RE_NOVA = re.compile(r'^(.*?)\s(\d,\d)(?:\(([^)]*)\)?)?')   # troca proposta: nota obrigatória, número entre parênteses opcional
-for o, p in linhas:
-    if not p['nota']:
-        m = RE_NOVA.search(p['bruto'])
-        print('   com a expressão proposta:', o['id'], '->', (m.group(1), m.group(2), m.group(3)) if m else 'sem casamento (nome fica inteiro)')
-# a expressão proposta não pode mudar nenhuma das linhas hoje lidas
-dif = 0
-for o in recs:
-    for p in pack(o):
-        if p['nota']:
-            nome = p['bruto'][len('Patrocinado '):] if p['pat'] else p['bruto']
-            m = RE_NOVA.search(nome); g3 = (m.group(3) or '')
-            av = g3.replace('.', '') if re.fullmatch(r'\d[\d.]*', g3) else ''
-            if (m.group(1).strip(), m.group(2), av) != (p['nome'], p['nota'], p['aval']): dif += 1
-print('   linhas hoje lidas que mudariam com a expressão proposta:', dif, '(nos 89 registros, patrocinados incluídos)')
+# troca proposta para a linha 36 de data/serp_raw/monta_csv.py: depois da nota, aceitar "(dígitos)" (como hoje),
+# "(outra coisa)" — o caso "1,1 mil" — ou o fim da linha. Testada aqui só em memória; nada é gravado.
+RE_NOVA = re.compile(r'^(.*?)\s(\d,\d)(?:\((\d[\d.]*)\)|\([^)]*\)|$)')
+
+
+def le(rx, s):
+    pat = s.startswith('Patrocinado '); nome = s[len('Patrocinado '):] if pat else s
+    m = rx.search(nome)
+    return ((m.group(1) if m else nome).strip(), m.group(2) if m else '', (m.group(3) or '').replace('.', '') if m else '', pat)
+
+
+for padrao in ('lote_*.jsonl', 'repeticao_*.jsonl', 'ampliacao_*.jsonl'):
+    tot = 0; mud = []
+    for f in sorted(glob.glob(os.path.join(RAW, padrao))):
+        for n, l in enumerate(open(f, encoding='utf-8'), 1):
+            o = json.loads(l)
+            for i, s in enumerate(o['pack']):
+                tot += 1; a = le(RE_PACK, s); b = le(RE_NOVA, s)
+                if a != b: mud.append((os.path.basename(f), 'linha %d' % n, o['id'], 'pack[%d]' % i, '%d caracteres' % len(s), 'nota ' + b[1], 'aval ' + repr(b[2])))
+    print('  ', padrao, '| linhas de perfil', tot, '| mudam com a expressão proposta', len(mud))
+    for x in mud: print('      ', x)
+B20 = ['moema', 'pinheiros', 'vila mariana', 'tatuape', 'santana', 'lapa', 'itaim bibi', 'santo amaro', 'mooca', 'perdizes', 'santa cecilia',
+       'higienopolis', 'butanta', 'ipiranga', 'penha', 'jabaquara', 'itaquera', 'campo limpo', 'bela vista', 'vila madalena']
+
+
+def regra_local(nm):   # a regra que a seção 5 de serp_sp.md descreve
+    s = sem_acento(nm)
+    return bool(re.search(r'zona (norte|sul|leste|oeste)', s) or '24h' in s or 'sao paulo' in s or re.search(r'\bsp\b', s)
+                or re.search(r'\bvila ', s) or 'osasco' in s or any(b in s for b in B20))
+
+
+for rot, rx in (('expressão atual', RE_PACK), ('expressão proposta', RE_NOVA)):
+    L = [r for o in AG for r in (le(rx, s) for s in o['pack']) if not r[3]]
+    nomes = collections.Counter(r[0] for r in L); nts = [float(r[1].replace(',', '.')) for r in L if r[1]]
+    pp = collections.defaultdict(list)
+    for r in L:
+        if r[2]: pp[r[0]].append(int(r[2]))
+    med = [statistics.median(v) for v in pp.values()]
+    print('  ', rot, '| linhas', len(L), '| nomes distintos', len(nomes), '| com nota', len(nts), '| com nota e número', sum(1 for r in L if r[1] and r[2]),
+          '| >= 4,8: %d de %d = %.1f%%' % (sum(n >= 4.8 for n in nts), len(nts), 100 * sum(n >= 4.8 for n in nts) / len(nts)),
+          '| perfis com número', len(med), 'mediana', statistics.median(med), '| regra de local', sum(regra_local(n) for n in nomes),
+          '| palavra de serviço', sum(any(k in sem_acento(n) for k in ('dedetiz', 'pragas', 'cupi')) for n in nomes))
 
 print('\n== ACHADO 12: repetição e bairro ==')
 rep = [json.loads(l) for l in open(os.path.join(RAW, 'repeticao_01.jsonl'), encoding='utf-8')]
