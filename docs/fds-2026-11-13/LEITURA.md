@@ -1,8 +1,8 @@
-# Leitura — SEO para leads · 19 min · gerada em sex 13/11 22:39
+# Leitura — SEO para leads · 19 min · gerada em sex 13/11 22:48
 
-> Reescrita ao fechar o item 7. **Fechados e verificados: itens 1, 2, 3, 5, 6 e 7.** As perguntas (item 8) tiveram a
-> primeira versão **reprovada**; a segunda está em verificação. O mapa do mercado de busca (item 4) está escrito,
-> **ainda não verificado**, com a coleta ao vivo em pausa até 23:17.
+> Reescrita ao fechar o item 8. **Fechados e verificados: itens 1, 2, 3, 5, 6, 7 e 8.** O mapa do mercado de busca
+> (item 4) está escrito, **ainda não verificado**, com a coleta ao vivo em pausa até 23:17. Da fila de reserva, a
+> planilha de medição está escrita (não verificada) e o levantamento de pontos de contrato está em curso.
 
 ## 1. Veredito em três linhas
 
@@ -21,16 +21,16 @@
 
 ## 2. Decisões que só você toma (máximo 5)
 
-As dez perguntas, com a opção adotada em cada uma, estão em
-`/home/ancastelo/pessoal/SEO_Project/docs/perguntas_owner.md` (em verificação). As cinco que mais pesam:
+As dez perguntas, com a opção adotada em cada uma e o que muda se a resposta for a outra, estão em
+`/home/ancastelo/pessoal/SEO_Project/docs/perguntas_owner.md`. As cinco primeiras, que são as que mais mudam o desenho:
 
 | Pergunta (sim/não) | Recomendo | Se não responder |
 |---|---|---|
-| Você conferiu a política do seu empregador sobre atividade paralela? | Conferir antes de qualquer outra coisa (não pesquisei, por regra da rodada) | O projeto fica em estudo e protótipo local |
-| O site se apresenta como intermediário declarado — sem perfil próprio no Google, sem se passar por dedetizadora, nomeando a licenciada e a licença em cada oferta? | Sim — é o único formato sem ponto vedado nas quatro restrições | O desenho segue assim |
-| Você mesmo conversa com 3 a 5 licenciadas para saber se aceitam ser nomeadas e se pagariam, antes de qualquer gasto? | Sim — a sessão não contata ninguém, e sem isso não há página de oferta | O desenho trata "há licenciada disposta" como premissa |
-| Antes de publicar, um advogado revê os pontos "não conclusivo" e os textos de propaganda e de consentimento? | Sim, depois de uma licenciada aceitar | O desenho não passa da fase 1 |
-| Você roda, com as suas contas, o roteiro de 30 perguntas no ChatGPT e o Planejador de palavras-chave? | Sim — é a única forma de ter dado do Brasil | Volume de busca e presença no ChatGPT ficam "não medido" |
+| 1. Você conferiu a política do seu empregador sobre atividade paralela? | Conferir antes de qualquer outra coisa (não pesquisei, por regra da rodada) | Tratado como não conferido: o projeto fica em estudo e protótipo local |
+| 2. O site se apresenta como intermediário declarado — sem perfil próprio no Google, sem se passar por dedetizadora, nomeando a licenciada e a licença em cada oferta? | Sim — é o formato que o levantamento deixa de pé | O desenho segue assim |
+| 3. O site lista só licenciadas que autorizaram, e não empresas tiradas do cadastro público? | Sim — listar sem autorização não foi levantado | Só parceiras autorizadas |
+| 4. Você mesmo conversa com algumas licenciadas (3 a 5) para saber se aceitam ser nomeadas e se pagariam, antes de qualquer gasto? | Sim — a sessão não contata ninguém, e sem isso não há página de oferta | "Há licenciada disposta" segue como premissa |
+| 5. Na primeira versão, o contato é só pelo botão que abre o WhatsApp da licenciada, e o formulário fica para depois? | Sim — o site não recebe nome, telefone nem conversa | O desenho segue com o botão |
 
 Decisões operacionais (baixar PDFs oficiais, manter o limite de buscas ao vivo, histórico do git) estão na "Fila do
 owner" de `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/PAINEL.md`.
@@ -61,7 +61,7 @@ de cada seção do arquivo).
 | 5 Modelos de negócio | **fechado**, com uma ressalva (seção 6) | modelos que não dependem de perfil nem de se passar por dedetizadora, depois os que dependem; contas, preço do lead, riscos; R$ 20–60 confirmado ou derrubado | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item5.md` (aprovado com ressalvas); correções em `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes_item5.md` |
 | 6 Desenho, versão 0 | **fechado**, com uma ressalva (seção 6) | arquitetura, o que cada página exibe, captação com texto de consentimento, medição, automação, fases, "o que tornaria isto inviável" | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item6.md` e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item6_correcoes.md` (dois leitores independentes, ambos "aprovado com ressalvas") |
 | 7 Protótipo local | **fechado**, com uma ressalva (seção 6) | quatro páginas em HTML e CSS puros, tudo marcado "EXEMPLO", e um LEIA-ME que liga cada bloco ao desenho | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item7.md` (aprovado com ressalvas; 0 falha em 12) |
-| 8 Perguntas ao owner | em curso — primeira versão **reprovada**; segunda versão **em verificação** | `docs/perguntas_owner.md` | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item8.md` (reprovação da primeira versão) |
+| 8 Perguntas ao owner | **fechado** na segunda tentativa, com uma ressalva (seção 6) | no máximo dez, na ordem de quanto mudam o desenho, cada uma com a opção padrão; a do empregador é fixa | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item8.md` (1ª versão reprovada) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item8_v2.md` (2ª versão aprovada com ressalvas) |
 
 ## 5. O que é consenso · o que é disputado · o que não sei
 
@@ -113,8 +113,11 @@ de cada seção do arquivo).
 - **Item 7, uma ressalva:** as 22 correções pedidas pelo verificador foram aplicadas por mim e ainda não foram
   relidas por terceiro. O verificador conferiu o código das páginas, não as abriu em navegador. A página de
   restaurantes tem um bloco "[A ESCREVER]" (a norma sanitária de serviços de alimentação não foi levantada).
-- **Item 8 (em verificação):** a primeira versão das perguntas foi reprovada (afirmações mais fortes que a fonte e
-  perguntas com várias decisões coladas); a segunda versão ainda não tem veredito.
+- **Item 8, uma ressalva:** a primeira versão das perguntas foi reprovada (afirmações mais fortes que a fonte e
+  perguntas com várias decisões coladas); a segunda foi aprovada com ressalvas; as 14 correções da terceira versão
+  foram aplicadas por mim e ainda não foram relidas por terceiro.
+- **Fila de reserva:** o modelo de planilha de medição
+  (`/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md`) está escrito e **não verificado**.
 - **Não feito:** as 10 buscas de confiança, preço e informação e 5 repetições (só depois das 23:17); a lista completa
   do Google Maps; normas e guias que só existem em PDF; o Diário Oficial; o site do Centro de Vigilância Sanitária
   (erro 403); valores de domínio, hospedagem e advogado.
@@ -124,7 +127,7 @@ de cada seção do arquivo).
 ## 7. Arquivos para abrir, na ordem (soma = 19 min)
 
 1. `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/PAINEL.md` — 1 min
-2. `/home/ancastelo/pessoal/SEO_Project/docs/perguntas_owner.md` (segunda versão, em verificação) — 3 min
+2. `/home/ancastelo/pessoal/SEO_Project/docs/perguntas_owner.md` — 3 min
 3. `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md` (quadro de vereditos e "O que as quatro
    restrições, juntas, deixam de pé") — 4 min
 4. `/home/ancastelo/pessoal/SEO_Project/docs/desenho_v0.md` (seções 1, 8 e 9) — 5 min
