@@ -31,14 +31,15 @@
    dos recursos de IA. `Google-Extended` **não** tira o site da Visão geral nem do Modo IA e não afeta ranqueamento.
 4. **[A]** Medição oficial: desde 2026 o Search Console tem um relatório de desempenho de IA generativa que mostra só
    **impressões**, por página, país, aparelho e data. Não mostra consulta nem clique separado.
-5. **[A]** Para negócio local, a única orientação oficial é manter o Perfil da Empresa atualizado; o Google não
+5. **[A]** Para negócio local, a única orientação oficial **que encontrei** é manter o Perfil da Empresa atualizado; o Google não
    documenta como escolhe as empresas que cita. **Para nós, o perfil é da licenciada, não do gerador de leads.**
 6. **[A]** A política de spam do Google passou a citar a manipulação de respostas de IA; o guia do Google diz que
    buscar "menções" inautênticas não ajuda como parece. Compra de citação fica fora.
 7. **[A]** Disponibilidade: Visão geral criada por IA no Brasil desde 15/08/2024; Modo IA em português do Brasil
    desde 08/09/2025.
-8. **[B, consenso de direção; EUA]** Quando aparece o resumo de IA, cai o clique nos resultados (Pew, Ahrefs, Seer).
-   O tamanho da queda e a causa são disputados.
+8. **[B, disputado]** Três estudos B medem menos clique nos resultados quando aparece o resumo de IA (Pew, EUA; Ahrefs
+   e Seer, país não informado); um estudo B (Semrush, país não informado) mediu que a taxa de busca sem clique não
+   subiu. Direção, tamanho e causa ficam em "disputado".
 9. **[B, duas fontes]** A resposta de IA muda a cada execução: medir "posição" não faz sentido; mede-se frequência de
    aparição em muitas repetições.
 10. **[B]** No Brasil, quase metade das palavras-chave com 100+ buscas mensais já mostra Visão geral criada por IA
@@ -109,7 +110,7 @@ fundamentação do aplicativo Gemini; é decisão do owner, e a inferência sobr
 |---|---|---|---|---|---|
 | Aparições em recursos de IA entram no relatório de Desempenho, tipo de pesquisa "Web" | Não esperar linha separada de cliques de IA | F1 | sem data | A | — |
 | Existe o relatório "Generative AI performance (Search)". Cobre Visão geral e Modo IA. Métrica: só impressões — "Impressions are how many times links to your site were shown to a user in a generative AI feature on Google Search." | Usar como contagem de aparições por página | F7; anúncio em F8 | F8: 03/06/2026; nota de 31/08/2026 dizendo que chegou a todos os sites | A | Dimensões: páginas, países, datas, aparelhos. **Sem aba de consultas, sem cliques, sem CTR, sem posição.** A ajuda não descreve como separar Visão geral de Modo IA |
-| Esses dados são parte do relatório geral: o relatório de IA "includes data from the Web search type in the Performance report (Search results)" | Não somar os dois relatórios | F7; F8 diz o mesmo | 2026 | A | — |
+| Esses dados são parte do relatório geral: o relatório de IA "includes data from the Web search type in the Performance report (Search results)" | Não somar os dois relatórios | F7. F8 (anúncio) diz que os dados estão "included in the overall performance report", **sem citar o tipo "Web"**, e inclui o Discover (trecho lido pelo verificador independente) | 2026 | A | A frase sobre o tipo "Web" é só de F7 |
 | Na Visão geral, todos os links recebem a mesma posição (a do bloco); no Modo IA, pergunta de acompanhamento conta como nova consulta | Ler "posição média" com cuidado quando houver resumo de IA | https://support.google.com/webmasters/answer/7042828?hl=en | sem data | A | Lido uma vez; paráfrase |
 | Site excluído pelo controle de F6 não recebe impressões nem tráfego desses recursos | Manter "Incluir" | F6 | 2026 | A | — |
 
@@ -117,7 +118,7 @@ fundamentação do aplicativo Gemini; é decisão do owner, e a inferência sobr
 
 | Afirmação | Fonte | Data | Classe | Quem ganha | Observação |
 |---|---|---|---|---|---|
-| Cliques vindos de páginas de resultado com Visão geral seriam melhores: "these clicks are higher quality, where users are more likely to spend more time on the site." | F3; F10 diz algo parecido em português | 21/05/2025; 15/08/2024 | A quanto a "o Google afirma"; **o Google não publica o dado** | Google | Não é evidência de volume de cliques. Os estudos da seção 4 medem queda. Fica em "disputado" |
+| Cliques vindos de páginas de resultado com Visão geral seriam melhores: "these clicks are higher quality, where users are more likely to spend more time on the site." | F3; F10 diz algo parecido em português | 21/05/2025; 15/08/2024 · **pode estar desatualizada** | A quanto a "o Google afirma"; **o Google não publica o dado** | Google | Não é evidência de volume de cliques. Os estudos da seção 4 medem queda. Fica em "disputado" |
 
 ### 1.5 Disponibilidade no Brasil
 
@@ -149,8 +150,8 @@ de IA.
 | Respostas de IA podem incluir informação de negócios locais; Merchant Center e Perfil da Empresa "can help your products and services to be visible in both AI responses and other Google Search results" | O perfil é da **licenciada parceira**. O gerador de leads não tem perfil (ver `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, seção do perfil de empresa) | F2, seção "Optimize your local business and ecommerce details" | 2026 | A | Google | É a única frase oficial sobre local em IA que achei |
 | Manter as informações do Perfil da Empresa atualizadas | Idem: tarefa da licenciada | F1 e F3 ("ensure that your Merchant Center and Business Profile information is up-to-date") | sem data; 21/05/2025 | A | Google | — |
 | O Modo IA usa fontes em tempo real como o Mapa do Conhecimento e "informações do mundo real"; os recursos de agente apoiam-se no Mapa do Conhecimento e no Google Maps | Nenhuma ação direta | Blog do Google, 05/03/2025 (https://blog.google/products-and-platforms/products/search/ai-mode-search/) e 21/08/2025 (https://blog.google/products-and-platforms/products/search/ai-mode-agentic-personalized/) | 2025 | A | Google | Lidos uma vez; paráfrase. Pode estar desatualizada. Nenhum dos dois cita o Perfil da Empresa pelo nome |
-| A Busca pode telefonar para negócios locais e pedir preço e disponibilidade; o negócio controla isso nas configurações do Perfil da Empresa | Nenhuma: recurso dos **Estados Unidos** | Blog do Google, 16/07/2025 — https://blog.google/products/search/deep-search-business-calling-google-search/ | 2025 | A | Google | Lido uma vez; não achei anúncio para o Brasil |
-| Agendamento de serviço local pelo Modo IA estava "em breve" em agosto de 2025, só para assinantes nos **Estados Unidos** | Nenhuma | Blog do Google, 21/08/2025 (acima) | 2025 | A | Google | Não sei se foi lançado nem se existe no Brasil |
+| A Busca pode telefonar para negócios locais e pedir preço e disponibilidade; o negócio controla isso nas configurações do Perfil da Empresa | Nenhuma: recurso dos **Estados Unidos** | Blog do Google, 16/07/2025 — https://blog.google/products/search/deep-search-business-calling-google-search/ | 2025 | A | Google | Lido uma vez; **pode estar desatualizada**; não achei anúncio para o Brasil |
+| Agendamento de serviço local pelo Modo IA estava "em breve" em agosto de 2025, só para assinantes nos **Estados Unidos** | Nenhuma | Blog do Google, 21/08/2025 (acima) | 2025 | A | Google | **Pode estar desatualizada**; não sei se foi lançado nem se existe no Brasil |
 
 Estudos sobre local (todos dos **Estados Unidos**, todos de quem vende ferramenta ou serviço de SEO local; nenhum com
 controle de pragas):
@@ -164,8 +165,10 @@ controle de pragas):
 
 Leitura para o projeto: (1) em busca de contratação ("dedetização + bairro") o mapa ainda era o bloco dominante nos
 EUA em 2025 e a Visão geral aparecia mais em pergunta informativa — é hipótese a conferir ao vivo no item 4, não fato
-do Brasil; (2) quando a IA lista empresas, ela se apoia muito em dado de perfil e no site **da empresa**; um site
-intermediário aparece, se aparecer, como fonte de informação, não como "a empresa recomendada".
+do Brasil; (2) quando a IA lista empresas, ela se apoia muito em dado de perfil e no site **da empresa** (BrightLocal,
+B, país não informado). **Inferência minha, sem fonte:** um site intermediário apareceria, se aparecer, como fonte de
+informação, não como "a empresa recomendada". Se um intermediário chega a ser citado em busca local **não se sabe**
+(item 3 de "O que não sei").
 
 ---
 
@@ -176,10 +179,10 @@ intermediário aparece, se aparecer, como fonte de informação, não como "a em
 | Perplexity | `PerplexityBot` | Indexa para mostrar e linkar sites nos resultados; "It is not used to crawl content for AI foundation models." A empresa recomenda liberá-lo no `robots.txt` e no firewall | Liberar | https://docs.perplexity.ai/guides/bots | sem data | A | Perplexity |
 | Perplexity | `Perplexity-User` | Busca páginas a pedido do usuário; "Since a user requested the fetch, this fetcher generally ignores robots.txt rules." | Saber que `robots.txt` não o barra | idem | sem data | A | Perplexity |
 | Perplexity | Prazo | Mudança no `robots.txt`: "it may take up to 24 hours for our systems to reflect changes" | — | idem | sem data | A | — |
-| Microsoft (Bing, Copilot) | Sem meta tag | Conteúdo pode aparecer nas respostas: "No action is needed to remain in Bing Chat." | Não pôr `nocache` nem `noarchive` | https://blogs.bing.com/webmaster/september-2023/Announcing-new-options-for-webmasters-to-control-usage-of-their-content-in-Bing-Chat | 22/09/2023 | A | Microsoft |
-| Microsoft | `NOCACHE` | Só URL, trecho e título entram na resposta: "We will only display URL/Snippet/Title in the answer." | Não usar | idem | 22/09/2023 | A | Microsoft |
-| Microsoft | `NOARCHIVE` | "Content tagged NOARCHIVE will not be included in Bing Chat answers." Também não é usado para treinar os modelos da Microsoft. Com as duas tags, vale `NOCACHE` | Não usar | idem | 22/09/2023 | A | Microsoft |
-| Microsoft | Busca comum | Páginas com essas tags continuam nos resultados do Bing | — | idem | 22/09/2023 | A | — |
+| Microsoft (Bing, Copilot) | Sem meta tag | Conteúdo pode aparecer nas respostas: "No action is needed to remain in Bing Chat." | Não pôr `nocache` nem `noarchive` | https://blogs.bing.com/webmaster/september-2023/Announcing-new-options-for-webmasters-to-control-usage-of-their-content-in-Bing-Chat | 22/09/2023 · **pode estar desatualizada** | A | Microsoft |
+| Microsoft | `NOCACHE` | Só URL, trecho e título entram na resposta: "We will only display URL/Snippet/Title in the answer…" (trecho; a frase da página continua depois deste ponto) | Não usar | idem | 22/09/2023 · **pode estar desatualizada** | A | Microsoft |
+| Microsoft | `NOARCHIVE` | "Content tagged NOARCHIVE will not be included in Bing Chat answers…" (trecho; a frase da página continua depois deste ponto). Também não é usado para treinar os modelos da Microsoft. Com as duas tags, vale `NOCACHE` | Não usar | idem | 22/09/2023 · **pode estar desatualizada** | A | Microsoft |
+| Microsoft | Busca comum | Páginas com essas tags continuam nos resultados do Bing | — | idem | 22/09/2023 · **pode estar desatualizada** | A | — |
 | Microsoft | Relatório "AI Performance" no Bing Webmaster Tools (prévia pública) | Mostra citações no Copilot, nos resumos de IA do Bing e em parceiros; traz as "grounding queries": "the key phrases the AI used when retrieving content". A contagem indica "how often pages are cited, not page importance, ranking, or placement" | Quando houver site, verificar no Bing Webmaster Tools (ação do owner: exige conta) | https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview | 10/02/2026 | A | Microsoft |
 | Microsoft | Recomendações do mesmo anúncio | Títulos claros, tabelas e seções de perguntas e respostas; afirmações com evidência; conteúdo atualizado; IndexNow; cadastro no Bing Places para negócio local | Estrutura clara é barata e não conflita com o Google. Bing Places é da licenciada | idem | 10/02/2026 | A (orientação do motor, sem dado) | Microsoft |
 | Microsoft | Texto de 08/10/2025 no blog de anúncios | Diz que nada garante a seleção; descreve que a IA quebra a página em pedaços; pede perguntas com resposta direta, listas e tabelas; pede não esconder resposta em aba, PDF ou imagem; diz que rastreabilidade, metadados, links internos e backlinks seguem essenciais | Idem | https://about.ads.microsoft.com/en/blog/post/october-2025/optimizing-your-content-for-inclusion-in-ai-search-answers | 08/10/2025 | A (lido uma vez; paráfrase) | Microsoft |
