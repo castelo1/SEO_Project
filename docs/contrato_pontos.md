@@ -59,7 +59,7 @@
 7. **Dados pessoais:** na via A o contrato quase não tem o que dizer (o site não recebe dado de contato); na via B
    ele tem de tratar de papéis, finalidade, eliminação, aviso de exclusão, incidente (3 dias úteis, página da ANPD) e
    regresso. Achado novo: o Marco Civil (art. 15) manda certo tipo de provedor guardar registros de acesso por 6
-   meses, "nos termos do regulamento" — o Decreto nº 8.771/2016, aberto em 14/11/2026 [L16]: manda reter "a menor quantidade possível" de registros e excluí-los atingida a finalidade ou encerrado o prazo de obrigação legal (art. 13, § 2º — resumo, salvo o trecho entre aspas); prazo próprio em meses, não achei nele (seção 7.1). Se o site é esse provedor: não sei; só então há ou não
+   meses, "nos termos do regulamento" — o Decreto nº 8.771/2016, aberto em 14/11/2026 [L16]: manda reter "a menor quantidade possível" de registros e excluí-los atingida a finalidade ou encerrado o prazo de obrigação legal (art. 13, § 2º — resumo, salvo o trecho entre aspas; o parágrafo foi relido no texto bruto pela sessão principal, no navegador, em 14/11/2026 às 02:38, e confere); prazo próprio em meses, não achei nele; o art. 15-A, incluído pelo Decreto nº 12.975/2026, estende a guarda do endereço IP à porta lógica de origem (seção 7.1). Se o site é esse provedor: não sei; só então há ou não
    conflito com "guardar pelo menor tempo possível" do desenho — pergunta para o advogado.
 8. **Responsabilidade perante o consumidor:** os arts. 7º, 14, 20, 25 e 34 do CDC estão transcritos na seção 9. Se o
    intermediário responde junto com a executora: **não levantado: jurisprudência.** O que o texto diz é que é vedada
@@ -344,7 +344,7 @@ cuja aplicação é do advogado**.
 11. Quem é o "patrocinador" (CDC, art. 38) de uma página paga pela licenciada e escrita pelo site.
 12. Se o Código de Defesa do Consumidor protege a licenciada como compradora do serviço do site.
 13. Se o site é o provedor de aplicações do art. 15 do Marco Civil (guarda de seis meses) e como isso se combina com o
-    art. 13, § 2º, do regulamento (Decreto nº 8.771/2016, aberto em 14/11/2026; o Decreto nº 12.975/2026, que o altera, não foi lido); só então há ou não conflito com o "menor tempo possível" do desenho [L7, L16; D, seção 5.1, item "Endereço IP" (linhas 221–234)].
+    art. 13, § 2º, do regulamento (Decreto nº 8.771/2016, aberto em 14/11/2026 e relido no texto bruto pela sessão principal às 02:38; o Decreto nº 12.975/2026, que o altera, não foi lido em página própria — dele só se leu o art. 15-A que incluiu, sobre a porta lógica de origem); só então há ou não conflito com o "menor tempo possível" do desenho [L7, L16; D, seção 5.1, item "Endereço IP" (linhas 221–234)].
 
 ---
 

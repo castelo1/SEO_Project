@@ -9,7 +9,9 @@
   (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item7.md`: aprovado com ressalvas; 0
   falha em 12; 11 achados, 3 de conteúdo). Os 11 foram aplicados às 01:54 pela sessão principal, junto com dois
   acertos que vêm da correção do desenho feita na mesma passada (campo "Dados pessoais" em cada empresa; última
-  frase do texto de consentimento). Essas correções não foram relidas por terceiro.
+  frase do texto de consentimento). Essas correções não foram relidas por terceiro. **Ponto em aberto** (segunda
+  passada da reserva 2): os três títulos têm 70, 69 e 70 caracteres, acima do máximo de 67 visto nas dez páginas
+  comparadas; não há regra do Google sobre tamanho de título no estudo, e os títulos não foram mexidos.
 - **Ajuste das 22:55 (fila de reserva, tarefa 2):** títulos e meta descrições das páginas foram encurtados depois da
   comparação com dez páginas bem colocadas; o que mudou e por quê está em
   `/home/ancastelo/pessoal/SEO_Project/docs/mercado/paginas_top10.md`, seção 5.
@@ -100,7 +102,7 @@ página de restaurantes não têm código.
 | V0 | Trilha | D 3.4 |
 | V1 | Título; versão do texto; responsável pelo site e contato sobre dados | D 5.2, tabela "De onde vem cada parte", linha "Quem é o site e como falar com ele"; a versão serve à prova (D 5.2, "O que o site guarda como prova") |
 | V2 | O que acontece no botão do WhatsApp: abre a conversa com a licenciada; o site não recebe nome, número nem conversa; registra o toque, e o servidor anota o acesso com o endereço IP; o contato vai a **uma** empresa; exclusão se pede à empresa | D 5.1, tabela de passos e os itens "Para quantas empresas" e "Como a pessoa pede a exclusão" |
-| V3 | Registro de acesso do servidor (anota cada acesso, inclusive o toque no botão, com endereço IP, que pode ser dado pessoal, e com a identificação do navegador ou do robô): menor tempo possível, com a ressalva de que o art. 15 do Marco Civil da Internet pode exigir guarda por 6 meses; o IP não vai para a contagem de toques nem é usado para identificar ninguém; sem cookie nem script de medição; aviso "[A REVER com advogado]" | D 5.1, item "Endereço IP" (PREMISSA de prudência; ponto não levantado); D 3.4, linha "Sem cookie e sem script de medição"; D 10, premissas 9 e 15 |
+| V3 | Registro de acesso do servidor (anota cada acesso, inclusive o toque no botão, com endereço IP, que pode ser dado pessoal, e com a identificação do navegador ou do robô): menor tempo possível, com a ressalva de que o art. 15 do Marco Civil da Internet pode exigir guarda por 6 meses e de que o regulamento (Decreto nº 8.771/2016, art. 13, § 2º, e art. 15-A) trata do mínimo a reter e da porta lógica de origem; o IP não vai para a contagem de toques nem é usado para identificar ninguém; sem cookie nem script de medição; aviso "[A REVER com advogado]" | D 5.1, item "Endereço IP" (PREMISSA de prudência; ponto não levantado); D 3.4, linha "Sem cookie e sem script de medição"; D 10, premissas 9 e 15 |
 | V4 | **Formulário de exemplo, desativado, com o texto de consentimento**: campos mínimos; caixa principal não marcada que nomeia a licenciada e a licença; caixa opcional para outra empresa nomeada; recusa; não repasse; como retirar e excluir | D 5.2, "Campos" e "Texto do formulário". Texto igual ao do desenho (inclusive a última frase, corrigida na segunda passada), com três diferenças declaradas: EXEMPLO no lugar dos colchetes; "seção" em vez de "página" (no protótipo, "Excluir meus dados" é uma seção desta página); e "Política de privacidade: esta página" em vez do link |
 | V5 | Para quantas empresas vai; que dados; por que canal o pedido chega à empresa (PREMISSA); quem fala depois; o que fica guardado como prova; prazo de guarda "[A DEFINIR com advogado]" | D 5.2, itens "Para quantas empresas", "Por que canal o pedido chega à licenciada", "Quem chama a pessoa", "O que o site guarda como prova" (prazo: não conclusivo) |
 | V6 | "Excluir meus dados": pedido, exclusão, aviso imediato às empresas, confirmação em até 5 dias úteis | D 5.2, item "Como a pessoa pede a exclusão" (5 dias úteis: PREMISSA; D 10, premissa 4) |
@@ -112,7 +114,7 @@ página de restaurantes não têm código.
 | Não tem | Por quê |
 |---|---|
 | Perfil de empresa, mapa, endereço do site como "unidade" | D 2 (vedado pelo item 2) |
-| Estrelas, nota, depoimento, avaliação | D 2, linha das avaliações |
+| Estrelas, nota, depoimento, avaliação | D 2, linha das avaliações (o desenho fala em avaliação e estrelas; estender a "depoimento" é leitura do protótipo) |
 | Telefone ou número de WhatsApp do site | D 5.3 |
 | Página por bairro | D 3.1, T5 (0 na versão 0); condições em D 3.3 |
 | "24 horas", "garantia", "seguro", "atóxico", "a melhor" | D 4.3 |

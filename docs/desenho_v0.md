@@ -22,7 +22,7 @@
   - **[C]** guia de respostas de IA, item 3, fechado: `/home/ancastelo/pessoal/SEO_Project/docs/estudo/03_respostas_de_ia.md`
   - **[G]** parte do ChatGPT, item 3, fechado: `/home/ancastelo/pessoal/SEO_Project/docs/estudo/03b_chatgpt.md`
   - **[S]** mapa do mercado de busca, item 4, fechado em 14/11/2026 (nenhum número citado aqui mudou): `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md`
-  - **[S2]** ampliação da amostra (40 buscas de 14/11, fila de reserva 1, verificada): `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md`
+  - **[S2]** ampliação da amostra (40 buscas de 14/11, fila de reserva 1, verificada e relida na segunda passada): `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md`
   - **[M]** modelos de negócio, item 5, verificado e relido na segunda passada (aprovado com ressalvas nas duas; 20 achados da segunda aplicados às 02:12 de 14/11): `/home/ancastelo/pessoal/SEO_Project/docs/modelos_de_negocio.md`
 - **Marcas usadas:** "classe A/B" = a escolha tem fonte oficial ou estudo com dado no arquivo citado; **PREMISSA** =
   escolha sem evidência A ou B (minha, ou de fonte C ou D), inclusive a adotada "por prudência" diante de um ponto não
@@ -44,7 +44,7 @@
    licença [S, seção 7.3, item 4] — mas os 11 domínios classificados como "empresa com número de licença" ocupam 37 das 79 primeiras posições (47%; 28 delas são de dois domínios) e 30%
    dos três primeiros [S, seções 7.2 e 7.3, item 5]: o número é minoria entre os sites, **não é raro no topo** (na
    ampliação de 14/11, sites com número de licença têm a primeira posição em 8 das 20 buscas de bairro novo e em 1
-   das 10 de praga ou serviço novo com a cidade [S2, seção 1, item 5]), e o
+   das 10 de praga ou serviço novo com a cidade, que é piso [S2, seção 1, item 5]), e o
    próprio mapa avisa que isso não prova que exibir a licença melhore a posição. O site aposta em juntar numa página
    **licença conferida por um terceiro e com data, quem executa, como a pessoa confere, preço com origem declarada**.
    Se isso atrai busca e clique é **PREMISSA**: nada medido ainda.
@@ -230,7 +230,7 @@ região é atendida pelo guia de praga (T2), que só informa.
   não foi lido e por quê", linhas 488–493]); o ponto entra na lista do advogado da fase 1. **Possível conflito,
   achado depois** (levantamento de pontos de contrato, `/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md`, seção
   7.1): o Marco Civil da Internet (Lei 12.965/2014, art. 15) manda certo tipo de provedor de aplicações guardar os
-  registros de acesso por 6 meses, "nos termos do regulamento" (regulamento não lido). Se o site é esse provedor, e se
+  registros de acesso por 6 meses, "nos termos do regulamento" (o regulamento, Decreto nº 8.771/2016, art. 13, § 2º, manda os provedores reterem "a menor quantidade possível" de registros de acesso e excluí-los "tão logo atingida a finalidade de seu uso" ou "se encerrado o prazo determinado por obrigação legal"; o art. 15-A, incluído pelo Decreto nº 12.975/2026, estende o dever de guarda do endereço IP à porta lógica de origem — texto bruto lido pela sessão principal no navegador em 14/11/2026, 02:38; a vigência do art. 15-A e o decreto de 2026 não foram lidos). Se o site é esse provedor, e se
   isso impede "o menor tempo possível", é pergunta para o advogado.
 
 ### 5.2 Via B — formulário com consentimento (desenhada; entra só em fase posterior)
@@ -317,17 +317,17 @@ telefone com WhatsApp; bairro (lista); praga (lista); tipo de imóvel (lista).
 
 | O que | Como | Quem vê | Automatizável? | Base |
 |---|---|---|---|---|
-| Posição média, impressões e cliques por página e por busca | Relatório de desempenho do Search Console | só o owner (conta dele) | exportar: sim; **consultar o Google por robô: não** | [A], seção 8 |
+| Posição média, impressões e cliques por página e por busca (o modelo de planilha, `/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md`, é por página e por período de 28 dias; a medição por busca fica à parte) | Relatório de desempenho do Search Console | só o owner (conta dele) | exportar: sim; **consultar o Google por robô: não** | [A], seção 8 |
 | Presença em resumo de IA do Google | Relatório de IA generativa do Search Console (só impressões) | só o owner | exportar: sim | [C], seções 1.3 e 7.3 |
-| Posição "na tela", com mapa e anúncios | Conferência manual, por amostra pequena: **uma pessoa digita a busca no navegador, sem script**, e anota termo, hora e local. A coleta do item 4 **não** serve de modelo: foi feita por script, em lotes; o próprio mapa a classifica como consulta automática, a decisão de mantê-la está na fila do owner, e houve verificação de robô na 80ª busca | o owner | **não**: consulta automática contraria a política de spam do Google | [A], seção 8; [S], seções 2.2, 2.3 (item 9) e 2.4 |
-| Visitas dos robôs de busca (Google, Bing, OpenAI) | Registro de acesso bruto do servidor | owner | sim | [G], seção 9, linha 15 |
+| Posição "na tela", com mapa e anúncios (no modelo de planilha, a mediana conta só a posição entre os orgânicos: escolha do modelo, declarada lá) | Conferência manual, por amostra pequena: **uma pessoa digita a busca no navegador, sem script**, e anota termo, hora e local. A coleta do item 4 **não** serve de modelo: foi feita por script, em lotes; o próprio mapa a classifica como consulta automática, a decisão de mantê-la está na fila do owner, e houve verificação de robô na 80ª busca | o owner | **não**: consulta automática contraria a política de spam do Google | [A], seção 8; [S], seções 2.2, 2.3 (item 9) e 2.4 |
+| Visitas dos robôs de busca (Google, Bing, OpenAI) | Registro de acesso bruto do servidor (o robô é reconhecido pelo nome que o pedido declara, que pode ser forjado: limite dito no modelo de planilha) | owner | sim | [G], seção 9, linha 15 |
 | Presença no ChatGPT | Roteiro de 30 perguntas, mensal, com repetições obrigatórias | owner (conta dele) | não (manual, por desenho) | `/home/ancastelo/pessoal/SEO_Project/docs/estudo/03b_chatgpt_roteiro_de_teste.md`, seção 4 |
 | **Lead** (Via A): toque no botão | Registro do próprio site: data, página, empresa, código; fora os acessos de robôs conhecidos (seção 5.1). Toques repetidos da mesma pessoa não se distinguem | owner | sim | seção 5.1; [R], linhas 440–441 |
 | **Lead** (Via B), quando existir: pedido enviado com autorização | Registro do pedido com a prova de consentimento | owner | sim | seção 5.2 |
-| **Lead válido**: contato que a licenciada confirma ter recebido com o código do site | Contagem mensal, feita por ela, de **todos** os contatos com código (não por amostra); fica abaixo do real quando a pessoa apaga o código. A licenciada informa só **números** (quantos contatos com código, quantos orçamentos, quantos serviços); nunca nome, telefone ou conversa de quem a procurou. Como conferir a contagem sem ver dado de consumidor está em aberto: PREMISSA, a rever com o advogado | owner e licenciada | não (depende dela) | [M], seção 4.0.1 (as plataformas tratam lead inválido por regra escrita) — PREMISSA: que ela informe |
+| **Lead válido**: contato que a licenciada confirma ter recebido com o código do site | Contagem por período (mensal aqui; 28 dias no modelo de planilha), feita por ela, de **todos** os contatos com código (não por amostra); fica abaixo do real quando a pessoa apaga o código. A licenciada informa só **números** (quantos contatos com código, quantos orçamentos, quantos serviços); nunca nome, telefone ou conversa de quem a procurou. Como conferir a contagem sem ver dado de consumidor está em aberto: PREMISSA, a rever com o advogado | owner e licenciada | não (depende dela) | [M], seção 4.0.1 (as plataformas tratam lead inválido por regra escrita) — PREMISSA: que ela informe |
 | **Lead vendido**: lead válido **pago** pela licenciada — por unidade, ou coberto pela mensalidade da região | Só existe a partir da fase 4; antes disso é zero por definição | owner | sim, depois da contagem | [M], seções 4.2, 4.3 e 4.6 |
 | Orçamento e serviço fechado | Informados pela licenciada na mesma contagem; servem para calcular a taxa de fechamento, não para cobrar | owner e licenciada | não (depende dela) | [M], seção 7 (taxa de fechamento: sem fonte brasileira) — PREMISSA: que ela informe |
-| Receita por página | Leads vendidos × preço combinado, ou a mensalidade da região | owner | sim | [M], seções 4.2, 4.3 e 4.6 |
+| Receita por página | Leads vendidos × preço combinado, ou a mensalidade da região (como a mensalidade se reparte em períodos de 28 dias é PREMISSA do modelo de planilha) | owner | sim | [M], seções 4.2, 4.3 e 4.6 |
 
 - **Comparar períodos iguais** (28 dias contra 28 dias) e esperar ao menos uma semana depois do fim de uma
   atualização central do Google antes de concluir [A, seção 8].
@@ -415,8 +415,8 @@ central de WhatsApp que repassa; rastreador automático de posição; contato co
 
 1. Que mostrar a licença conferida e o preço com origem atrai busca, clique ou citação por IA. O dado da amostra
    corta para os dois lados: só 12 de 67 sites lidos mostram o número, mas os 11 domínios classificados como "empresa com
-   número de licença" têm 47% das primeiras posições [S, seção 7.3, itens 4 e 5]; na ampliação, a coincidência se
-   mantém nas buscas de bairro e não aparece nas de praga com a cidade [S2, seção 1, item 5].
+   número de licença" têm 47% das primeiras posições [S, seção 7.3, itens 4 e 5]; na ampliação, a coincidência fica
+   parecida nas buscas de bairro (8 de 20 contra 7 de 20; sete das oito são de um mesmo site) e ficou em 1 de 10, piso, nas de praga com a cidade [S2, seção 1, item 5].
 2. Que páginas de dúvida e de comparação rendem mais ao intermediário do que as de "perto de mim".
 3. De 19 a 29 páginas na versão 0; 6 pragas; até 5 regiões. A escolha das seis pragas (T2) e dos dois públicos (T6)
    não tem base de volume; nas buscas de escorpião, de ratos e de pombos há resultado de órgão público entre os
@@ -430,7 +430,7 @@ central de WhatsApp que repassa; rastreador automático de posição; contato co
 8. Liberar os robôs de treino de modelos.
 9. Guardar o registro de acesso do servidor pelo menor tempo possível e não usar o endereço IP para contar toques
    nem para identificar quem tocou (o registro bruto anota o pedido a `/ir/` com o IP; o tratamento de IP em registro
-   de servidor não foi levantado; o art. 15 do Marco Civil pode exigir guarda de 6 meses: seção 5.1).
+   de servidor não foi levantado; o art. 15 do Marco Civil pode exigir guarda de 6 meses e o regulamento manda reter o mínimo e excluir atingida a finalidade ou o prazo legal: seção 5.1).
 10. Que a consulta pública de licenças permita conferir, à mão, o número de cada licenciada.
 11. Que a página "quem somos" pese na citação por IA.
 12. Que fatos em texto visível e HTML sem dependência de script pesem para o ChatGPT (texto visível: uma fonte B de
@@ -473,13 +473,13 @@ em primeiro. **A premissa 1 não foi testada por essas buscas, e por isso não s
 são onde um guia de praga ou a página "como conferir a licença" disputaria lugar (nota acrescentada às 23:44 de
 13/11).
 
-**Ampliação, feita depois (14/11, 00:12 à 01:06; verificada, aprovada com ressalvas) [S2].** Quarenta buscas novas —
+**Ampliação, feita depois (14/11, 00:12 à 01:06; verificada e relida na segunda passada, aprovada com ressalvas nas duas) [S2].** Quarenta buscas novas —
 20 bairros novos, 10 de praga × bairro, 10 de praga ou serviço novo com a cidade. Não contradiz nenhuma escolha deste
 desenho; muda a leitura de quatro pontos:
 
 1. **Licença × primeira posição.** Sites com número de licença na primeira posição: bairro, 8 de 20 (7 de 20 no
    grupo D de [S]); praga × bairro, 2 de 10 (2 de 12 no grupo E); praga ou serviço novo com a cidade, 1 de 10 (7 de
-   13 no grupo B). A coincidência do item 4 se mantém nas buscas de bairro e não aparece nas de praga com a cidade
+   13 no grupo B). A coincidência do item 4 fica parecida nas buscas de bairro (sete das oito são de um mesmo site) e ficou em 1 de 10, que é piso, nas de praga com a cidade
    [S2, seção 1, item 5]. O argumento deste desenho para exibir a licença é a norma (RDC 622, art. 22), não a
    posição.
 2. **Ordem na página** (o que [S] não tinha). No computador, de madrugada: o rótulo do resumo de IA foi o primeiro

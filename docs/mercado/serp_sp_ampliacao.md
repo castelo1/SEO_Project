@@ -78,8 +78,8 @@
 6. **O mesmo anunciante segue dominante:** anúncio de texto dele em 33 das 40 buscas e perfil patrocinado em 25.
 7. **46 domínios novos** (55 resultados, 16%) não tinham aparecido nas 89 buscas do item 4; **não foram lidos**. Nas
    129 buscas das duas coletas há 231 domínios distintos no orgânico e 95 perfis distintos no bloco de mapa (pelo
-   nome; a coluna de nome do CSV dá 96, porque um perfil ficou com a nota grudada no nome — seção 6).
-8. **Sem verificação de robô.** Intervalo entre buscas de 72 a 190 segundos (mediana 77). Cinco buscas repetidas de
+   nome; até 14/11/2026, 02:38, a coluna de nome do CSV dava 96, porque um perfil ficava com a nota grudada no nome — seção 6).
+8. **Sem verificação de robô** (relato de quem coletou, a sessão principal; os 40 identificadores estão nos brutos, na ordem)**.** Intervalo entre buscas de 72 a 190 segundos (mediana 77). Cinco buscas repetidas de
    31 a 60 minutos depois deram o mesmo orgânico, na mesma ordem, e os mesmos perfis no bloco (seção 11). Total
    gasto do limite de 600 na rodada: cerca de 155 (110 do item 4, 40 desta ampliação e 5 repetições). Dessas, 139
    têm registro bruto (89 buscas e 5 repetições do item 4; 40 e 5 daqui); as outras cerca de 16, do item 4 (1
@@ -284,10 +284,10 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
 
 - 93 linhas, 60 perfis distintos (pelo nome; "Ddtizz" aparece com duas notas e dois números de avaliações — 5,0 com
   327 e 4,9 com 632 — e pode ser dois perfis) nas 31 buscas com bloco; **31 perfis não tinham aparecido na amostra principal**.
-  A coluna de nome do CSV dá 32 (e o script também): um perfil (busca I07, linha 98 de
+  Até 14/11/2026, 02:38, a coluna de nome do CSV dava 32 (e o script também): um perfil (busca I07, linha 98 de
   `/home/ancastelo/pessoal/SEO_Project/data/serp_sp_ampliacao.csv`) ficou com a nota e o resto da linha grudados no
   nome, porque o Google mostrou o número de avaliações dele como "1,1 mil"; por isso não casa com o mesmo perfil no
-  item 4 (busca B06, linha 218 de `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv`). O CSV não foi regravado.
+  item 4 (busca B06, linha 218 de `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv`). A sessão principal corrigiu o script e regravou o CSV às 02:38 (só a linha 98 mudou); o script agora imprime 31.
   Mais frequentes: SJG Controle de Pragas Urbanas (9), Sanitech (5), Primordial Dedetização (4).
 - **Nas 18 buscas de bairro novo com bloco: 45 perfis distintos em 54 linhas** — só 12 deles tinham aparecido nas
   buscas de bairro da amostra principal. O bloco muda de bairro para bairro mais do que o orgânico. *(observação de
