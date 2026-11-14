@@ -60,7 +60,7 @@
     <p class="revisao">Página revisada em 00/00/0000 (EXEMPLO). Ordem da lista: alfabética. A marca "Publicidade" indica empresa que paga ao site para aparecer.</p>
   </section>
 
-  <!-- P2: quem executa — fica acima de qualquer botão -->
+  <!-- P2: quem executa — cada empresa identificada acima do botão dela -->
   <section id="quem-executa" data-bloco="P2">
     <h2>Quem executa o serviço</h2>
 
@@ -78,10 +78,12 @@
         <dd>Pinheiros, Butantã, Lapa e Perdizes (EXEMPLO)</dd>
         <dt>Preço informado pela empresa</dt>
         <dd>a partir de R$ EXEMPLO para apartamento — informado em 00/00/0000 (EXEMPLO)</dd>
+        <dt>Dados pessoais</dt>
+        <dd>fale com a EXEMPLO Alfa por EXEMPLO (contato informado pela empresa)</dd>
       </dl>
       <!-- P3: botão da via A. No protótipo o link não leva a lugar nenhum. -->
       <a class="botao" href="#botao-de-exemplo" rel="sponsored nofollow" data-bloco="P3">Falar com a EXEMPLO Alfa no WhatsApp</a>
-      <p class="aviso-botao" data-bloco="P3">Você vai abrir uma conversa no WhatsApp da EXEMPLO Alfa, que é quem atende. O EXEMPLO Guia não recebe o seu nome, o seu número nem a conversa. O site registra que o botão foi tocado (data, página e empresa), e o servidor registra o acesso com o endereço IP; veja a <a href="../../privacidade/index.html">política de privacidade</a>. A mensagem já vem escrita: "Olá! Vim pelo EXEMPLO Guia (código ZO-BAR-EXEMPLO). Quero um orçamento de dedetização de baratas."</p>
+      <p class="aviso-botao" data-bloco="P3">Você vai abrir uma conversa no WhatsApp da EXEMPLO Alfa, que é quem atende. O EXEMPLO Guia não recebe o seu nome, o seu número nem a conversa. O site registra que o botão foi tocado (data e hora, página, empresa e o código da mensagem), e o servidor registra o acesso com o endereço IP e a identificação do navegador; veja a <a href="../../privacidade/index.html">política de privacidade</a>. A mensagem já vem escrita: "Olá! Vim pelo EXEMPLO Guia (código ZO-BAR-EXEMPLO). Quero um orçamento de dedetização de baratas."</p>
     </article>
 
     <article class="empresa" data-bloco="P2b">
@@ -97,12 +99,14 @@
         <dd>Butantã, Vila Sônia e Jaguaré (EXEMPLO)</dd>
         <dt>Preço informado pela empresa</dt>
         <dd>a empresa não informou preço; pede visita para orçar (EXEMPLO)</dd>
+        <dt>Dados pessoais</dt>
+        <dd>fale com a EXEMPLO Beta por EXEMPLO (contato informado pela empresa)</dd>
       </dl>
       <a class="botao" href="#botao-de-exemplo" rel="nofollow" data-bloco="P3">Falar com a EXEMPLO Beta no WhatsApp</a>
-      <p class="aviso-botao" data-bloco="P3">Você vai abrir uma conversa no WhatsApp da EXEMPLO Beta, que é quem atende. O EXEMPLO Guia não recebe o seu nome, o seu número nem a conversa. O site registra que o botão foi tocado (data, página e empresa), e o servidor registra o acesso com o endereço IP; veja a <a href="../../privacidade/index.html">política de privacidade</a>. A mensagem já vem escrita: "Olá! Vim pelo EXEMPLO Guia (código ZO-BAR-EXEMPLO). Quero um orçamento de dedetização de baratas."</p>
+      <p class="aviso-botao" data-bloco="P3">Você vai abrir uma conversa no WhatsApp da EXEMPLO Beta, que é quem atende. O EXEMPLO Guia não recebe o seu nome, o seu número nem a conversa. O site registra que o botão foi tocado (data e hora, página, empresa e o código da mensagem), e o servidor registra o acesso com o endereço IP e a identificação do navegador; veja a <a href="../../privacidade/index.html">política de privacidade</a>. A mensagem já vem escrita: "Olá! Vim pelo EXEMPLO Guia (código ZO-BAR-EXEMPLO). Quero um orçamento de dedetização de baratas."</p>
     </article>
 
-    <p class="revisao">O EXEMPLO Guia não recebe o seu nome, o seu telefone nem a conversa: o contato acontece entre você e a empresa. Para pedir a exclusão do que você enviou, fale com a empresa com quem conversou. O que o site registra está na <a href="../../privacidade/index.html">política de privacidade</a>.</p>
+    <p class="revisao">O EXEMPLO Guia não recebe o seu nome, o seu telefone nem a conversa: o contato acontece entre você e a empresa. Para pedir a exclusão do que você enviou, fale com a empresa com quem conversou, pelo contato de "Dados pessoais" que aparece no bloco dela. O que o site registra está na <a href="../../privacidade/index.html">política de privacidade</a>.</p>
   </section>
 
   <!-- P4: preço, com origem e data -->
@@ -111,8 +115,8 @@
     <table>
       <thead><tr><th>Empresa</th><th>Imóvel</th><th>Preço informado</th><th>Informado em</th></tr></thead>
       <tbody>
-        <tr><td>EXEMPLO Alfa</td><td>Apartamento</td><td>a partir de R$ EXEMPLO</td><td>00/00/0000 (EXEMPLO)</td></tr>
-        <tr><td>EXEMPLO Alfa</td><td>Casa</td><td>a partir de R$ EXEMPLO</td><td>00/00/0000 (EXEMPLO)</td></tr>
+        <tr><td>EXEMPLO Alfa <span class="publicidade">Publicidade</span></td><td>Apartamento</td><td>a partir de R$ EXEMPLO</td><td>00/00/0000 (EXEMPLO)</td></tr>
+        <tr><td>EXEMPLO Alfa <span class="publicidade">Publicidade</span></td><td>Casa</td><td>a partir de R$ EXEMPLO</td><td>00/00/0000 (EXEMPLO)</td></tr>
         <tr><td>EXEMPLO Beta</td><td>—</td><td>não informou; orça depois de visita</td><td>00/00/0000 (EXEMPLO)</td></tr>
       </tbody>
     </table>
@@ -123,17 +127,17 @@
   <section data-bloco="P5">
     <h2>O que pedir à empresa antes de contratar</h2>
     <ul class="lista-simples">
-      <li><strong>O número da licença sanitária e o órgão que a emitiu.</strong> Toda propaganda de empresa de controle de pragas tem de trazê-los (RDC nº 622/2022 da Anvisa, art. 22).</li>
+      <li><strong>O número da licença sanitária e a identificação da empresa no órgão licenciador.</strong> Toda propaganda de empresa de controle de pragas tem de trazê-los (RDC nº 622/2022 da Anvisa, art. 22).</li>
       <li><strong>Nota fiscal emitida por pessoa jurídica.</strong> O serviço só pode ser contratado com empresa especializada, e a nota tem de ser de pessoa jurídica (RDC nº 622/2022, arts. 5º e 21).</li>
       <li>Que comprovante do serviço executado a empresa entrega ao final.</li>
-      <li><strong>Quais produtos serão usados e que cuidados a empresa pede</strong> antes e depois da aplicação. Quem responde é a empresa; o EXEMPLO Guia não avalia produtos.</li>
+      <li>Quais produtos serão usados e que cuidados a empresa pede antes e depois da aplicação. Quem responde é a empresa; o EXEMPLO Guia não avalia produtos.</li>
     </ul>
   </section>
 
-  <!-- P6: bairros — sem uma página por bairro -->
+  <!-- P6: remissão aos bairros declarados em "Quem executa" — sem repetir a lista e sem uma página por bairro -->
   <section data-bloco="P6">
-    <h2>Bairros da Zona Oeste atendidos</h2>
-    <p>Pelo que as empresas acima declararam: Butantã, Jaguaré, Lapa, Perdizes, Pinheiros e Vila Sônia (EXEMPLO). Não há uma página para cada bairro: a informação de todos eles está aqui. Se o seu bairro não aparece, pergunte à empresa se ela atende.</p>
+    <h2>E o meu bairro?</h2>
+    <p>Os bairros que cada empresa declara atender estão no bloco "Quem executa o serviço", acima. Não há uma página para cada bairro. Se o seu bairro não aparece, pergunte à empresa se ela atende.</p>
   </section>
 
   <p id="botao-de-exemplo" class="revisao">Botão de EXEMPLO: neste protótipo ele não abre o WhatsApp de ninguém.</p>

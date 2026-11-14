@@ -468,7 +468,7 @@ tradicionais. Há uma fonte B independente (Pew, Estados Unidos, 2025) e uma seg
 próprios clientes (First Page Sage, Estados Unidos, 2026), que é classe D e não conta. Falta a segunda fonte B
 independente. O mesmo vale para "o
 bloco do mapa leva fatia grande dos cliques em busca local": Near Media (Europa, 2024) e Backlinko (Estados Unidos,
-cerca de 2020) apontam na mesma direção, mas as duas têm interesse comercial e a segunda é antiga.
+cerca de 2020; o ano é estimativa) apontam na mesma direção, mas as duas têm interesse comercial e a segunda é antiga.
 
 ### O que é disputado
 

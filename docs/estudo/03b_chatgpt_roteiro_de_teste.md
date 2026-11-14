@@ -8,6 +8,12 @@
   portão), e os defeitos menores que ele apontou foram corrigidos às 21:50. Mudou: 5 perguntas de comerciante trocadas por perguntas de
   morador e de síndico (as originais foram para o apêndice), urgência redistribuída, coluna `rede`, repetições
   obrigatórias.
+- **Segunda passada:** sábado, 14/11/2026 — verificação independente em
+  `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item3_ia_chatgpt.md` (aprovado com
+  ressalvas; 0 falha em 12 nos dois guias, sorteio não se aplica ao roteiro); correções aplicadas por corretor às
+  01:50 (Brasília; `TZ=America/Sao_Paulo date`), sem nova leitura de verificador
+  (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes2_item3_ia_chatgpt.md`): tipos de fonte
+  `avaliação`, `vídeo` e `rede social`, colunas `motor` e `parceira_nomeada`, redação da pergunta 27 (a sessão principal trocou "vou comprar" por "comprei e vou me mudar", para as 30 serem de morador ou síndico, como pede o portão).
 - **Por que existe:** a sessão não abre o ChatGPT nem digita em página. Não há estudo com dado sobre quais fontes o
   ChatGPT cita para serviço local **no Brasil** (seção 5.4 de
   `/home/ancastelo/pessoal/SEO_Project/docs/estudo/03b_chatgpt.md`). Este roteiro produz esse dado.
@@ -33,7 +39,7 @@
 | Registrar se buscou na web; não forçar a busca na primeira passada | 14,4% das respostas **continham buscas derivadas** (66,6 milhões de respostas; todos os países). O estudo **só tem sessões gratuitas deslogadas**: não compara com sessão logada e, pela correção que a própria Ahrefs fez (releitura do verificador independente), o número não é "14,4% buscaram na web" | Ahrefs · https://ahrefs.com/blog/query-fan-out-chatgpt/ · 12/10/2026 | B | Ahrefs vende ferramenta de SEO |
 | Testar à mão, no aplicativo, e não por API | **"API ≠ aplicativo":** uma B (Resoneo) apoia; os autores da SparkToro tratam como questão em aberto; não é consenso. Dado da Resoneo: o modelo "puro" repete buscas em 61–71% dos casos, contra 0–17% no aplicativo | Resoneo (acima); SparkToro e Gumshoe (acima) | B | idem |
 | Registrar mapa e cartões de local | no modo instantâneo a resposta sobre empresas vem com mapa; no modo de raciocínio o mapa some | Resoneo (acima) | B | idem |
-| Registrar tipo de fonte (diretório, mapa, site de empresa…) | em inglês, o Yelp esteve em 80% das respostas locais (EUA, Reino Unido, Austrália; 60.970 checagens). No Brasil: sem dado | BrightLocal · https://www.brightlocal.com/resources/ai-directory-sources/ · 26/08/2026 | B | BrightLocal vende cadastro em diretórios |
+| Registrar tipo de fonte (diretório, mapa, site de empresa…) | em inglês, o Yelp esteve em 80% das respostas locais (EUA, Reino Unido, Austrália; 60.970 checagens nas três plataformas — Visão geral, Modo IA e ChatGPT; a parte do ChatGPT não é dada). No Brasil: sem dado | BrightLocal · https://www.brightlocal.com/resources/ai-directory-sources/ · 26/08/2026 | B | BrightLocal vende cadastro em diretórios |
 | Localização do aparelho desligada | o compartilhamento é opcional e vem desligado; um teste achou resultados "perto de mim" a cerca de 45 minutos | Search Engine Roundtable, citando notas de versão da OpenAI · https://www.seroundtable.com/chatgpt-location-sharing-41128.html · 31/03/2026 | C | veículo do setor |
 | Chat temporário (ou memória desligada) para isolar a memória | "If memory is enabled, ChatGPT may use relevant saved memories when rewriting a search query." Que a memória muda a busca **deixou de ser premissa**: conferido na ajuda oficial da OpenAI (https://help.openai.com/en/articles/9237897-searching-the-web-with-chatgpt, lida em 13/11/2026 pela sessão principal no navegador; o verificador independente recebeu erro 403 e não pôde reconferir). **Continua não conferido** que o chat temporário deixa a memória de fora: por isso a instrução de ler o aviso do próprio aplicativo (seção 1) | OpenAI, "Searching the web with ChatGPT" · https://help.openai.com/en/articles/9237897-searching-the-web-with-chatgpt · a página diz "atualizada há 25 dias" (por volta de 19/10/2026) | A (com a ressalva do 403) | OpenAI |
 | Bairro escrito na pergunta; anotar a rede (coluna `rede`); sem VPN | a busca usa a localização geral inferida do endereço IP e pode repassá-la a provedores terceiros: "collects general location information based on your IP address and may share that general location with third-party search providers". Sem bairro na pergunta, a cidade vem do IP (perguntas 12 e 25) — conferido na ajuda oficial da OpenAI (mesma página, mesma ressalva) | OpenAI (acima) | A (com a ressalva do 403) | OpenAI |
@@ -65,7 +71,8 @@ primeira resposta. Depois de anotar, feche o chat e abra outro.
 
 ## 2. As 30 perguntas
 
-Copie uma por vez. As 30 são de **morador (de casa ou de apartamento) ou de síndico**, como pede o portão da rodada.
+Copie uma por vez. As 30 são de **morador (de casa ou de apartamento) ou de síndico**, como pede o portão da rodada;
+a 27 é de quem comprou o apartamento e vai se mudar para ele (redação trocada às 01:55 de 14/11/2026: antes dizia "vou comprar", que é comprador, não morador).
 As perguntas **12 e 25 não têm bairro, de propósito**: testam o pedido sem localização fina, e nelas a cidade que o
 ChatGPT usa na busca vem do endereço IP (seção 1, linha "Localização e rede"). As cinco perguntas de dono de bar,
 restaurante e lanchonete que estavam na primeira versão saíram das 30 e estão no apêndice, como extras opcionais.
@@ -96,7 +103,7 @@ restaurante e lanchonete que estavam na primeira versão saíram das 30 e estão
 24. Apareceu um ninho de baratas atrás da geladeira aqui em casa, em São Mateus, e não consigo dormir. Tem dedetizadora 24 horas que venha agora?
 25. Vi um anúncio de dedetização por 99 reais em São Paulo. Isso é golpe? Como eu comparo empresas sem cair em cilada?
 26. Acabei de ver um rato na cozinha do meu sobrado na Freguesia do Ó. O que é melhor: chamar uma dedetizadora ainda hoje ou resolver sozinho com ratoeira? Se for empresa, qual atende hoje?
-27. Vou comprar um apartamento antigo na Consolação e a vistoria achou sinais de cupim. Que empresa faz a avaliação e o tratamento, e quanto tempo demora?
+27. Comprei e vou me mudar para um apartamento antigo na Consolação, e a vistoria achou sinais de cupim. Que empresa faz a avaliação e o tratamento, e quanto tempo demora?
 28. Vi sinais de rato na área de serviço do meu apartamento, no térreo de um prédio na Vila Prudente. Quero contratar uma desratização esta semana. Quem atende a zona leste?
 29. Compare para mim três dedetizadoras bem avaliadas que atendem Pirituba: preço, garantia e se têm licença. É para uma casa com baratas e formigas.
 30. Sou síndico de um condomínio no Bom Retiro e queremos fechar um contrato anual de controle de pragas. O que o contrato precisa ter e quais empresas de São Paulo atendem condomínios?
@@ -136,7 +143,7 @@ restaurante e lanchonete que estavam na primeira versão saíram das 30 e estão
 | 29 | baratas e formigas | Pirituba (norte) | planejado | morador de casa | comparação |
 | 30 | geral | Bom Retiro (centro) | planejado | síndico | indicação (contrato) |
 
-**Conferência da distribuição** (contagem refeita por script sobre a tabela acima, em 13/11/2026; **cada recorte soma
+**Conferência da distribuição** (contagem refeita por script sobre a tabela acima, em 13/11/2026, e de novo em 14/11/2026, depois da troca da pergunta 27; **cada recorte soma
 30**):
 
 - Praga: baratas 4 (1, 4, 13, 24) · baratas e formigas 1 (29) · baratas e ratos 1 (3) · ratos 4 (2, 16, 26, 28) ·
@@ -166,7 +173,8 @@ orientação de saúde para seguir.
 ## 3. O que registrar por pergunta
 
 Uma linha por execução. Se a pergunta foi repetida (repetições obrigatórias, busca forçada ou deslogado), é outra
-linha. São **22 colunas** (a coluna `rede` entrou depois da primeira versão, que tinha 21).
+linha. São **24 colunas** (a coluna `rede` entrou depois da primeira versão, que tinha 21; `motor` e
+`parceira_nomeada` entraram na correção de 14/11/2026, para a planilha ter os campos que o guia (c) pede).
 
 | Coluna | O que escrever |
 |---|---|
@@ -174,6 +182,7 @@ linha. São **22 colunas** (a coluna `rede` entrou depois da primeira versão, q
 | `data` · `hora` | dia e hora de Brasília em que a resposta saiu (são duas colunas) |
 | `n_pergunta` | 1 a 30 (ou C1 a C5, se rodar as extras do apêndice) |
 | `execucao` | 1 na rodada mensal; 2 a 6 nas cinco repetições obrigatórias do subconjunto (1, 2, 12, 13, 16 e 29); na subamostra deslogada, 1 (a linha se distingue pela coluna `conta` = `deslogada`) |
+| `motor` | `chatgpt` neste roteiro. Se as mesmas perguntas forem rodadas em outro motor (guia (c), `/home/ancastelo/pessoal/SEO_Project/docs/estudo/03_respostas_de_ia.md`, seção 7.3): `visao-geral`, `modo-ia`, `gemini`, `copilot` ou `perplexity` |
 | `conta` | `logada-temporario`, `logada-normal` ou `deslogada` |
 | `plano` | gratuito, Go, Plus… ou `nenhum` (deslogado) |
 | `modelo_exibido` | o nome que o aplicativo mostra |
@@ -184,20 +193,21 @@ linha. São **22 colunas** (a coluna `rede` entrou depois da primeira versão, q
 | `qtd_empresas_citadas` | número |
 | `empresas_citadas` | nomes das **empresas**, na ordem, separados por ponto e vírgula. Se o nome for de pessoa física, escreva `[pessoa física — omitido]` |
 | `fontes_citadas_dominios` | só os domínios, separados por ponto e vírgula, na ordem da lista de fontes |
-| `tipos_de_fonte` | para cada domínio, na mesma ordem: `site de empresa`, `diretório`, `mapa`, `imprensa`, `fórum`, `governo`, `intermediário` ou `outro` |
+| `tipos_de_fonte` | para cada domínio, na mesma ordem: `site de empresa`, `diretório`, `mapa`, `avaliação` (site de avaliações ou de reclamações; só o tipo, nunca o texto de uma avaliação), `imprensa`, `vídeo`, `rede social`, `fórum`, `governo`, `intermediário` ou `outro` |
 | `mostrou_mapa_ou_cartoes` | não, mapa, cartões ou mapa e cartões |
 | `citou_licenca_ou_vigilancia` | sim se a resposta falou em licença, alvará, vigilância sanitária ou responsável técnico; senão, não |
 | `apareceu_intermediario` | sim se entre as fontes ou indicações houver site de comparação, de orçamentos ou de leads; senão, não |
 | `intermediarios_dominios` | quais |
 | `site_do_projeto_citado` | sim, não ou `n.a.` (enquanto o site não existir) |
+| `parceira_nomeada` | sim se a resposta nomeou a licenciada parceira; não; ou `n.a.` (enquanto não houver parceira) |
 | `observacoes` | o que chamou atenção: respondeu sem indicar empresa, indicou empresa de outra cidade, mostrou anúncio patrocinado, pediu a localização, memória desligada ou chat temporário etc. |
 
 Cabeçalho da planilha e duas linhas de **EXEMPLO fictício** (nomes e domínios inventados):
 
 ```csv
-rodada,data,hora,n_pergunta,execucao,conta,plano,modelo_exibido,rede,localizacao_compartilhada,busca_forcada,buscou_na_web,qtd_empresas_citadas,empresas_citadas,fontes_citadas_dominios,tipos_de_fonte,mostrou_mapa_ou_cartoes,citou_licenca_ou_vigilancia,apareceu_intermediario,intermediarios_dominios,site_do_projeto_citado,observacoes
-EXEMPLO-2026-11,2026-11-14,10:05,1,1,logada-temporario,gratuito,EXEMPLO modelo padrão,casa,não,não,sim,3,EXEMPLO Dedetizadora Alfa; EXEMPLO Controle de Pragas Beta; EXEMPLO Gama Saúde Ambiental,exemplo-alfa.example; exemplo-guia-de-empresas.example; exemplo-mapa.example,site de empresa; diretório; mapa,mapa e cartões,não,não,,n.a.,EXEMPLO fictício: indicou duas empresas de bairro vizinho
-EXEMPLO-2026-11,2026-11-14,10:09,12,1,logada-temporario,gratuito,EXEMPLO modelo padrão,casa,não,não,não,0,,,,não,sim,não,,n.a.,EXEMPLO fictício: respondeu sem buscar e sem fonte; repetir com busca forçada em outra linha
+rodada,data,hora,n_pergunta,execucao,motor,conta,plano,modelo_exibido,rede,localizacao_compartilhada,busca_forcada,buscou_na_web,qtd_empresas_citadas,empresas_citadas,fontes_citadas_dominios,tipos_de_fonte,mostrou_mapa_ou_cartoes,citou_licenca_ou_vigilancia,apareceu_intermediario,intermediarios_dominios,site_do_projeto_citado,parceira_nomeada,observacoes
+EXEMPLO-2026-11,2026-11-14,10:05,1,1,chatgpt,logada-temporario,gratuito,EXEMPLO modelo padrão,casa,não,não,sim,3,EXEMPLO Dedetizadora Alfa; EXEMPLO Controle de Pragas Beta; EXEMPLO Gama Saúde Ambiental,exemplo-alfa.example; exemplo-guia-de-empresas.example; exemplo-mapa.example,site de empresa; diretório; mapa,mapa e cartões,não,não,,n.a.,n.a.,EXEMPLO fictício: indicou duas empresas de bairro vizinho
+EXEMPLO-2026-11,2026-11-14,10:09,12,1,chatgpt,logada-temporario,gratuito,EXEMPLO modelo padrão,casa,não,não,não,0,,,,não,sim,não,,n.a.,n.a.,EXEMPLO fictício: respondeu sem buscar e sem fonte; repetir com busca forçada em outra linha
 ```
 
 Onde guardar: sugiro um arquivo por rodada em
@@ -247,11 +257,12 @@ O que comparar de um mês para o outro:
 | Buscou na web | em quantas das 30 a resposta veio com fonte, sem forçar |
 | Mostrou mapa ou cartões | em quantas das 30 |
 | Falou de licença ou vigilância | em quantas das 30 |
-| Tipos de fonte | soma de cada tipo sobre o total de fontes citadas (site de empresa × diretório × mapa × imprensa × governo × intermediário) |
+| Tipos de fonte | soma de cada tipo sobre o total de fontes citadas (site de empresa × diretório × mapa × avaliação × imprensa × vídeo × rede social × governo × intermediário) |
 | Domínios recorrentes | para cada domínio, em quantas das 30 perguntas apareceu; listar os dez primeiros |
 | Empresas recorrentes | para cada empresa, em quantas das 30 apareceu |
 | Intermediários | em quantas das 30 apareceu um site de comparação ou de leads, e quais |
 | Site do projeto | em quantas das 30 foi citado (quando existir) |
+| Parceira nomeada | em quantas das 30 a resposta nomeou a licenciada parceira (quando houver parceira; antes disso, `n.a.`) |
 | Logado × deslogado | para as seis perguntas do subconjunto, quantas empresas e quantos domínios coincidem |
 | Ruído das repetições | para cada uma das seis perguntas do subconjunto, em quantas das 6 execuções logadas cada empresa e cada domínio apareceu |
 | Recortes | os mesmos indicadores por região, por urgência e por público, **só como hipótese**; por praga não (2 perguntas por praga não sustentam conclusão — ver "Limite dos recortes", seção 2) |

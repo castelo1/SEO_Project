@@ -75,7 +75,7 @@ Aparições entre os três primeiros (e na primeira posição), na amostra: 1 �
 
 | Medida | Mínimo | Mediana | Máximo | Página-modelo do protótipo |
 |---|---|---|---|---|
-| Palavras no texto visível | 218 | 1.126,5 | 4.017 | 856 |
+| Palavras no texto visível | 218 | 1.126,5 | 4.017 | 910 (eram 856 até 14/11/2026, 01:54, quando a segunda passada do item 7 trocou o parágrafo de bairros por uma remissão e acrescentou o campo "Dados pessoais" e o aviso completo ao lado do botão; contagem refeita com `html.parser`, texto do `body` sem `script`) |
 | Tamanho do HTML (KB) | 59 | 229,5 | 993 | 11 |
 | Links internos | 37 | 164,5 | 524 | 14 links ao todo |
 | Subtítulos de segundo nível (h2) | 1 | 8 | 41 | 5 |
@@ -116,7 +116,7 @@ Nada mais mudou. O número de caracteres não é regra do Google: é o que se vi
 | Marcar-se como negócio local | 3 | O site não é negócio local; usa `Organization` | desenho, seção 2 |
 | "24 h" e "garantia" | ao menos 7 e ao menos 5 | Não escreve, sem prova dada pela licenciada | desenho, seção 4.3 (CDC, arts. 36 e 38) |
 | Dezenas ou centenas de links internos (destino não medido) | mediana de 164,5 links internos | 14 links; sem lista de bairros | desenho, seções 3.2, 3.3 e 3.4 |
-| Texto longo (mediana de 1.126,5 palavras) | — | 856 palavras, sem enchimento | o guia de busca orgânica registra que não há contagem de palavras que o Google prefira (seção 1.1) e que escrever até atingir uma contagem de palavras é sinal de conteúdo feito para o buscador (seção 3) |
+| Texto longo (mediana de 1.126,5 palavras) | — | 910 palavras (856 antes da segunda passada), sem enchimento | o guia de busca orgânica registra que não há contagem de palavras que o Google prefira (seção 1.1) e que escrever até atingir uma contagem de palavras é sinal de conteúdo feito para o buscador (seção 3) |
 | Formulário de orçamento na página | 5 | Só o botão (via A) | desenho, seção 5.2 ("Por que não na versão 0") |
 | Imagens (mediana de 17,5) | — | Nenhuma | o protótipo é só HTML e CSS; foto real da licenciada pode entrar depois, com descrição verdadeira (guia de busca orgânica, seção 4, linha de imagens) |
 

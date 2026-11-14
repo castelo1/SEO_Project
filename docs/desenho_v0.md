@@ -262,7 +262,7 @@ telefone com WhatsApp; bairro (lista); praga (lista); tipo de imóvel (lista).
 > Para retirar a autorização ou apagar os seus dados, a qualquer momento e de graça: página "Excluir meus dados" ou
 > [e-mail]. Quando você pedir, apagamos o seu pedido e avisamos na hora cada empresa que o recebeu, para que faça o
 > mesmo. Guardamos só o registro da autorização e da retirada — [o que ele contém: a definir com o advogado] — e o
-> registro de acesso do servidor, com o endereço IP, pelo prazo da política de privacidade.
+> registro de acesso do servidor, com o endereço IP e a identificação do navegador, pelo prazo da política de privacidade.
 >
 > Política de privacidade: [link].
 

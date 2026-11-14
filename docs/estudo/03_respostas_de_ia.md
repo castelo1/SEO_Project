@@ -10,6 +10,11 @@
   (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_guias_ia_chatgpt.md`, 12 falhas
   numeradas). A correção não foi verificada de novo. Fontes abertas na correção: os dois textos sobre listas
   autopromocionais (Peec e Lily Ray, seção 5) e, de novo, o estudo da SparkToro/Gumshoe (seção 7.3).
+- **Segunda passada:** sábado, 14/11/2026 — verificação independente em
+  `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item3_ia_chatgpt.md` (aprovado com
+  ressalvas; 0 falha em 12); correções aplicadas por corretor às 01:50 (Brasília; `TZ=America/Sao_Paulo date`), sem
+  nova leitura de verificador — o corretor reabriu só as fontes das afirmações que mudou
+  (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes2_item3_ia_chatgpt.md`).
 - **Como li:** só busca e leitura de página pública. Nenhum assistente de IA foi aberto para teste. A ferramenta de
   leitura responde por meio de um modelo pequeno; por isso, trecho entre aspas só aparece quando a página oficial foi
   aberta e o trecho foi confirmado numa segunda chamada. O que foi lido uma vez só está em paráfrase, sem aspas.

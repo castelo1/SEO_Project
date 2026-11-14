@@ -6,6 +6,11 @@
   (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_guias_ia_chatgpt.md`, 12 falhas
   numeradas). A correção não foi verificada de novo. Nenhuma fonte nova entrou neste arquivo; a frase "usually at least
   60-100X" da SparkToro (F23) foi reaberta e confirmada na correção.
+- **Segunda passada:** sábado, 14/11/2026 — verificação independente em
+  `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item3_ia_chatgpt.md` (aprovado com
+  ressalvas; 0 falha em 12); correções aplicadas por corretor às 01:50 (Brasília; `TZ=America/Sao_Paulo date`), sem
+  nova leitura de verificador — o corretor reabriu só as fontes das afirmações que mudou
+  (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes2_item3_ia_chatgpt.md`).
 - **Pergunta-guia:** o que acontece quando alguém escreve "preciso de uma dedetizadora confiável na Vila Mariana" no
   ChatGPT, hoje, e o que um site que **gera leads e não presta o serviço** pode fazer a respeito.
 - **Como foi lido:** só busca na web e leitura de página pública. O ChatGPT **não** foi aberto; nenhuma pergunta foi
@@ -577,13 +582,15 @@ duas que faltavam:
    são todos os provedores, em que proporção entram, nem cita o Google ou um índice próprio.
 2. **"Ele busca no Google"** (F36, tática 4.2): apoiada em parte (seção 1.5), não declarada pela OpenAI.
 3. **Quantas buscas o ChatGPT faz por pergunta**: de 1,6 a mais de 7 conforme estudo, modelo e plano (F17, F18, F19).
-4. **Foursquare** como base local: alegações sem método de um lado; contestação que não consegui abrir do outro.
-5. **Se os robôs da OpenAI executam JavaScript em 2026.**
-6. **Se o `noindex` é respeitado**: a ajuda diria que sim — **não conferido**: a página de publishers deu 403 à
-   ferramenta e, no navegador, redireciona para outro artigo (complemento); uma medição diz que o cache o ignora (F13).
-7. **Quanto o perfil de empresa do Google pesa no ChatGPT**: um estudo diz que ele "quase não usa" o perfil e coincide
+   O "mais de 7" é o 7,61 de outro estudo, relatado em F19 (original não aberto; medido pela API, não no aplicativo,
+   em cerca de 4 mil perguntas, no modelo mais forte): classe C.
+4. **Quanto o perfil de empresa do Google pesa no ChatGPT**: um estudo diz que ele "quase não usa" o perfil e coincide
    só 19–20% com o Google (F21); outro mostra dados do Google Maps chegando por terceiros e links de perfil do Google
    dentro de registros do Yelp (F13).
+
+**Saíram de "disputado"** três itens (os antigos 4, 5 e 6; o antigo 7 passou a ser o 4), porque um dos lados não foi
+aberto — sem os dois lados lidos não há disputa documentada, mesma regra do guia (c). Foram para "O que não sei",
+itens 14 a 16: o Foursquare como base local, a execução de JavaScript pelos robôs em 2026 e o respeito ao `noindex`.
 
 ### O que não sei
 
@@ -606,6 +613,14 @@ duas que faltavam:
 12. Se o Reddit perdeu peso no ChatGPT também **no Brasil** (seção 9.1, tática 4.8).
 13. Quantas execuções por pergunta bastam para medir a frequência de uma pergunta: a SparkToro/Gumshoe (F23) lista como
     questão em aberto e dá "usually at least 60-100X" como orientação prática; o roteiro não atinge isso (seção 8).
+14. **Se o Foursquare é base local do ChatGPT** (a alegação "60–70% dos dados locais"). Nenhum lado foi aberto: a
+    alegação não tem método localizado, e o estudo que a contestaria não abriu (seção 5.3).
+15. **Se os robôs da OpenAI executam JavaScript em 2026.** O lado lido é F25 (B, dezembro de 2024, **pode estar
+    desatualizada**): nenhum dos três robôs executava. Os relatos de 2026 de que o OAI-SearchBot passou a executar
+    não foram abertos, e a OpenAI não documenta (seção 2).
+16. **Se o `noindex` é respeitado pela busca do ChatGPT.** O lado lido é uma medição de terceiro citada em F13 (B, uma
+    fonte): o cache de leitura o ignorou. O que a OpenAI diz está **não conferido**: a página de publishers deu 403 à
+    ferramenta e, no navegador, redireciona para outro artigo (complemento; seção 3.2).
 
 ### Fontes que tentei abrir e não abriram
 
