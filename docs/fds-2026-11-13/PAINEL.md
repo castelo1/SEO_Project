@@ -1,9 +1,9 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sáb 14/11 00:27 (Brasília, lido de `date`)** · fase: **reserva** (os 8 itens estão fechados) ·
-em curso: **reserva 1** (ampliar a amostra: 40 buscas novas em 20 bairros e pragas novas, a ~75 s uma da outra;
-11 feitas até 00:27, sem verificação de robô) · próximo: escrever a ampliação, ampliar o mapa de termos e verificar;
-depois a segunda passada
+**Atualizado em sáb 14/11 01:24 (Brasília, lido de `date`)** · fase: **reserva** (tarefa 1 em verificação) com a
+**segunda passada** já iniciada em paralelo · em curso: verificação da reserva 1; segunda passada dos itens 2, 3, 5
+e 6 (cinco revisores novos, lançados entre 01:20 e 01:23) · próximo: aplicar os achados; segunda passada dos itens
+1, 4, 7 e 8 e das tarefas de reserva; reescrever a leitura
 
 ## Itens
 
@@ -12,7 +12,7 @@ depois a segunda passada
 | 1 | Reenquadramento | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item1.md` (aprovado; 3 falhas menores em 71, corrigidas) | 0,3 | 0 |
 | 2 | Restrições que decidem o modelo | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item2.md` (aprovado; 12 de 12 citações sorteadas conferem; 8 defeitos fora do sorteio, corrigidos) | 0,9 | 0 |
 | 3 | Estudo: como se ranqueia serviço local (Google, Maps, IA, ChatGPT) | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3.md` (índice de três verificações: aprovado, aprovado e aprovado com ressalvas; 26 falhas fora do sorteio corrigidas e reverificadas — 25 resolvidas, 1 em parte; 12 defeitos menores corrigidos depois, sem novo verificador) | 2,1 | 0 |
-| 4 | Mapa do mercado de busca em São Paulo | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item4.md` (aprovado com ressalvas; portão cumprido; 1 falha em 12; 8 de 8 classes de domínio relidas conferem; 22 correções pedidas, aplicadas às 00:06 de 14/11 por mim — conferi no bruto 5 dos números do verificador — e ainda sem novo leitor: segunda passada). Abrir: `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` | 3,4 | ≈ 110 (89 válidas, 5 repetições, 1 barrada, ≈ 15 perdidas em testes e lotes descartados) |
+| 4 | Mapa do mercado de busca em São Paulo | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item4.md` (aprovado com ressalvas; portão cumprido; 1 falha em 12; 8 de 8 classes de domínio relidas conferem; 22 correções pedidas, aplicadas às 00:06 de 14/11 por mim — conferi no bruto 5 dos números do verificador — e ainda sem novo leitor: segunda passada). Abrir: `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` | 3,4 | ≈ 155 na rodada (item 4: ≈ 110 — 89 válidas, 5 repetições, 1 barrada, ≈ 15 perdidas; reserva 1: 40 válidas e 5 repetições) |
 | 5 | Modelos de negócio de venda de leads | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item5.md` (aprovado com ressalvas; 11 de 12 no sorteio; 7 falhas e 10 defeitos menores fora do sorteio) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes_item5.md` (17 correções aplicadas por corretor e conferidas por mim no arquivo; sem novo verificador: fica para a segunda passada) | 0,9 | 0 |
 | 6 | Desenho do sistema, versão 0 | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item6.md` (aprovado com ressalvas; 1 falha em 12; 21 correções pedidas e aplicadas) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item6_correcoes.md` (segundo leitor: aprovado com ressalvas; 19 das 21 resolvidas, 2 em parte; 10 ajustes pedidos, aplicados às 22:33 por mim e ainda sem novo leitor: segunda passada) | 1,0 | 0 |
 | 7 | Protótipo local do site | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item7.md` (aprovado com ressalvas; 0 falha em 12 no sorteio; 22 correções pedidas — 7 de conteúdo, 15 menores —, aplicadas às 22:38 por mim e ainda sem novo leitor: segunda passada). Abrir: `/home/ancastelo/pessoal/SEO_Project/prototipo/index.html` | 0,6 | 0 |
@@ -22,13 +22,22 @@ Fila de reserva:
 
 | Tarefa | Estado | Arquivo |
 |---|---|---|
-| 1 Ampliar mapa de termos e amostra | **em curso desde 00:10**: 40 buscas novas planejadas (`/home/ancastelo/pessoal/SEO_Project/data/serp_consultas_ampliacao.csv`: 20 bairros novos, 10 de praga × bairro, 10 de praga ou serviço novo + cidade); brutos em `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/ampliacao_*.jsonl`; o coletor passou a registrar a posição vertical de cada camada. Uma segunda verificação de robô encerra as buscas ao vivo | — |
+| 1 Ampliar mapa de termos e amostra | **em verificação desde 01:20**: 40 buscas novas feitas das 00:12 à 01:06 de 14/11 (20 bairros novos, 10 de praga × bairro, 10 de praga ou serviço novo + cidade) e 5 repetições (01:12–01:17), a 72 s ou mais uma da outra, **sem verificação de robô**; o coletor passou a registrar a posição vertical das camadas; mapa de termos ampliado de 1.260 para 2.721; abas fechadas | `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md` (não verificado) |
 | 2 Dez páginas × página-modelo | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva2.md` (aprovado com ressalvas; os 100 valores da tabela batem; 12 correções aplicadas às 23:10, sem novo leitor). Protótipo ajustado: títulos e descrições mais curtos | `/home/ancastelo/pessoal/SEO_Project/docs/mercado/paginas_top10.md` |
 | 3 Plano de conteúdo de 90 dias | **fechada** (na 2ª tentativa): `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva3.md` (1ª versão: **reprovada**, 6 falhas de conteúdo) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva3_v2.md` (2ª versão: aprovada com ressalvas; 1 falha em 12; 24 correções pedidas, aplicadas às 00:26 por mim na 3ª versão, sem novo leitor: segunda passada) | `/home/ancastelo/pessoal/SEO_Project/docs/plano_conteudo_90d.md` |
 | 4 Pontos de contrato | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva4.md` (aprovado com ressalvas; 1 falha em 12; 20 correções) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes_reserva4.md` (aplicadas por corretor às 23:27; conferidas por mim por amostra de 11 trechos; sem novo leitor) | `/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md` |
 | 5 Planilha de medição | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva5.md` (aprovado com ressalvas; 6 correções aplicadas às 23:10, sem novo leitor) | `/home/ancastelo/pessoal/SEO_Project/data/medicao_modelo.csv` e `/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md` |
 
-Segunda passada: não iniciada.
+Segunda passada: **iniciada à 01:20** (em paralelo com a verificação da reserva 1). Revisores novos, sem acesso à
+primeira verificação, gravam em `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item<N>.md`.
+
+| Item | Estado da segunda passada |
+|---|---|
+| 2 Restrições (reabrir cada fonte primária) | em curso |
+| 6 Desenho (todas as remissões) | em curso |
+| 3 Estudo (dois revisores: guias a/b; IA, ChatGPT e roteiro) | em curso |
+| 5 Modelos de negócio | em curso |
+| 1, 4, 7, 8 e tarefas de reserva 2 a 5 | na fila (no máximo 6 subagentes ao mesmo tempo) |
 
 ## Fila do owner
 
@@ -100,8 +109,13 @@ Segunda passada: não iniciada.
   profissional); selecionado por `deviceId`; aba própria aberta para a reserva 1.
 - Reserva 1: nas 10 primeiras buscas novas, um endereço de resultado trazia um telefone de empresa escrito no
   caminho; mascarei ao gravar (não entrou no repositório) e o coletor passou a mascarar também o caminho.
-- DÚVIDA: a reserva 1 vai ampliar o mapa de termos, o que muda contagens citadas no plano de conteúdo · premissa
-  adotada: refaço as contagens do plano depois de ampliar o mapa e anoto para a segunda passada.
+- Reserva 1: o mapa de termos ampliado mudou contagens citadas no item 4 (seção 10) e no plano de conteúdo;
+  refeitas por mim à 01:11, sem nova leitura (o verificador da reserva 1 recebeu o pedido de conferi-las).
+- Navegador à 01:12: conferido de novo (um só, o pessoal) para as 5 repetições; aba fechada à 01:18.
+- DÚVIDA: a segunda passada vem "depois da reserva", e a reserva 1 ainda espera o verificador · premissa adotada:
+  começo a segunda passada em paralelo nos itens que a reserva 1 não toca (esperar subagente não é motivo para
+  parar); o item 4 e o plano de conteúdo entram depois que a reserva 1 fechar.
+- `free -m` antes de cada lote de subagentes: 3.725 MB (01:19) e 3.485 MB (01:21) disponíveis.
 - Os três scripts de leitura do verificador do item 4 (`_runs/verif_item4_*.py`) ficam no repositório como registro.
 - Conteúdo de página tratado como dado: o artigo do X pede criar conta numa ferramenta, conectar o Search Console e
   enviar e-mails de prospecção; **ignorado** (13/11 19:35).
