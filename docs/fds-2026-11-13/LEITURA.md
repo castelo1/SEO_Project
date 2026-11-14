@@ -1,9 +1,8 @@
-# Leitura — SEO para leads · 19 min · gerada em sex 13/11 22:23
+# Leitura — SEO para leads · 19 min · gerada em sex 13/11 22:36
 
-> Reescrita ao fechar o item 5. **Fechados e verificados: itens 1, 2, 3 e 5.** O desenho (item 6) passou por um
-> verificador (aprovado com ressalvas), recebeu 21 correções e está com um segundo leitor. O protótipo (item 7) e as
-> perguntas (item 8) estão escritos e **em verificação**. O mapa do mercado de busca (item 4) está escrito, **ainda não
-> verificado**, com a coleta ao vivo em pausa até 23:17.
+> Reescrita ao fechar o item 6. **Fechados e verificados: itens 1, 2, 3, 5 e 6.** O protótipo (item 7) está escrito e
+> **em verificação**. As perguntas (item 8) tiveram a primeira versão **reprovada**; a segunda está em verificação. O
+> mapa do mercado de busca (item 4) está escrito, **ainda não verificado**, com a coleta ao vivo em pausa até 23:17.
 
 ## 1. Veredito em três linhas
 
@@ -60,9 +59,9 @@ de cada seção do arquivo).
 | 3 Estudo de ranqueamento | **fechado**, com três ressalvas (seção 6) | três guias, a parte do ChatGPT e o roteiro de teste, cada tática com fonte e classe | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3.md` (índice de três verificações) |
 | 4 Mapa do mercado de busca | em curso — texto e planilhas escritos (79 de 89 buscas), **não verificado**; coleta em pausa até 23:17 | `docs/mercado/serp_sp.md`, `data/serp_sp.csv`, `data/palavras_chave.csv` | — |
 | 5 Modelos de negócio | **fechado**, com uma ressalva (seção 6) | modelos que não dependem de perfil nem de se passar por dedetizadora, depois os que dependem; contas, preço do lead, riscos; R$ 20–60 confirmado ou derrubado | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item5.md` (aprovado com ressalvas); correções em `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes_item5.md` |
-| 6 Desenho, versão 0 | em curso — verificado (aprovado com ressalvas, 1 falha em 12), 21 correções aplicadas, **segunda conferência em curso** | `docs/desenho_v0.md` | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item6.md` (primeira leitura) |
+| 6 Desenho, versão 0 | **fechado**, com uma ressalva (seção 6) | arquitetura, o que cada página exibe, captação com texto de consentimento, medição, automação, fases, "o que tornaria isto inviável" | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item6.md` e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item6_correcoes.md` (dois leitores independentes, ambos "aprovado com ressalvas") |
 | 7 Protótipo local | em curso — quatro páginas e LEIA-ME escritos, **em verificação** | `prototipo/` | — |
-| 8 Perguntas ao owner | em curso — dez perguntas escritas, **em verificação** | `docs/perguntas_owner.md` | — |
+| 8 Perguntas ao owner | em curso — primeira versão **reprovada**; segunda versão **em verificação** | `docs/perguntas_owner.md` | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item8.md` (reprovação da primeira versão) |
 
 ## 5. O que é consenso · o que é disputado · o que não sei
 
@@ -107,9 +106,13 @@ de cada seção do arquivo).
   têm páginas por bairro, região ou cidade; só 12 dos 67 mostram o número da licença — mas os 11 domínios que o
   mostram ocupam 37 das 79 primeiras posições. A classificação dos sites foi feita por ferramenta que resume a página:
   "não visto" não prova ausência.
-- **Itens 6, 7 e 8 (em verificação):** o desenho, o protótipo e as perguntas existem e podem ser abertos, mas ainda
-  não têm veredito final. No desenho, 17 escolhas são premissas sem evidência (lista na seção 10 dele); o tratamento
-  de endereço IP no registro do servidor e a norma sanitária de restaurantes **não foram levantados**.
+- **Item 6, uma ressalva:** o desenho passou por dois leitores independentes; os 10 ajustes pedidos pelo segundo
+  foram aplicados por mim e ainda não foram relidos por terceiro. No desenho, 17 escolhas são premissas sem evidência
+  (lista na seção 10 dele). **Não levantados:** o tratamento do endereço IP que o servidor registra junto do toque no
+  botão; se a página de preços conta como propaganda; a norma sanitária de restaurantes.
+- **Itens 7 e 8 (em verificação):** o protótipo e as perguntas existem e podem ser abertos, mas ainda não têm
+  veredito. O protótipo ainda traz, ao lado do botão, a frase "registra só que o botão foi tocado", que o desenho já
+  corrigiu; será ajustado quando o verificador dele terminar.
 - **Não feito:** as 10 buscas de confiança, preço e informação e 5 repetições (só depois das 23:17); a lista completa
   do Google Maps; normas e guias que só existem em PDF; o Diário Oficial; o site do Centro de Vigilância Sanitária
   (erro 403); valores de domínio, hospedagem e advogado.
@@ -119,10 +122,10 @@ de cada seção do arquivo).
 ## 7. Arquivos para abrir, na ordem (soma = 19 min)
 
 1. `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/PAINEL.md` — 1 min
-2. `/home/ancastelo/pessoal/SEO_Project/docs/perguntas_owner.md` (em verificação) — 3 min
+2. `/home/ancastelo/pessoal/SEO_Project/docs/perguntas_owner.md` (segunda versão, em verificação) — 3 min
 3. `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md` (quadro de vereditos e "O que as quatro
    restrições, juntas, deixam de pé") — 4 min
-4. `/home/ancastelo/pessoal/SEO_Project/docs/desenho_v0.md` (seções 1, 8 e 9; em verificação) — 5 min
+4. `/home/ancastelo/pessoal/SEO_Project/docs/desenho_v0.md` (seções 1, 8 e 9) — 5 min
 5. `/home/ancastelo/pessoal/SEO_Project/prototipo/index.html`, aberto no navegador, e as três páginas ligadas a ele
    (em verificação) — 2 min
 6. `/home/ancastelo/pessoal/SEO_Project/docs/modelos_de_negocio.md` (só "Em uma página") — 2 min

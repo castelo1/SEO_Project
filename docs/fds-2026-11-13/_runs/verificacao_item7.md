@@ -1,7 +1,7 @@
 # Verificação independente do item 7 — `prototipo/`
 
-- **Quando:** sexta, 13/11/2026, das 22:22 às HORA_FIM (Brasília, lido de `TZ=America/Sao_Paulo date`: início
-  "Fri Nov 13 22:22:22 -03 2026"; antes de gravar, "Fri Nov 13 22:31:47 -03 2026"; depois de gravar, "DATA_FIM").
+- **Quando:** sexta, 13/11/2026, das 22:22 às 22:35 (Brasília, lido de `TZ=America/Sao_Paulo date`: início
+  "Fri Nov 13 22:22:22 -03 2026"; antes de gravar, "Fri Nov 13 22:31:47 -03 2026"; depois de gravar, "Fri Nov 13 22:34:59 -03 2026").
 - **Quem:** verificador em contexto limpo, sem a conclusão de quem produziu. Só leitura de arquivo local; nenhuma
   página da web aberta, nenhum navegador, nenhum servidor local, nenhum `git` de escrita. Nada editado além deste
   arquivo.
