@@ -1,0 +1,41 @@
+id,grupo,grupo_descricao,termo,superficie
+I01,I,bairro (20 bairros novos),dedetizadora brooklin,busca web do Google
+I02,I,bairro (20 bairros novos),dedetização morumbi,busca web do Google
+I03,I,bairro (20 bairros novos),dedetizadora saúde sp,busca web do Google
+I04,I,bairro (20 bairros novos),dedetização campo belo,busca web do Google
+I05,I,bairro (20 bairros novos),dedetizadora interlagos,busca web do Google
+I06,I,bairro (20 bairros novos),dedetização capão redondo,busca web do Google
+I07,I,bairro (20 bairros novos),dedetizadora vila prudente,busca web do Google
+I08,I,bairro (20 bairros novos),dedetização são miguel paulista,busca web do Google
+I09,I,bairro (20 bairros novos),dedetizadora sapopemba,busca web do Google
+I10,I,bairro (20 bairros novos),dedetização guaianases,busca web do Google
+I11,I,bairro (20 bairros novos),dedetizadora tucuruvi,busca web do Google
+I12,I,bairro (20 bairros novos),dedetização pirituba,busca web do Google
+I13,I,bairro (20 bairros novos),dedetizadora freguesia do ó,busca web do Google
+I14,I,bairro (20 bairros novos),dedetização casa verde,busca web do Google
+I15,I,bairro (20 bairros novos),dedetizadora vila maria,busca web do Google
+I16,I,bairro (20 bairros novos),dedetização vila leopoldina,busca web do Google
+I17,I,bairro (20 bairros novos),dedetizadora jaguaré,busca web do Google
+I18,I,bairro (20 bairros novos),dedetização liberdade sp,busca web do Google
+I19,I,bairro (20 bairros novos),dedetizadora consolação,busca web do Google
+I20,I,bairro (20 bairros novos),dedetização aclimação,busca web do Google
+J01,J,praga × bairro novo,dedetização de baratas brooklin,busca web do Google
+J02,J,praga × bairro novo,desratização tucuruvi,busca web do Google
+J03,J,praga × bairro novo,descupinização morumbi,busca web do Google
+J04,J,praga × bairro novo,percevejo de cama liberdade dedetização,busca web do Google
+J05,J,praga × bairro novo,controle de pombos consolação,busca web do Google
+J06,J,praga × bairro novo,dedetização de formigas saúde sp,busca web do Google
+J07,J,praga × bairro novo,dedetização de pulgas vila prudente,busca web do Google
+J08,J,praga × bairro novo,controle de escorpião pirituba,busca web do Google
+J09,J,praga × bairro novo,desratização vila leopoldina,busca web do Google
+J10,J,praga × bairro novo,dedetização de baratas são miguel paulista,busca web do Google
+K01,K,praga ou serviço novo + cidade,dedetização de traças são paulo,busca web do Google
+K02,K,praga ou serviço novo + cidade,controle de mosquitos são paulo,busca web do Google
+K03,K,praga ou serviço novo + cidade,remoção de marimbondos são paulo,busca web do Google
+K04,K,praga ou serviço novo + cidade,dedetização de moscas são paulo,busca web do Google
+K05,K,praga ou serviço novo + cidade,dedetização de lacraias são paulo,busca web do Google
+K06,K,praga ou serviço novo + cidade,controle de ratos são paulo,busca web do Google
+K07,K,praga ou serviço novo + cidade,tratamento cupim de solo são paulo,busca web do Google
+K08,K,praga ou serviço novo + cidade,tratamento broca de madeira são paulo,busca web do Google
+K09,K,praga ou serviço novo + cidade,fumacê para condomínio são paulo,busca web do Google
+K10,K,praga ou serviço novo + cidade,dedetização piolho de pombo são paulo,busca web do Google
