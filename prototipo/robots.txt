@@ -1,20 +1,25 @@
 # PROTOTIPO LOCAL do EXEMPLO Guia: arquivo de exemplo, nada foi publicado.
 # Origem do bloco: docs/estudo/03b_chatgpt.md, secao 9; escolha registrada em docs/desenho_v0.md, secao 3.4.
+# "Disallow: /ir/" fecha a robos o endereco que registra o toque no botao (docs/desenho_v0.md, secao 5.1; PREMISSA).
 
 # Busca do ChatGPT: permitir para poder ser citado
 User-agent: OAI-SearchBot
 Allow: /
+Disallow: /ir/
 
 # Visita a pedido de um usuario do ChatGPT
 User-agent: ChatGPT-User
 Allow: /
+Disallow: /ir/
 
 # Treino de modelos: nao afeta a busca; decisao do dono (padrao: permitir)
 User-agent: GPTBot
 Allow: /
+Disallow: /ir/
 
 # Demais robos (inclui Googlebot e Bingbot)
 User-agent: *
 Allow: /
+Disallow: /ir/
 
 Sitemap: https://EXEMPLO.example/sitemap.xml

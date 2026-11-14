@@ -1,9 +1,15 @@
-# Modelos de negócio de venda de leads de controle de pragas em São Paulo (item 5) — primeira versão
+# Modelos de negócio de venda de leads de controle de pragas em São Paulo (item 5)
 
-- **Estado:** primeira versão, escrita por subagente de pesquisa em sexta, 13/11/2026, entre 21:40 e 21:47 (Brasília,
-  lido de `date`). Lida inteira pela sessão principal às 21:47; **verificação independente em curso**.
+- **Estado:** escrita por subagente de pesquisa em sexta, 13/11/2026, entre 21:40 e 21:47 (Brasília, lido de `date`).
+  Lida inteira pela sessão principal às 21:47.
+- **Verificação independente:** `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item5.md`
+  (aprovado com ressalvas; 11 de 12 no sorteio). As correções F1–F7 e D1–D10 foram aplicadas em 13/11/2026 às 22:17
+  (Brasília, lido de `TZ=America/Sao_Paulo date`); registro em
+  `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes_item5.md`. As correções ainda não foram
+  reverificadas.
 - **Leitura das fontes da web:** 13/11/2026, das 21:24 às 21:39 (Brasília). A ferramenta não grava a hora de cada
-  página; a tabela de fontes (seção 9) dá a janela de cada uma.
+  página; a tabela de fontes (seção 9) dá a janela de cada uma. Na correção, quatro páginas foram relidas entre 22:08 e
+  22:17 (F5, F29, F30 e F35).
 - **Como li:** só busca na web e leitura de página pública pela ferramenta de leitura, que **resume e corta**. O que
   está entre aspas é trecho literal que pedi e a ferramenta devolveu; ainda assim, confira na página. Não usei navegador,
   não criei conta, não preenchi formulário, não pedi orçamento, não cliquei em anúncio.
@@ -258,11 +264,13 @@ Conta ilustrativa da receita (**não é previsão**):
 | 300 | R$ 6.000 | R$ 12.000 |
 
 R$ 20 e R$ 40 são os dois extremos de R3 `[BR, classe A]`, arredondados — e R3 é **outro produto** (pedido de empresa,
-compartilhado com até 4 a 6 fornecedores). Uso só para a ordem de grandeza.
+compartilhado com até 4 a 6 fornecedores — R4, artigo de 2021, **pode estar desatualizada**). Uso só para a ordem de
+grandeza.
 
 Conta ilustrativa do teto, por praga (**não é previsão**): ticket base de R17 `[BR, HIPÓTESE 25/09, classe D]`;
-taxa de fechamento 30% `PREMISSA` (não há fonte brasileira; a única referência lida hoje é um exemplo de agência dos
-EUA, 28% a 30%, F35, classe D); fração do ticket 15% e 30% `PREMISSA`.
+taxa de fechamento 30% `PREMISSA` (valor **arbitrário**: não há fonte brasileira e ele não se apoia em fonte nenhuma);
+fração do ticket 15% e 30% `PREMISSA`. O teto é proporcional à taxa de fechamento: com 10% `PREMISSA`, igualmente
+arbitrário, cada teto da tabela cai a um terço (baratas: R$ 4,20 e R$ 8,40).
 
 | Praga (residência) | Ticket base | Teto com 15% | Teto com 30% |
 |---|---|---|---|
@@ -325,7 +333,8 @@ região cumpre as condições" (linhas 257–258).
 
 **As contas.** `mensalidade máxima = unidades esperadas na região × taxa de fechamento × ticket × fração aceita`.
 Conta ilustrativa (**não é previsão**): 40 contatos por mês `PREMISSA` × 30% `PREMISSA` × R$ 280 `[BR, HIPÓTESE 25/09]`
-× 15% `PREMISSA` = R$ 504 por mês por região.
+× 15% `PREMISSA` = R$ 504 por mês por região. Os 30% são arbitrários (ver 4.2); com 10% `PREMISSA`, a mesma conta dá
+R$ 168.
 Referências de outros países, **só estrutura**: caso único de Nova York, cerca de 2015, US$ 45 mil por ano pelas
 ligações de um site (R27, classe D); faixa de US$ 300 a US$ 2.000 por mês citada na pesquisa antiga
 (`/home/ancastelo/pessoal/SEO_Project/research/03_modelos_negocio_escala.md`, linha 42 — fontes de vendedor, **não
@@ -361,10 +370,15 @@ site **dela**" → **permitido com condição**; seção (a), subseção "4. Cam
 2. Ela é a proprietária do perfil; o projeto entra como administrador e devolve o acesso em até 7 dias úteis quando ela
    pedir (linhas 113–116).
 3. Telefone, WhatsApp e site do perfil são **dela**; o conteúdo do site é dela (linhas 117–119).
-4. O serviço é o roteiro do guia (b): `/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md`, seção
-   "10. O que um gestor autorizado pode oferecer à licenciada" (linhas 416–463).
-5. Cobra-se mensalidade pelo trabalho. **Não se promete posição** (linhas 126–128).
-6. Não há WhatsApp do projeto no caminho: o contato vai direto ao número dela.
+4. O serviço de perfil é o roteiro do guia (b): `/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md`,
+   seção "10. O que um gestor autorizado pode oferecer à licenciada" (linhas 416–463).
+5. O serviço de site (o site continua sendo dela) cobre: a identificação dela e o número da licença, com o órgão
+   emissor, em toda página que oferece o serviço, e nenhum termo vedado (RDC 622, art. 22; item 2, seção (b), linhas
+   186–194); o mesmo nome e o mesmo telefone do perfil (guia (b), seção 10.1, passo 13); e os elementos de página e os
+   dados estruturados que o Google documenta — guia (a),
+   `/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seções 4 e 5 (linhas 240–283).
+6. Cobra-se mensalidade pelo trabalho. **Não se promete posição** (linhas 126–128).
+7. Não há WhatsApp do projeto no caminho: o contato vai direto ao número dela.
 
 **As contas.** `receita = licenciadas atendidas × mensalidade`; custo = horas por cliente.
 Conta ilustrativa (**não é previsão**): 3 clientes `PREMISSA` × R$ 600 por mês `PREMISSA` = R$ 1.800 por mês.
@@ -385,7 +399,7 @@ Conta ilustrativa (**não é previsão**): 3 clientes `PREMISSA` × R$ 600 por m
 | Risco | Neste modelo | Remissão |
 |---|---|---|
 | Google | "If a merchant's account is restricted, all Business Profiles associated with that account will be suspended.": um erro derruba os perfis de todas as clientes geridas pela mesma conta. Violação séria pode suspender também a conta do gestor | item 2, seção (a), linhas 89–103 e 120–121 |
-| Propaganda | O art. 22 da RDC 622 se dirige à empresa especializada: o perfil e o site dela têm de trazer a licença e evitar os termos vedados; o gestor que escreve o texto responde ao menos perante ela | item 2, seção (b), linhas 181–194 |
+| Propaganda | O art. 22 da RDC 622 se dirige à empresa especializada: o perfil e o site dela têm de trazer a licença e evitar os termos vedados; o gestor que escreve o texto responde ao menos perante ela (**inferência minha; não levantado**) | item 2, seção (b), linhas 181–194 |
 | LGPD | Papel do gestor que acessa contatos da cliente (operador?): **não levantado** no item 2 | — |
 | WhatsApp | É o dela; nada a repassar | item 2, seção (d), linhas 438–441 |
 | Parceiro | O patrimônio é dela ("o perfil, as avaliações e as ligações são dela e ela pode retomá-los", linhas 136–137). Conflito de interesse se o mesmo projeto vende leads às concorrentes dela. Quem tem vínculo contratual não pode avaliar a empresa (linhas 95–98) | item 2, seção (a) |
@@ -448,7 +462,8 @@ consumido ou vence. Conta ilustrativa (**não é previsão**): 4 licenciadas `PR
 R$ 1.200 adiantados.
 
 **Precificação do lead.** O pacote embute o preço por unidade de 4.2 (por praga, residência × empresa, exclusivo ×
-compartilhado). Desconto por volume existe nas duas plataformas (R2; "Packs" maiores do GetNinjas só no aplicativo).
+compartilhado). Desconto por volume existe no oHub (R2). No GetNinjas, **não conferido**: só um preço de pacote é
+público (R6; os demais só aparecem no aplicativo).
 
 **Riscos.**
 
@@ -473,8 +488,9 @@ passar a receber o pagamento do consumidor, o modelo muda de natureza e vai para
 
 **As contas.** `receita = serviços fechados declarados × ticket × percentual`.
 Conta ilustrativa (**não é previsão**): 20 serviços `PREMISSA` × R$ 280 `[BR, HIPÓTESE 25/09]` × 10% `PREMISSA` =
-R$ 560 por mês. Percentuais brasileiros de plataforma (classe A, cada uma sobre si): Cronoshare, até 15%, média de 6%
-a 10% (R11); Triider, 21% a 25%, **mas com o pagamento do cliente passando pela plataforma** (R14).
+R$ 560 por mês. Percentuais brasileiros de plataforma: Cronoshare, até 15%, média de 6% a 10% (R11, classe D:
+estimativa da própria plataforma); Triider, 21% a 25%, **mas com o pagamento do cliente passando pela plataforma**
+(R14, classe A: termos dela).
 
 **Precificação do lead.** O preço por lead é implícito: `ticket × percentual × taxa de fechamento`.
 - *Por tipo de praga:* acompanha o ticket automaticamente.
@@ -514,8 +530,10 @@ O formato existe no mercado. Na classificação dos domínios da amostra de busc
 (`/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_dominios.md`, tabela "Resultados por classe", lida às 21:45;
 feita por outros subagentes, com 1 a 3 páginas por domínio; arquivo do item 4, **em andamento, não conferido por
 mim** — os números podem mudar): 14 domínios são "rede declarada ou domínio satélite" (51 dos 709 resultados
-orgânicos, 7%) e 15 são "marca sem identificação vista" (93 resultados, 13%); só 11 domínios exibem número de licença
-na página (138 resultados, 19%). O próprio anexo avisa que "sem número de licença visto" não prova que o site não o
+orgânicos, 7%) e 15 são "marca sem identificação vista" (93 resultados, 13%); 11 domínios estão na classe "empresa com número
+de licença na página" (138 resultados, 19%); contando um domínio satélite que também exibe, são 12 dos 67 sites de
+serviço lidos (`/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv`, coluna `licenca_exibida`;
+`/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md`, seção 1, item 4). O próprio anexo avisa que "sem número de licença visto" não prova que o site não o
 exiba em outra página. Uma plataforma de pedidos lida por mim se diz "Plataforma de intermediação de pedidos" e não
 nomeia as empresas que recebem o pedido de dedetização (F26).
 Existir no mercado não muda o veredito.
@@ -573,8 +591,8 @@ não foi levantada (item 2, linhas 225–229).
 
 | Plataforma | O que vende ao prestador | Preço público | Quantos recebem o mesmo pedido | Dedetização | Fontes |
 |---|---|---|---|---|---|
-| GetNinjas | Contato do cliente, liberado com moedas pré-pagas | Moeda: R$ 0,14 (pacote de 500 por R$ 69,90). Pedido: **não publicado** | Até 4 | Tem a categoria; não exige licença na página ("verifique se possuem licença e certificação" é conselho ao cliente) | F1–F6 |
-| oHub | Contato do comprador (empresa), liberado com créditos pré-pagos | Crédito: R$ 1,62–1,72. Resposta de dedetização: 12 a 24 créditos | 4, mais 2 com acréscimo | Tem a categoria; 262 fornecedores listados na cidade; a lista não exibe número de licença (resumo da ferramenta) | F8–F16 |
+| GetNinjas | Contato do cliente, liberado com moedas pré-pagas | Moeda: R$ 0,14 (pacote de 500 por R$ 69,90). Pedido: **não publicado** | Até 4 (a mesma página diz 3 em outra seção: seção 8, Disputado 2) | Tem a categoria; não exige licença na página ("verifique se possuem licença e certificação" é conselho ao cliente) | F1–F6 |
+| oHub | Contato do comprador (empresa), liberado com créditos pré-pagos | Crédito: R$ 1,62–1,72. Resposta de dedetização: 12 a 24 créditos | 4, mais 2 com acréscimo (R4, artigo de 2021, **pode estar desatualizada**) | Tem a categoria; 262 fornecedores listados na cidade; a lista não exibe número de licença (resumo da ferramenta) | F8–F16 |
 | Cronoshare | Contato do cliente, com "cronos" pré-pagos | Até 15% do que o profissional cobrará; média de 6% a 10% (páginas divergem) | No máximo 4 | Tem páginas de preço de dedetização; o texto veio cortado, sem valores | F18–F21 |
 | Triider | Intermediação com pagamento pela plataforma | 21% a 25% do serviço (modalidade pós-paga) | Não consta | Tem página de preço de dedetização na amostra de buscas; o serviço não consta na página para profissionais | F22, F23 |
 | Habitissimo (Brasil) | **Não conferido**: o site não abriu. Em 2021 a operação brasileira foi comprada pelo Triider (F24, **pode estar desatualizada**) | — | — | — | F24 |
@@ -597,25 +615,26 @@ O que **não** achei em nenhuma: preço de lead **por praga**; preço de lead **
 **O que era, então.** Não era preço observado: era o resultado de uma fórmula (`ticket × fechamento × fração`) com
 três insumos. O ticket vinha de tabelas anunciadas por sites de dedetizadoras (linha 81). O fechamento vinha de
 agências dos EUA (linhas 72–77). A fração era escolha do autor. O teto de R$ 60 **não sai** da conta da linha 82 (que
-dá R$ 18 a R$ 40); só aparece juntando os extremos — por exemplo, ticket de R$ 650, fechamento de 45% e 20% do ticket
+dá R$ 18 a R$ 37; a pesquisa escreveu "~R$ 35–40"); só aparece juntando os extremos — por exemplo, ticket de R$ 650, fechamento de 45% e 20% do ticket
 (reconstituição minha).
 
 **O que as fontes de hoje mostram.**
 
 | Afirmação antiga | Hoje | Situação |
 |---|---|---|
-| Lead exclusivo de residência vale R$ 20–60 | Nenhuma fonte A ou B no Brasil dá preço de lead exclusivo de dedetização. Comparáveis A: oHub, R$ 19 a R$ 41 por resposta, pedido de empresa, compartilhado (R3); Cronoshare, 6% a 10% em média e até 15% do serviço (R11) — sobre o ticket-hipótese de R$ 280, R$ 17 a R$ 28 e até R$ 42 (cálculo meu) | **Não dá para confirmar.** Mesma ordem de grandeza, produto diferente |
+| Lead exclusivo de residência vale R$ 20–60 | Nenhuma fonte A ou B no Brasil dá preço de lead exclusivo de dedetização. Comparável A: oHub, R$ 19 a R$ 41 por resposta, pedido de empresa, compartilhado (R3). Alegação da plataforma (classe D): Cronoshare, 6% a 10% em média e até 15% do serviço (R11) — sobre o ticket-hipótese de R$ 280, R$ 17 a R$ 28 e até R$ 42 (cálculo meu) | **Não dá para confirmar.** Mesma ordem de grandeza, produto diferente |
 | "No GetNinjas, um contato sai por ~R$ 15–30" | O GetNinjas não publica o preço do pedido (R7). Só é público o preço da moeda: R$ 0,14 (R6), compatível com os ~R$ 0,15 da linha 65. O "~R$ 30" vinha de um relato individual (linha 66) | **Não confirmado** |
-| O contato do GetNinjas é "dividido entre vários profissionais" | "até 4 profissionais podem liberar o mesmo pedido" (R8) | **Confirmado**, com o número |
-| Fechamento de 30–45% em lead exclusivo | Nenhuma fonte brasileira. Hoje só li um exemplo de agência dos EUA (28% e 30%, F35, classe D) | **Não confirmado**; número dos EUA não vira número do Brasil |
+| O contato do GetNinjas é "dividido entre vários profissionais" | "até 4 profissionais podem liberar o mesmo pedido" (R8); a mesma página diz "até que 3 prestadores liberem aquela solicitação" em outra seção | **Confirmado** que é dividido; o número é 4 ou 3, conforme a seção da página (seção 8, Disputado 2) |
+| Fechamento de 30–45% em lead exclusivo | Nenhuma fonte brasileira. Hoje só li um exemplo de conta de uma agência dos EUA (28% e 30%; a própria página o chama de "worked example"; F35, classe D). Os 30% das contas de 4.2 e 4.3 são `PREMISSA` arbitrária e não se apoiam nesse exemplo | **Não confirmado**; número dos EUA não vira número do Brasil |
 | Custo por clique de "dedetização" em São Paulo de R$ 1 a R$ 5 (linha 64) | A página citada como fonte, lida hoje, não traz valor de custo por clique (F40; resumo da ferramenta) | **Não confirmado** |
-| Anúncios de Serviços Locais não existem no Brasil (linha 63) | O Brasil não está no seletor de país da ajuda oficial (R28) | **Confirmado** (classe A) |
+| Anúncios de Serviços Locais não existem no Brasil (linha 63) | O Brasil não consta das listas oficiais de países: nem do seletor de país da ajuda, nem dos termos para prestadores (R28). Não há frase oficial de indisponibilidade | **Confirmado** (classe A, por ausência) |
 | Caso de Nova York: cerca de US$ 45 mil por ano, 8 leads por dia, venda por US$ 90 mil (linha 42) | Os três números conferem com a página (F38). Faltava dizer: o caso é de cerca de 2015, o autor oferece consultoria e o método incluiu um perfil no mapa | **Confere**, com ressalvas |
 
 **Veredito: não dá para confirmar — nem para derrubar.**
 1. O R$ 20–60 é saída de modelo com premissas sem fonte brasileira; nada lido hoje o transforma em preço de mercado.
-2. Nada lido hoje o contradiz: os dois comparáveis brasileiros de classe A ficam na mesma ordem de grandeza (de R$ 17 a
-   R$ 42), mas para lead **compartilhado** ou percentual de serviço — não para lead exclusivo de residência.
+2. Nada lido hoje o contradiz: o único comparável brasileiro de classe A (oHub, R$ 19 a R$ 41) e a estimativa da
+   Cronoshare (classe D; R$ 17 a R$ 42 sobre o ticket-hipótese) ficam na mesma ordem de grandeza, mas para lead
+   **compartilhado** ou percentual de serviço — não para lead exclusivo de residência.
 3. Pela própria fórmula, com os tickets-hipótese de hoje, R$ 20–60 só fecha para pragas de ticket alto ou com
    fechamento e fração altos (tabela de 4.2): para baratas em apartamento, o teto ilustrativo fica em R$ 13 a R$ 25.
 
@@ -636,23 +655,26 @@ igualmente **sem confirmação**.
 
 1. Gerador de leads não pode ter perfil de empresa no Google; pode administrar o da licenciada, com autorização, com o
    telefone e o site dela (item 2, quadro, linhas 25 e 28).
-2. O número do site na API do WhatsApp não pode triar e repassar o contato; o botão que abre o WhatsApp da licenciada
-   pode (item 2, quadro, linhas 36 e 38).
-3. Os Anúncios de Serviços Locais do Google não estão disponíveis no Brasil (R28).
-4. GetNinjas, Cronoshare e oHub cobram do prestador, adiantado, por contato; o contato do mesmo pedido é vendido a até 4 prestadores (6
-   no oHub) — cada plataforma sobre si mesma (R4, R8, R12).
+2. O número do site na API do WhatsApp não pode, pela letra dos termos, triar e repassar o contato (leitura literal; o
+   alcance não está definido na fonte); o botão que abre o WhatsApp da licenciada pode (item 2, quadro, linhas 36 e 38).
+3. Nos Anúncios de Serviços Locais do Google, o Brasil não consta das listas oficiais de países (classe A, por
+   ausência: não há frase oficial de indisponibilidade; R28).
+4. GetNinjas, Cronoshare e oHub cobram do prestador, adiantado, por contato; o contato do mesmo pedido é vendido a até
+   4 prestadores (GetNinjas: 4, com a contradição de Disputado 2; 6 no oHub, artigo de 2021, **pode estar
+   desatualizada**) — cada plataforma sobre si mesma (R4, R8, R12).
 5. O oHub cobra de 12 a 24 créditos para responder um pedido de dedetização, e vende o crédito de R$ 1,62 a R$ 1,72
    (R1, R2).
 6. O GetNinjas não publica o preço por pedido; ele varia por tipo de serviço, local e oferta (R7).
-7. Angi, Google, oHub e Cronoshare devolvem lead inválido em **crédito ou saldo**, não em dinheiro (4.0.1).
+7. Angi, Google (fora da Europa), oHub e Cronoshare devolvem lead inválido em **crédito ou saldo**, não em dinheiro (4.0.1).
 8. Destaque pago tem de ser identificável como publicidade (CDC, art. 36; item 2, linhas 217–218 e 233–235).
 
 ### Disputado
 
 1. **Quanto custa o contato na Cronoshare:** duas páginas da própria plataforma dão médias diferentes (6% × 6–10%) e
    faixas diferentes (2–15% × até 15%).
-2. **Quantos liberam o mesmo pedido no GetNinjas:** o blog diz 4; o resultado de busca trouxe um trecho do mesmo blog
-   falando em 3 (**não abri esse trecho**); a ajuda diz "do primeiro ao quarto".
+2. **Quantos liberam o mesmo pedido no GetNinjas:** o blog diz 4 numa seção ("até 4 profissionais podem liberar o mesmo
+   pedido") e 3 em outra ("até que 3 prestadores liberem aquela solicitação") (F5); a ajuda diz "do primeiro ao quarto"
+   (F4).
 3. **Validade da moeda do GetNinjas:** termos e ajuda dizem 3 meses; sites de terceiros (só vistos em resultado de
    busca) dizem 1 ano. Vale a fonte da plataforma.
 4. **Lead exclusivo fecha mais que o compartilhado?** A pesquisa antiga dizia 38–45% contra 10–15% (fontes de agência,
@@ -684,48 +706,49 @@ igualmente **sem confirmação**.
 
 ## 9. Tabela de fontes
 
-Data de leitura de todas: 13/11/2026. Hora: **J1** = entre 21:24 e 21:33; **J2** = entre 21:33 e 21:39 (Brasília).
-"Sobre si" = a plataforma descrevendo o próprio preço ou regra.
+Data de leitura de todas: 13/11/2026. Hora: **J1** = entre 21:24 e 21:33; **J2** = entre 21:33 e 21:39; **J3** =
+releitura feita na correção, entre 22:08 e 22:17 (Brasília). "Sobre si" = a plataforma descrevendo o próprio preço ou
+regra. Uma classe por fonte; "sem data" = a página não exibe data.
 
 | Nº | URL | Hora | Classe | Quem ganha com a afirmação | País |
 |---|---|---|---|---|---|
-| F1 | https://www.getninjas.com.br/termos-de-uso | J1 | A (sobre si) | GetNinjas | BR |
-| F2 | https://www.getninjas.com.br/central-de-ajuda/profissional/pedidos-sou-profissional/como-funciona-a-precificacao-dos-pedidos | J1 | A (sobre si) | GetNinjas | BR |
-| F3 | https://www.getninjas.com.br/central-de-ajuda/profissional/pagamento/o-que-sao-moedas | J1 | A (sobre si) | GetNinjas | BR |
-| F4 | https://www.getninjas.com.br/central-de-ajuda/profissional/pedidos/como-funcionam-os-pedidos | J1 | A (sobre si) | GetNinjas | BR |
-| F5 | https://blog.getninjas.com.br/como-funcionam-as-moedas-do-getninjas/ (publicado em 24/04/2024; "Atualizado em 9 setembro 2025") | J1 | A (sobre si) | GetNinjas | BR |
-| F6 | https://www.getninjas.com.br/reformas-e-reparos/dedetizador/sp/sao-paulo | J2 | A (sobre si; faixa de preço sem método) | GetNinjas | BR |
+| F1 | https://www.getninjas.com.br/termos-de-uso (sem data; o rodapé traz "©2011-2024") | J1 | A (sobre si) | GetNinjas | BR |
+| F2 | https://www.getninjas.com.br/central-de-ajuda/profissional/pedidos-sou-profissional/como-funciona-a-precificacao-dos-pedidos (sem data) | J1 | A (sobre si) | GetNinjas | BR |
+| F3 | https://www.getninjas.com.br/central-de-ajuda/profissional/pagamento/o-que-sao-moedas (sem data) | J1 | A (sobre si) | GetNinjas | BR |
+| F4 | https://www.getninjas.com.br/central-de-ajuda/profissional/pedidos/como-funcionam-os-pedidos (sem data) | J1 | A (sobre si) | GetNinjas | BR |
+| F5 | https://blog.getninjas.com.br/como-funcionam-as-moedas-do-getninjas/ (publicado em 24/04/2024; "Atualizado em 9 setembro 2025") | J1; relida na correção (J3) | A (sobre si) | GetNinjas | BR |
+| F6 | https://www.getninjas.com.br/reformas-e-reparos/dedetizador/sp/sao-paulo (sem data) | J2 | A (sobre si; faixa de preço sem método) | GetNinjas | BR |
 | F7 | https://monitormercantil.com.br/getninjas-ninj3-modelo-de-negocio-operacao-e-perspectivas/ (24/08/2023; **pode estar desatualizada**) | J1 | C (entrevista de executivo) | GetNinjas | BR |
-| F8 | https://www.ohub.com.br/planos | J1 | A (sobre si) | oHub | BR |
-| F9 | https://www.ohub.com.br/creditos_por_categoria.php | J1 (lida 2 vezes) | A (sobre si) | oHub | BR |
-| F10 | https://www.ohub.com.br/ajuda | J1 | A (sobre si) | oHub | BR |
+| F8 | https://www.ohub.com.br/planos (sem data) | J1 | A (sobre si) | oHub | BR |
+| F9 | https://www.ohub.com.br/creditos_por_categoria.php (sem data) | J1 (lida 2 vezes) | A (sobre si) | oHub | BR |
+| F10 | https://www.ohub.com.br/ajuda (sem data) | J1 | A (sobre si) | oHub | BR |
 | F11 | https://ajuda.ohub.com.br/article/150-planos ("Última atualização em Janeiro 9, 2026") | J1 | A (sobre si) | oHub | BR |
 | F12 | https://ajuda.ohub.com.br/article/61-qual-o-limite-de-respostas-por-oportunidade ("Última atualização em Março 19, 2021"; **pode estar desatualizada**) | J1 | A (sobre si) | oHub | BR |
 | F13 | https://ajuda.ohub.com.br/article/58-o-que-sao-os-creditos-do-ohub ("Última atualização em Outubro 17, 2024"; **pode estar desatualizada**) | J1 | A (sobre si) | oHub | BR |
 | F14 | https://ajuda.ohub.com.br/article/63-o-que-e-uma-oportunidade-premium ("Última atualização em Março 19, 2021"; **pode estar desatualizada**) | J1 | A (sobre si) | oHub | BR |
-| F15 | https://www.ohub.com.br/empresas/dedetizacao/sp/sao-paulo | J1 | A (sobre si) | oHub | BR |
-| F16 | https://www.ohub.com.br/anunciar | J1 | A (sobre si) | oHub | BR |
+| F15 | https://www.ohub.com.br/empresas/dedetizacao/sp/sao-paulo (sem data) | J1 | A (sobre si) | oHub | BR |
+| F16 | https://www.ohub.com.br/anunciar (sem data) | J1 | A (sobre si) | oHub | BR |
 | F17 | https://monitormercantil.com.br/ohub-marketplace-b2b-de-servicos-e-modelo-de-operacao/ (20/09/2023; **pode estar desatualizada**; traz "de R$ 10 a R$ 340" por pedido, não usado nas contas) | J1 | C (entrevista do fundador) | oHub | BR |
-| F18 | https://suporte.cronoshare.com.br/hc/pt-br/articles/360006135593-Quanto-custa-em-cronos-contatar-um-cliente (atualizado em 23/07/2025) | J1 | A (sobre si) | Cronoshare | BR |
-| F19 | https://www.cronoshare.com.br/atencao-ao-cliente/cronos-para-contactar-clientes (sem data) | J1 | A (sobre si) | Cronoshare | BR |
-| F20 | https://www.cronoshare.com.br/devolucoes | J1 | A (sobre si) | Cronoshare | BR |
-| F21 | https://www.cronoshare.com.br/como-trabalhar | J1 | A (sobre si) | Cronoshare | BR |
+| F18 | https://suporte.cronoshare.com.br/hc/pt-br/articles/360006135593-Quanto-custa-em-cronos-contatar-um-cliente (atualizado em 23/07/2025) | J1 | D (estimativa da plataforma sobre o próprio custo; não é tabela de preço) | Cronoshare | BR |
+| F19 | https://www.cronoshare.com.br/atencao-ao-cliente/cronos-para-contactar-clientes (sem data) | J1 | D (estimativa da plataforma sobre o próprio custo; não é tabela de preço) | Cronoshare | BR |
+| F20 | https://www.cronoshare.com.br/devolucoes (sem data) | J1 | A (sobre si) | Cronoshare | BR |
+| F21 | https://www.cronoshare.com.br/como-trabalhar (sem data) | J1 | A (sobre si) | Cronoshare | BR |
 | F22 | https://www.triider.com.br/termos-e-condicoes/ ("Atualização em 28 de fevereiro de 2025") | J1 (lida 2 vezes) | A (sobre si) | Triider | BR |
-| F23 | https://www.triider.com.br/seja-um-profissional/ | J1 | A (sobre si) | Triider | BR |
+| F23 | https://www.triider.com.br/seja-um-profissional/ (sem data) | J1 | A (sobre si) | Triider | BR |
 | F24 | https://startups.com.br/negocios/triider-da-juntos-somos-mais-compra-a-operacao-da-habitissimo-no-brasil/ (06/07/2021; **pode estar desatualizada**) | J1 | C (imprensa) | Triider | BR |
-| F25 | https://pedegas.com/parceiro | J2 | A (sobre si) | PedeGás | BR |
-| F26 | https://pedegas.com/orcamento/dedetizacao-comercial/sao-paulo-sp/ | J1 | A (sobre si) | PedeGás | BR |
-| F27 | https://www.guiamais.com.br/institucional/ajuda | J2 | A (sobre si) | GuiaMais | BR |
+| F25 | https://pedegas.com/parceiro (sem data) | J2 | A (sobre si) | PedeGás | BR |
+| F26 | https://pedegas.com/orcamento/dedetizacao-comercial/sao-paulo-sp/ (sem data) | J1 | A (sobre si) | PedeGás | BR |
+| F27 | https://www.guiamais.com.br/institucional/ajuda (sem data) | J2 | A (sobre si) | GuiaMais | BR |
 | F28 | https://support.google.com/localservices/answer/6224841?hl=en e a mesma com `?hl=pt-BR` (sem data) | J1 | A | Google | lista de países |
-| F29 | https://support.google.com/localservices/answer/7195435?hl=en (sem data) | J1 | A | Google | países de R28 |
-| F30 | https://intercom.help/angi/en/articles/11403440-how-to-request-a-lead-credit-for-an-invalid-lead (14/08/2026) | J1 | A (sobre si) | Angi | EUA |
-| F31 | https://99calls.com/locations/Minnesota/Pest-Control-Leads.htm ("Last updated October 2026") | J1 | A (preço próprio) / D | 99 Calls (vende leads) | EUA |
-| F32 | https://blog.servicedirect.com/how-much-do-service-direct-pest-control-leads-cost (31/03/2023; **pode estar desatualizada**) | J1 | A (dado próprio) / D | Service Direct (vende ligações) | EUA |
-| F33 | https://callscaler.com/marketplace/pest-control (sem data) | J1 | A (sobre si) / D | CallScaler (rede de pagamento por ligação) | EUA (não declarado) |
-| F34 | https://cubecreative.design/blog/pest-control-marketing/cost-per-lead-2026 (14/01/2026) | J1 | D | Cube Creative (agência para empresas de controle de pragas) | EUA |
-| F35 | https://elevarus.com/buy-pest-control-leads-exclusive-vs-shared-attach-rate/ (23/05/2026) | J1 | D | Elevarus (vende leads e ligações) | EUA |
+| F29 | https://support.google.com/localservices/answer/7195435?hl=en (sem data) | J1; relida na correção (J3) | A | Google | países de R28; o crédito de lead, só fora da Europa (EUA e Canadá, por exclusão) |
+| F30 | https://intercom.help/angi/en/articles/11403440-how-to-request-a-lead-credit-for-an-invalid-lead (14/08/2026) | J1; relida na correção (J3) | A (sobre si) | Angi | EUA |
+| F31 | https://99calls.com/locations/Minnesota/Pest-Control-Leads.htm ("Last updated October 2026") | J1 | D (preço de tabela do próprio vendedor) | 99 Calls (vende leads) | EUA |
+| F32 | https://blog.servicedirect.com/how-much-do-service-direct-pest-control-leads-cost (31/03/2023; **pode estar desatualizada**) | J1 | D (média divulgada pelo próprio vendedor) | Service Direct (vende ligações) | EUA |
+| F33 | https://callscaler.com/marketplace/pest-control (sem data) | J1 | D (faixa anunciada pela própria rede) | CallScaler (rede de pagamento por ligação) | EUA (não declarado) |
+| F34 | https://cubecreative.design/blog/pest-control-marketing/cost-per-lead-2026 (14/01/2026) | J1 | D | Cube Creative (agência para empresas de controle de pragas) | EUA (pelo contexto do artigo; não declarado para a base citada) |
+| F35 | https://elevarus.com/buy-pest-control-leads-exclusive-vs-shared-attach-rate/ (23/05/2026) | J1; relida na correção (J3) | D | Elevarus (vende leads e ligações) | EUA |
 | F36 | https://www.realgreen.com/blog/2025-marketing-benchmark-report (sem os números na página; não usado nas contas) | J1 | D | RealGreen e Coalmarch (software e agência) | EUA (não declarado) |
-| F37 | https://www.brightlocal.com/local-seo-services/ (sem data) | J1 | A (preço próprio) / D | BrightLocal (vende o serviço) | EUA, Reino Unido, Canadá, Austrália |
+| F37 | https://www.brightlocal.com/local-seo-services/ (sem data) | J1 | D (preço de tabela do próprio vendedor) | BrightLocal (vende o serviço) | EUA, Reino Unido, Canadá, Austrália |
 | F38 | https://mikebonadio.com/rank-and-rent/ (26/08/2025; caso de cerca de 2015) | J1 | D | o autor (consultoria) | EUA |
 | F39 | https://raventools.com/blog/rank-and-rent-seo/ (abril de 2019; **pode estar desatualizada**) | J1 | D | Raven Tools (ferramenta de SEO) | não declarado |
 | F40 | https://advivo.com.br/marketing/google-ads-para-dedetizadora/ (04/12/2025; lida para reconferir a linha 64 da pesquisa antiga; sem valor de custo por clique) | J1 | C (portal; cita agência) | agência citada no texto | BR |
