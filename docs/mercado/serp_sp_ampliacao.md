@@ -16,7 +16,8 @@
     `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv`.
   - `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao_registro.md` — o registro de cada busca
     (termo, hora, conta logada, localização exibida, ordem das camadas e posição em pixels).
-  - Brutos e scripts: `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/ampliacao_01.jsonl` a `ampliacao_04.jsonl`,
+  - Brutos e scripts: `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/ampliacao_01.jsonl` a `ampliacao_04.jsonl`, as repetições em
+    `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/repeticao_02.jsonl`,
     `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/coletor.js` (função `fx2`) e
     `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/monta_ampliacao.py`.
   - `/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv` — o mapa ampliado (seção 8).
@@ -47,8 +48,9 @@
 6. **O mesmo anunciante segue dominante:** anúncio de texto dele em 33 das 40 buscas e perfil patrocinado em 25.
 7. **46 domínios novos** (55 resultados, 16%) não tinham aparecido nas 89 buscas do item 4; **não foram lidos**. Nas
    129 buscas das duas coletas há 231 domínios distintos no orgânico e 96 perfis distintos no bloco de mapa.
-8. **Sem verificação de robô.** Intervalo entre buscas de 72 a 190 segundos (mediana 77). Total gasto do limite de
-   600 na rodada: cerca de 150.
+8. **Sem verificação de robô.** Intervalo entre buscas de 72 a 190 segundos (mediana 77). Cinco buscas repetidas de
+   31 a 60 minutos depois deram o mesmo orgânico, na mesma ordem, e os mesmos perfis no bloco (seção 11). Total
+   gasto do limite de 600 na rodada: cerca de 155 (110 do item 4, 40 desta ampliação e 5 repetições).
 
 ## 2. Método
 
@@ -67,7 +69,7 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
 ### 2.2 Como foi buscado
 
 - Igual ao item 4: busca web do Google pelo endereço (`…/search?q=<termo>&hl=pt-BR&gl=br&pws=0`), navegador pessoal do
-  owner (Chrome, computador), aba aberta pela sessão e fechada à 01:07; **logado** na conta Google do owner nas 40;
+  owner (Chrome, computador), aba aberta pela sessão e fechada à 01:07 (as repetições usaram outra aba, fechada à 01:18); **logado** na conta Google do owner nas 40;
   nada foi clicado.
 - **Quando:** sábado, 14/11/2026, das 00:12:10 à 01:06:01 — madrugada. Hora de cada busca lida do relógio da página.
 - **Intervalo entre buscas:** mínimo 72 segundos, mediana 77, máximo 190; nenhum abaixo de 20 segundos. **Não houve
@@ -258,3 +260,24 @@ escolhidos para cobrir as cinco regiões; a divisão por região é minha.
 - Leitura e classificação dos 46 domínios novos.
 - Repetição em horário comercial, em outro dia, deslogado ou no celular.
 - Volume de busca de qualquer termo.
+
+## 11. Repetição de cinco buscas (01:12 a 01:17)
+
+Cinco das 40 buscas foram sorteadas (`shuf -n 5` sobre os 40 ids, fonte aleatória `openssl enc -aes-256-ctr` com a
+senha "repeticao-reserva1-20261114") e refeitas na mesma madrugada, no mesmo navegador, logado na mesma conta, com 73
+a 77 segundos entre uma e outra. Brutos: `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/repeticao_02.jsonl` (não entram em
+`serp_sp_ampliacao.csv`).
+
+| Busca | 1ª vez | 2ª vez | Mesmo 1º resultado? | Mesma ordem dos 9 domínios? | Perfis do bloco em comum (de 3) | Local exibido | Anúncios de texto (1ª → 2ª) | 1º orgânico (px, 1ª → 2ª) |
+|---|---|---|---|---|---|---|---|---|
+| J01 dedetização de baratas brooklin | 00:41 | 01:12 | sim | sim | 3 | nenhum nas duas | 2 → 1 | 704 → 704 |
+| I08 dedetização são miguel paulista | 00:21 | 01:14 | sim | sim | 3 | nenhum nas duas | 2 → 2 | 1.654 → 1.654 |
+| I20 dedetização aclimação | 00:39 | 01:15 | sim | sim | 3 | nenhum nas duas | 2 → 2 | 1.682 → 1.682 |
+| I04 dedetização campo belo | 00:16 | 01:16 | sim | sim | 3 | Osasco, SP nas duas | 2 → 1 | 1.490 → 1.490 |
+| I14 dedetização casa verde | 00:31 | 01:17 | sim | sim | 3 | Osasco, SP nas duas | 2 → 2 | 2.758 → 1.653 |
+
+- **O que dá para dizer:** em até uma hora, do mesmo lugar e com a mesma conta, o orgânico e o bloco de mapa não
+  mudaram. A posição vertical mudou numa das cinco (Casa Verde: o bloco de mapa e o primeiro orgânico começaram cerca
+  de 1.100 pixels mais acima na segunda vez), o que mostra que a medida da seção 4 **varia de uma carga da página para
+  outra**; o número de anúncios variou em duas.
+- **O que não dá para dizer:** nada sobre outro dia, outro horário, outro ponto da cidade, outra conta ou celular.
