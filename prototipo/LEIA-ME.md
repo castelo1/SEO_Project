@@ -5,6 +5,9 @@
   (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item7.md`: aprovado com ressalvas; 0
   falha em 12 no sorteio; 22 correções pedidas). As 22 correções foram aplicadas às 22:38 pela sessão principal e
   ainda não foram relidas por terceiro.
+- **Ajuste das 22:55 (fila de reserva, tarefa 2):** títulos e meta descrições das páginas foram encurtados depois da
+  comparação com dez páginas bem colocadas; o que mudou e por quê está em
+  `/home/ancastelo/pessoal/SEO_Project/docs/mercado/paginas_top10.md`, seção 5.
 - **O que é:** quatro páginas em HTML e CSS puros, sem programa (só blocos JSON-LD, que são dados), sem dependência,
   sem imagem e sem fonte externa. Abrem
   direto do disco. **Nada foi publicado, comprado, cadastrado nem enviado.** Nenhum botão leva a lugar nenhum.
