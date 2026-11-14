@@ -1,0 +1,34 @@
+# Perguntas ao owner (item 8)
+
+- **Estado:** primeira versão, escrita pela sessão principal em sexta, 13/11/2026, às 22:12 (Brasília, lido de `date`).
+  **Ainda não verificada.** Dez perguntas, na ordem de quanto cada resposta muda o desenho.
+- **Como responder:** crie `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/RESPOSTAS_OWNER.md` com o número da
+  pergunta e "sim" ou "não" (e, se quiser, uma linha de comentário). Enquanto não houver resposta, vale a opção padrão
+  da coluna "Adotado por padrão". Nenhuma opção padrão publica, compra, cadastra ou envia coisa alguma.
+- **Onde está a base:** "D" é `/home/ancastelo/pessoal/SEO_Project/docs/desenho_v0.md`; "R" é
+  `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`; "M" é
+  `/home/ancastelo/pessoal/SEO_Project/docs/modelos_de_negocio.md`; "S" é
+  `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md`.
+- O que encosta em norma é levantamento com fonte, não parecer jurídico.
+
+| # | Pergunta (sim ou não) | Adotado por padrão | Se a resposta for a outra, o que muda no desenho | Base |
+|---|---|---|---|---|
+| 1 | **Você conferiu a política do seu empregador sobre atividade paralela?** | Não conferido. O projeto fica em estudo e protótipo local; nada vai ao ar antes da sua resposta | Se a política vedar ou exigir autorização: o projeto para na fase 0, ou espera a autorização. Nada do desenho se aplica antes disso | D, seção 8 (fase 1, letra a) e seção 9.2. Esta pergunta não foi pesquisada, por regra da rodada |
+| 2 | **O site se apresenta como intermediário declarado — sem perfil de empresa no Google, sem se passar por dedetizadora, nomeando em cada oferta a licenciada que executa e a licença dela?** | Sim. É o único formato que passa nas quatro restrições | Se não: os formatos alternativos (perfil próprio no mapa, site com cara de dedetizadora, central de WhatsApp que repassa) estão marcados "vedado" ou "não conclusivo" no levantamento; o desenho inteiro deixa de valer e a sessão não desenha esses formatos | R, quadro de vereditos (linhas 21–38); D, seção 2; M, seção 5 |
+| 3 | **Você mesmo conversa com 3 a 5 dedetizadoras licenciadas para saber se aceitam ser nomeadas no site e se pagariam por contato, antes de qualquer gasto?** | Sim, e é você quem conversa: a sessão não contata empresa nem pessoa. Até lá, o desenho trata "há licenciada disposta" como premissa | Se não quiser conversar antes: a fase 2 (site no ar) passaria a ser uma aposta sem parceira; o desenho não tem página de oferta sem empresa nomeada, então o site sairia só com guias informativos | D, seção 8 (fase 1, letra c), seção 4.4 e seção 9.1 (linha da propaganda); M, seção 1, item 9 |
+| 4 | **Antes de publicar, um advogado revê os pontos "não conclusivo" (site de terceiro que nomeia a licenciada, qual número de licença vale na capital, prazo de guarda da prova, responsabilidade do intermediário) e os textos de propaganda e de consentimento?** | Sim. Sem essa revisão, o desenho não passa da fase 1 | Se não: os pontos "não conclusivo" seguem como risco aberto e a decisão de publicar assim é só sua; a sessão não emite parecer | D, seção 8 (fase 1, letra b) e seção 9.1; R, seções (b) e (c) |
+| 5 | **Na primeira versão, o contato é só pelo botão que abre o WhatsApp da licenciada (o site registra o clique e não guarda dado de ninguém), e o formulário com autorização fica para depois?** | Sim | Se quiser o formulário desde o início: o site passa a tratar dado pessoal desde o primeiro dia (texto de consentimento, prova guardada, exclusão com aviso às empresas); o texto já está pronto, mas a fase 2 fica mais cara e mais arriscada | D, seções 5.1 e 5.2; R, seção (c), "Conclusão operacional", e seção (d), "Os dois desenhos" |
+| 6 | **Na hora de cobrar, o modelo é uma licenciada por região e por praga, nomeada na página, com pagamento antecipado (em vez de vender o mesmo contato a várias)?** | Sim, como hipótese para depois do piloto. Na fase gratuita, a página pode ter de 1 a 3 licenciadas nomeadas. O preço não tem fonte: o "R$ 20 a 60 por lead" da pesquisa antiga não se confirma nem se derruba | Se preferir comparador com várias empresas pagando por destaque ou por clique: muda a seção de cobrança e cresce o peso da marca "Publicidade" e do critério de ordem; o contato continua indo só à empresa que a pessoa escolher | D, seção 8 (modelo de cobrança); M, seções 4.3, 4.5, 4.6 e 7 |
+| 7 | **O site lista só licenciadas que autorizaram (parceiras), e não empresas tiradas do cadastro público sem falar com elas?** | Sim: só parceiras autorizadas | Se quiser listar também as não parceiras: mais páginas e mais cobertura, mas com dado de terceiro exibido sem autorização e sem preço informado; esse uso do cadastro público **não foi levantado** e teria de entrar na revisão do advogado | D, seção 3.1 (T3 e T7) e seção 4.1; S, seção 9 |
+| 8 | **O site começa pela região da primeira licenciada que aceitar, com seis pragas (baratas, ratos, cupim, escorpião, percevejo, pombos), cerca de 20 páginas, e sem página por bairro?** | Sim. O número de páginas e a lista de pragas são premissas, não dado medido | Se quiser começar com páginas por bairro, como os concorrentes: só nas três condições da seção 3.3 do desenho; fora delas é o padrão que a política de spam do Google descreve como página de entrada | D, seções 3.1, 3.2 e 3.3; S, seções 4.2 e 8 |
+| 9 | **Você roda, com as suas contas, as três medições que a sessão não pode fazer: o volume de busca no Planejador de palavras-chave, o roteiro de 30 perguntas no ChatGPT e, depois de publicar, o Search Console?** | Não feito. O volume fica "não medido" e a presença no ChatGPT fica sem linha de base | Se sim: o mapa de palavras-chave ganha volume e a ordem das páginas da seção 3.1 pode mudar | D, seção 6; `/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv`; `/home/ancastelo/pessoal/SEO_Project/docs/estudo/03b_chatgpt_roteiro_de_teste.md` |
+| 10 | **O `robots.txt` libera também os robôs de treino de modelos de IA (além dos de busca)?** | Sim: liberar. Não muda a presença na busca do ChatGPT; é escolha sua | Se não: troca-se uma linha do arquivo (`Disallow` para o robô de treino); nada mais muda | D, seção 3.4 (linha do `robots.txt`) e seção 10, premissa 8; `/home/ancastelo/pessoal/SEO_Project/prototipo/robots.txt` |
+
+## O que não virou pergunta, e por quê
+
+- **Nome do site e domínio:** comprar domínio é ato seu e só faz sentido depois das perguntas 1 a 4. O protótipo usa
+  "EXEMPLO Guia".
+- **Gestão do perfil da licenciada como segundo serviço:** está no desenho como fase 5; depende do resultado do piloto.
+- **Baixar os PDFs oficiais que faltam ler** (portaria estadual, guias da autoridade de dados, diretrizes de avaliadores
+  do Google), **manter o limite de buscas ao vivo e as demais decisões operacionais da rodada:** estão na "Fila do owner" de
+  `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/PAINEL.md`, com a opção adotada.

@@ -28,8 +28,11 @@
 2. **O item 2 muda o que é "um lead".** Sobram duas unidades vendáveis: o **clique** no botão que abre o WhatsApp **da
    licenciada** (o site só prova o clique) e o **pedido por formulário** com consentimento que nomeia quem recebe (o
    site guarda a prova). Central de WhatsApp do site que tria e repassa fica fora.
-3. **No Brasil, quem vende pedido de orçamento cobra do prestador, pré-pago, por contato compartilhado.** GetNinjas:
-   até 4 profissionais; Cronoshare: no máximo 4; oHub: 4, mais 2 com acréscimo (classe A, páginas das plataformas).
+3. **As três plataformas brasileiras de pedido de orçamento lidas (GetNinjas, Cronoshare, oHub) cobram do prestador,
+   pré-pago, por contato compartilhado.** GetNinjas: até 4 profissionais (a mesma página diz 3 em outra seção — seção 8,
+   Disputado 2); Cronoshare: no máximo 4; oHub: 4, mais 2 com acréscimo (artigo de 2021, **pode estar desatualizada**)
+   (classe A, páginas das plataformas). Triider (percentual, com pagamento pela plataforma) e PedeGás (mensalidade)
+   cobram de outro jeito (seção 6).
 4. **Único preço público de lead de dedetização achado no Brasil:** oHub, 12 a 24 créditos por resposta; com o crédito
    a R$ 1,62–1,72, dá **R$ 19 a R$ 41 por resposta**, pedido de empresa ou condomínio, compartilhado (classe A; a
    multiplicação é minha). GetNinjas não publica o preço por pedido.
@@ -38,12 +41,14 @@
    mas são outro produto (compartilhado, de empresa). Falta: preço real de um pedido de dedetização no GetNinjas, taxa de
    fechamento e disposição de pagar das licenciadas de São Paulo (seção 7).
 6. **Não há número brasileiro, classe A ou B, de volume de busca, custo por clique ou taxa de fechamento:** toda conta
-   de receita deste arquivo é ilustração. Os Anúncios de Serviços Locais do Google não existem no Brasil (classe A).
+   de receita deste arquivo é ilustração. Nos Anúncios de Serviços Locais do Google, o Brasil não consta das listas
+   oficiais de países (classe A, por ausência).
 7. **O risco que mais pesa é a dependência do Google com o site fora do mapa:** na amostra de 79 buscas, 10 domínios
    têm 39% dos resultados orgânicos, quase todos de dedetizadoras, e um mesmo anunciante aparece como perfil patrocinado
    em 47 buscas.
-8. **Conflito com o parceiro:** as plataformas o tratam com pré-pagamento e regra escrita de lead inválido, que devolve
-   **crédito, não dinheiro** (Angi, Google, oHub, Cronoshare — classe A).
+8. **Conflito com o parceiro:** as plataformas o tratam com regra escrita de lead inválido, que devolve **crédito, não
+   dinheiro** (Angi, Google fora da Europa, oHub, Cronoshare — classe A, cada uma sobre si); as brasileiras cobram
+   adiantado.
 9. **Leitura minha, não fato:** o modelo mais simples perante as quatro restrições é **uma licenciada por região,
    nomeada na página, com pagamento antecipado** — uma só empresa recebe o contato (veredito mais leve da LGPD) e a
    página cumpre a condição da propaganda. Se as licenciadas de São Paulo pagam por isso, **não sei**: só se descobre
@@ -98,10 +103,10 @@ Cada linha: unidade, país, classe, fonte (nº da seção 9). "Cálculo meu" = a
 | R5 | oHub: devolução | "Devolução de 100% dos créditos usados caso não consiga contato com o comprador." | A | F8 | Também quando a oportunidade é falsa (perguntas frequentes da mesma página; resumo da ferramenta) |
 | R6 | GetNinjas: preço da moeda | "pacote promocional de 500 moedas por R$69,90" → R$ 0,14 por moeda (cálculo meu); pacotes até 4.800 moedas | A | F5 | Artigo do blog, atualizado em 09/09/2025. Os demais preços só aparecem no aplicativo |
 | R7 | GetNinjas: preço de um pedido em moedas | **não publicado**. "Os valores dos pedidos não são fixos e podem variar de acordo com o tipo de serviço" | A | F2, F1 | Termos: varia por "local, tipo e oferta de orçamentos" |
-| R8 | GetNinjas: quantos profissionais liberam o mesmo pedido | "até 4 profissionais podem liberar o mesmo pedido"; ordem de liberação "do primeiro ao quarto" | A | F5, F4 | — |
+| R8 | GetNinjas: quantos profissionais liberam o mesmo pedido | "até 4 profissionais podem liberar o mesmo pedido"; ordem de liberação "do primeiro ao quarto" | A | F5, F4 | **A página se contradiz:** a mesma página (F5), na seção sobre a validade das moedas, diz "até que 3 prestadores liberem aquela solicitação". A ajuda (F4) fala em "do primeiro ao quarto", mas não afirma o limite. Ver seção 8, Disputado 2 |
 | R9 | GetNinjas: validade da moeda | "validade de 3 (três) meses" | A | F1, F3 | — |
 | R10 | GetNinjas: preço cai conforme o pedido já foi vendido | "se um lead já foi comprado por outros profissionais, nós cobramos menos" | C | F7 | Entrevista do diretor financeiro, 24/08/2023: **pode estar desatualizada** |
-| R11 | Cronoshare: custo do contato | "nunca é superior aos 15% do que você cobrará"; média "entre 6 e 10% por cada cliente novo" (F19, sem data) × "varia de 2% a 15% do seu orçamento total, sendo uma média de 6% para cada novo cliente" (F18, atualizado em 23/07/2025) | A | F18, F19 | **As duas páginas da própria plataforma divergem.** Não fica claro se o percentual é por contato comprado ou por cliente fechado |
+| R11 | Cronoshare: custo do contato | "nunca é superior aos 15% do que você cobrará"; média "entre 6 e 10% por cada cliente novo" (F19, sem data) × "varia de 2% a 15% do seu orçamento total, sendo uma média de 6% para cada novo cliente" (F18, atualizado em 23/07/2025) | D (estimativa da plataforma sobre o próprio custo; não é tabela de preço) | F18, F19 | **As duas páginas da própria plataforma divergem.** Não fica claro se o percentual é por contato comprado ou por cliente fechado |
 | R12 | Cronoshare: quantos profissionais | "Podem contactar no máximo 4 profissionais para cada solicitação." | A | F21 | — |
 | R13 | Cronoshare: devolução | devolve a parte de comissão em saldo se o trabalho não sair; "Não reembolsamos valores pagos em sua conta bancária." | A | F20 | Sem percentual nem prazo na página |
 | R14 | Triider: taxa | "Essa taxa será de 21% (vinte e um por cento) a 25% (vinte e cinco por cento) do valor" dos serviços contratados na modalidade pós-paga; o cliente paga pela plataforma | A | F22 | Termos de 28/02/2025. Dedetização não consta na lista de serviços da página para profissionais (F23) |
@@ -121,14 +126,14 @@ Cada linha: unidade, país, classe, fonte (nº da seção 9). "Cálculo meu" = a
 
 | # | O quê | Valor | País | Classe | Fonte |
 |---|---|---|---|---|---|
-| R21 | Lead exclusivo de controle de pragas, preço de tabela de um vendedor | "$24.99 each — inbound and never shared with another company" | EUA | A (preço próprio) / D | F31 |
-| R22 | Ligação exclusiva de controle de pragas, média do vendedor | "around $55" na média nacional, 1º trimestre de 2023 | EUA | A (dado próprio) / D; **pode estar desatualizada** | F32 |
-| R23 | Pagamento por ligação: o que a rede paga a quem gera a ligação | "$15–$45 per qualified inbound call"; duração mínima "typically 60-120 seconds" | EUA (país não declarado na página) | A (sobre si) / D | F33 |
-| R24 | Anúncios de Serviços Locais, custo por lead de controle de pragas | "$22 to $65, with a $38 median, across 600 accounts" | EUA | D, **de segunda mão** (agência citando base de outra empresa; não abri a base) | F34 |
+| R21 | Lead exclusivo de controle de pragas, preço de tabela de um vendedor | "$24.99 each — inbound and never shared with another company" | EUA | D (preço de tabela do próprio vendedor) | F31 |
+| R22 | Ligação exclusiva de controle de pragas, média do vendedor | "around $55" na média nacional, 1º trimestre de 2023 | EUA | D (média divulgada pelo próprio vendedor); **pode estar desatualizada** | F32 |
+| R23 | Pagamento por ligação: o que a rede paga a quem gera a ligação | "$15–$45 per qualified inbound call"; duração mínima "typically 60-120 seconds" | EUA (país não declarado na página) | D (faixa anunciada pela própria rede) | F33 |
+| R24 | Anúncios de Serviços Locais, custo por lead de controle de pragas | "$22 to $65, with a $38 median, across 600 accounts" | EUA (pelo contexto do artigo; não declarado para a base) | D, **de segunda mão** (agência citando base de outra empresa; não abri a base) | F34 |
 | R25 | Compartilhado × exclusivo | "A $38 shared pest lead and an $85 exclusive lead" (exemplo do autor, sem fonte) | EUA | D | F35 |
-| R26 | Gestão de SEO local com perfil de empresa | "$499 per location/month" e "$1,299 per location/month" | EUA, Reino Unido, Canadá, Austrália | A (preço próprio) / D | F37 |
+| R26 | Gestão de SEO local com perfil de empresa | "$499 per location/month" e "$1,299 per location/month" | EUA, Reino Unido, Canadá, Austrália | D (preço de tabela do próprio vendedor) | F37 |
 | R27 | Aluguel de site ranqueado, caso único | cobrava "$45K/year" pelas ligações, "about 8 leads/day"; vendeu por "$90K" | EUA (Nova York), caso de cerca de 2015 | D (consultor); **pode estar desatualizada** | F38 |
-| R28 | Anúncios de Serviços Locais: onde existem | seletor de país da ajuda oficial: Áustria, Bélgica, Canadá, França, Alemanha, Irlanda, Itália, Espanha, Suíça, Reino Unido, Estados Unidos. **O Brasil não está** | — | A | F28 |
+| R28 | Anúncios de Serviços Locais: onde existem | seletor de país da ajuda oficial: Áustria, Bélgica, Canadá, França, Alemanha, Irlanda, Itália, Espanha, Suíça, Reino Unido, Estados Unidos. **O Brasil não está.** A página de termos para prestadores (`/localservices/answer/7501778`) lista os mesmos e os Países Baixos — ver `/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md`, seção 7 (linha 368; não reabri essa página). O Brasil não está em nenhuma das duas. Nenhuma das páginas traz frase oficial de indisponibilidade no Brasil | — | A (por ausência) | F28 |
 
 Reino Unido: **não conferido** (as páginas da Bark devolveram erro 403; os números de terceiros só apareceram em
 resultado de busca e não entram).
@@ -153,7 +158,7 @@ resultado de busca e não entram).
 | Risco | O que é | Remissão |
 |---|---|---|
 | Dependência do Google | O site não tem perfil no mapa e disputa só o orgânico. Na amostra de 79 buscas de 13/11/2026: 709 resultados orgânicos de 157 domínios; os 10 mais frequentes somam 39%; um diretório (ohub.com.br) aparece em 21 buscas; resumo de IA em 73; anúncio de texto em 60; um mesmo anunciante como perfil patrocinado em 47; no bloco de mapa, 64 perfis, três deles em 43% das linhas. Páginas por bairro que só afunilam para um botão são o exemplo de "página de entrada" da política de spam | `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` e `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv` (contas refeitas por mim); `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md`, seção 1; item 2, seção (a), "Caminhos que sobram", linha 131; `/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seções 2.1 e 2.2 (linhas 152–200) |
-| Propaganda | Cada página de oferta exibe a identificação da licenciada e o número da licença com o órgão emissor; o site se declara intermediário; sem medo, sem "aprovado", "seguro", "atóxico"; "24 horas", "garantia" e "melhor preço" só com prova guardada | item 2, seção (b), "Conclusão para o site", (i) a (iv) e veredito (linhas 231–258) |
+| Propaganda | Cada página de oferta exibe a identificação da licenciada e o número da licença com o órgão emissor; por prudência, também a razão social por extenso e o endereço dela (a exigência estadual é **não conclusiva** no item 2: fonte primária inacessível); o site se declara intermediário; sem medo, sem "aprovado", "seguro", "atóxico"; "24 horas", "garantia" e "melhor preço" só com prova guardada | item 2, seção (b), "Conclusão para o site", (i) a (iv) e veredito (linhas 231–258); razão social e endereço: quadro, linha 32, e linhas 235–236 e 471 |
 | Responsabilidade perante o consumidor | Se o intermediário responde junto com a dedetizadora por dano do serviço "é leitura de tribunal, **não levantada**" no item 2. Não faço parecer | item 2, seção (b), "Código de Defesa do Consumidor" (linhas 225–229) |
 | LGPD | Consentimento específico e destacado para o repasse; registro de quem recebeu; aviso às empresas na exclusão; sem campo de saúde | item 2, seção (c), "Conclusão operacional" e "Vereditos" (linhas 346–364) |
 | WhatsApp | Só as vias A e B acima; a licenciada só chama a pessoa com opt-in que a nomeie | item 2, seção (d), linhas 395–402 e 432–451 |
@@ -164,15 +169,17 @@ resultado de busca e não entram).
 | Plataforma | País | O que devolve | O que **não** devolve | Forma | Fonte |
 |---|---|---|---|---|---|
 | Angi | EUA | Telefone "disconnected, not in service, or does not belong to the homeowner listed"; fora da área; serviço que não é o do perfil; duplicado em 45 dias | "The homeowner does not answer your calls or return your messages."; "The homeowner hired another pro before you reached them."; "You provided a quote but did not win the job." | Crédito, que vence em seis meses; a critério da plataforma | F30 (14/08/2026) |
-| Google, Anúncios de Serviços Locais | países de R28 | "Charged leads get reassessed by our models over time, and may be issued credits automatically."; avaliação "over a 30-day period"; novo contato do mesmo número em 15 dias não é cobrado de novo (resumo) | — | Crédito automático; o anunciante opina numa pesquisa por lead | F29 |
+| Google, Anúncios de Serviços Locais | fora da Europa — dos países de R28, EUA e Canadá, por exclusão (a página exclui o Espaço Econômico Europeu do crédito automático e a região EMEA de qualquer crédito) | "Charged leads get reassessed by our models over time, and may be issued credits automatically if determined to be low quality."; avaliação "over a 30-day period"; novo contato do mesmo número em 15 dias não é cobrado de novo (resumo) | — | Crédito automático; o anunciante opina numa pesquisa por lead | F29 |
 | oHub | BR | "Devolução de 100% dos créditos usados caso não consiga contato com o comprador." | — (não consta) | Crédito | F8 |
 | Cronoshare | BR | Parte de comissão do contato, se o trabalho não sair | Gastos de gestão (salvo "em alguns casos"); nada em dinheiro | Saldo na plataforma | F20 |
 | GetNinjas | BR | **Não conferido** (a página de reembolso devolveu erro 500, duas vezes) | Os termos dizem que o profissional paga pelo acesso aos dados e não pode responsabilizar a plataforma "pelo insucesso de uma eventual negociação" (resumo da ferramenta: inclusive por dado desatualizado) | — | F1 |
 | Thumbtack | EUA | **Não conferido** (as páginas de ajuda vieram sem texto) | — | — | — |
 
-Padrão que se repete nas quatro que abriram (classe A, mas cada fonte fala só de si): cobra-se **adiantado**; devolve-se
-**crédito, não dinheiro**; "o cliente não respondeu" ou "fechou com outro" **não** é lead inválido na Angi, e **é**
-motivo de devolução no oHub. Não há regra única.
+Padrão nas quatro que abriram (classe A, mas cada fonte fala só de si): devolve-se **crédito, não dinheiro** (no Google,
+só fora da Europa). Pagamento adiantado só nas brasileiras (oHub, Cronoshare; GetNinjas pelas moedas). O Google cobra
+por lead recebido ("You're charged for each valid lead you receive through your Local Services ad.", F29); a página da
+Angi não fala em pagamento adiantado: o crédito é abatido de "future lead charges" (F30). "O cliente não respondeu" ou
+"fechou com outro" **não** é lead inválido na Angi, e **é** motivo de devolução no oHub. Não há regra única.
 
 ---
 
@@ -212,7 +219,7 @@ Conta ilustrativa (**não é previsão**): 2.000 visitas `PREMISSA` × 3% `PREMI
 
 | Risco | Neste modelo | Remissão |
 |---|---|---|
-| Google | Quem ocupa o orgânico são sites de dedetizadoras com uma página por bairro; um diretório aparece em 21 de 79 buscas, do meio da página para baixo. Página de comparação por bairro sem conteúdo próprio cai no exemplo de página de entrada | 4.0; `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md`, seção 4.4 |
+| Google | Quem ocupa o orgânico são sites de dedetizadoras com uma página por bairro; um diretório aparece em 21 de 79 buscas, quase sempre do meio da página para baixo (posição mediana 5). Página de comparação por bairro sem conteúdo próprio cai no exemplo de página de entrada | 4.0; `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md`, seção 4.4 |
 | Propaganda | Lista de "melhores" exige critério que se possa provar (CDC, arts. 36, parágrafo único, e 38). O oHub declara o seu: "A ordem desta lista considera fatores como volume de respostas na plataforma" (F15) | item 2, seção (b), linhas 217–224 e 243–244 |
 | LGPD | Só com formulário (via B). Com botão, o site não recebe dado de contato | 4.0 |
 | WhatsApp | Via A ou B | 4.0 |
