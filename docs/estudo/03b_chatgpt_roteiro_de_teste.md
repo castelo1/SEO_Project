@@ -3,7 +3,9 @@
 - **Escrito em:** sexta, 13/11/2026, 20:18 (Brasília; `TZ=America/Sao_Paulo date`). Fontes lidas em 13/11/2026, entre 19:47 e 20:16.
 - **Corrigido em:** sexta, 13/11/2026, concluída às 21:23 (Brasília; `TZ=America/Sao_Paulo date`), depois da verificação independente
   (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_guias_ia_chatgpt.md`, 12 falhas
-  numeradas). A correção não foi verificada de novo. Mudou: 5 perguntas de comerciante trocadas por perguntas de
+  numeradas). A correção foi reverificada por outro verificador, em contexto limpo
+  (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_correcoes.md`: roteiro cumpre o
+  portão), e os defeitos menores que ele apontou foram corrigidos às 21:50. Mudou: 5 perguntas de comerciante trocadas por perguntas de
   morador e de síndico (as originais foram para o apêndice), urgência redistribuída, coluna `rede`, repetições
   obrigatórias.
 - **Por que existe:** a sessão não abre o ChatGPT nem digita em página. Não há estudo com dado sobre quais fontes o
@@ -70,7 +72,7 @@ restaurante e lanchonete que estavam na primeira versão saíram das 30 e estão
 
 1. Apareceu barata na cozinha do meu apartamento na Vila Mariana. Preciso de uma dedetizadora confiável aqui no bairro. Quem você indica?
 2. Tem um rato andando no quintal da minha casa na Penha agora à noite. Qual empresa de desratização atende hoje na zona leste?
-3. Sou síndico de um prédio de 80 apartamentos em Santana e preciso contratar dedetização e desratização das áreas comuns para o mês que vem. Quais empresas devo cotar?
+3. Sou síndico de um prédio de 80 apartamentos em Santana e preciso contratar dedetização contra baratas e desratização das áreas comuns para o mês que vem. Quais empresas devo cotar?
 4. Apareceu barata na cozinha e no banheiro do meu apartamento em Pinheiros. Quero fazer uma dedetização na semana que vem. Qual empresa do bairro você indica?
 5. Achei cupim no batente da porta e no guarda-roupa do meu apartamento em Perdizes. Qual é a melhor empresa de descupinização de São Paulo para esse caso?
 6. Encontrei um escorpião no banheiro de casa, no Butantã, e tenho criança pequena. O que eu faço agora e quem eu chamo hoje?
@@ -97,7 +99,7 @@ restaurante e lanchonete que estavam na primeira versão saíram das 30 e estão
 27. Vou comprar um apartamento antigo na Consolação e a vistoria achou sinais de cupim. Que empresa faz a avaliação e o tratamento, e quanto tempo demora?
 28. Vi sinais de rato na área de serviço do meu apartamento, no térreo de um prédio na Vila Prudente. Quero contratar uma desratização esta semana. Quem atende a zona leste?
 29. Compare para mim três dedetizadoras bem avaliadas que atendem Pirituba: preço, garantia e se têm licença. É para uma casa com baratas e formigas.
-30. Nosso condomínio no Bom Retiro quer fechar um contrato anual de controle de pragas. O que o contrato precisa ter e quais empresas de São Paulo atendem condomínios?
+30. Sou síndico de um condomínio no Bom Retiro e queremos fechar um contrato anual de controle de pragas. O que o contrato precisa ter e quais empresas de São Paulo atendem condomínios?
 
 ### Tabela das perguntas
 
@@ -171,7 +173,7 @@ linha. São **22 colunas** (a coluna `rede` entrou depois da primeira versão, q
 | `rodada` | ano e mês, por exemplo `2026-11` |
 | `data` · `hora` | dia e hora de Brasília em que a resposta saiu (são duas colunas) |
 | `n_pergunta` | 1 a 30 (ou C1 a C5, se rodar as extras do apêndice) |
-| `execucao` | 1 na rodada mensal; 2 a 6 nas cinco repetições obrigatórias do subconjunto (1, 2, 12, 13, 16 e 29) |
+| `execucao` | 1 na rodada mensal; 2 a 6 nas cinco repetições obrigatórias do subconjunto (1, 2, 12, 13, 16 e 29); na subamostra deslogada, 1 (a linha se distingue pela coluna `conta` = `deslogada`) |
 | `conta` | `logada-temporario`, `logada-normal` ou `deslogada` |
 | `plano` | gratuito, Go, Plus… ou `nenhum` (deslogado) |
 | `modelo_exibido` | o nome que o aplicativo mostra |
@@ -194,8 +196,8 @@ Cabeçalho da planilha e duas linhas de **EXEMPLO fictício** (nomes e domínios
 
 ```csv
 rodada,data,hora,n_pergunta,execucao,conta,plano,modelo_exibido,rede,localizacao_compartilhada,busca_forcada,buscou_na_web,qtd_empresas_citadas,empresas_citadas,fontes_citadas_dominios,tipos_de_fonte,mostrou_mapa_ou_cartoes,citou_licenca_ou_vigilancia,apareceu_intermediario,intermediarios_dominios,site_do_projeto_citado,observacoes
-EXEMPLO-2026-11,2026-11-14,10:05,1,1,logada-temporario,gratuito,EXEMPLO modelo padrao,casa,nao,nao,sim,3,EXEMPLO Dedetizadora Alfa; EXEMPLO Controle de Pragas Beta; EXEMPLO Gama Saude Ambiental,exemplo-alfa.example; exemplo-guia-de-empresas.example; exemplo-mapa.example,site de empresa; diretorio; mapa,mapa e cartoes,nao,nao,,n.a.,EXEMPLO ficticio: indicou duas empresas de bairro vizinho
-EXEMPLO-2026-11,2026-11-14,10:09,12,1,logada-temporario,gratuito,EXEMPLO modelo padrao,casa,nao,nao,nao,0,,,,nao,sim,nao,,n.a.,EXEMPLO ficticio: respondeu sem buscar e sem fonte; repetir com busca forcada em outra linha
+EXEMPLO-2026-11,2026-11-14,10:05,1,1,logada-temporario,gratuito,EXEMPLO modelo padrão,casa,não,não,sim,3,EXEMPLO Dedetizadora Alfa; EXEMPLO Controle de Pragas Beta; EXEMPLO Gama Saúde Ambiental,exemplo-alfa.example; exemplo-guia-de-empresas.example; exemplo-mapa.example,site de empresa; diretório; mapa,mapa e cartões,não,não,,n.a.,EXEMPLO fictício: indicou duas empresas de bairro vizinho
+EXEMPLO-2026-11,2026-11-14,10:09,12,1,logada-temporario,gratuito,EXEMPLO modelo padrão,casa,não,não,não,0,,,,não,sim,não,,n.a.,EXEMPLO fictício: respondeu sem buscar e sem fonte; repetir com busca forçada em outra linha
 ```
 
 Onde guardar: sugiro um arquivo por rodada em
@@ -236,7 +238,7 @@ Como aplicar:
 - **Repetições (item 2):** chat novo a cada vez; `execucao` de 2 a 6; dias diferentes entre si. O subconjunto (1, 2,
   12, 13, 16 e 29) cobre as cinco regiões e a pergunta sem bairro, as duas urgências e os quatro tipos de pergunta.
   Se a lista de empresas mudar muito entre repetições, diferença pequena entre meses não quer dizer nada.
-- **Subamostra deslogada (item 2):** as mesmas 6, uma vez, em janela anônima; `conta` = `deslogada`.
+- **Subamostra deslogada (item 2):** as mesmas 6, uma vez, em janela anônima; `conta` = `deslogada`, `execucao` = 1.
 
 O que comparar de um mês para o outro:
 

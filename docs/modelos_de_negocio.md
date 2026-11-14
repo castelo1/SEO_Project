@@ -1,8 +1,7 @@
 # Modelos de negócio de venda de leads de controle de pragas em São Paulo (item 5) — primeira versão
 
 - **Estado:** primeira versão, escrita por subagente de pesquisa em sexta, 13/11/2026, entre 21:40 e 21:47 (Brasília,
-  lido de `date`).
-  **Ainda não conferida** pela sessão principal nem pelo verificador independente.
+  lido de `date`). Lida inteira pela sessão principal às 21:47; **verificação independente em curso**.
 - **Leitura das fontes da web:** 13/11/2026, das 21:24 às 21:39 (Brasília). A ferramenta não grava a hora de cada
   página; a tabela de fontes (seção 9) dá a janela de cada uma.
 - **Como li:** só busca na web e leitura de página pública pela ferramenta de leitura, que **resume e corta**. O que
@@ -153,7 +152,7 @@ resultado de busca e não entram).
 
 | Risco | O que é | Remissão |
 |---|---|---|
-| Dependência do Google | O site não tem perfil no mapa e disputa só o orgânico. Na amostra de 79 buscas de 13/11/2026: 709 resultados orgânicos de 157 domínios; os 10 mais frequentes somam 39%; um diretório (ohub.com.br) aparece em 21 buscas; resumo de IA em 73; anúncio de texto em 60; um mesmo anunciante como perfil patrocinado em 47; no bloco de mapa, 64 perfis, três deles em 43% das linhas. Páginas por bairro que só afunilam para um botão são o exemplo de "página de entrada" da política de spam | `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` e `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv` (contas refeitas por mim); `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md`, seção 1; item 2, seção (a), "Caminhos que sobram", linha 131; `/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seções 2.1 e 2.2 (linhas 152–200; guia em correção) |
+| Dependência do Google | O site não tem perfil no mapa e disputa só o orgânico. Na amostra de 79 buscas de 13/11/2026: 709 resultados orgânicos de 157 domínios; os 10 mais frequentes somam 39%; um diretório (ohub.com.br) aparece em 21 buscas; resumo de IA em 73; anúncio de texto em 60; um mesmo anunciante como perfil patrocinado em 47; no bloco de mapa, 64 perfis, três deles em 43% das linhas. Páginas por bairro que só afunilam para um botão são o exemplo de "página de entrada" da política de spam | `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` e `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv` (contas refeitas por mim); `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md`, seção 1; item 2, seção (a), "Caminhos que sobram", linha 131; `/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seções 2.1 e 2.2 (linhas 152–200) |
 | Propaganda | Cada página de oferta exibe a identificação da licenciada e o número da licença com o órgão emissor; o site se declara intermediário; sem medo, sem "aprovado", "seguro", "atóxico"; "24 horas", "garantia" e "melhor preço" só com prova guardada | item 2, seção (b), "Conclusão para o site", (i) a (iv) e veredito (linhas 231–258) |
 | Responsabilidade perante o consumidor | Se o intermediário responde junto com a dedetizadora por dano do serviço "é leitura de tribunal, **não levantada**" no item 2. Não faço parecer | item 2, seção (b), "Código de Defesa do Consumidor" (linhas 225–229) |
 | LGPD | Consentimento específico e destacado para o repasse; registro de quem recebeu; aviso às empresas na exclusão; sem campo de saúde | item 2, seção (c), "Conclusão operacional" e "Vereditos" (linhas 346–364) |
@@ -356,7 +355,7 @@ site **dela**" → **permitido com condição**; seção (a), subseção "4. Cam
    pedir (linhas 113–116).
 3. Telefone, WhatsApp e site do perfil são **dela**; o conteúdo do site é dela (linhas 117–119).
 4. O serviço é o roteiro do guia (b): `/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md`, seção
-   "10. O que um gestor autorizado pode oferecer à licenciada" (linhas 416–463; guia em correção).
+   "10. O que um gestor autorizado pode oferecer à licenciada" (linhas 416–463).
 5. Cobra-se mensalidade pelo trabalho. **Não se promete posição** (linhas 126–128).
 6. Não há WhatsApp do projeto no caminho: o contato vai direto ao número dela.
 
@@ -540,7 +539,7 @@ Avaliações: `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`
 95–100): avaliação "paid for, directly or in kind" é engajamento falso; a sanção é ficar sem avaliações novas, ter as
 existentes despublicadas e exibir aviso público.
 Links: não é matéria do item 2. Política de spam do Google, classe A: "Buying or selling links for ranking purposes."
-(`/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seção 2.1, linha 164; guia em correção).
+(`/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seção 2.1, linha 164).
 
 ### 5.6 Vender o mesmo contato a várias empresas sem a pessoa saber quais — **VEDADO** pela letra da lei
 
@@ -729,7 +728,7 @@ fechado); `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv`, `/home/ancaste
 `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` e
 `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_dominios.md` (item 4, em andamento);
 `/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md` e
-`/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md` (item 3, em correção — só remissão);
+`/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md` (item 3, fechado em 13/11/2026 — só remissão);
 `/home/ancastelo/pessoal/SEO_Project/research/02_mercado_servicos_precos.md`,
 `/home/ancastelo/pessoal/SEO_Project/research/03_modelos_negocio_escala.md`,
 `/home/ancastelo/pessoal/SEO_Project/research/04_mao_de_obra_custos_operacao.md`,

@@ -347,7 +347,8 @@ os detalhes: a página tem de satisfazer quem clicou. Tentar fabricar cliques é
 Nenhuma dessas fontes é do Brasil, nenhuma é de dedetização, e os números não se somam entre si (métodos diferentes).
 O que se repete em duas fontes B de métodos diferentes, as duas com interesse comercial e uma delas antiga (Near
 Media e Backlinko; a First Page Sage aponta na mesma direção, mas é classe D e não conta como evidência): **em busca
-local o orgânico não é o primeiro lugar para onde o clique vai**. Isso sustenta, como hipótese, que o canal orgânico do intermediário rende mais na
+local o bloco do mapa leva uma fatia grande dos cliques** (na Backlinko, 42% clicaram no mapa e 65% em algum resultado
+orgânico: o orgânico não fica sem clique). Isso sustenta, como hipótese, que o canal orgânico do intermediário rende mais na
 cauda longa e em buscas de comparação e de dúvida do que em "dedetizadora perto de mim".
 
 ---
@@ -363,7 +364,7 @@ cauda longa e em buscas de comparação e de dúvida do que em "dedetizadora per
 | O tráfego de recursos de IA da busca entra nos totais de busca do Search Console | Não há relatório separado de "citações em IA" nessa leitura | `D:appearance/ai-features`; registro de mudanças de 16/06/2025 | A | Google | (1 leitura) |
 | Depois de atualização central, esperar ao menos uma semana após o fim para comparar períodos | Comparar semana ou 28 dias contra período igual anterior | `D:appearance/core-updates` | A | Google | Conferida em 2 leituras |
 | Ferramenta de terceiro não tem acesso aos dados internos de ranqueamento e não garante resultado; o Google recomenda fortemente o Search Console | Volume de busca, "dificuldade" e "autoridade" de ferramenta são estimativas da ferramenta | `D:fundamentals/third-party-seo` | A | Google | 2 leituras |
-| Enviar buscas automáticas e raspar o resultado para checar posição consta entre as práticas vedadas (tráfego gerado por máquina) | Não montar robô de posição; a posição vem do Search Console | `D:essentials/spam-policies` | A | Google | (1 leitura do resumo; relida na correção de 13/11/2026). A seção "Machine-generated traffic" (tráfego gerado por máquina) fala em enviar consultas automáticas ao Google, inclusive para checar posição, sem permissão expressa, e diz: "Such activities violate our spam policies and the Google Terms of Service." (essas atividades violam nossas políticas de spam e os Termos de Serviço do Google). Limite à automação do item "medir" do desenho. Vale também para rastreador de posição e para a "grade de posição" de ferramenta de mapa: guia (b), seção 9 |
+| Enviar buscas automáticas e raspar o resultado para checar posição consta entre as práticas vedadas (tráfego gerado por máquina) | Não montar robô de posição; a posição vem do Search Console | `D:essentials/spam-policies` | A | Google | (1 leitura do resumo; relida na correção de 13/11/2026). A seção "Machine-generated traffic" (tráfego gerado por máquina) fala em enviar consultas automáticas ao Google, inclusive para checar posição, sem permissão expressa, e diz: "Such activities violate our spam policies and the Google Terms of Service." (essas atividades violam nossas políticas de spam e os Termos de Serviço do Google). Limite à automação do item "medir" do desenho. Vale também para rastreador de posição e para a "grade de posição" de ferramenta de mapa: guia (b), seção 9 (a página é a das políticas de spam da Busca e não cita o Maps; estender a regra ao Maps é leitura dos guias) |
 
 **O que dá para medir sem conta: nada confiável.** Sem o Search Console não há impressão, clique nem posição. A
 busca manual no navegador mostra uma posição, para uma pessoa, num lugar, num momento (é o que o item 4 registra, como

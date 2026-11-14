@@ -236,7 +236,7 @@ O que estudo acrescenta (não é regra da OpenAI):
 | Como aparecer? | Permitir o OAI-SearchBot no `robots.txt` e não barrar os IPs publicados | F1 | A |
 | Há como "enviar" o site ou o sitemap à OpenAI? | A página dos robôs não oferece envio nem cita sitemap. Se existe outro canal: **não sei** | F1 | A (silêncio) |
 | A OpenAI declara fatores de escolha de fonte? | Na página dos robôs, **não**. Na API, só diz que o modelo decide se busca: "Like any other tool, the model can choose to search the web or not based on the content of the input prompt." A ajuda do aplicativo diz só que a ordenação usa "multiple factors" e que "Placement is not guaranteed." (conferido na ajuda oficial da OpenAI — complemento); **não publica quais fatores** | F1, F3; ajuda da OpenAI (complemento) | A |
-| Existe anúncio no ChatGPT? | Sim: há um robô só para validar páginas de anúncios (F1). No Brasil, piloto anunciado em 04/08/2026 para contas gratuitas e Go, maiores de 18 anos, anúncios marcados como patrocinados; segundo a OpenAI, relatada pela matéria, não influenciam as respostas (F32) | F1 (A) · F32 (C) |
+| Existe anúncio no ChatGPT? | Sim: há um robô só para validar páginas de anúncios (F1). No Brasil, piloto anunciado em 04/08/2026 para contas gratuitas e Go, maiores de 18 anos, anúncios marcados como patrocinados; segundo a OpenAI, relatada pela matéria, não influenciam as respostas (F32) | F1, F32 | A (F1) · C (F32) |
 | Dá para pagar por posição na resposta? | Nada nas fontes abertas indica que sim; a negativa da OpenAI só foi lida por reportagem (F32). A página oficial de anúncios deu 403: **não conclusivo** | F32 | C |
 
 ### 3.2 Visto só no trecho devolvido pela ferramenta de busca — páginas que deram **403** à ferramenta

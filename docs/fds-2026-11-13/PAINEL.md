@@ -1,9 +1,8 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sex 13/11 21:47 (Brasília, lido de `date`)** · fase: **itens** · em curso: **item 3** (correções das
-26 falhas aplicadas e conferidas por mim; reverificação independente em curso) e **item 4** (texto escrito; faltam as 10
-buscas do grupo H e 5 repetições, só depois das 23:17, e a verificação) · adiantado: **item 5** (primeira versão
-escrita por subagente, em conferência) · próximo: fechar 3, verificar 4 e 5, depois o desenho (item 6)
+**Atualizado em sex 13/11 21:50 (Brasília, lido de `date`)** · fase: **itens** · fechados: **1, 2 e 3** · em curso:
+**item 4** (texto escrito; faltam as 10 buscas do grupo H e 5 repetições, só depois das 23:17, e a verificação) e
+**item 5** (primeira versão lida pela sessão principal; verificação em curso) · próximo: desenho (item 6)
 
 ## Itens
 
@@ -11,7 +10,7 @@ escrita por subagente, em conferência) · próximo: fechar 3, verificar 4 e 5, 
 |---|---|---|---|---|---|
 | 1 | Reenquadramento | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item1.md` (aprovado; 3 falhas menores em 71, corrigidas) | 0,3 | 0 |
 | 2 | Restrições que decidem o modelo | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item2.md` (aprovado; 12 de 12 citações sorteadas conferem; 8 defeitos fora do sorteio, corrigidos) | 0,9 | 0 |
-| 3 | Estudo: como se ranqueia serviço local (Google, Maps, IA, ChatGPT) | em curso: cinco arquivos entregues; verificação aprovou as duas metades (12 de 12 e 11 de 12 no sorteio) e listou 26 falhas fora do sorteio; **todas corrigidas** (dois corretores) e conferidas por amostra pela sessão principal; **reverificação das correções em curso** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_guias_a_b.md` e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3_guias_ia_chatgpt.md` | 1,8 | 0 |
+| 3 | Estudo: como se ranqueia serviço local (Google, Maps, IA, ChatGPT) | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3.md` (índice de três verificações: aprovado, aprovado e aprovado com ressalvas; 26 falhas fora do sorteio corrigidas e reverificadas — 25 resolvidas, 1 em parte; 12 defeitos menores corrigidos depois, sem novo verificador) | 2,1 | 0 |
 | 4 | Mapa do mercado de busca em São Paulo | em curso: `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` escrito (79 de 89 buscas; 1.060 resultados; 77 domínios lidos e classificados), `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` e `/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv` (1.260 termos) prontos; faltam grupo H, 5 repetições e a verificação | — | 2,0 | ≈ 95 (79 válidas, 1 barrada, ≈ 15 perdidas em testes e lotes descartados) |
 | 5 | Modelos de negócio de venda de leads | adiantado: primeira versão de `/home/ancastelo/pessoal/SEO_Project/docs/modelos_de_negocio.md` escrita por subagente (7 modelos de pé, 7 marcados com o veredito do item 2; R$ 20–60 por lead: não dá para confirmar nem derrubar); lida por mim; falta conferência fina e verificação | — | 0,4 | 0 |
 | 6 | Desenho do sistema, versão 0 | não iniciado | — | 0 | 0 |
@@ -28,6 +27,7 @@ Fila de reserva (5 tarefas) e segunda passada: não iniciadas.
 | Normas que só existem em PDF (Portaria CVS 1/2024, anexo municipal, guias da ANPD, diretrizes dos avaliadores do Google) não foram lidas: a ferramenta não extrai texto de PDF e baixar arquivo para o projeto não foi autorizado. Autoriza baixar esses PDFs oficiais para `docs/fontes/`? | Não baixar; o que depende deles fica "não conclusivo" | Sim |
 | O Google lista "consultas automáticas" entre as práticas vedadas (guia 3a, seção 8). A rodada autoriza até 600 buscas ao vivo com 20 s de intervalo. Mantém? | Manter o limite da rodada; parar no primeiro sinal de verificação de robô | Sim |
 | O roteiro de teste do ChatGPT tinha 5 perguntas de dono de bar ou restaurante; o portão pede "morador ou síndico". Manter as 5 dentro das 30? | Não: as 30 ficam só de morador e síndico; as 5 de comerciante vão para um apêndice opcional | Sim |
+| No mesmo roteiro, 2 das 30 perguntas (12 e 25) não têm bairro, de propósito. O portão diz "por praga, bairro, urgência". Aceita? | Sim: mantidas, com o motivo escrito no roteiro | Sim |
 
 ## Dúvidas e premissas
 
