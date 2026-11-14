@@ -28,16 +28,16 @@ do título do bloco "Empresas" e do primeiro resultado orgânico; os números s�
 | I18 | bairro (20 bairros novos) | dedetização liberdade sp | 00:37:19 | sim | — | sim | 1 | 3 + 1 | 9 | IA > mapa > orgânico > anúncio | 250 | 2283 | 666 | 1704 | ampliacao_02.jsonl |
 | I19 | bairro (20 bairros novos) | dedetizadora consolação | 00:38:32 | sim | Osasco, SP | sim | 1 | 3 + 1 | 9 | IA > mapa > orgânico > anúncio | 251 | 2364 | 667 | 1973 | ampliacao_02.jsonl |
 | I20 | bairro (20 bairros novos) | dedetização aclimação | 00:39:55 | sim | — | sim | 2 | 3 + 1 | 9 | IA > mapa > orgânico > anúncio | 250 | 2336 | 666 | 1682 | ampliacao_02.jsonl |
-| J01 | praga × bairro novo | dedetização de baratas brooklin | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| J02 | praga × bairro novo | desratização tucuruvi | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| J03 | praga × bairro novo | descupinização morumbi | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| J04 | praga × bairro novo | percevejo de cama liberdade dedetização | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| J05 | praga × bairro novo | controle de pombos consolação | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| J06 | praga × bairro novo | dedetização de formigas saúde sp | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| J07 | praga × bairro novo | dedetização de pulgas vila prudente | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| J08 | praga × bairro novo | controle de escorpião pirituba | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| J09 | praga × bairro novo | desratização vila leopoldina | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| J10 | praga × bairro novo | dedetização de baratas são miguel paulista | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
+| J01 | praga × bairro novo | dedetização de baratas brooklin | 00:41:39 | sim | — | sim | 2 | 3 + 1 | 9 | IA > orgânico > mapa > anúncio | 250 | 2295 | 814 | 704 | ampliacao_03.jsonl |
+| J02 | praga × bairro novo | desratização tucuruvi | 00:42:51 | sim | — | sim | 2 | 3 + 1 | 9 | IA > mapa > orgânico > anúncio | 250 | 2311 | 666 | 1657 | ampliacao_03.jsonl |
+| J03 | praga × bairro novo | descupinização morumbi | 00:44:07 | sim | Osasco, SP | sim | 2 | 3 + 1 | 9 | IA > mapa > orgânico > anúncio | 250 | 2314 | 666 | 1951 | ampliacao_03.jsonl |
+| J04 | praga × bairro novo | percevejo de cama liberdade dedetização | 00:45:23 | sim | — | sim | 0 | 0 | 8 | IA > orgânico | 172 | — | — | 626 | ampliacao_03.jsonl |
+| J05 | praga × bairro novo | controle de pombos consolação | 00:46:37 | sim | Osasco, SP | sim | 2 | 3 + 1 | 9 | IA > orgânico > mapa > anúncio | 250 | 2315 | 814 | 704 | ampliacao_03.jsonl |
+| J06 | praga × bairro novo | dedetização de formigas saúde sp | 00:47:51 | sim | — | sim | 1 | 3 | 9 | IA > orgânico > mapa > anúncio | 250 | 2102 | 1253 | 704 | ampliacao_03.jsonl |
+| J07 | praga × bairro novo | dedetização de pulgas vila prudente | 00:49:10 | sim | — | sim | 0 | 3 + 1 | 9 | IA > orgânico > mapa | 250 | — | 1253 | 704 | ampliacao_03.jsonl |
+| J08 | praga × bairro novo | controle de escorpião pirituba | 00:50:26 | sim | — | sim | 2 | 0 | 8 | IA > orgânico > anúncio | 172 | 1450 | — | 626 | ampliacao_03.jsonl |
+| J09 | praga × bairro novo | desratização vila leopoldina | 00:51:43 | sim | — | sim | 1 | 3 + 1 | 9 | IA > mapa > orgânico > anúncio | 250 | 2408 | 666 | 1654 | ampliacao_03.jsonl |
+| J10 | praga × bairro novo | dedetização de baratas são miguel paulista | 00:52:57 | sim | — | sim | 1 | 3 + 1 | 9 | IA > orgânico > mapa > anúncio | 250 | 3685 | 2643 | 2072 | ampliacao_03.jsonl |
 | K01 | praga ou serviço novo + cidade | dedetização de traças são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
 | K02 | praga ou serviço novo + cidade | controle de mosquitos são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
 | K03 | praga ou serviço novo + cidade | remoção de marimbondos são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
@@ -49,4 +49,4 @@ do título do bloco "Empresas" e do primeiro resultado orgânico; os números s�
 | K09 | praga ou serviço novo + cidade | fumacê para condomínio são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
 | K10 | praga ou serviço novo + cidade | dedetização piolho de pombo são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
 
-Total: 20 buscas com registro, de 40 planejadas.
+Total: 30 buscas com registro, de 40 planejadas.
