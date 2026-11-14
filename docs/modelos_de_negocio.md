@@ -5,25 +5,25 @@
 - **Verificação independente:** `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item5.md`
   (aprovado com ressalvas; 11 de 12 no sorteio). As correções F1–F7 e D1–D10 foram aplicadas em 13/11/2026 às 22:17
   (Brasília, lido de `TZ=America/Sao_Paulo date`); registro em
-  `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes_item5.md`. As correções ainda não foram
-  reverificadas.
+  `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes_item5.md`. **Segunda passada (14/11/2026):** revisor novo, `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item5.md` (aprovado com ressalvas; 0 falha em 12; 20 achados).
+  Os achados da segunda passada foram aplicados por corretor em 14/11/2026 às @@HORA_FIM@@ (Brasília, lido de `TZ=America/Sao_Paulo date`), **sem nova leitura independente**; registro em `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes2_item5.md`.
 - **Leitura das fontes da web:** 13/11/2026, das 21:24 às 21:39 (Brasília). A ferramenta não grava a hora de cada
   página; a tabela de fontes (seção 9) dá a janela de cada uma. Na correção, quatro páginas foram relidas entre 22:08 e
-  22:17 (F5, F29, F30 e F35).
+  22:17 (F5, F29, F30 e F35). Na correção da segunda passada, o corretor reabriu @@N_PAGINAS@@ páginas em 14/11/2026, entre 01:55 e @@HORA_WEB@@ (marca J4 na seção 9).
 - **Como li:** só busca na web e leitura de página pública pela ferramenta de leitura, que **resume e corta**. O que
   está entre aspas é trecho literal que pedi e a ferramenta devolveu; ainda assim, confira na página. Não usei navegador,
   não criei conta, não preenchi formulário, não pedi orçamento, não cliquei em anúncio.
 - **Natureza:** estudo em arquivo local. **Conta ilustrativa não é previsão.** O que é jurídico é **levantamento com
   fonte, não parecer**; a aplicação ao caso concreto é de advogado.
-- **Classes de evidência (regra da rodada):** A = documentação oficial, inclusive a página pública de preço ou de
-  termos de uma plataforma **sobre ela mesma**; B = estudo com amostra e método expostos; C = relato de praticante que
-  não vende o método (aqui, também entrevista de executivo à imprensa); D = vendedor de curso, ferramenta ou agência.
+- **Classes de evidência (regra da rodada):** A = documentação oficial (Google, Meta, lei, norma). **A\* = preço ou termo publicado pela própria empresa sobre ela mesma**: prova que ela publica aquele preço ou aquela regra; não prova que o mercado o pratique. A marca A\* é deste arquivo, **não está na regra da rodada** (que só tem A, B, C e D), e não sustenta "Consenso";
+  vale igual para plataforma brasileira e para vendedor de outro país. B = estudo com amostra e método expostos; C = relato de praticante que
+  não vende o método (aqui, também entrevista de executivo à imprensa); D = vendedor de curso, ferramenta ou agência — inclusive estimativa, média ou faixa que plataforma ou vendedor divulga sem método.
   "Consenso" exige A ou duas B independentes. Fonte anterior a 2025 leva "pode estar desatualizada".
 - **Marcas usadas nas contas:** `[BR]`, `[EUA]` = país do número (número dos Estados Unidos **não** é convertido em
   reais nem entra na conta brasileira); `PREMISSA` = número sem evidência, posto só para mostrar a fórmula;
   `HIPÓTESE 25/09` = número da pesquisa antiga, não reconferido hoje.
 - **Item 2 (restrições):** `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`. As linhas citadas foram
-  conferidas na versão desse arquivo lida às 21:24 (499 linhas).
+  conferidas na versão desse arquivo lida às 21:24 de 13/11/2026 (499 linhas) e reconferidas em 14/11/2026 na versão corrigida à 01:45 (499 linhas, mesma numeração). Onde o texto de lá mudou, a citação daqui foi refeita; **[S]** é a marca do item 2 para o que só tem leitura de subagente ou de corretor, sem conferência no texto bruto.
 
 ---
 
@@ -33,31 +33,31 @@
    e nomeia a licenciada que atende. Nenhum precisa de perfil próprio no mapa nem de se passar por dedetizadora (seção 2).
 2. **O item 2 muda o que é "um lead".** Sobram duas unidades vendáveis: o **clique** no botão que abre o WhatsApp **da
    licenciada** (o site só prova o clique) e o **pedido por formulário** com consentimento que nomeia quem recebe (o
-   site guarda a prova). Central de WhatsApp do site que tria e repassa fica fora.
+   site guarda a prova). Central de WhatsApp do site que tria e repassa fica fora. O desenho (item 6), escrito depois, **não** cobra por clique: trata o toque como indicador (ver 4.2, passo 2).
 3. **As três plataformas brasileiras de pedido de orçamento lidas (GetNinjas, Cronoshare, oHub) cobram do prestador,
    pré-pago, por contato compartilhado.** GetNinjas: até 4 profissionais (a mesma página diz 3 em outra seção — seção 8,
-   Disputado 2); Cronoshare: no máximo 4; oHub: 4, mais 2 com acréscimo (artigo de 2021, **pode estar desatualizada**)
-   (classe A, páginas das plataformas). Triider (percentual, com pagamento pela plataforma) e PedeGás (mensalidade)
+   Disputado 2); Cronoshare: no máximo 4; oHub: 4, mais 2 com acréscimo de 40% e 80% (R4)
+   (classe A\*, páginas das plataformas, cada uma sobre si). Triider (percentual, com pagamento pela plataforma) e PedeGás (mensalidade)
    cobram de outro jeito (seção 6).
 4. **Único preço público de lead de dedetização achado no Brasil:** oHub, 12 a 24 créditos por resposta; com o crédito
-   a R$ 1,62–1,72, dá **R$ 19 a R$ 41 por resposta**, pedido de empresa ou condomínio, compartilhado (classe A; a
+   a R$ 1,62–1,72, dá **R$ 19 a R$ 41 por resposta**, pedido de empresa ou condomínio, compartilhado (classe A\*; a
    multiplicação é minha). GetNinjas não publica o preço por pedido.
-5. **R$ 20–60 por lead (pesquisa antiga): não dá para confirmar nem derrubar.** O número vinha de uma conta com
-   premissas sem fonte, não de preço de mercado. Os comparáveis brasileiros de hoje ficam na mesma ordem de grandeza,
+5. **R$ 20–60 por lead (pesquisa antiga): não confirmado — e não derrubado por preço observado.** O portão pede "confirmado ou derrubado"; com fonte pública, nenhuma das duas respostas sai inteira (seção 7). O número vinha de uma conta com
+   premissas sem fonte, não de preço de mercado, e **não se sustenta como número de trabalho**. Os comparáveis brasileiros de hoje ficam na mesma ordem de grandeza,
    mas são outro produto (compartilhado, de empresa). Falta: preço real de um pedido de dedetização no GetNinjas, taxa de
    fechamento e disposição de pagar das licenciadas de São Paulo (seção 7).
 6. **Não há número brasileiro, classe A ou B, de volume de busca, custo por clique ou taxa de fechamento:** toda conta
-   de receita deste arquivo é ilustração. Nos Anúncios de Serviços Locais do Google, o Brasil não consta das listas
+   de receita deste arquivo é ilustração, e é só de receita ou de teto de preço — nenhum custo (domínio, hospedagem, horas, consulta jurídica) foi levantado. Nos Anúncios de Serviços Locais do Google, o Brasil não consta das listas
    oficiais de países (classe A, por ausência).
-7. **O risco que mais pesa é a dependência do Google com o site fora do mapa:** na amostra de 79 buscas, 10 domínios
-   têm 39% dos resultados orgânicos, quase todos de dedetizadoras, e um mesmo anunciante aparece como perfil patrocinado
+7. **Leitura minha: o risco que mais pesa é a dependência do Google com o site fora do mapa.** Na amostra principal do mapa de busca (79 buscas dos grupos A a G, 13/11/2026; o mapa tem mais 10 buscas de confiança, preço e informação — grupo H — e uma ampliação de 40 buscas, de 14/11/2026, em `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md`), 10 domínios
+   têm 39% dos resultados orgânicos, 9 deles de sites que se apresentam como dedetizadora (2 com número de licença visto) e 1 de diretório (`/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv`), e um mesmo anunciante aparece como perfil patrocinado
    em 47 buscas.
-8. **Conflito com o parceiro:** as plataformas o tratam com regra escrita de lead inválido, que devolve **crédito, não
-   dinheiro** (Angi, Google fora da Europa, oHub, Cronoshare — classe A, cada uma sobre si); as brasileiras cobram
+8. **Conflito com o parceiro:** as plataformas o tratam com regra escrita de lead inválido, que devolve **crédito ou saldo**
+   (Angi, Google fora da Europa, oHub, Cronoshare — cada uma sobre si; Google, classe A; as demais, A\*); só a Cronoshare diz com todas as letras que não reembolsa em dinheiro (F20); as brasileiras cobram
    adiantado.
 9. **Leitura minha, não fato:** o modelo mais simples perante as quatro restrições é **uma licenciada por região,
    nomeada na página, com pagamento antecipado** — uma só empresa recebe o contato (veredito mais leve da LGPD) e a
-   página cumpre a condição da propaganda. Se as licenciadas de São Paulo pagam por isso, **não sei**: só se descobre
+   página nomeia a licenciada, que é o que as normas lidas pedem da propaganda da empresa especializada (se isso basta para o site de terceiro, a norma é silente: item 2, linhas 257–258). Se as licenciadas de São Paulo pagam por isso, **não sei**: só se descobre
    falando com elas, o que está fora da rodada.
 
 ---
@@ -85,11 +85,11 @@ Vereditos transcritos do "Quadro de vereditos" de `/home/ancastelo/pessoal/SEO_P
 |---|---|---|---|
 | 2.1 | Perfil próprio de "dedetizadora" no mapa (inclusive com endereço oculto ou de fachada) | **Vedado** | Quadro, linhas 25–26; seção (a), subseções 1 e 2 (linhas 53–85) |
 | 2.2 | Site com cara de dedetizadora que não nomeia quem executa | **Não conclusivo** ("é o ponto de maior risco") | Quadro, linha 31; seção (b), "Conclusão para o site", (iv) e "O que isso corta do plano" (linhas 253–262) |
-| 2.3 | Central de WhatsApp própria que tria e repassa | Pela API: **vedado**; pelo aplicativo gratuito: **não conclusivo** | Quadro, linhas 36–37; seção (d), "Os dois desenhos" (linhas 432–451) |
+| 2.3 | Central de WhatsApp própria que tria e repassa | Pela API: **vedado** pela letra dos termos (leitura literal; parte do alcance leva **[S]** no item 2); pelo aplicativo gratuito: **não conclusivo** | Quadro, linhas 36–37; seção (d), "Os dois desenhos" (linhas 432–451) |
 | 2.4 | Aluguel de site ranqueado ("rank and rent") **com perfil** | **Vedado** | Quadro, linha 27; seção (a), "Não é caminho" (linhas 133–134) |
 | 2.5a | Compra de avaliações | **Vedado** | Quadro, linha 29; seção (a), subseção 3 (linhas 95–100) |
 | 2.5b | Compra de links | — (não é do item 2; é política de spam do Google, classe A) | `/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seção 2.1, linha 164 |
-| 2.6 | Vender o mesmo contato a várias empresas sem a pessoa saber quais, ou com "aceito os termos" | **Vedado** pela letra da lei (repassar sem informar; autorização genérica) | Seção (c), "Vereditos" e "O que isso corta do plano" (linhas 358–368) |
+| 2.6 | Vender o mesmo contato a várias empresas sem a pessoa saber quais, ou com "aceito os termos" | **Contraria a letra da lei; fora do plano** (repassar sem informar contraria o art. 9º, V; a autorização genérica é nula — art. 8º, § 4º). O item 2, corrigido em 14/11/2026, deixou de usar a palavra "vedado" neste ponto | Seção (c), "Vereditos" e "O que isso corta do plano" (linhas 358–368) |
 | 2.7 | Cobrar do consumidor e subcontratar a execução | — (sem linha no quadro; os arts. 5º e 21 da RDC 622 apontam contra) | Seção (b), linhas 184–185 e "Conclusão para o site", (iii) (linhas 246–251) |
 
 ---
@@ -102,22 +102,22 @@ Cada linha: unidade, país, classe, fonte (nº da seção 9). "Cálculo meu" = a
 
 | # | O quê | Valor | Classe | Fonte | Observação |
 |---|---|---|---|---|---|
-| R1 | oHub: créditos para responder um pedido de "Dedetização" (e de "Dedetização e Desratização") | "De 12 a 24 créditos" | A | F9 | A página não explica a faixa. A página de planos diz que oportunidade premium leva adicional de 20% a 100% (F8, F14): 12 = base e 24 = base + 100% é **inferência minha** |
-| R2 | oHub: preço do crédito | pacotes de 100 por R$ 172,00; 180 por R$ 298,00; 240 por R$ 392,00; 420 por R$ 682,00 → **R$ 1,62 a R$ 1,72 por crédito** (cálculo meu) | A | F8 | Validade de 12 meses. Há plano de assinatura, sem preço na página |
-| R3 | oHub: preço de uma resposta a pedido de dedetização | 12 créditos = R$ 19,49–20,64; 24 créditos = R$ 38,97–41,28 (cálculo meu, R1 × R2) | A (insumos) | F8, F9 | Quem pede é empresa: "empresas que estão precisando de um fornecedor de serviço B2B" (F10); o artigo de premium cita empresa ou condomínio (F14) |
-| R4 | oHub: quantos fornecedores respondem o mesmo pedido | "até 4 (quatro) respostas na quantidade original de créditos"; "mais 2 fornecedores podem responder com um adicional de 40% e 80%" | A | F12 | Artigo de 19/03/2021: **pode estar desatualizada**. A página de lista diz "recebe até 4 propostas personalizadas" (F15) |
-| R5 | oHub: devolução | "Devolução de 100% dos créditos usados caso não consiga contato com o comprador." | A | F8 | Também quando a oportunidade é falsa (perguntas frequentes da mesma página; resumo da ferramenta) |
-| R6 | GetNinjas: preço da moeda | "pacote promocional de 500 moedas por R$69,90" → R$ 0,14 por moeda (cálculo meu); pacotes até 4.800 moedas | A | F5 | Artigo do blog, atualizado em 09/09/2025. Os demais preços só aparecem no aplicativo |
-| R7 | GetNinjas: preço de um pedido em moedas | **não publicado**. "Os valores dos pedidos não são fixos e podem variar de acordo com o tipo de serviço" | A | F2, F1 | Termos: varia por "local, tipo e oferta de orçamentos" |
-| R8 | GetNinjas: quantos profissionais liberam o mesmo pedido | "até 4 profissionais podem liberar o mesmo pedido"; ordem de liberação "do primeiro ao quarto" | A | F5, F4 | **A página se contradiz:** a mesma página (F5), na seção sobre a validade das moedas, diz "até que 3 prestadores liberem aquela solicitação". A ajuda (F4) fala em "do primeiro ao quarto", mas não afirma o limite. Ver seção 8, Disputado 2 |
-| R9 | GetNinjas: validade da moeda | "validade de 3 (três) meses" | A | F1, F3 | — |
+| R1 | oHub: créditos para responder um pedido de "Dedetização" (e de "Dedetização e Desratização") | "De 12 a 24 créditos" | A\* | F9 | A página não explica a faixa. A página de planos diz que oportunidade premium leva adicional de 20% a 100% (F8, F14): 12 = base e 24 = base + 100% é **inferência minha** |
+| R2 | oHub: preço do crédito | pacotes de 100 por R$ 172,00; 180 por R$ 298,00; 240 por R$ 392,00; 420 por R$ 682,00 → **R$ 1,62 a R$ 1,72 por crédito** (cálculo meu) | A\* | F8 | Validade de 12 meses. Há plano de assinatura, sem preço na página (duração: ver 4.6) |
+| R3 | oHub: preço de uma resposta a pedido de dedetização | 12 créditos = R$ 19,49–20,64; 24 créditos = R$ 38,97–41,28 (cálculo meu, R1 × R2) | A\* (insumos) | F8, F9 | Quem pede é empresa: "empresas que estão precisando de um fornecedor de serviço B2B" (F10); o artigo de premium cita empresa ou condomínio (F14) |
+| R4 | oHub: quantos fornecedores respondem o mesmo pedido | "O limite de respostas de cada pedido de orçamento são 4 respostas mas é possível chegar até a 6.", com adicional "de 40% se for a 5a resposta e 80% se for a 6a resposta" (F8). O artigo de ajuda diz o mesmo: "até 4 (quatro) respostas na quantidade original de créditos"; "mais 2 fornecedores podem responder com um adicional de 40% e 80%" (F12) | A\* | F8 (perguntas frequentes da página de planos, sem data, relida em 14/11/2026) e F12 (artigo de 19/03/2021) | A página de lista diz "recebe até 4 propostas personalizadas" (F15) |
+| R5 | oHub: devolução | "Devolução de 100% dos créditos usados caso não consiga contato com o comprador." | A\* | F8 | Também quando a oportunidade é falsa (perguntas frequentes da mesma página; resumo da ferramenta) |
+| R6 | GetNinjas: preço da moeda | "pacote promocional de 500 moedas por R$69,90" → R$ 0,14 por moeda (cálculo meu); pacotes até 4.800 moedas | A\* | F5 | Artigo do blog, atualizado em 09/09/2025. Os demais preços só aparecem no aplicativo |
+| R7 | GetNinjas: preço de um pedido em moedas | **não publicado**. "Os valores dos pedidos não são fixos e podem variar de acordo com o tipo de serviço" | A\* | F2, F1 | Termos: varia por "local, tipo e oferta de orçamentos" |
+| R8 | GetNinjas: quantos profissionais liberam o mesmo pedido | "até 4 profissionais podem liberar o mesmo pedido"; ordem de liberação "do primeiro ao quarto" | A\* | F5, F4 | **A página se contradiz:** a mesma página (F5), na seção sobre a validade das moedas, diz "até que 3 prestadores liberem aquela solicitação". A ajuda (F4) fala em "do primeiro ao quarto", mas não afirma o limite. Ver seção 8, Disputado 2 |
+| R9 | GetNinjas: validade da moeda | "validade de 3 (três) meses" | A\* | F1, F3 | — |
 | R10 | GetNinjas: preço cai conforme o pedido já foi vendido | "se um lead já foi comprado por outros profissionais, nós cobramos menos" | C | F7 | Entrevista do diretor financeiro, 24/08/2023: **pode estar desatualizada** |
-| R11 | Cronoshare: custo do contato | "nunca é superior aos 15% do que você cobrará"; média "entre 6 e 10% por cada cliente novo" (F19, sem data) × "varia de 2% a 15% do seu orçamento total, sendo uma média de 6% para cada novo cliente" (F18, atualizado em 23/07/2025) | D (estimativa da plataforma sobre o próprio custo; não é tabela de preço) | F18, F19 | **As duas páginas da própria plataforma divergem.** Não fica claro se o percentual é por contato comprado ou por cliente fechado |
-| R12 | Cronoshare: quantos profissionais | "Podem contactar no máximo 4 profissionais para cada solicitação." | A | F21 | — |
-| R13 | Cronoshare: devolução | devolve a parte de comissão em saldo se o trabalho não sair; "Não reembolsamos valores pagos em sua conta bancária." | A | F20 | Sem percentual nem prazo na página |
-| R14 | Triider: taxa | "Essa taxa será de 21% (vinte e um por cento) a 25% (vinte e cinco por cento) do valor" dos serviços contratados na modalidade pós-paga; o cliente paga pela plataforma | A | F22 | Termos de 28/02/2025. Dedetização não consta na lista de serviços da página para profissionais (F23) |
-| R15 | PedeGás: planos de parceiro | grátis R$ 0; Pro R$ 99/mês ("Prioridade na lista"); Premium R$ 199/mês ("Topo em todas as cidades que você atende.") | A | F25 | Plataforma de pedidos de gás que também colhe pedido de dedetização; apareceu 1 vez na amostra de buscas |
-| R16 | GuiaMais: listagem | "O GuiaMais não está trabalhando mais com cadastros gratuitos" | A | F27 | Sem preço na página |
+| R11 | Cronoshare: custo do contato | "nunca é superior aos 15% do que você cobrará"; média "entre 6 e 10% por cada cliente novo" (F19, sem data) × "varia de 2% a 15% do seu orçamento total, sendo uma média de 6% para cada novo cliente" (F18, atualizado em 23/07/2025) | D (estimativa da plataforma sobre o próprio custo; não é tabela de preço) | F18, F19 | **As duas páginas da própria plataforma divergem.** Não fica claro se o percentual é por contato comprado ou por cliente fechado. Exemplo da própria página (F18), para um serviço de limpeza pontual de R$ 120: "50 cronos, R$ 5,00 (uns 4% aproximadamente)" — isto é, R$ 0,10 por crono (cálculo meu). É exemplo de outro serviço, não de dedetização |
+| R12 | Cronoshare: quantos profissionais | "Podem contactar no máximo 4 profissionais para cada solicitação." | A\* | F21 | — |
+| R13 | Cronoshare: devolução | devolve a parte de comissão em saldo se o trabalho não sair; "Não reembolsamos valores pagos em sua conta bancária." | A\* | F20 | Sem percentual nem prazo na página |
+| R14 | Triider: taxa | "Essa taxa será de 21% (vinte e um por cento) a 25% (vinte e cinco por cento) do valor" dos serviços contratados na modalidade pós-paga; o cliente paga pela plataforma | A\* | F22 | Termos de 28/02/2025. Dedetização não consta na lista de serviços da página para profissionais (F23). Essa página cita também uma modalidade pré-paga ("tanto a modalidade de serviços Pré-pagos como Pós-pagos"), sem preço nem regra; os termos só descrevem a pós-paga (F22, relida em 14/11/2026; resumo da ferramenta) |
+| R15 | PedeGás: planos de parceiro | grátis R$ 0; Pro R$ 99/mês ("Prioridade na lista"); Premium R$ 199/mês ("Topo em todas as cidades que você atende.") | A\* | F25 | Plataforma de pedidos de gás que também colhe pedido de dedetização; apareceu 1 vez na amostra principal de buscas e 1 no grupo H (`/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md`, seções 4.4 e 12.2) |
+| R16 | GuiaMais: listagem | "O GuiaMais não está trabalhando mais com cadastros gratuitos" | A\* | F27 | Sem preço na página |
 
 ### 3.2 Brasil — preço do serviço e margem (pesquisa antiga; não reconferido hoje)
 
@@ -126,18 +126,18 @@ Cada linha: unidade, país, classe, fonte (nº da seção 9). "Cálculo meu" = a
 | R17 | Serviço avulso em residência, São Paulo: baratas/formigas em apartamento pequeno 150 / 280 / 450; ratos 200 / 400 / 700; escorpião 250 / 500 / 900; cupim de madeira seca 300 / 700 / 1.200; percevejo 400 / 750 / 1.500; cupim subterrâneo 800 / 1.800 / 4.000 (R$ por serviço; mínimo / base / máximo) | `HIPÓTESE 25/09` | D (tabelas anunciadas por sites de dedetizadoras e portais) | `/home/ancastelo/pessoal/SEO_Project/data/servicos.csv`, linhas 2 e 6–10; `/home/ancastelo/pessoal/SEO_Project/research/02_mercado_servicos_precos.md`, linhas 120–130. A própria pesquisa avisa que são "material de SEO", não preço praticado (linha 248) |
 | R18 | Contrato de empresa: restaurante pequeno 250 / 500 / 1.200 por mês; áreas comuns de condomínio 300 / 600 / 1.500 por mês | `HIPÓTESE 25/09` (fontes divergem até 3 vezes) | D | `/home/ancastelo/pessoal/SEO_Project/data/servicos.csv`, linhas 17–18; `/home/ancastelo/pessoal/SEO_Project/research/02_mercado_servicos_precos.md`, linhas 140–145 |
 | R19 | Margem depois da mão de obra num apartamento de 2 quartos: R$ 131 em R$ 280 (47%) | `HIPÓTESE 25/09` (modelo da pesquisa, não dado) | — | `/home/ancastelo/pessoal/SEO_Project/research/04_mao_de_obra_custos_operacao.md`, linhas 228–239 |
-| R20 | Faixa que o GetNinjas dá para dedetização em São Paulo | "Em geral, os preços podem variar entre R$ 150 a R$ 600." | A (a plataforma, sem método) | F6 |
+| R20 | Faixa que o GetNinjas dá para dedetização em São Paulo | "Em geral, os preços podem variar entre R$ 150 a R$ 600." | D (estimativa da plataforma sobre o preço de terceiros, sem método; quem ganha: GetNinjas, que capta busca com a página) | F6 |
 
 ### 3.3 Outros países — só ordem de grandeza e estrutura (não entram na conta brasileira)
 
 | # | O quê | Valor | País | Classe | Fonte |
 |---|---|---|---|---|---|
-| R21 | Lead exclusivo de controle de pragas, preço de tabela de um vendedor | "$24.99 each — inbound and never shared with another company" | EUA | D (preço de tabela do próprio vendedor) | F31 |
+| R21 | Lead exclusivo de controle de pragas, preço de tabela de um vendedor | "$24.99 each — inbound and never shared with another company" | EUA | A\* (preço de tabela do próprio vendedor; quem ganha: ele, que vende leads). Era D até a segunda passada: a mesma espécie de fonte tinha duas classes | F31 |
 | R22 | Ligação exclusiva de controle de pragas, média do vendedor | "around $55" na média nacional, 1º trimestre de 2023 | EUA | D (média divulgada pelo próprio vendedor); **pode estar desatualizada** | F32 |
 | R23 | Pagamento por ligação: o que a rede paga a quem gera a ligação | "$15–$45 per qualified inbound call"; duração mínima "typically 60-120 seconds" | EUA (país não declarado na página) | D (faixa anunciada pela própria rede) | F33 |
 | R24 | Anúncios de Serviços Locais, custo por lead de controle de pragas | "$22 to $65, with a $38 median, across 600 accounts" | EUA (pelo contexto do artigo; não declarado para a base) | D, **de segunda mão** (agência citando base de outra empresa; não abri a base) | F34 |
 | R25 | Compartilhado × exclusivo | "A $38 shared pest lead and an $85 exclusive lead" (exemplo do autor, sem fonte) | EUA | D | F35 |
-| R26 | Gestão de SEO local com perfil de empresa | "$499 per location/month" e "$1,299 per location/month" | EUA, Reino Unido, Canadá, Austrália | D (preço de tabela do próprio vendedor) | F37 |
+| R26 | Gestão de SEO local com perfil de empresa | "$499 per location/month" e "$1,299 per location/month" | EUA, Reino Unido, Canadá, Austrália | A\* (preço de tabela do próprio vendedor; quem ganha: ele, que vende o serviço). Era D até a segunda passada | F37 |
 | R27 | Aluguel de site ranqueado, caso único | cobrava "$45K/year" pelas ligações, "about 8 leads/day"; vendeu por "$90K" | EUA (Nova York), caso de cerca de 2015 | D (consultor); **pode estar desatualizada** | F38 |
 | R28 | Anúncios de Serviços Locais: onde existem | seletor de país da ajuda oficial: Áustria, Bélgica, Canadá, França, Alemanha, Irlanda, Itália, Espanha, Suíça, Reino Unido, Estados Unidos. **O Brasil não está.** A página de termos para prestadores (`/localservices/answer/7501778`) lista os mesmos e os Países Baixos — ver `/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md`, seção 7 (linha 368; não reabri essa página). O Brasil não está em nenhuma das duas. Nenhuma das páginas traz frase oficial de indisponibilidade no Brasil | — | A (por ausência) | F28 |
 

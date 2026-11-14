@@ -33,7 +33,7 @@
 | (c) LGPD | Captar o contato e repassá-lo a **uma** empresa | **Permitido com condição** (consentimento específico e destacado para o repasse) |
 | (c) | Repassar a **várias** empresas | **Permitido com condição** (as mesmas, mais: dizer a quantas — se é obrigatório nomear cada uma, não conclusivo; registrar quem recebeu; avisar todas na exclusão) |
 | (c) | Vender o contato só com base em legítimo interesse, sem consentimento | **Não conclusivo** (guia da ANPD não lido) |
-| (d) WhatsApp | Número do site na API (Plataforma) faz a triagem e **repassa** o contato | **Vedado** pela letra dos termos da Meta (leitura literal; a cláusula 1.3 faz os Termos prevalecerem sobre a Política de Mensagens **[S]** — a conferir no texto bruto pela sessão principal) |
+| (d) WhatsApp | Número do site na API (Plataforma) faz a triagem e **repassa** o contato | **Vedado** pela letra dos termos da Meta (leitura literal; a cláusula 1.3 faz os Termos prevalecerem, em caso de conflito, sobre as políticas incorporadas, "salvo indicação em contrário" **[N]** — conferido no texto bruto pela sessão principal, no navegador pessoal, só leitura, em 14/11/2026 às 02:01) |
 | (d) | O mesmo pelo aplicativo gratuito WhatsApp Business | **Não conclusivo** (termos silentes sobre repasse) |
 | (d) | Botão do site abre direto o WhatsApp **da licenciada** (link oficial) | **Permitido com condição** (a pessoa inicia a conversa com a empresa que vai atender; o site não se passa por ela; mensagens posteriores dependem do opt-in dela) |
 
@@ -419,9 +419,9 @@ pede autorização própria.
   permissions, and consents to collect, use, and share people's content and information" **[N]** — a frase admite
   que a empresa compartilhe conteúdo e informação das pessoas **com consentimento**, o que cria tensão com a cláusula
   4.1(b) acima; a cláusula 1.3 dos Termos da Meta faz os Termos prevalecerem sobre as políticas incorporadas no uso da Plataforma ("estes Termos prevalecerão no que se refere à prestação da Meta e ao seu uso da Plataforma do WhatsApp Business, salvo indicação em contrário");
-  a alínea (a) da 4.1 excepciona "o conteúdo de seus tópicos de mensagens" e a alínea (b) não **[S]** (a conferir no texto bruto pela sessão principal); "You may not
+  a alínea (a) da 4.1 excepciona "o conteúdo de seus tópicos de mensagens" e a alínea (b) não **[N]** (cláusulas 1.3 e 4.1(a)(b): conferido no texto bruto pela sessão principal, no navegador pessoal, só leitura, em 14/11/2026 às 02:01); "You may not
   forward or otherwise share information from a customer chat with any other customer." **[N]**; dados obtidos do
-  WhatsApp sobre a pessoa, "other than the content of message threads" **[S]**, não se usam "for any purpose other than as reasonably necessary to support messaging with
+  WhatsApp sobre a pessoa, "other than the content of message threads" **[N]** (página da Política, "Last updated: September 23, 2026"; conferido no texto bruto pela sessão principal, no navegador pessoal, só leitura, em 14/11/2026 às 02:01), não se usam "for any purpose other than as reasonably necessary to support messaging with
   that person" **[N]** — a trava não cobre o conteúdo da conversa.
 - **Aplicativo gratuito:** os termos não têm cláusula que proíba nem que permita repassar o contato a terceiro
   **[S]**: **silente**.
@@ -432,7 +432,7 @@ pede autorização própria.
 ### Os dois desenhos
 
 - **Desenho A — o número do site faz a triagem no WhatsApp e repassa o contato à licenciada.** Pela API: **vedado**
-  pela letra da cláusula 4.1(b) — leitura literal; sobre o alcance, ver acima a cláusula 1.3 e as alíneas (a) e (b) da 4.1 **[S]**. Pelo aplicativo gratuito: **não conclusivo** (termos silentes; a trava de finalidade da Política não alcança o conteúdo da conversa;
+  pela letra da cláusula 4.1(b) — leitura literal; sobre o alcance, ver acima a cláusula 1.3 e as alíneas (a) e (b) da 4.1 **[N]**. Pelo aplicativo gratuito: **não conclusivo** (termos silentes; a trava de finalidade da Política não alcança o conteúdo da conversa;
   pesa a exigência de avisos e consentimentos para compartilhar). Em qualquer caso, a licenciada só pode chamar a pessoa com opt-in que a
   nomeie.
 - **Desenho B — o botão do site abre direto o WhatsApp da licenciada** (link `wa.me`, recurso oficial, com mensagem

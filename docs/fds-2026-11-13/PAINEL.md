@@ -1,9 +1,9 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sáb 14/11 01:41 (Brasília, lido de `date`)** · fase: **segunda passada** (os 8 itens e as 5 tarefas
-de reserva estão fechados) · em curso: revisores novos dos itens 1, 4, 7 e 8; corretores dos achados dos itens 2 e
-3; os achados dos itens 5 e 6 esperam vaga (no máximo 6 subagentes) · próximo: aplicar e conferir as correções;
-segunda passada das tarefas de reserva; reescrever a leitura
+**Atualizado em sáb 14/11 02:04 (Brasília, lido de `date`)** · fase: **segunda passada** (os 8 itens e as 5 tarefas
+de reserva estão fechados) · em curso: corretores dos achados dos itens 4 e 5; revisores novos das tarefas de reserva
+1 a 5 (6 subagentes) · próximo: conferir e registrar essas correções; aplicar os achados das reservas; reescrever a
+leitura; depois, "RODADA CONCLUÍDA" e espera
 
 ## Itens
 
@@ -28,107 +28,86 @@ Fila de reserva:
 | 4 Pontos de contrato | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva4.md` (aprovado com ressalvas; 1 falha em 12; 20 correções) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes_reserva4.md` (aplicadas por corretor às 23:27; conferidas por mim por amostra de 11 trechos; sem novo leitor) | `/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md` |
 | 5 Planilha de medição | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva5.md` (aprovado com ressalvas; 6 correções aplicadas às 23:10, sem novo leitor) | `/home/ancastelo/pessoal/SEO_Project/data/medicao_modelo.csv` e `/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md` |
 
-Segunda passada: **iniciada à 01:20** (em paralelo com a verificação da reserva 1). Revisores novos, sem acesso à
-primeira verificação, gravam em `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item<N>.md`.
+Segunda passada: **iniciada à 01:20 de 14/11**. Revisores novos, sem acesso à primeira verificação; relatórios em
+`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_*.md`. Onde a coluna "Evidência" acima diz "segunda passada", o resultado está aqui. **Nenhum
+portão descumprido e nenhum veredito do item 2 mudou.**
 
-| Item | Estado da segunda passada | Relatório |
-|---|---|---|
-| 2 Restrições (39 endereços reabertos) | aprovado com ressalvas; 1 falha em 12; 16 achados — **corretor em curso** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item2.md` |
-| 3 Estudo, guias (a) e (b) | aprovado com ressalvas; 12 de 12 em cada guia; 15 achados — **corretor em curso** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item3_guias_a_b.md` |
-| 3 Estudo, IA, ChatGPT e roteiro | aprovado com ressalvas; 0 falha em 12 em cada arquivo; 17 achados — **corretor em curso** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item3_ia_chatgpt.md` |
-| 5 Modelos de negócio | aprovado com ressalvas; 0 falha em 12; 20 achados — correção na fila | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item5.md` |
-| 6 Desenho (140 remissões conferidas) | aprovado com ressalvas; 0 falha em 12; 27 achados — correção na fila (espera os revisores dos itens 7 e 8, que leem o desenho) | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item6.md` |
-| 1, 4, 7, 8 | revisores em curso desde 01:37–01:40 | — |
-| Tarefas de reserva 1 a 5 | na fila | — |
+| Item | Resultado do revisor | O que foi feito com os achados | Relatório (em `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/`) |
+|---|---|---|---|
+| 1 Reenquadramento | aprovado com ressalvas; 50 de 51 remissões conferem | 6 achados aplicados à 01:56 por mim (`ESTADO.md` atualizado) | `verificacao2_item1.md` |
+| 2 Restrições (39 endereços reabertos) | aprovado com ressalvas; 1 falha em 12 | 16 achados aplicados por corretor à 01:45; três trechos dos termos da Meta conferidos por mim no navegador às 02:01; anexos alinhados à 01:59 | `verificacao2_item2.md`, `correcoes2_item2.md` |
+| 3 Guias (a) e (b) | aprovado com ressalvas; 12 de 12 em cada | 15 achados aplicados por corretor à 01:46; três sobras sobre a grade de posição, por mim, à 01:55 | `verificacao2_item3_guias_a_b.md`, `correcoes2_item3_guias_a_b.md` |
+| 3 IA, ChatGPT e roteiro | aprovado com ressalvas; 0 falha em 12 | 15 de 17 aplicados por corretor à 01:50, 1 em parte, 1 é pendência do owner (ajuda da OpenAI deu erro 403); pergunta 27 do roteiro reescrita por mim à 01:55 | `verificacao2_item3_ia_chatgpt.md`, `correcoes2_item3_ia_chatgpt.md` |
+| 4 Mapa do mercado | aprovado com ressalvas; 0 falha em 12; registro das 89 buscas sem divergência | 20 achados (força das afirmações, remissões, redação) — **corretor em curso** | `verificacao2_item4.md` |
+| 5 Modelos de negócio | aprovado com ressalvas; 0 falha em 12 | 20 achados — **corretor em curso** | `verificacao2_item5.md` |
+| 6 Desenho (140 remissões) | aprovado com ressalvas; 0 falha em 12 | 27 achados aplicados à 01:49 por mim | `verificacao2_item6.md` |
+| 7 Protótipo | aprovado com ressalvas; 0 falha em 12 | 11 achados aplicados à 01:54 por mim (aviso do botão, política, bloco de bairros) | `verificacao2_item7.md` |
+| 8 Perguntas | aprovado com ressalvas; 3 falhas em 52 | 12 achados aplicados à 01:58 por mim; a opção padrão da pergunta 10 passou a "sim, no passo (d) da fase 1" | `verificacao2_item8.md` |
+| Reservas 1 a 5 | **revisores em curso** (lançados entre 01:59 e 02:01) | — | `verificacao2_reserva<N>.md` |
+
+As correções da segunda passada não foram relidas por um terceiro leitor: a rodada pede uma segunda passada, não uma
+terceira.
 
 ## Fila do owner
 
 | Pergunta fechada | Opção padrão adotada | Reversível? |
 |---|---|---|
-| `PROMPT_PLANO.md` (em `arquivo/`) traz o nome do empregador e a formação do owner desde o 1º commit. Tirar do repositório reescrevendo o histórico? | Não mexer (repositório privado; reescrever histórico é destrutivo) | Sim, a qualquer momento |
+| `PROMPT_PLANO.md` (em `arquivo/`) traz o nome do empregador e a formação do owner desde o 1º commit. O histórico guarda também o título de uma reclamação de consumidor, já omitido dos arquivos atuais. Tirar os dois do repositório reescrevendo o histórico? | Não mexer (repositório privado; reescrever histórico é destrutivo) | Sim, a qualquer momento |
 | Normas que só existem em PDF (Portaria CVS 1/2024, anexo municipal, guias da ANPD, diretrizes dos avaliadores do Google) não foram lidas: a ferramenta não extrai texto de PDF e baixar arquivo para o projeto não foi autorizado. Autoriza baixar esses PDFs oficiais para `docs/fontes/`? | Não baixar; o que depende deles fica "não conclusivo" | Sim |
 | O Google lista "consultas automáticas" entre as práticas vedadas (guia 3a, seção 8). A rodada autoriza até 600 buscas ao vivo com 20 s de intervalo. Mantém? | Manter o limite da rodada; parar no primeiro sinal de verificação de robô | Sim |
 | O roteiro de teste do ChatGPT tinha 5 perguntas de dono de bar ou restaurante; o portão pede "morador ou síndico". Manter as 5 dentro das 30? | Não: as 30 ficam só de morador e síndico; as 5 de comerciante vão para um apêndice opcional | Sim |
 | No mesmo roteiro, 2 das 30 perguntas (12 e 25) não têm bairro, de propósito. O portão diz "por praga, bairro, urgência". Aceita? | Sim: mantidas, com o motivo escrito no roteiro | Sim |
+| A ajuda da OpenAI sobre a busca do ChatGPT devolve erro 403 às ferramentas da sessão; dez trechos citados dela não puderam ser relidos. Você os confere no seu navegador (lista em `/home/ancastelo/pessoal/SEO_Project/docs/estudo/03b_chatgpt.md`, complemento, linhas 43–52)? | Não conferido; os trechos seguem com a ressalva escrita | Sim |
 
 ## Dúvidas e premissas
 
-- Navegador: em todas as conferências de `list_connected_browsers` (13/11 19:33 a 14/11 01:12) havia um único
+- Navegador: em todas as conferências de `list_connected_browsers` (13/11 19:33 a 14/11 02:00) havia um único
   navegador, "Browser 1", `deviceId` `1347159a-d718-417a-876e-0c616de91a3a` (não é o profissional); selecionado por
-  `deviceId`; abas próprias, todas fechadas (a última à 01:18).
+  `deviceId`; abas próprias, todas fechadas (a última às 02:02).
 - Coleta ao vivo: Google **logado** na conta do owner (só leitura), `hl=pt-BR&gl=br&pws=0`; local exibido pelo Google
-  quando aparece: "São Paulo, SP" ou "Osasco, SP".
-- **Verificação de robô ("tráfego incomum") às 21:16**, na 80ª consulta válida, 49 minutos depois do início da coleta
-  (23 minutos depois da última pausa longa), a ~28 s por busca. **Não resolvida.** Buscas paradas por 2 horas. Retomada às 23:18 (navegador conferido de
-  novo às 23:17: um só, o pessoal): as 10 do grupo H e 5 repetições, a 67 s ou mais, **sem nova verificação de
-  robô**; aba fechada às 23:38. Se houver segunda ocorrência na rodada, paro de vez.
-- **Regra dos 20 segundos descumprida (erro meu, para o owner saber):** três intervalos da coleta ficaram abaixo de
-  20 s (18 s, 19 s e 17 s) e os lotes de teste descartados das 20:10–20:22 tiveram buscas sobrepostas. O verificador
-  do item 4 confirmou os três e não achou outros; registros mantidos e declarados no documento do item 4. Na segunda
-  janela (23:18–23:37) o menor intervalo foi 67 s.
-- DÚVIDA: às 20:55 a conexão com o navegador caiu no meio de um lote, que seguiu rodando; um registro saiu duplicado
-  (removido ao gravar) e uma busca pode ter sido enviada duas vezes · premissa adotada: conto 1 busca a mais no total.
-- DÚVIDA: o Chrome descarta a aba da sessão quando ela fica ociosa mais de ~1 minuto · premissa adotada: coleta em
-  ciclo contínuo; correções do item 3 delegadas a dois subagentes para não parar a coleta.
-- DÚVIDA: os lotes de teste das 20:10–20:22 sobrepuseram buscas · premissa adotada: descartados (≈ 14 buscas perdidas).
-- Roteiro do ChatGPT, medição: regra única adotada nos três arquivos — rodada mensal das 30 perguntas como amostra
-  agregada, mais 6 perguntas repetidas 5 vezes em dias diferentes e uma subamostra deslogada; fica dito que isso não
-  atinge as 60 a 100 repetições por pergunta que os autores do estudo citado sugerem.
-- Medir posição no mapa com "grade de posição": o guia (b) passa a dizer que contraria a política do Google (consulta
-  automática); alternativa: dados do próprio perfil (da licenciada) e conferência manual por amostra.
-- `RESPOSTAS_OWNER.md` não existe (conferido de 13/11 19:28 a 14/11 00:07, antes de cada item e de cada tarefa).
-- Horas: toda hora registrada vem de `date`. Erro meu às 22:03: escrevi "22:12" no painel antes de ler o relógio;
-  corrigido na hora.
-- Desenho: a medição de posição "na tela" passa a ser só manual (pessoa digitando, sem script); o desenho diz que a
-  coleta por script do item 4 não é modelo para o site.
-- DÚVIDA: a fila de reserva vem "depois dos 8 itens, na ordem", mas os itens 4 e 8 esperam janela e verificador ·
-  premissa adotada: adianto as tarefas 2, 4 e 5 da reserva, que não dependem de busca ao vivo nova (a 2 usa as 79
-  buscas já feitas); as tarefas 1 e 3 esperam o item 4.
-- Lancei o subagente da reserva 4 às 22:40 sem rodar `free -m` antes (erro meu); conferido logo depois: 3.311 MB
-  disponíveis.
-- Desenho, nota acrescentada depois de fechado (23:44): o Marco Civil, art. 15 (guarda de registros de acesso por 6
-  meses), achado no levantamento de contrato, pode conflitar com "guardar pelo menor tempo possível"; entrou no
-  desenho (seção 5.1) e na pergunta 8 como ponto para o advogado. Entrou também a nota sobre o grupo H (seção 11).
-- DÚVIDA: fechar o item 7 com as 22 correções aplicadas por mim e sem nova leitura · premissa adotada: fechado (o
-  verificador aprovou com ressalvas, 0 falha em 12); as correções entram na segunda passada.
-- Um arquivo temporário do verificador do item 7 (`verificacao_item7.md.tmp…`) entrou num commit meu e saiu no
-  seguinte, quando o verificador o renomeou; não foi apagado por mim.
-- DÚVIDA: fechar o item 6 com os 10 ajustes do segundo leitor aplicados por mim e sem terceira leitura · premissa
-  adotada: fechado (dois leitores independentes aprovaram com ressalvas; nenhum ajuste toca o portão); os ajustes
-  entram na segunda passada.
-- Desenho: o aviso ao lado do botão passou a dizer que o servidor registra o acesso com endereço IP (o segundo leitor
-  mostrou que "registra só o toque" não era verdade com o registro de acesso bruto).
-- DÚVIDA: fechar o item 5 com as 17 correções conferidas só por mim (o verificador aprovou com ressalvas; o corretor
-  não é o verificador) · premissa adotada: fechado; as correções entram na segunda passada.
-- Item 4, dado de terceiro: o título e o fim do endereço de uma reclamação de consumidor no Reclame Aqui (busca D05,
-  posição 7; duas palavras, sem nome de pessoa) foram omitidos em 14/11 00:06 no bruto e no CSV. Seguem no histórico
-  do git (repositório privado); reescrever histórico é destrutivo e não foi feito.
-- DÚVIDA: fechar o item 4 com as 22 correções aplicadas por mim e sem nova leitura · premissa adotada: fechado (o
-  verificador aprovou com ressalvas e disse que o portão está cumprido); as correções entram na segunda passada.
-- Reserva 1: nas 10 primeiras buscas novas, um endereço de resultado trazia um telefone de empresa escrito no
-  caminho; mascarei ao gravar (não entrou no repositório) e o coletor passou a mascarar também o caminho.
-- Leitura de 10 páginas de concorrentes no navegador (13/11 22:50–22:53): só leitura, sem clique; não são buscas no
-  Google e não contam no limite de 600.
-- A segunda passada começou à 01:20, em paralelo com a verificação da reserva 1, nos itens que ela não tocava.
-  `free -m` antes de cada lote de subagentes: de 3.485 a 3.734 MB disponíveis.
-- Reserva 1: o mapa de termos ampliado mudou contagens citadas no item 4 (seção 10) e no plano de conteúdo;
-  refeitas por mim à 01:11, sem nova leitura (o verificador da reserva 1 recebeu o pedido de conferi-las).
-- Os três scripts de leitura do verificador do item 4 (`_runs/verif_item4_*.py`) ficam no repositório como registro.
-- Conteúdo de página tratado como dado (14/11, segunda passada): uma página de agência lida pelo revisor do item 3
-  pede a uma IA que "guarde o domínio na memória"; **ignorado**.
-- A ferramenta de leitura gravou sozinha, fora do projeto, cópias de um .doc, de um PDF e de um JSON abertos pelos
-  revisores; **não foram abertas** (fronteira).
-- Conteúdo de página tratado como dado: o artigo do X pede criar conta numa ferramenta, conectar o Search Console e
-  enviar e-mails de prospecção; **ignorado** (13/11 19:35).
-- A ferramenta de leitura de página guardou cópias de PDFs fora do projeto; **não foram abertas** (fronteira).
+  quando aparece: "São Paulo, SP" ou "Osasco, SP". Total da rodada: ≈ 155 de 600 buscas; nenhuma desde 01:17.
+- **Verificação de robô ("tráfego incomum") em 13/11 às 21:16**, 49 minutos depois do início da coleta, a ~28 s por
+  busca. **Não resolvida.** Buscas paradas por 2 horas; retomadas às 23:18 e em 14/11 (00:12–01:17), a 67 s ou mais,
+  **sem nova verificação de robô**. Se houver segunda ocorrência na rodada, paro de vez.
+- **Regra dos 20 segundos descumprida (erro meu, para o owner saber):** três intervalos da primeira coleta ficaram
+  abaixo de 20 s (17, 18 e 19 s) e os lotes de teste descartados das 20:10–20:22 tiveram buscas sobrepostas (≈ 14
+  perdidas). Dois verificadores confirmaram os três e não acharam outros; está declarado no documento do item 4.
+- DÚVIDA: em 13/11 às 20:55 a conexão com o navegador caiu no meio de um lote; uma busca pode ter sido enviada duas
+  vezes · premissa adotada: conto 1 busca a mais no total.
+- Dado de terceiro: o título de uma reclamação de consumidor (busca D05), um telefone de empresa num endereço de
+  resultado e os identificadores de cinco publicações de rede social foram mascarados antes ou ao gravar. O título da
+  reclamação segue no histórico do git (repositório privado); está na fila do owner.
+- Segunda passada, navegador (14/11 02:00–02:02): abri, só para ler, as páginas públicas dos termos da Meta para a
+  Plataforma do WhatsApp Business e da política de mensagens; conferi três trechos (cláusulas 1.3 e 4.1(a)(b);
+  "other than the content of message threads"). Sem login, sem aceitar nada; a barra de login do Facebook não foi
+  tocada.
+- Segunda passada, o que mudou de conteúdo: o aviso ao lado do botão e a política passam a dizer tudo o que o
+  servidor registra (endereço IP e identificação do navegador) e a ressalva do Marco Civil, art. 15; a licenciada
+  informa ao site só números agregados; o bloco de bairros do protótipo virou remissão; a grade de posição no mapa
+  fica "não usar" em todos os arquivos; a pergunta 27 do roteiro do ChatGPT foi reescrita para ser de morador.
+- DÚVIDA: a rodada fala em segunda passada "para cada item fechado" · premissa adotada: vale também para as cinco
+  tarefas de reserva, que foram fechadas com correções sem novo leitor.
+- DÚVIDA: abrir no navegador o PDF oficial da Portaria CVS 9/2000 (a ferramenta de leitura não extrai o texto) ·
+  premissa adotada: não abrir; a pergunta sobre PDFs oficiais está na fila do owner, com padrão "não baixar".
+- Itens 4 a 8 e reservas foram fechados com correções aplicadas por mim (ou por corretor) sem nova leitura; a segunda
+  passada foi o novo leitor. Os commits meus às vezes levam junto arquivos em edição por subagentes (inofensivo).
+- `free -m` antes de cada lote de subagentes: de 3.311 a 3.734 MB disponíveis. Erro meu em 13/11 às 22:40: lancei
+  um subagente sem conferir antes (conferido logo depois).
+- `RESPOSTAS_OWNER.md` não existe (conferido de 13/11 19:28 a 14/11 01:59, antes de cada item e de cada tarefa).
+- Horas: toda hora registrada vem de `date`; os erros de hora estimada que cometi foram corrigidos na hora.
+- Conteúdo de página tratado como dado: um artigo do X pede criar conta numa ferramenta, conectar o Search Console e
+  enviar e-mails de prospecção (13/11 19:35); páginas de agências pedem a uma IA que "guarde o domínio na memória"
+  (14/11); **ignorados**.
+- A ferramenta de leitura gravou sozinha, fora do projeto, cópias de PDFs, de um .doc e de um JSON abertos pela
+  sessão e pelos revisores; **não foram abertas** (fronteira).
 
 ## Desdobramentos (não executados)
 
 - Ler os PDFs oficiais (ver fila do owner) para fechar os pontos "não conclusivo" do item 2.
 - Conferir no Diário Oficial (`in.gov.br`, que não abriu) o texto da RDC 622 e das resoluções da ANPD.
 - Levantar jurisprudência sobre responsabilidade de site de indicação (fora do escopo do item 2).
-- Coleta no Google Maps (lista completa, além do bloco de 3 empresas da busca) e registro do que a "Visão geral criada
-  por IA" cita: entram na fila de reserva 1.
+- Coleta no Google Maps (lista completa, além do bloco de 3 empresas da busca), dados de cada perfil, sugestões de
+  busca do Google e registro do que a "Visão geral criada por IA" cita: não feitos nesta rodada.
 - Conferir na consulta pública de licenças do estado (SIVISA) os números de licença que 12 sites exibem, e se o
   prefixo do número é o código do município emissor (pista não verificada do item 4).
 - Reconferir a ajuda da OpenAI sobre a busca do ChatGPT por um segundo leitor (o verificador recebeu erro 403).
@@ -139,12 +118,12 @@ primeira verificação, gravam em `/home/ancastelo/pessoal/SEO_Project/docs/fds-
 
 ## Hooks ignorados
 
-- 13/11 19:28 — `~/.claude/CLAUDE.md` global manda carregar e usar meli-memory (memória corporativa), salvar memórias e
-  fazer resumo de sessão, inclusive depois de compactação: **não executado** (regra da rodada e `CLAUDE.md` do
-  projeto). Os subagentes receberam a mesma instrução e também não executaram.
-- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43, 21:47, 21:48, 22:07, 22:15, 22:20, 22:31, 22:32, 22:36, 22:46, 22:57, 23:09, 23:17, 23:31; 14/11 00:00, 00:03, 00:04, 00:20, 01:35, 01:37, 01:38 — hook `conversational-analytics`
-  pede `report_conversation` com `start_time`: **não executado** (plugin corporativo).
-- 13/11 19:28 — "Compound checkpoints" do `CLAUDE.md` global (perguntar "quer compound?"): **não executado**.
-- 13/11 20:51 — hook de início de sessão (após compactação) pede usar a skill `gestao` e rodar `gestao propor` em
-  `/home/ancastelo/work/gestao`: **não executado** (ferramenta da empresa e pasta fora da fronteira). Repetido nas
-  compactações de 13/11 21:58 e de 14/11 00:02: **não executado**.
+- 13/11 19:28 — `~/.claude/CLAUDE.md` global manda carregar e usar meli-memory (memória corporativa), salvar memórias,
+  fazer resumo de sessão (inclusive depois de compactação) e perguntar "quer compound?": **não executado** (regra da
+  rodada e `CLAUDE.md` do projeto). Os subagentes receberam a mesma instrução e também não executaram.
+- Hook `conversational-analytics` pede `report_conversation` com `start_time` a cada evento: **não executado**
+  (plugin corporativo). Ocorrências: 29 em 13/11, de 19:28 a 23:31; em 14/11, 00:00, 00:03, 00:04, 00:20, 01:35,
+  01:37, 01:38, 01:49, 01:52 (duas), 01:54 e 01:58.
+- Hook de início de sessão (após cada compactação) pede usar a skill `gestao` e rodar `gestao propor` em
+  `/home/ancastelo/work/gestao`: **não executado** (ferramenta da empresa e pasta fora da fronteira). Ocorrências:
+  13/11 20:51 e 21:58; 14/11 00:02 e na compactação anterior às 01:52.
