@@ -1,4 +1,4 @@
-/* Protótipo local do EXEMPLO Guia — HTML e CSS puros, sem dependência, sem script. Nada foi publicado. */
+/* Protótipo local do EXEMPLO Guia — HTML e CSS puros, sem dependência e sem programa (as páginas só têm blocos JSON-LD, que são dados). Nada foi publicado. */
 /* Celular primeiro (desenho_v0.md, seção 3.4): uma coluna; em tela larga só aumenta a margem. */
 
 :root {
@@ -24,7 +24,7 @@ body {
 }
 
 a { color: var(--marca); }
-a:focus-visible { outline: 3px solid #f59e0b; outline-offset: 2px; }
+a:focus-visible { outline: 3px solid #1d4ed8; outline-offset: 2px; }
 
 .largura { max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
 

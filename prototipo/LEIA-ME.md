@@ -1,9 +1,12 @@
 # Protótipo local do site — LEIA-ME (item 7)
 
 - **Estado:** escrita pela sessão principal em sexta, 13/11/2026, entre 22:03 e 22:10 (Brasília, lido de `date`), e
-  alinhada às 22:21 à segunda versão do desenho (faixa fixa, registro de acesso, canal do formulário, `robots.txt`).
-  **Ainda não verificada.**
-- **O que é:** quatro páginas em HTML e CSS puros, sem script, sem dependência, sem imagem e sem fonte externa. Abrem
+  alinhada às 22:21 à segunda versão do desenho. Conferida por verificador independente
+  (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item7.md`: aprovado com ressalvas; 0
+  falha em 12 no sorteio; 22 correções pedidas). As 22 correções foram aplicadas às 22:38 pela sessão principal e
+  ainda não foram relidas por terceiro.
+- **O que é:** quatro páginas em HTML e CSS puros, sem programa (só blocos JSON-LD, que são dados), sem dependência,
+  sem imagem e sem fonte externa. Abrem
   direto do disco. **Nada foi publicado, comprado, cadastrado nem enviado.** Nenhum botão leva a lugar nenhum.
 - **Todo nome de empresa, licença, órgão emissor, endereço, preço, data, código e e-mail é "EXEMPLO".** Não há telefone
   nem depoimento em página nenhuma (o desenho não usa avaliação nem número de telefone do site).
@@ -56,27 +59,29 @@ Cada bloco tem, no HTML, o atributo `data-bloco` com o código da tabela abaixo 
 |---|---|---|
 | P0 | Trilha: Início › Zona Oeste › Baratas (igual à dos dados estruturados) | D 3.4, linhas "Navegação e links" e "Dados estruturados"; endereço `/zona-oeste/baratas/`: D 3.4, linha "Endereços" |
 | P1 | Título e abertura (o quê, onde, quem); data de revisão; critério de ordem da lista declarado | D 3.4, "Abertura da página" (PREMISSA) e "Data de revisão visível"; D 4.3, linha "as melhores sem critério exposto" |
-| P2 (P2a, P2b) | **"Quem executa"**, acima de qualquer botão: nome, número da licença e órgão emissor, razão social e endereço, data em que o site conferiu a licença, bairros que a empresa declara atender, preço informado; marca "Publicidade" na parceira que paga destaque | D 4.1, campo a campo (RDC 622, art. 22; CDC, art. 36; razão social e endereço por prudência); D 3.2, linha "O conteúdo próprio de cada página de oferta é a licença conferida" |
-| P3 | Botão "Falar com a EXEMPLO … no WhatsApp" e o aviso ao lado; mensagem pronta com código; `rel="sponsored"` na parceira que paga | D 5.1, passos 2, 3 e 4 (texto do aviso igual ao do desenho); D 2, linha de `rel="sponsored"`. No protótipo o link é `#botao-de-exemplo` |
-| Frase depois de P2 | "O EXEMPLO Guia não recebe o seu nome, o seu telefone nem a conversa…" | D 5.1, "Como a pessoa pede a exclusão" (o site não tem dado de contato; o que registra está na política) |
-| P4 | Tabela de preço com empresa, imóvel, valor e data em que foi informado | D 3.1, T9; D 4.3, linha "sem prova guardada" (CDC, arts. 36 e 38) |
-| P5 | "O que pedir à empresa antes de contratar": licença (art. 22), nota de pessoa jurídica (arts. 5º e 21), comprovante, produtos e cuidados (pergunta, sem afirmação do site) | D 4.3 (nada de "seguro", "atóxico", medo); D 2, primeira linha (contrato, nota e comprovante são da empresa) |
+| P2 (P2a, P2b) | **"Quem executa"**, acima de qualquer botão: nome, número da licença e órgão emissor, razão social e endereço, data em que o site conferiu a licença, bairros que a empresa declara atender, preço informado; marca "Publicidade" na parceira que paga para aparecer | D 4.1, campo a campo (RDC 622, art. 22; CDC, art. 36; razão social e endereço por prudência); o campo "preço informado" vem de D 3.1 (T3) e de D 3.4, linha "Fatos em texto visível"; D 3.2, linha "O conteúdo próprio de cada página de oferta é a licença conferida" |
+| P3 | Botão "Falar com a EXEMPLO … no WhatsApp" e o aviso ao lado (o que o site registra e o que o servidor registra); mensagem pronta com código; `rel="sponsored"` na parceira que paga | D 5.1, passos 2, 3 e 4 e item "Endereço IP" (texto do aviso igual ao do desenho); D 2, linha de `rel="sponsored"`. No protótipo o link é `#botao-de-exemplo` |
+| Frase depois de P2 | "O EXEMPLO Guia não recebe o seu nome, o seu telefone nem a conversa… Para pedir a exclusão… fale com a empresa" | D 5.1, "Como a pessoa pede a exclusão" (o site não tem dado de contato; o que registra está na política) |
+| Nota "Botão de EXEMPLO" (antes de P7 e de E6) | Destino do link de exemplo: diz que o botão não abre o WhatsApp de ninguém | Marca "EXEMPLO" do portão do item 7; D 5.1 (no protótipo o botão não leva a lugar nenhum) |
+| P4 | Tabela de preço com empresa, imóvel, valor e data em que foi informado | D 3.1, T3 ("preço informado por elas"); D 4.3, linha "sem prova guardada" (CDC, arts. 36 e 38) |
+| P5 | "O que pedir à empresa antes de contratar": dois itens com norma citada — licença (art. 22) e nota de pessoa jurídica (arts. 5º e 21) — e duas perguntas sem afirmação do site (comprovante; produtos e cuidados) | D 4.3 (nada de "seguro", "atóxico", medo); D 2, primeira linha (contrato, nota e comprovante são da empresa) |
 | P6 | Bairros atendidos, em texto; **sem** uma página por bairro | D 3.3 (as três condições); D 3.2, primeira e segunda linhas |
 | P7 | "Veja também": guia da praga, região, conferir licença, página de restaurantes | D 3.4, linha "Navegação e links" |
-| P8 | Atalho pequeno e fixo no pé da tela, que leva ao bloco "Quem executa" (não a um contato) | D 3.4, linha "Celular primeiro; sem janela que cubra a tela"; D 4.1 ("acima do botão") |
+| P8 | Atalho pequeno e fixo no pé da tela, que leva ao bloco "Quem executa" (não a um contato) | D 3.4, linha "Celular primeiro; sem janela que cubra a tela" (o desenho pede esse atalho, não um botão de contato fixo); D 4.1 ("acima do botão") |
 
 ## Página de empresa — `para-empresas/restaurantes/index.html`
 
 | Bloco | O que é | Escolha do desenho que o justifica |
 |---|---|---|
-| E0 | Trilha: Início › Para empresas › Restaurantes, bares e lanchonetes | D 3.4, "Navegação e links" |
+| E0 | Trilha de dois níveis: Início › Restaurantes, bares e lanchonetes. O trecho `/para-empresas/` do endereço não é página no desenho | D 3.4, "Navegação e links"; D 3.1, T6 |
 | E1 | Título e abertura (o quê, onde, quem); data de revisão | D 3.2, linha "Página de público… em vez de bairro"; D 3.4, "Abertura da página" (PREMISSA) |
-| E2 | "Quem executa", com os mesmos campos de P2 e o público que a empresa declara atender | D 4.1 |
+| E2 | "Quem executa", com os mesmos campos de P2, as regiões e o público que a empresa declara atender | D 4.1; os campos "preço informado" e "atende" vêm de D 3.1 (T6) e de D 3.4, linha "Fatos em texto visível" |
+| Frase depois de E2 | "O EXEMPLO Guia não recebe o seu nome, o seu telefone nem a conversa… Para pedir a exclusão… fale com a empresa" | D 5.1, "Como a pessoa pede a exclusão" |
 | E3 | Botão e aviso da via A | D 5.1 |
-| E4 | Bloco **"[A ESCREVER, com fonte oficial]"**: o que a norma de serviços de alimentação pede | D 4.3, último parágrafo (afirmação sobre norma, saúde ou produto só com fonte oficial). **Lacuna declarada:** essa norma não foi levantada no estudo |
-| E5 | "O que perguntar no orçamento": três itens com norma citada e três perguntas sem afirmação | D 4.3; D 2, primeira linha |
+| E4 | Bloco **"[A ESCREVER, com fonte oficial]"**: o que a norma de serviços de alimentação pede | D 4.3, último parágrafo, por analogia: ele trata dos guias de praga (T2) e pede fonte oficial para afirmação sobre saúde, produto ou segurança; o protótipo aplica a mesma regra à página de público (D 3.1, T6). **Lacuna declarada:** essa norma não foi levantada no estudo |
+| E5 | "O que perguntar no orçamento": dois itens com norma citada e quatro perguntas sem afirmação do site | D 4.3; D 2, primeira linha |
 | E6 | "Veja também" | D 3.4, "Navegação e links" |
-| E7 | Atalho pequeno e fixo para "Quem executa" | D 3.4, "Celular primeiro…" |
+| E7 | Atalho pequeno e fixo para "Quem executa" (não a um contato) | D 3.4, "Celular primeiro…" (o desenho pede esse atalho, não um botão de contato fixo) |
 
 ## Política de privacidade — `privacidade/index.html`
 
@@ -84,9 +89,9 @@ Cada bloco tem, no HTML, o atributo `data-bloco` com o código da tabela abaixo 
 |---|---|---|
 | V0 | Trilha | D 3.4 |
 | V1 | Título; versão do texto; responsável pelo site e contato sobre dados | D 5.2, tabela "De onde vem cada parte", linha "Quem é o site e como falar com ele"; a versão serve à prova (D 5.2, "O que o site guarda como prova") |
-| V2 | O que acontece no botão do WhatsApp: abre a conversa com a licenciada; o site não recebe número nem conversa; registra só o clique; o contato vai a **uma** empresa; exclusão se pede à empresa | D 5.1, tabela de passos e os itens "Para quantas empresas" e "Como a pessoa pede a exclusão" |
-| V3 | Registro de acesso do servidor (endereço IP, que pode ser dado pessoal): menor tempo possível, sem ligar ao toque; sem cookie nem script de medição; aviso "[A REVER com advogado]" | D 5.1, item "Endereço IP" (PREMISSA de prudência; ponto não levantado); D 3.4, linha "Sem cookie e sem script de medição"; D 10, premissas 9 e 15 |
-| V4 | **Formulário de exemplo, desativado, com o texto de consentimento**: campos mínimos; caixa principal não marcada que nomeia a licenciada e a licença; caixa opcional para outra empresa nomeada; recusa; não repasse; como retirar e excluir | D 5.2, "Campos" e "Texto do formulário" (texto igual ao do desenho, com EXEMPLO no lugar dos colchetes) |
+| V2 | O que acontece no botão do WhatsApp: abre a conversa com a licenciada; o site não recebe nome, número nem conversa; registra o toque, e o servidor anota o acesso com o endereço IP; o contato vai a **uma** empresa; exclusão se pede à empresa | D 5.1, tabela de passos e os itens "Para quantas empresas" e "Como a pessoa pede a exclusão" |
+| V3 | Registro de acesso do servidor (anota cada acesso, inclusive o toque no botão, com endereço IP, que pode ser dado pessoal): menor tempo possível; o IP não vai para a contagem de toques nem é usado para identificar ninguém; sem cookie nem script de medição; aviso "[A REVER com advogado]" | D 5.1, item "Endereço IP" (PREMISSA de prudência; ponto não levantado); D 3.4, linha "Sem cookie e sem script de medição"; D 10, premissas 9 e 15 |
+| V4 | **Formulário de exemplo, desativado, com o texto de consentimento**: campos mínimos; caixa principal não marcada que nomeia a licenciada e a licença; caixa opcional para outra empresa nomeada; recusa; não repasse; como retirar e excluir | D 5.2, "Campos" e "Texto do formulário". Texto igual ao do desenho, com três diferenças declaradas: EXEMPLO no lugar dos colchetes; "seção" em vez de "página" (no protótipo, "Excluir meus dados" é uma seção desta página); e "Política de privacidade: esta página" em vez do link |
 | V5 | Para quantas empresas vai; que dados; por que canal o pedido chega à empresa (PREMISSA); quem fala depois; o que fica guardado como prova; prazo de guarda "[A DEFINIR com advogado]" | D 5.2, itens "Para quantas empresas", "Por que canal o pedido chega à licenciada", "Quem chama a pessoa", "O que o site guarda como prova" (prazo: não conclusivo) |
 | V6 | "Excluir meus dados": pedido, exclusão, aviso imediato às empresas, confirmação em até 5 dias úteis | D 5.2, item "Como a pessoa pede a exclusão" (5 dias úteis: PREMISSA; D 10, premissa 4) |
 | V7 | Direitos, com os artigos da LGPD | D 5.2, tabela "De onde vem cada parte" (art. 8º, § 5º; art. 18, VI, VIII e § 6º) |
@@ -99,17 +104,17 @@ Cada bloco tem, no HTML, o atributo `data-bloco` com o código da tabela abaixo 
 | Perfil de empresa, mapa, endereço do site como "unidade" | D 2 (vedado pelo item 2) |
 | Estrelas, nota, depoimento, avaliação | D 2, linha das avaliações |
 | Telefone ou número de WhatsApp do site | D 5.3 |
-| Página por bairro | D 3.3 (0 na versão 0) |
+| Página por bairro | D 3.1, T5 (0 na versão 0); condições em D 3.3 |
 | "24 horas", "garantia", "seguro", "atóxico", "a melhor" | D 4.3 |
 | Página de oferta sem empresa nomeada | D 4.4 |
 | Script de medição, cookie, formulário que envia | D 3.4, linha "Sem cookie e sem script de medição" (PREMISSA); D 5.1 (clique registrado no servidor, sem script); o formulário da via B é de fase posterior (D 5.2, "Por que não na versão 0") |
 
 ## Páginas do desenho que não foram prototipadas
 
-Guia de praga (T2), região (T4), ficha da licenciada (T7), como conferir a licença (T8), preços (T9), quem somos e
-como funciona (T10), "Excluir meus dados" como página própria (T11), para dedetizadoras (T12). No protótipo elas
-aparecem como texto cinza com "(não prototipada)", sem link. O portão do item 7 pede quatro páginas; estas ficam
-para depois da aprovação do desenho.
+Aparecem como texto cinza com "(não prototipada)", sem link: guia de praga (T2), região (T4), a página de
+condomínios (a outra T6), como conferir a licença (T8), quem somos e como funciona (T10), "Excluir meus dados" como
+página própria (T11) e para dedetizadoras (T12). **Não aparecem no protótipo:** ficha da licenciada (T7) e preços
+(T9). O portão do item 7 pede quatro páginas; as demais ficam para depois da aprovação do desenho.
 
 ## Como abrir
 

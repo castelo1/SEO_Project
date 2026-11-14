@@ -125,7 +125,7 @@ da tabela de sinais de página legítima, que o próprio guia [A] marca como inf
 | Navegação e links | Trilha (Início → Zona Oeste → Baratas); toda página ligada por pelo menos outra; texto do link descritivo; sem lista de bairros no rodapé | [A], seção 4 (links internos; texto âncora); seção 2.1, linha 163 (bloco de texto que lista cidades e regiões é exemplo de excesso de palavras-chave) | classe A |
 | Dados estruturados | `Organization` em Início e Quem somos; `BreadcrumbList`; só o que está visível. Sem `FAQPage` como aposta (o resultado rico acabou em 07/05/2026). `LocalBusiness` da licenciada na ficha dela: **só com autorização dela** e é ponto não conclusivo | [A], seção 5 | classe A; `LocalBusiness` de terceiro: não conclusivo |
 | Sem dependência de script | Conteúdo e links no HTML que o servidor entrega; botão como `<a href>` | [A], seção 4 (links rastreáveis; JavaScript); [G], seção 9, linha 5 | classe A (Google); PREMISSA (ChatGPT: uma fonte B de 2024, que **pode estar desatualizada**) |
-| Celular primeiro; sem janela que cubra a tela | Desenho responsivo; botão de WhatsApp pequeno e fixo, nunca intersticial | [A], seção 4 (indexação pelo celular; intersticiais) | classe A |
+| Celular primeiro; sem janela que cubra a tela | Desenho responsivo; atalho pequeno e fixo que leva ao bloco "Quem executa" (não a um contato, para a identificação vir sempre antes do botão), nunca intersticial | [A], seção 4 (indexação pelo celular; intersticiais) | classe A |
 | `robots.txt` | Libera Googlebot, Bingbot e os robôs de busca e de visita da OpenAI (`OAI-SearchBot`, `ChatGPT-User`) e de outros motores; robôs de treino: liberados por padrão, **DECISÃO DO OWNER**; o endereço `/ir/`, que registra o toque no botão (seção 5.1), fica fechado a todos | [G], seção 2 e seção 9, linhas 1 a 4; [C], seções 1.2 e 3 | classe A |
 | Hospedagem, CDN e firewall | Sem bloqueio aos endereços IP publicados da OpenAI; conferir depois de ligar qualquer "proteção contra robôs" | [G], seção 9, linha 2 | classe A |
 | Sem `nosnippet`; controle de IA do Search Console em "Incluir" | Para poder ser citado nos resumos de IA do Google | [C], seção 1.2 | classe A |
@@ -149,7 +149,7 @@ Fica **acima do botão**, em texto, e traz, para cada licenciada da página:
 | Razão social por extenso e endereço | "EXEMPLO — Rua EXEMPLO, 000, São Paulo" | indício da Portaria CVS 9/2000, não conferido na fonte [R, linhas 235–236] | PREMISSA (por prudência) |
 | "Licença conferida pelo EXEMPLO Guia em dd/mm/aaaa" e link para a consulta pública | — | escolha de desenho; a consulta pública de licenças do estado apareceu numa busca da amostra [S, seção 4.4] — **como a consulta funciona não foi lido** | PREMISSA |
 | Área atendida, como a licenciada declarou | "Atende: Pinheiros, Butantã, Lapa" | escolha deste desenho: a página só oferece o serviço onde a licenciada nomeada declara atender [R, linhas 257–258] | PREMISSA |
-| Marca "Publicidade" quando a posição ou o destaque for pago | faixa "Publicidade — empresa parceira" | CDC, art. 36 [R, linhas 217–218 e 233–235] | classe A |
+| Marca "Publicidade" em toda indicação de empresa que paga ao site para aparecer (pela presença, pela posição ou pelo destaque) | faixa "Publicidade — empresa parceira" | CDC, art. 36 [R, linhas 217–218 e 233–235] | classe A |
 
 ### 4.2 Faixa fixa em todas as páginas
 
@@ -185,7 +185,7 @@ região é atendida pelo guia de praga (T2), que só informa.
 | Passo | O que acontece | Base | Marca |
 |---|---|---|---|
 | 1 | A pessoa vê o bloco "Quem executa" e o botão "Falar com a EXEMPLO no WhatsApp" | seção 4.1 | — |
-| 2 | Ao lado do botão: "Você vai abrir uma conversa no WhatsApp da EXEMPLO, que é quem atende. O EXEMPLO Guia não recebe o seu nome, o seu número nem a conversa. O site registra que o botão foi tocado (data, página e empresa) e, como todo site, o servidor registra o acesso com o endereço IP; veja a política de privacidade." | [R], seção (d), Desenho B, linhas 438–441 | classe A (o link é recurso oficial); a frase sobre o registro de acesso é PREMISSA (item "Endereço IP", abaixo) |
+| 2 | Ao lado do botão: "Você vai abrir uma conversa no WhatsApp da EXEMPLO, que é quem atende. O EXEMPLO Guia não recebe o seu nome, o seu número nem a conversa. O site registra que o botão foi tocado (data, página e empresa), e o servidor registra o acesso com o endereço IP; veja a política de privacidade." | [R], seção (d), Desenho B, linhas 438–441 | classe A (o link é recurso oficial); a frase sobre o registro de acesso é PREMISSA (item "Endereço IP", abaixo) |
 | 3 | O botão é um link para o número **da licenciada**, com mensagem pronta: "Olá! Vim pelo EXEMPLO Guia (código ZO-BAR). Quero um orçamento de dedetização de baratas em Pinheiros." | mensagem pré-preenchida do link oficial [R, linha 439, leitura só do subagente] | classe A |
 | 4 | O site registra o clique: data e hora, página, empresa, código. **Nenhum dado de contato da pessoa** (nome, telefone, conversa); o registro de acesso bruto do servidor anota o endereço IP (item "Endereço IP", abaixo) | "o site só registra o clique, não o telefone nem a conversa" [R, linhas 440–441] | classe A |
 | 5 | A conversa, o orçamento, o contrato e a nota são entre a pessoa e a licenciada | [R], linhas 246–251 | INFERÊNCIA |
@@ -238,7 +238,8 @@ telefone com WhatsApp; bairro (lista); praga (lista); tipo de imóvel (lista).
 > [NOME DA LICENCIADA], licença sanitária nº [NÚMERO], emitida por [ÓRGÃO], só para que ela me mande um orçamento de
 > controle de pragas por WhatsApp ou por ligação.**
 >
-> ☐ Autorizo também o envio dos mesmos dados, para o mesmo fim, à [SEGUNDA LICENCIADA], licença nº [NÚMERO].
+> ☐ Autorizo também o envio dos mesmos dados, para o mesmo fim, à [SEGUNDA LICENCIADA], licença sanitária nº
+> [NÚMERO], emitida por [ÓRGÃO].
 > *(caixa opcional; no máximo duas empresas a mais, cada uma com a sua caixa)*
 >
 > Você pode não autorizar: nesse caso nada é enviado, e você pode falar direto com a empresa pelo botão do WhatsApp.
