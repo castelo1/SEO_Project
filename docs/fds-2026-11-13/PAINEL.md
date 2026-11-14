@@ -1,9 +1,9 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sáb 14/11 01:22 (Brasília, lido de `date`)** · fase: **reserva** (tarefa 1 em verificação) com a
-**segunda passada** já iniciada em paralelo · em curso: verificação da reserva 1; segunda passada dos itens 2, 3, 5
-e 6 (cinco revisores novos, lançados entre 01:20 e 01:23) · próximo: aplicar os achados; segunda passada dos itens
-1, 4, 7 e 8 e das tarefas de reserva; reescrever a leitura
+**Atualizado em sáb 14/11 01:41 (Brasília, lido de `date`)** · fase: **segunda passada** (os 8 itens e as 5 tarefas
+de reserva estão fechados) · em curso: revisores novos dos itens 1, 4, 7 e 8; corretores dos achados dos itens 2 e
+3; os achados dos itens 5 e 6 esperam vaga (no máximo 6 subagentes) · próximo: aplicar e conferir as correções;
+segunda passada das tarefas de reserva; reescrever a leitura
 
 ## Itens
 
@@ -22,7 +22,7 @@ Fila de reserva:
 
 | Tarefa | Estado | Arquivo |
 |---|---|---|
-| 1 Ampliar mapa de termos e amostra | **em verificação desde 01:20**: 40 buscas novas feitas das 00:12 à 01:06 de 14/11 (20 bairros novos, 10 de praga × bairro, 10 de praga ou serviço novo + cidade) e 5 repetições (01:12–01:17), a 72 s ou mais uma da outra, **sem verificação de robô**; o coletor passou a registrar a posição vertical das camadas; mapa de termos ampliado de 1.260 para 2.721; abas fechadas | `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md` (não verificado) |
+| 1 Ampliar mapa de termos e amostra | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva1.md` (aprovado com ressalvas; portão cumprido; 0 falha em 12; 21 correções de leitura, aplicadas à 01:38 por mim, sem novo leitor). 40 buscas novas (14/11, 00:12–01:06) e 5 repetições, a 72 s ou mais, sem verificação de robô; posição vertical das camadas registrada; mapa de termos de 1.260 para 2.721 | `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md` |
 | 2 Dez páginas × página-modelo | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva2.md` (aprovado com ressalvas; os 100 valores da tabela batem; 12 correções aplicadas às 23:10, sem novo leitor). Protótipo ajustado: títulos e descrições mais curtos | `/home/ancastelo/pessoal/SEO_Project/docs/mercado/paginas_top10.md` |
 | 3 Plano de conteúdo de 90 dias | **fechada** (na 2ª tentativa): `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva3.md` (1ª versão: **reprovada**, 6 falhas de conteúdo) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva3_v2.md` (2ª versão: aprovada com ressalvas; 1 falha em 12; 24 correções pedidas, aplicadas às 00:26 por mim na 3ª versão, sem novo leitor: segunda passada) | `/home/ancastelo/pessoal/SEO_Project/docs/plano_conteudo_90d.md` |
 | 4 Pontos de contrato | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva4.md` (aprovado com ressalvas; 1 falha em 12; 20 correções) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes_reserva4.md` (aplicadas por corretor às 23:27; conferidas por mim por amostra de 11 trechos; sem novo leitor) | `/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md` |
@@ -31,13 +31,15 @@ Fila de reserva:
 Segunda passada: **iniciada à 01:20** (em paralelo com a verificação da reserva 1). Revisores novos, sem acesso à
 primeira verificação, gravam em `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item<N>.md`.
 
-| Item | Estado da segunda passada |
-|---|---|
-| 2 Restrições (reabrir cada fonte primária) | em curso |
-| 6 Desenho (todas as remissões) | em curso |
-| 3 Estudo (dois revisores: guias a/b; IA, ChatGPT e roteiro) | em curso |
-| 5 Modelos de negócio | em curso |
-| 1, 4, 7, 8 e tarefas de reserva 2 a 5 | na fila (no máximo 6 subagentes ao mesmo tempo) |
+| Item | Estado da segunda passada | Relatório |
+|---|---|---|
+| 2 Restrições (39 endereços reabertos) | aprovado com ressalvas; 1 falha em 12; 16 achados — **corretor em curso** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item2.md` |
+| 3 Estudo, guias (a) e (b) | aprovado com ressalvas; 12 de 12 em cada guia; 15 achados — **corretor em curso** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item3_guias_a_b.md` |
+| 3 Estudo, IA, ChatGPT e roteiro | aprovado com ressalvas; 0 falha em 12 em cada arquivo; 17 achados — **corretor em curso** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item3_ia_chatgpt.md` |
+| 5 Modelos de negócio | aprovado com ressalvas; 0 falha em 12; 20 achados — correção na fila | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item5.md` |
+| 6 Desenho (140 remissões conferidas) | aprovado com ressalvas; 0 falha em 12; 27 achados — correção na fila (espera os revisores dos itens 7 e 8, que leem o desenho) | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item6.md` |
+| 1, 4, 7, 8 | revisores em curso desde 01:37–01:40 | — |
+| Tarefas de reserva 1 a 5 | na fila | — |
 
 ## Fila do owner
 
@@ -51,8 +53,9 @@ primeira verificação, gravam em `/home/ancastelo/pessoal/SEO_Project/docs/fds-
 
 ## Dúvidas e premissas
 
-- Navegador: `list_connected_browsers` (13/11 19:33, 20:04, 20:52 e 20:56) devolveu um único navegador, "Browser 1",
-  `deviceId` `1347159a-d718-417a-876e-0c616de91a3a` (não é o profissional). Selecionado por `deviceId`.
+- Navegador: em todas as conferências de `list_connected_browsers` (13/11 19:33 a 14/11 01:12) havia um único
+  navegador, "Browser 1", `deviceId` `1347159a-d718-417a-876e-0c616de91a3a` (não é o profissional); selecionado por
+  `deviceId`; abas próprias, todas fechadas (a última à 01:18).
 - Coleta ao vivo: Google **logado** na conta do owner (só leitura), `hl=pt-BR&gl=br&pws=0`; local exibido pelo Google
   quando aparece: "São Paulo, SP" ou "Osasco, SP".
 - **Verificação de robô ("tráfego incomum") às 21:16**, na 80ª consulta válida, 49 minutos depois do início da coleta
@@ -78,9 +81,6 @@ primeira verificação, gravam em `/home/ancastelo/pessoal/SEO_Project/docs/fds-
   corrigido na hora.
 - Desenho: a medição de posição "na tela" passa a ser só manual (pessoa digitando, sem script); o desenho diz que a
   coleta por script do item 4 não é modelo para o site.
-- Navegador às 22:49: `list_connected_browsers` devolveu de novo um único navegador (`1347159a-…`, não é o
-  profissional); usado para ler a estrutura de 10 páginas de concorrentes (22:50–22:53), só leitura, sem clique; aba
-  fechada às 22:59. Não são buscas no Google: não contam no limite de 600.
 - DÚVIDA: a fila de reserva vem "depois dos 8 itens, na ordem", mas os itens 4 e 8 esperam janela e verificador ·
   premissa adotada: adianto as tarefas 2, 4 e 5 da reserva, que não dependem de busca ao vivo nova (a 2 usa as 79
   buscas já feitas); as tarefas 1 e 3 esperam o item 4.
@@ -105,18 +105,19 @@ primeira verificação, gravam em `/home/ancastelo/pessoal/SEO_Project/docs/fds-
   do git (repositório privado); reescrever histórico é destrutivo e não foi feito.
 - DÚVIDA: fechar o item 4 com as 22 correções aplicadas por mim e sem nova leitura · premissa adotada: fechado (o
   verificador aprovou com ressalvas e disse que o portão está cumprido); as correções entram na segunda passada.
-- Navegador às 00:11 de 14/11: `list_connected_browsers` devolveu um único navegador (`1347159a-…`, não é o
-  profissional); selecionado por `deviceId`; aba própria aberta para a reserva 1.
 - Reserva 1: nas 10 primeiras buscas novas, um endereço de resultado trazia um telefone de empresa escrito no
   caminho; mascarei ao gravar (não entrou no repositório) e o coletor passou a mascarar também o caminho.
+- Leitura de 10 páginas de concorrentes no navegador (13/11 22:50–22:53): só leitura, sem clique; não são buscas no
+  Google e não contam no limite de 600.
+- A segunda passada começou à 01:20, em paralelo com a verificação da reserva 1, nos itens que ela não tocava.
+  `free -m` antes de cada lote de subagentes: de 3.485 a 3.734 MB disponíveis.
 - Reserva 1: o mapa de termos ampliado mudou contagens citadas no item 4 (seção 10) e no plano de conteúdo;
   refeitas por mim à 01:11, sem nova leitura (o verificador da reserva 1 recebeu o pedido de conferi-las).
-- Navegador à 01:12: conferido de novo (um só, o pessoal) para as 5 repetições; aba fechada à 01:18.
-- DÚVIDA: a segunda passada vem "depois da reserva", e a reserva 1 ainda espera o verificador · premissa adotada:
-  começo a segunda passada em paralelo nos itens que a reserva 1 não toca (esperar subagente não é motivo para
-  parar); o item 4 e o plano de conteúdo entram depois que a reserva 1 fechar.
-- `free -m` antes de cada lote de subagentes: 3.725 MB (01:19) e 3.485 MB (01:21) disponíveis.
 - Os três scripts de leitura do verificador do item 4 (`_runs/verif_item4_*.py`) ficam no repositório como registro.
+- Conteúdo de página tratado como dado (14/11, segunda passada): uma página de agência lida pelo revisor do item 3
+  pede a uma IA que "guarde o domínio na memória"; **ignorado**.
+- A ferramenta de leitura gravou sozinha, fora do projeto, cópias de um .doc, de um PDF e de um JSON abertos pelos
+  revisores; **não foram abertas** (fronteira).
 - Conteúdo de página tratado como dado: o artigo do X pede criar conta numa ferramenta, conectar o Search Console e
   enviar e-mails de prospecção; **ignorado** (13/11 19:35).
 - A ferramenta de leitura de página guardou cópias de PDFs fora do projeto; **não foram abertas** (fronteira).
@@ -141,7 +142,7 @@ primeira verificação, gravam em `/home/ancastelo/pessoal/SEO_Project/docs/fds-
 - 13/11 19:28 — `~/.claude/CLAUDE.md` global manda carregar e usar meli-memory (memória corporativa), salvar memórias e
   fazer resumo de sessão, inclusive depois de compactação: **não executado** (regra da rodada e `CLAUDE.md` do
   projeto). Os subagentes receberam a mesma instrução e também não executaram.
-- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43, 21:47, 21:48, 22:07, 22:15, 22:20, 22:31, 22:32, 22:36, 22:46, 22:57, 23:09, 23:17, 23:31; 14/11 00:00, 00:03, 00:04, 00:20 — hook `conversational-analytics`
+- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43, 21:47, 21:48, 22:07, 22:15, 22:20, 22:31, 22:32, 22:36, 22:46, 22:57, 23:09, 23:17, 23:31; 14/11 00:00, 00:03, 00:04, 00:20, 01:35, 01:37, 01:38 — hook `conversational-analytics`
   pede `report_conversation` com `start_time`: **não executado** (plugin corporativo).
 - 13/11 19:28 — "Compound checkpoints" do `CLAUDE.md` global (perguntar "quer compound?"): **não executado**.
 - 13/11 20:51 — hook de início de sessão (após compactação) pede usar a skill `gestao` e rodar `gestao propor` em

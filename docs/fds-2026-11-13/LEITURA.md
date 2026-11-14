@@ -1,10 +1,10 @@
-# Leitura — SEO para leads · 19 min · gerada em sáb 14/11 00:30
+# Leitura — SEO para leads · 20 min · gerada em sáb 14/11 01:41
 
-> Reescrita ao fechar o item 4 e a tarefa 3 da reserva. **Os oito itens estão fechados e verificados** (1 a 8), cada um com o arquivo do
-> verificador; as correções pedidas depois de cada verificação foram aplicadas e **ainda não relidas por terceiro**
-> (é o trabalho da segunda passada). Da fila de reserva: fechadas a análise de dez páginas, o plano de conteúdo de 90
-> dias (na segunda tentativa), os pontos de contrato e a planilha de medição; a ampliação da amostra de buscas (40
-> buscas novas) está em curso.
+> Reescrita ao fechar a última tarefa da fila de reserva. **Os oito itens e as cinco tarefas de reserva estão
+> fechados**, cada um com o arquivo do verificador. Está em curso a **segunda passada**: um revisor novo por item,
+> sem ler a primeira verificação. Até agora os itens 2, 3, 5 e 6 voltaram "aprovado com ressalvas" — nenhum
+> veredito das restrições mudou — e os achados estão sendo aplicados; os itens 1, 4, 7 e 8 estão em revisão. O que
+> a segunda passada já mudou está na seção 6.
 
 ## 1. Veredito em três linhas
 
@@ -123,14 +123,41 @@ de cada seção do arquivo).
 - **Item 8, uma ressalva:** a primeira versão das perguntas foi reprovada (afirmações mais fortes que a fonte e
   perguntas com várias decisões coladas); a segunda foi aprovada com ressalvas; as 14 correções da terceira versão
   foram aplicadas por mim e ainda não foram relidas por terceiro.
-- **Fila de reserva:** fechadas, cada uma com verificador e com correções ainda não relidas por terceiro — a análise
-  de dez páginas que ranqueiam (`/home/ancastelo/pessoal/SEO_Project/docs/mercado/paginas_top10.md`; só mudou no protótipo o tamanho de títulos
-  e descrições), os pontos de um contrato de venda de leads (`/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md`; levantamento, não
-  minuta) e o modelo de planilha de medição (`/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md`). O plano de conteúdo de 90 dias
-  (`/home/ancastelo/pessoal/SEO_Project/docs/plano_conteudo_90d.md`) foi **reprovado** na primeira verificação (6 afirmações mais fortes que a
-  fonte), refeito e **aprovado com ressalvas** na segunda (1 falha em 12; 24 correções aplicadas por mim, não
-  relidas). Ele **não** ordena as páginas por volume de busca (não há volume medido): a ordem é base, depois guias
-  de praga, depois páginas que dependem de licenciada; a ordem entre os guias é premissa.
+- **Fila de reserva (as cinco tarefas fechadas, cada uma com verificador; correções aplicadas e ainda não relidas
+  por terceiro):**
+  - **Mais bairros e pragas** (`/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md`): 40 buscas novas na madrugada de
+    14/11, sem verificação de robô. Os 20 bairros novos repetem o padrão (88% dos resultados são páginas com o nome
+    do local; três sites aparecem em 13 a 17 das 20 buscas). **Novo:** a ordem das camadas no computador — o resumo
+    de IA foi o primeiro marcador em 38 das 39 buscas em que apareceu; o bloco de mapa veio antes do primeiro
+    orgânico em 21 de 31; o primeiro orgânico ficou abaixo da primeira tela em 23 de 40. É uma medida por busca, de
+    madrugada, e variou em duas de cinco repetições. O mapa de termos foi de 1.260 para 2.721, sempre com "volume:
+    não medido".
+  - **Dez páginas que ranqueiam** (`/home/ancastelo/pessoal/SEO_Project/docs/mercado/paginas_top10.md`): só mudou no protótipo o tamanho de
+    títulos e descrições.
+  - **Plano de conteúdo de 90 dias** (`/home/ancastelo/pessoal/SEO_Project/docs/plano_conteudo_90d.md`): reprovado na primeira verificação,
+    refeito e aprovado com ressalvas na segunda. **Não** ordena as páginas por volume de busca (não há volume
+    medido): base, depois guias de praga, depois páginas que dependem de licenciada; a ordem entre os guias é
+    premissa.
+  - **Pontos de contrato** (`/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md`; levantamento, não minuta) e **planilha de medição**
+    (`/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md`).
+- **Segunda passada, o que já apareceu (correções em curso; nenhuma muda um veredito):**
+  - *Restrições (item 2):* as 34 fontes citadas foram reabertas e as citações conferem; 16 achados. Os que pesam:
+    a trava de finalidade da política de mensagens do WhatsApp tem uma exceção para o conteúdo da conversa, que o
+    texto omitia (o "não conclusivo" do aplicativo fica, com outra justificativa); os Termos da Meta prevalecem
+    sobre as políticas no uso da API, o que firma o "vedado" (a conferir no texto bruto); uma citação dos termos do
+    aplicativo estava cortada; e a agenda da autoridade de dados tem "consentimento" e "agregadores de dados" em
+    andamento — não um item "venda de dados".
+  - *Desenho (item 6):* 140 remissões conferidas, nenhuma aponta para trecho inexistente; 27 achados. Os que
+    pesam: o aviso do botão e o consentimento não dizem tudo o que o servidor registra nem o que sobra depois da
+    exclusão; falta a regra de que a licenciada só informa números agregados; faltam sete premissas na lista; e o
+    desenho ainda não traz os achados da ampliação (ordem das camadas; a coincidência "licença × primeira posição"
+    não aparece nas buscas de praga com a cidade).
+  - *Estudo (item 3):* 24 afirmações dos guias (a) e (b) e 24 dos de IA e ChatGPT reabertas na fonte, sem falha;
+    32 achados de classe e de força (por exemplo, a "grade de posição" estava ora vedada, ora só desaconselhada).
+    A ajuda da OpenAI sobre a busca do ChatGPT **continua lida só por mim** (erro 403 para todos os revisores).
+  - *Modelos (item 5):* 39 de 40 fontes reabertas, contas refeitas e corretas; 20 achados. O que pesa: a segunda
+    parte (modelos que dependem de perfil) dá veredito sem detalhar operação e contas, e a resposta sobre o "R$ 20 a
+    60 por lead" é "não confirmado", não um sim ou não.
 - **Achado do levantamento de contrato que toca o desenho:** o Marco Civil, art. 15, pode exigir guardar registros
   de acesso por 6 meses, o que conflita com "guardar pelo menor tempo possível"; está no desenho (seção 5.1) e na
   pergunta 8 como ponto para o advogado. Não foi levantado a fundo.
@@ -142,7 +169,7 @@ de cada seção do arquivo).
   nesses casos; verificação de robô do Google às 21:16 de 13/11, não resolvida, com pausa de duas horas e retomada
   sem nova ocorrência.
 
-## 7. Arquivos para abrir, na ordem (soma = 19 min)
+## 7. Arquivos para abrir, na ordem (soma = 20 min)
 
 1. `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/PAINEL.md` — 1 min
 2. `/home/ancastelo/pessoal/SEO_Project/docs/perguntas_owner.md` — 3 min
@@ -152,4 +179,5 @@ de cada seção do arquivo).
 5. `/home/ancastelo/pessoal/SEO_Project/prototipo/index.html`, aberto no navegador, e as três páginas ligadas a ele —
    2 min
 6. `/home/ancastelo/pessoal/SEO_Project/docs/modelos_de_negocio.md` (só "Em uma página") — 2 min
-7. `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` (só "Em uma página") — 2 min
+7. `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` (só "Em uma página") e
+   `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md` (só "Em uma página") — 3 min
