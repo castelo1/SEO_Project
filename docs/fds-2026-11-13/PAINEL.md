@@ -1,6 +1,11 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sáb 14/11 02:44 (Brasília, lido de `date`)** · fase: **segunda passada concluída** (os 8 itens e as 5
+**RODADA CONCLUÍDA em sáb 14/11 02:45** (itens, fila de reserva e segunda passada feitos; `git status` limpo e nenhum
+commit sem push; abas do navegador fechadas). Daqui até segunda 16/11, 06:00, a sessão só espera; volta a trabalhar se
+aparecer `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/RESPOSTAS_OWNER.md`. Durante a espera este painel
+não é mais atualizado; os hooks listados no fim continuam sendo ignorados a cada evento.
+
+**Atualizado em sáb 14/11 02:44 (Brasília, lido de `date`)** · fase: **espera** (segunda passada concluída) (os 8 itens e as 5
 tarefas de reserva estão fechados; os 14 relatórios da segunda passada voltaram "aprovado com ressalvas" e os 209
 achados foram aplicados) · em curso: nada · próximo: conferência final do repositório e espera até segunda 16/11,
 06:00; só volto a trabalhar se aparecer `RESPOSTAS_OWNER.md`
@@ -46,8 +51,8 @@ portão descumprido e nenhum veredito do item 2 mudou.**
 | Reserva 1 Ampliação | aprovado com ressalvas; 0 falha em 12 | 14 achados aplicados por corretor às 02:30 (95 perfis distintos, não 96); script corrigido por mim às 02:38 | `verificacao2_reserva1.md`, `correcoes2_reserva1.md` |
 | Reserva 2 Dez páginas | aprovado com ressalvas; 2 falhas em 12 | 12 achados aplicados por corretor às 02:28 (contagens de palavra de licença viram "ao menos") | `verificacao2_reserva2.md`, `correcoes2_reserva2.md` |
 | Reserva 3 Plano de 90 dias | aprovado com ressalvas; 1 falha em 12 | 17 achados aplicados por corretor às 02:35 (4ª versão; cobertura de 235 a 239 dos 2.721 termos) | `verificacao2_reserva3.md`, `correcoes2_reserva3.md` |
-| Reserva 4 Pontos de contrato | aprovado com ressalvas; 0 falha em 12; leis brasileiras reabertas | 12 achados aplicados por corretor às 02:37; art. 13, § 2º, e art. 15-A do Decreto nº 8.771 lidos por mim no navegador às 02:38 | `verificacao2_reserva4.md`, `correcoes2_reserva4.md` |
-| Reserva 5 Planilha de medição | aprovado com ressalvas; 0 falha em 12 | 10 achados aplicados por corretor às 02:36 (uma linha de exemplo com contas; duas premissas novas) | `verificacao2_reserva5.md`, `correcoes2_reserva5.md` |
+| Reserva 4 Pontos de contrato | aprovado com ressalvas; 0 falha em 12; leis brasileiras reabertas | 12 achados aplicados por corretor às 02:33; art. 13, § 2º, e art. 15-A do Decreto nº 8.771 lidos por mim no navegador às 02:38 | `verificacao2_reserva4.md`, `correcoes2_reserva4.md` |
+| Reserva 5 Planilha de medição | aprovado com ressalvas; 0 falha em 12 | 10 achados aplicados por corretor às 02:34 (uma linha de exemplo com contas; duas premissas novas) | `verificacao2_reserva5.md`, `correcoes2_reserva5.md` |
 
 As correções da segunda passada não foram relidas por um terceiro leitor: a rodada pede uma segunda passada, não uma
 terceira.
