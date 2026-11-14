@@ -13,7 +13,7 @@
     conta logada, localização que o Google mostrou).
   - `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv` e
     `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_dominios.md` — os 157 domínios do orgânico dos grupos A a G, por
-    frequência, com a classe (empresa, diretório, rede ou satélite) dos 77 mais frequentes.
+    frequência, com a classe (empresa, diretório, rede ou satélite) de 77 deles (quais, na seção 7.1).
   - `/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv` — 1.260 termos por praga × local × intenção, com
     "volume: não medido" (seção 10).
   - Brutos e scripts: `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/` (lotes `lote_01.jsonl` a `lote_08.jsonl`,
@@ -33,17 +33,18 @@
 3. **Diretório e marketplace aparecem pouco.** Um diretório (ohub.com.br) está em 21 das 79 buscas, quase sempre do
    meio da página para baixo (posição mediana 5); os demais (triider, reclameaqui, coteibem, pedegas, pestwase,
    listazn) aparecem uma ou duas vezes. Rede social e fórum: 6 resultados em 709.
-4. **Quase tudo é site que se apresenta como dedetizadora; intermediário declarado, só os diretórios.** Lidos os 77
-   domínios mais frequentes (86% dos resultados): empresas identificadas, 60% dos resultados; marcas sem identificação
+4. **Quase tudo é site que se apresenta como dedetizadora; intermediário declarado, só os diretórios.** Lidos 77
+   domínios — os 48 com 3 ou mais aparições, 18 dos 22 com 2 e 11 com 1 (86% dos resultados): empresas identificadas, 60% dos resultados; marcas sem identificação
    e domínios satélites, 20%; diretórios, 4%. **Só 12 dos 67 sites de serviço lidos mostram o número da licença**
    sanitária na página, que é o que a regra de propaganda pede (seção 7).
-5. **O bloco de mapa muda com o bairro e com o lugar de quem busca.** 64 perfis distintos em 202 linhas; três perfis
+5. **O bloco de mapa muda com o bairro e com o lugar de quem busca** (a parte do lugar de quem busca é inferência:
+   houve um só ponto de busca). 64 perfis distintos em 202 linhas; três perfis
    ocupam 43% das linhas, e um deles é de Osasco — a cidade que o Google exibiu como localização do navegador em parte
    das buscas. Nas 20 buscas por bairro apareceram 37 perfis distintos. Nota mediana 5,0; 96% das linhas com nota 4,8
    ou mais; mediana de 146 avaliações por perfil.
 6. **Um único anunciante domina a amostra:** aparece nos anúncios de texto de 58 das 79 buscas e como perfil
    patrocinado em 47. Nenhum anúncio foi clicado.
-7. **Busca informativa de risco à saúde é do governo:** em "controle de escorpião" (cidade e Butantã), 12 dos 16
+7. **Nas duas buscas de escorpião, o resultado é do governo:** em "controle de escorpião" (cidade e Butantã), 12 dos 16
    resultados são de órgãos públicos e do Instituto Butantan; não há bloco de mapa.
 8. **Não sei:** volume de busca de qualquer termo; o que a "Visão geral criada por IA" citou em cada busca (só a
    presença foi registrada); o resultado para quem busca de outro ponto da cidade, deslogado ou pelo celular.
@@ -53,7 +54,7 @@
    buscas informativas, três primeiras posições são de imprensa, de um site de fabricante e de uma loja de produtos
    para animais; em "como saber se dedetizadora é licenciada", a consulta pública de licenças do estado aparece em
    segundo; nas três de preço, a mesma página de "tabela de preço" de uma dedetizadora está em primeiro (seção 12).
-10. **Cinco buscas repetidas de 2 a 3 horas depois deram quase o mesmo:** o primeiro resultado é o mesmo nas cinco e os
+10. **Cinco buscas repetidas de 2 a 3,1 horas depois deram quase o mesmo:** o primeiro resultado é o mesmo nas cinco e os
     três primeiros domínios são os mesmos nas cinco; o bloco de mapa repetiu os três perfis em 3 delas e dois de três
     em 2 (seção 13). Vale para a mesma noite, o mesmo navegador e a mesma conta.
 
@@ -95,7 +96,8 @@ plausíveis, não os termos mais buscados:** não há volume medido (seção 10)
   (`/home/ancastelo/pessoal/SEO_Project/data/serp_raw/coletor.js`): se há "Visão geral criada por IA"; domínio dos
   anúncios de texto; nome, nota e número de avaliações dos perfis do bloco "Empresas" e do perfil patrocinado; domínio,
   caminho e título dos resultados orgânicos da primeira página (9, em geral). Telefones foram mascarados como `[tel]`
-  antes de sair da página. **Nada foi clicado:** nem anúncio, nem "ligar", nem "WhatsApp", nem "rota", nem site.
+  antes de sair da página; o título e o fim do endereço de uma reclamação de consumidor (busca D05, posição 7) foram
+  omitidos em 14/11/2026, no bruto e no CSV. **Nada foi clicado:** nem anúncio, nem "ligar", nem "WhatsApp", nem "rota", nem site.
 - **Intervalo entre buscas:** mediana de 28 segundos (mínimo 17, máximo 224). **Três intervalos ficaram abaixo dos 20 segundos da regra da
   rodada, por erro meu na montagem do lote:** B11→B12 (18 s), D02→D03 (19 s) e E02→E03 (17 s). Na segunda janela (grupo H e
   repetições) o intervalo ficou entre 67 e 124 segundos.
@@ -113,12 +115,14 @@ plausíveis, não os termos mais buscados:** não há volume medido (seção 10)
    a premissa do guia (a) de que vêm acima **continua não conferida**.
 5. **"Visão geral criada por IA": só a presença.** O script detectou o rótulo na página; não registrou se o resumo
    estava aberto, o que dizia nem que fontes citava.
-6. **Títulos e caminhos cortados.** Título em até 60 caracteres nos lotes 1 e 2 e em 34 nos lotes 3 a 8; caminho em 50.
+6. **Títulos e caminhos cortados.** Título em até 60 caracteres nos lotes 1 e 2 e em 34 nos lotes 3 a 8 (três títulos do
+   lote 3 têm 35 ou 36); caminho em 50.
    Contagens de palavras no título ("24 horas", "preço") são piso, não valor exato.
 7. **Anunciante não identificado em 31 dos 102 anúncios de texto** (a leitura do domínio falhou; saiu "google.com").
 8. **Tipo de página pelo endereço, não pelo conteúdo.** "Página interna por local" = o caminho contém o nome de um
-   bairro ou região da lista do script. Não li as páginas: **não afirmo que sejam "páginas de entrada"** no sentido da
-   política de spam do Google; isso exige ler o texto (fila de reserva 2).
+   bairro ou região da lista do script. A coleta não leu as páginas; a leitura da seção 7 abriu de 1 a 3 por domínio e a
+   fila de reserva 2 mediu dez. **Não afirmo que sejam "páginas de entrada"** no sentido da política de spam do
+   Google: isso exigiria comparar o texto de várias páginas do mesmo site, o que não foi feito.
 9. **Consulta automática.** A política de spam do Google lista o envio de consultas automáticas entre as práticas que
    veda (`/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seção 8). A rodada autorizou até 600
    buscas com 20 segundos de intervalo; a decisão de manter isso está na fila do owner
@@ -126,8 +130,8 @@ plausíveis, não os termos mais buscados:** não há volume medido (seção 10)
 
 ### 2.4 O que deu errado na coleta
 
-- **Verificação de robô às 21:16.** Na 80ª busca válida (H01, "dedetizadora confiável são paulo"), depois de cerca de
-  28 minutos de coleta contínua, o Google mostrou a página de "tráfego incomum". **Não foi resolvida.** As buscas ao
+- **Verificação de robô às 21:16.** Na 80ª busca válida (H01, "dedetizadora confiável são paulo"), 49 minutos depois
+  do início da coleta (20:26) e 23 minutos depois da última pausa longa (20:52), o Google mostrou a página de "tráfego incomum". **Não foi resolvida.** As buscas ao
   vivo pararam por 2 horas, como manda a regra da rodada; a aba foi fechada.
 - **Retomada às 23:18**, duas horas depois, só com o que faltava: as 10 buscas do grupo H e 5 repetições, com 67
   segundos ou mais entre uma e outra. **Não houve nova verificação de robô.** A aba foi fechada às 23:38.
@@ -161,7 +165,7 @@ Número de buscas em que cada camada apareceu.
   dedetizadora"; percevejo na Bela Vista; pulgas no Ipiranga; "comprovante vigilância sanitária"; "dedetizadora 24h
   zona leste".
 - **Contraste com o estudo citado no guia (c):** nos Estados Unidos, em 2025, a Whitespark achou resumo de IA em 15%
-  das buscas de "serviço + cidade" (540 buscas, 3 cidades; classe B, amostra pequena;
+  das buscas de "serviço + cidade" (540 buscas no total do estudo, locais e informativas, em 3 cidades; classe B, amostra pequena;
   `/home/ancastelo/pessoal/SEO_Project/docs/estudo/03_respostas_de_ia.md`, seção 2). Aqui, em novembro de 2026, logado,
   foi 92%. As duas medidas não são comparáveis (país, data, método), mas a premissa "busca local quase não dispara
   resumo de IA" **não vale para esta amostra**.
@@ -200,20 +204,25 @@ Percentual dos resultados orgânicos de cada grupo.
 
 - Entre os três primeiros de todas as buscas (237 resultados): 104 páginas internas por local, 85 páginas internas de
   serviço, 34 páginas iniciais, 10 de governo, 3 de blog, 1 de rede social.
-- **Busca com bairro pede página do bairro.** Em 21 das 32 buscas dos grupos D e E, os três primeiros são todos páginas
+- **Nas buscas com bairro predominam páginas do bairro.** Em 21 das 32 buscas dos grupos D e E, os três primeiros são todos páginas
   internas por local. 249 das 316 páginas por local têm o endereço em um nível só (`dominio/bairro/`).
-- **Treze domínios aparecem em 5 ou mais das 20 buscas por bairro**, cada vez com a página daquele bairro:
+- **Treze domínios aparecem em 5 ou mais das 20 buscas por bairro**, quase sempre com a página daquele bairro (95 de
+  98 resultados; as exceções são a página inicial de primordialdedetizacao.com.br na busca da Bela Vista e a página
+  da cidade de ohub.com.br nas buscas do Ipiranga e de Campo Limpo):
   protecpragas.com.br (11), lunardedetizadora.com.br, keikodedetizadora.com.br e dedetizadora.srv.br (10 cada),
   primordialdedetizacao.com.br (8), dedetizadoraddpilar.com.br e biodesin.com.br (7 cada), zet-tecdedetizadora.com.br,
   ohub.com.br, hidrosampa.com.br e ambientalepragas.com.br (6 cada), grupoexpansao.com e etoprag.com.br (5 cada).
 - **Domínio com o nome exato do bairro** aparece, mas pouco: dedetizadoraemmoema.com.br,
   dedetizadoranamooca.com.br, dedetizadoraemhigienopolis.com.br, dedetizadoranobutanta.com.br,
   dedetizadoranavilamadalena.com.br, dedetizadoranavilamariana.com.br e dedetizadorazonaleste.net, uma vez cada.
-- **Busca de empresa (grupo F) pede página de segmento** ("dedetização para restaurantes", "condomínios", "escolas"),
-  não página de bairro; aparecem ali sites de multinacionais (rentokil.com, 5 resultados; orkinbrasil.com.br e orkinsp.com.br, 1 cada) que não
-  aparecem nas buscas por bairro.
+- **Nas buscas de empresa (grupo F) predominam páginas de segmento** ("dedetização para restaurantes", "condomínios",
+  "escolas"), não páginas de bairro (68% contra 1% na tabela acima); aparecem ali sites de multinacionais
+  (rentokil.com, 3 resultados no grupo F — 5 na amostra, com 1 em A e 1 em B; orkinbrasil.com.br e orkinsp.com.br, 1
+  cada) que não aparecem nas buscas por bairro.
 
 ### 4.3 O que os títulos dizem (piso; títulos cortados)
+
+A contagem inclui palavra cortada pelo limite do título ("[t" de "[tel]", "24 h", "preç").
 
 | No título | Todos os orgânicos (709) | Três primeiros (237) |
 |---|---|---|
@@ -223,8 +232,9 @@ Percentual dos resultados orgânicos de cada grupo.
 | "melhor" | 27 (4%) | 6 (3%) |
 | "orçamento" | 9 (1%) | 2 (1%) |
 
-Nenhum desses termos é mais frequente entre os três primeiros do que no conjunto: nesta amostra, **não há sinal de que
-pôr telefone, "24 horas" ou "melhor preço" no título acompanhe posição melhor**. É contagem, não teste.
+"24 horas" (10% no conjunto, 12% nos três primeiros), "preço" (4% e 5%) e telefone (7,6% e 8,4%) são um pouco mais
+frequentes no topo; "melhor" (4% e 3%) e "orçamento", menos. As diferenças são de poucos resultados: nesta amostra
+**não há sinal claro de que esses termos acompanhem posição melhor**. É contagem, não teste.
 
 ### 4.4 Diretórios, marketplaces, redes sociais e governo
 
@@ -235,7 +245,7 @@ pôr telefone, "24 horas" ou "melhor preço" no título acompanhe posição melh
   apareceram** na primeira página de nenhuma das 79 buscas.
 - **Rede social e fórum:** instagram.com (4), facebook.com (1), reddit.com (1, numa busca de apartamento).
 - **Governo e universidade:** 23 resultados, 12 deles nas duas buscas de escorpião; os demais em pombos, morcegos,
-  mosquito da dengue, "controle de pragas", "comprovante vigilância sanitária", escola e certificado. A consulta
+  mosquito da dengue, desratização, "controle de pragas", "comprovante vigilância sanitária", escola e certificado. A consulta
   pública de licenças do estado (sivisa.saude.sp.gov.br) apareceu uma vez, na busca do comprovante.
 
 ## 5. Bloco de mapa ("Empresas")
@@ -250,14 +260,31 @@ pôr telefone, "24 horas" ou "melhor preço" no título acompanhe posição melh
   bairro; o nome do bairro na busca desloca o bloco para perto do bairro.
 - **Cidade exibida na linha do perfil:** São Paulo em 114 linhas, Osasco em 32, Embu das Artes em 1; 55 linhas sem
   cidade visível (endereço oculto ou texto cortado — não distingo).
-- **Nota e avaliações:** das 199 linhas com nota, mediana 5,0, mínima 4,3; 96% com 4,8 ou mais. Por perfil (61 com
+- **Nota e avaliações:** das 199 linhas em que o script leu nota e número (em outras 2 a nota aparece e o script
+  não leu), mediana 5,0, mínima 4,3; 96% com 4,8 ou mais. Por perfil (61 com
   número lido): mediana de 146 avaliações; um quarto tem até 42 e um quarto tem mais de 313; máximo lido, 867 (um
   perfil exibia "1,1 mil", que o script não converteu).
-- **"N anos no mercado"** aparece em 98 das 202 linhas (de 3 a 35 anos).
-- **Nome do perfil:** 51 dos 64 nomes trazem palavra de serviço ("dedetizadora", "controle de pragas", "cupim"); 12
-  trazem local ou "24h" (por exemplo "… zona norte", "… na Vila Mariana", "… 24h SP"). **Não dá para dizer se o nome é
-  o nome real da empresa:** sem o nome registrado de cada uma não se distingue nome legítimo de nome inflado
-  (`/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md`, seção 8).
+- **"N anos no mercado"** aparece em pelo menos 156 das 202 linhas (58 nos lotes 1 e 2, por extenso; 98 nos lotes 3 a
+  7, na forma abreviada pelo script; é piso, porque a linha do perfil foi cortada em 110 ou 80 caracteres), de 3 a
+  35 anos.
+- **Nome do perfil:** 51 dos 64 nomes trazem palavra de serviço (regra: o nome, sem acento, contém "dedetiz",
+  "pragas" ou "cupi"). 12 casam com a regra de local ou "24h" (o nome contém "zona norte/sul/leste/oeste", "24h",
+  "são paulo", "sp" como palavra, "vila …", "osasco" ou um dos 20 bairros da coleta); desses, 10 são de fato local
+  ou "24h" no nome (por exemplo "… zona norte", "… na Vila Mariana", "… no Butantã", "… 24h SP") e 2 são falso
+  positivo da regra (uma empresa que se chama Santana e uma linha em que a cidade do perfil ficou grudada ao nome).
+  **Não dá para dizer se o nome é o nome real da empresa:** sem o nome registrado de cada uma não se distingue nome
+  legítimo de nome inflado (`/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md`, seção 8).
+- **Empresa, diretório ou gerador de leads, no mapa:** as 202 linhas são perfis com nome de empresa (a categoria, quando a
+  linha a mostra, é "Dedetizadora"; uma vez, "Serviço de controle de pássaros"); **nenhum diretório ou marketplace
+  apareceu no bloco**. Se cada perfil é de quem executa o serviço **não
+  foi conferido** (nenhum perfil foi aberto; licença, CNPJ e site de cada um não foram vistos). Dos seis perfis mais
+  frequentes, três têm no orgânico um domínio de nome parecido, classificado na seção 7 (a ligação é pelo nome, não
+  conferida): Primordial (primordialdedetizacao.com.br, empresa identificada sem número de licença visto), Lunar
+  (lunardedetizadora.com.br, empresa com número de licença na página) e Heloin (heloindedetizadora.com.br, empresa
+  identificada sem número visto). Sanitech tem um domínio de nome parecido no orgânico
+  (sanitechdedetizadora.com.br, 1 resultado), não lido; ARMOR e SJG, os dois perfis mais frequentes, não têm domínio de
+  nome parecido entre os 157 do orgânico. O perfil patrocinado tem o nome do anunciante da seção 6 (brasiltechs.com,
+  que mostra número de licença na página).
 - **O que não foi observado:** endereço visível ou oculto, categoria, horário, data das últimas avaliações, respostas
   do dono, site e telefone de cada perfil (exigiria abrir cada perfil; fila de reserva 1).
 
@@ -276,9 +303,10 @@ pôr telefone, "24 horas" ou "melhor preço" no título acompanhe posição melh
 
 ### 7.1 Como foi classificado, e o limite
 
-Dois subagentes abriram, pela ferramenta de leitura de página, de 1 a 3 páginas de cada um dos **77 domínios mais
-frequentes** do orgânico (inicial, uma página que apareceu no resultado e "quem somos", quando havia), em 13/11/2026,
-entre 21:21 e 21:36. Esses 77 domínios cobrem 610 dos 709 resultados (86%). Dados por domínio:
+Dois subagentes abriram, pela ferramenta de leitura de página, de 1 a 3 páginas de cada um de **77 domínios** do orgânico
+(inicial, uma página que apareceu no resultado e "quem somos", quando havia), em 13/11/2026, entre 21:21 e 21:36. São
+os 48 com 3 ou mais aparições (fora governo e rede social, classificados pelo domínio), 18 dos 22 com 2 aparições e
+11 com 1 (domínios de bairro, diretórios e anunciantes). Esses 77 domínios cobrem 610 dos 709 resultados (86%). Dados por domínio:
 `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv` e
 `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_dominios.md`; brutos em
 `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios_classe_parte1.csv` e `…parte2.csv`; notas com a página e a hora
@@ -315,17 +343,19 @@ mesmo molde, mesma marca, mesmo rodapé ou links cruzados. Os dois subagentes us
    respostas na plataforma". triider.com.br diz conectar cliente e profissional, com orçamento, contratação e
    pagamento no próprio site. pedegas.com diz ser "plataforma de intermediação de pedidos" e mostra planos para o
    parceiro de R$ 0, R$ 99 e R$ 199 por mês (Brasil, página pública lida em 13/11/2026; classe A sobre ela mesma).
-   **Nenhum outro site da amostra diz que repassa pedidos a terceiros.**
+   **Nenhum outro dos 71 sites lidos diz, nas páginas abertas, que repassa pedidos a terceiros;** dois falam em
+   "profissionais filiados" e em "franquias" sem dizer como funciona (higitec.com.br, jupitersp.com.br).
 3. **Gerador de leads disfarçado não dá para provar; dá para apontar candidatos.** 29 domínios (144 resultados, 20%)
    têm cara de dedetizadora e não mostram quem executa, ou são domínio de palavra-chave de outra marca:
-   - seis domínios com o nome exato do bairro (Moema, Mooca, Butantã, Vila Madalena, Higienópolis, Vila Mariana) saem
-     do mesmo molde, com a frase "Legalizada pela Vigilância Sanitária e Corpo de Bombeiros" sem número e sem razão
+   - seis domínios com o nome exato do bairro (Moema, Mooca, Butantã, Vila Madalena, Higienópolis, Vila Mariana) —
+     quatro classificados e dois (Higienópolis e Vila Mariana) abertos só para comparar, que seguem em "não lido" na
+     tabela e fora dos 29 — saem do mesmo molde, com a frase "Legalizada pela Vigilância Sanitária e Corpo de Bombeiros" sem número e sem razão
      social, CNPJ ou endereço; o contato é um link de WhatsApp; quem está por trás não foi identificado;
    - uma família de domínios `.eco.br` com páginas `/d/…` geradas em série, com o mesmo desenvolvedor no rodapé,
      ligada à marca de uma empresa que mostra número de licença;
    - pares de marca de uma praga só (cupim e rato) do mesmo molde, sem identificação;
-   - os dois anunciantes mais frequentes são **uma só empresa em dois domínios** (o segundo traz outra marca no topo
-     e o nome da primeira no rodapé);
+   - os dois anunciantes mais frequentes parecem ser, **pelo rodapé, uma só empresa em dois domínios** (o segundo
+     traz outra marca no topo e o nome da primeira no rodapé; não é prova de mesmo dono);
    - uma marca nacional cujos contatos por estado apontam para domínios de outras marcas (rede declarada).
    Quem recebe o WhatsApp desses sites — a própria dedetizadora ou um intermediário — **não sei**; saber exigiria
    contato, que a rodada proíbe.
@@ -338,6 +368,12 @@ mesmo molde, mesma marca, mesmo rodapé ou links cruzados. Os dois subagentes us
 5. **Os 11 domínios com número de licença ocupam 47% das primeiras posições** (37 de 79), com 19% dos resultados. Dois
    deles respondem por 28 das 37 (dedetizadora.srv.br, 16; eccocleandedetizacao.com.br, 12). É coincidência observada
    numa amostra, **não prova de que exibir a licença melhore a posição**.
+6. **Duas classes são disputáveis**, como dizem as notas da leitura: universoambiental.eco.br está em "empresa com
+   número de licença" (o número aparece numa página de preço, não na inicial) sem CNPJ, razão social nem endereço
+   vistos, e cupim.eco.br, que mostra o mesmo número, está em "rede ou domínio satélite"; biosolucoes.app.br está em
+   "rede ou domínio satélite" embora mostre CNPJ, porque lista "sites parceiros" e outro nome de empresa nos links.
+   São 10, 1 e 6 resultados orgânicos (3, 1 e 2 entre os três primeiros), nessa ordem: trocar a classe de qualquer
+   um deles desloca esses resultados entre linhas da tabela 7.2.
 
 ## 8. Padrões dos primeiros colocados
 
@@ -348,7 +384,7 @@ dos subagentes (seção 7.1), com a página e a hora.
 |---|---|---|
 | Site próprio de dedetizadora, com uma página por bairro, região ou cidade | 50 dos 67 sites de serviço lidos têm páginas por localidade; nas buscas com bairro, 79% a 87% dos resultados são dessas páginas | leitura + coleta (seção 4.2) |
 | A página de bairro é texto de molde com o nome trocado | Em vários sites sobrou texto de outro lugar: depoimentos de outras cidades na página do Ipiranga; "Morumbi" e "Atibaia" na página de Pinheiros; "Itaquaquecetuba" na página de Itaquera; "zona norte" na página da zona leste; "São Paulo é uma cidade média de São Paulo" | leitura (notas, parte 1 item (b)1 e parte 2 item (b)2, com as páginas) |
-| Listas longas de links internos para bairros e palavras-chave | De 80 a cerca de 270 links numa página, em nove sites; cerca de 600 na inicial de um deles (estimativas da ferramenta) | leitura |
+| Listas longas de links internos para bairros e palavras-chave | De 80 a cerca de 270 links numa página, em nove sites; cerca de 600 na inicial de outro site (estimativas da ferramenta) | leitura |
 | Contato por WhatsApp | 65 dos 67 sites de serviço lidos | leitura |
 | "24 horas" | 35 dos 71 sites lidos; em 10% dos títulos (piso); um site diz "24 horas" e "10h às 18h" na mesma página | leitura + coleta (seção 4.3) |
 | Dedetizadora e desentupidora na mesma marca | pelo menos 10 dos 34 da parte 1 | leitura |
@@ -360,13 +396,16 @@ dos subagentes (seção 7.1), com a página e a hora.
 | Perfil no mapa com centenas de avaliações e nota perto de 5 | mediana de 146 avaliações; 96% das linhas com nota 4,8 ou mais | coleta (seção 5) |
 | Anúncio | um anunciante em 58 das 79 buscas, com dois domínios | coleta (seção 6) + leitura |
 
-**O padrão dominante encosta no que a política do Google descreve como página de entrada.** Página por bairro em que
-só muda o nome do bairro é o sinal que o guia (a) tira do texto da política
+**INFERÊNCIA: o padrão dominante pode encostar no que a política do Google descreve como página de entrada.** Página
+por bairro em que só muda o nome do bairro é o sinal que o guia (a) tira do texto da política
 (`/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seção 2.2; a aplicação é inferência do guia,
-não frase do Google). Nesta amostra, essas páginas **estão** nos primeiros lugares. Duas leituras possíveis, nenhuma
-provada: (i) a política não está sendo aplicada a este nicho, ou não ainda; (ii) o risco existe e pode se
-materializar numa atualização (havia uma em curso desde 10/11/2026). **Em nenhuma das duas isto autoriza copiar o
-padrão:** o desenho do projeto não pode depender de prática que a política lista como spam.
+não frase do Google). **A base aqui é fraca:** sobra de texto de outro lugar vista em cerca de dez sites; duas
+páginas de bairro do mesmo site não foram comparadas. Páginas por local estão nos primeiros lugares desta amostra
+(seção 4.2). Três leituras possíveis, nenhuma provada: (i) as páginas não são o que a política veda (têm conteúdo
+próprio suficiente, ou a política não as alcança); (ii) são, e a política não está sendo aplicada a este nicho, ou
+não ainda; (iii) são, e o risco pode se materializar numa atualização (havia uma em curso desde 10/11/2026). **Em
+nenhuma das três isto autoriza copiar o padrão:** o desenho do projeto não pode depender de prática que a política
+lista como spam.
 
 ## 9. O que isto diz ao projeto (inferências, marcadas)
 
@@ -378,14 +417,15 @@ padrão:** o desenho do projeto não pode depender de prática que a política l
    licenciada"; grupo H, seção 12), algumas dedetizadoras já têm páginas com esses termos (3 de 9 resultados
    numa delas), e a consulta pública do estado aparece em segundo na outra.
 3. **Diretório existe e aparece no meio da página** (ohub em 21 de 79 buscas, posição mediana 5). Um comparador novo
-   disputaria esse lugar, não o primeiro. *(observação)*
+   disputaria esse lugar, não o primeiro. *(observação + inferência)*
 4. **Preço com fonte é lacuna visível:** quase nenhum site mostra preço; os que mostram usam "a partir de". *(observação;
    se preço com fonte atrai busca, não sei — sem volume medido)*
 5. **O mapa é de quem tem perfil com muitas avaliações, perto de quem busca.** Reforça o item 2: o mapa não é ativo do
    projeto; é da licenciada. Para uma parceira, a região da base decide onde ela aparece
    (`/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md`, seção 6). *(observação de uma só
    localização + guia)*
-6. **A página de resultado quase sempre abre com resumo de IA (92%)**. O que ele cita aqui, não sei; o desenho tem de
+6. **A página de resultado tem resumo de IA em 92% das buscas;** a posição dele na página não foi registrada. O que
+   ele cita aqui, não sei; o desenho tem de
    tratar "ser citável" como parte do orgânico
    (`/home/ancastelo/pessoal/SEO_Project/docs/estudo/03_respostas_de_ia.md`, seção 7). *(observação + guia)*
 7. **Candidatas a parceira, para o owner olhar (ninguém foi contatado):** os 11 sites que mostram número de licença e
@@ -406,7 +446,7 @@ padrão:** o desenho do projeto não pode depender de prática que a política l
 - **Colunas:** `termo`, `praga`, `tipo_local`, `local`, `intencao`, `publico`, `volume` (sempre "não medido"),
   `origem_do_termo` (consulta da coleta ou combinação gerada), `id_na_coleta`, `situacao_na_coleta` (coletado
   ou não buscado).
-- **Por intenção:** contratar 421; urgência 371; preço 368; confiança 79; informativa 21.
+- **Por intenção:** contratar 419; urgência 371; preço 369; confiança 80; informativa 21.
 - **O que o arquivo não é:** lista de termos que as pessoas buscam. É uma grade de hipóteses. Uma combinação gerada
   pode não ter busca nenhuma; termos reais podem faltar (os bairros são só 20 dos distritos da cidade).
 - **Como medir o volume depois (nenhum destes foi usado; os dois primeiros exigem a conta do owner; como cada
@@ -486,7 +526,7 @@ Coletado depois da pausa de duas horas, com o mesmo script, a mesma conta e o me
 ### 12.3 O que isto diz ao projeto (inferências, marcadas; dez buscas não sustentam regra)
 
 1. **Nas buscas de informação há resultado que não é de dedetizadora** (imprensa, loja, governo, fórum). É onde um
-   guia de praga ou de "como conferir a licença" disputaria lugar. *(observação de 4 buscas)*
+   guia de praga ou de "como conferir a licença" disputaria lugar. *(observação de 4 buscas + inferência)*
 2. **"Como conferir a licença" já tem resposta oficial em segundo lugar** (a consulta pública do estado) e um site de
    conteúdo em primeiro. Uma página do projeto sobre isso teria de acrescentar algo — o passo a passo, que não foi
    lido — e apontar para a consulta. *(observação de 1 busca)*
@@ -499,7 +539,7 @@ Coletado depois da pausa de duas horas, com o mesmo script, a mesma conta e o me
 ## 13. Repetição de cinco buscas (23:32 a 23:37)
 
 Cinco das 79 buscas foram sorteadas (`shuf` com a semente "repeticao-item4-20261113") e refeitas na mesma noite, de 2
-a 3 horas depois, no mesmo navegador, logado na mesma conta. Brutos:
+a 3,1 horas depois, no mesmo navegador, logado na mesma conta. Brutos:
 `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/repeticao_01.jsonl` (não entram em `serp_sp.csv`).
 
 | Busca | 1ª vez | 2ª vez | Mesmo 1º resultado? | Mesmos três primeiros domínios? | Domínios em comum na página | Perfis do bloco de mapa em comum (de 3) | Local exibido | Anúncios (1ª → 2ª) |

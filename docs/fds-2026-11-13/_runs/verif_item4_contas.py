@@ -333,7 +333,7 @@ def bloco_H():
 def bloco_rep():
     P('== REPETICOES (secao 13) ==')
     for o2 in rep:
-        o1 = byid[o2['id']]
+        o1 = byid[o2['id'].rstrip('r')]
         d1 = [s.partition(' | ')[0].partition('/')[0] for s in o1['org']]; d2 = [s.partition(' | ')[0].partition('/')[0] for s in o2['org']]
         u1 = [s.partition(' | ')[0] for s in o1['org']]; u2 = [s.partition(' | ')[0] for s in o2['org']]
         p1 = [parse_pack(s) for s in o1['pack']]; p2 = [parse_pack(s) for s in o2['pack']]

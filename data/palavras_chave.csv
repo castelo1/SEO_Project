@@ -7,8 +7,8 @@ dedetização sp preço,geral,cidade,são paulo,preço,residencial/geral,não me
 dedetizadora perto de mim,geral,sem local,,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,A06,coletado
 dedetização 24 horas são paulo,geral,cidade,são paulo,urgência,residencial/geral,não medido,consulta da coleta de 13/11/2026,A07,coletado
 dedetizadora 24 horas sp,geral,cidade,são paulo,urgência,residencial/geral,não medido,consulta da coleta de 13/11/2026,A08,coletado
-quanto custa dedetização são paulo,geral,cidade,são paulo,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,A09,coletado
-melhor dedetizadora são paulo,geral,cidade,são paulo,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,A10,coletado
+quanto custa dedetização são paulo,geral,cidade,são paulo,preço,residencial/geral,não medido,consulta da coleta de 13/11/2026,A09,coletado
+melhor dedetizadora são paulo,geral,cidade,são paulo,confiança,residencial/geral,não medido,consulta da coleta de 13/11/2026,A10,coletado
 dedetização de baratas são paulo,baratas,cidade,são paulo,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,B01,coletado
 desratização são paulo,ratos,cidade,são paulo,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,B02,coletado
 descupinização são paulo,cupim,cidade,são paulo,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,B03,coletado
@@ -22,7 +22,7 @@ dedetização de mosquito da dengue são paulo,mosquito,cidade,são paulo,contra
 dedetização de carrapatos são paulo,carrapatos,cidade,são paulo,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,B11,coletado
 remoção de morcegos são paulo,morcegos,cidade,são paulo,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,B12,coletado
 dedetização de aranhas são paulo,aranhas,cidade,são paulo,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,B13,coletado
-dedetizadora zona sul sp,geral,cidade,são paulo,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,C01,coletado
+dedetizadora zona sul sp,geral,zona,zona sul,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,C01,coletado
 dedetizadora zona leste sp,geral,zona,zona leste,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,C02,coletado
 dedetizadora zona norte sp,geral,zona,zona norte,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,C03,coletado
 dedetizadora zona oeste sp,geral,zona,zona oeste,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,C04,coletado
@@ -32,7 +32,7 @@ dedetização pinheiros,geral,bairro,pinheiros,contratar,residencial/geral,não 
 dedetizadora vila mariana,geral,bairro,vila mariana,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D03,coletado
 dedetização tatuapé,geral,bairro,tatuapé,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D04,coletado
 dedetizadora santana,geral,bairro,santana,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D05,coletado
-dedetização lapa sp,geral,cidade,são paulo,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D06,coletado
+dedetização lapa sp,geral,bairro,lapa,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D06,coletado
 dedetizadora itaim bibi,geral,bairro,itaim bibi,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D07,coletado
 dedetização santo amaro,geral,bairro,santo amaro,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D08,coletado
 dedetizadora mooca,geral,bairro,mooca,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D09,coletado
@@ -41,7 +41,7 @@ dedetizadora santa cecília,geral,bairro,santa cecília,contratar,residencial/ge
 dedetização higienópolis,geral,bairro,higienópolis,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D12,coletado
 dedetizadora butantã,geral,bairro,butantã,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D13,coletado
 dedetização ipiranga,geral,bairro,ipiranga,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D14,coletado
-dedetizadora penha sp,geral,cidade,são paulo,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D15,coletado
+dedetizadora penha sp,geral,bairro,penha,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D15,coletado
 dedetização jabaquara,geral,bairro,jabaquara,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D16,coletado
 dedetizadora itaquera,geral,bairro,itaquera,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D17,coletado
 dedetização campo limpo,geral,bairro,campo limpo,contratar,residencial/geral,não medido,consulta da coleta de 13/11/2026,D18,coletado

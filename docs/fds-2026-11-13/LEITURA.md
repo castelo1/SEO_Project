@@ -1,8 +1,10 @@
-# Leitura — SEO para leads · 19 min · gerada em sex 13/11 22:48
+# Leitura — SEO para leads · 19 min · gerada em sáb 14/11 00:07
 
-> Reescrita ao fechar o item 8. **Fechados e verificados: itens 1, 2, 3, 5, 6, 7 e 8.** O mapa do mercado de busca
-> (item 4) está escrito, **ainda não verificado**, com a coleta ao vivo em pausa até 23:17. Da fila de reserva, a
-> planilha de medição está escrita (não verificada) e o levantamento de pontos de contrato está em curso.
+> Reescrita ao fechar o item 4. **Os oito itens estão fechados e verificados** (1 a 8), cada um com o arquivo do
+> verificador; as correções pedidas depois de cada verificação foram aplicadas e **ainda não relidas por terceiro**
+> (é o trabalho da segunda passada). Da fila de reserva: fechadas a análise de dez páginas, os pontos de contrato e a
+> planilha de medição; o plano de conteúdo foi **reprovado** na primeira verificação e está sendo refeito; a
+> ampliação da amostra de buscas não começou.
 
 ## 1. Veredito em três linhas
 
@@ -11,9 +13,10 @@
   com ela, no WhatsApp dela. **Não** é viável como "dedetizadora de fachada" com perfil próprio no mapa, nem como
   central de WhatsApp que repassa contatos. Se dá dinheiro, **não sei**: não há fonte brasileira de preço de lead
   exclusivo, de taxa de fechamento nem de disposição das licenciadas a pagar.
-- **Fechado e verificado:** o reenquadramento (item 1); as quatro restrições lidas na fonte primária (item 2); o
-  estudo de ranqueamento em cinco arquivos (item 3, três verificações); os modelos de negócio (item 5: sete modelos
-  ficam de pé; 11 de 12 afirmações sorteadas conferidas; 17 correções aplicadas e conferidas por mim no arquivo).
+- **Fechado e verificado:** os oito itens — reenquadramento; as quatro restrições lidas na fonte primária; o estudo
+  de ranqueamento (três verificações); o mapa do mercado de busca (89 buscas ao vivo; aprovado com ressalvas, 22
+  correções); os modelos de negócio (sete ficam de pé); o desenho (dois leitores); o protótipo local de quatro
+  páginas; as dez perguntas a você (aprovadas na segunda tentativa).
 - **O que muda para você:** o mapa do Google não é ativo seu (o perfil é sempre da licenciada); o WhatsApp do botão é
   o dela, e o site só consegue provar o toque no botão; página por bairro em que só muda o nome do bairro é o exemplo
   de "página de entrada" da política de spam do Google; e tudo depende de **uma licenciada aceitar ser nomeada** —
@@ -57,7 +60,7 @@ de cada seção do arquivo).
 | 1 Reenquadramento | **fechado** | `docs/ESTADO.md` novo; prompt antigo movido com `git mv`; nada apagado | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item1.md` |
 | 2 Restrições na fonte primária | **fechado** | quatro seções com fonte, data, trecho e veredito | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item2.md` |
 | 3 Estudo de ranqueamento | **fechado**, com três ressalvas (seção 6) | três guias, a parte do ChatGPT e o roteiro de teste, cada tática com fonte e classe | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item3.md` (índice de três verificações) |
-| 4 Mapa do mercado de busca | em curso — texto e planilhas escritos (79 de 89 buscas), **não verificado**; coleta em pausa até 23:17 | `docs/mercado/serp_sp.md`, `data/serp_sp.csv`, `data/palavras_chave.csv` | — |
+| 4 Mapa do mercado de busca | **fechado**, com duas ressalvas (seção 6) | quem aparece no orgânico e no mapa nas buscas principais, tipo de página, empresa × diretório × gerador de leads, padrões dos primeiros; cada busca com termo, hora, conta e local; mapa de termos com "volume: não medido" | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item4.md` (aprovado com ressalvas; 1 falha em 12; 8 de 8 classes de domínio relidas conferem) |
 | 5 Modelos de negócio | **fechado**, com uma ressalva (seção 6) | modelos que não dependem de perfil nem de se passar por dedetizadora, depois os que dependem; contas, preço do lead, riscos; R$ 20–60 confirmado ou derrubado | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item5.md` (aprovado com ressalvas); correções em `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes_item5.md` |
 | 6 Desenho, versão 0 | **fechado**, com uma ressalva (seção 6) | arquitetura, o que cada página exibe, captação com texto de consentimento, medição, automação, fases, "o que tornaria isto inviável" | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item6.md` e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item6_correcoes.md` (dois leitores independentes, ambos "aprovado com ressalvas") |
 | 7 Protótipo local | **fechado**, com uma ressalva (seção 6) | quatro páginas em HTML e CSS puros, tudo marcado "EXEMPLO", e um LEIA-ME que liga cada bloco ao desenho | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item7.md` (aprovado com ressalvas; 0 falha em 12) |
@@ -99,13 +102,17 @@ de cada seção do arquivo).
   fornecedores). Toda conta de receita do arquivo é ilustração, com premissas arbitrárias marcadas.
 - **Item 2:** os trechos marcados **[S]** foram lidos só pelo subagente (30 pontos); os **[N]** foram reconferidos por
   mim no texto bruto da página.
-- **Item 4 (não verificado):** tudo vem de **uma** amostra — 79 buscas, numa sexta à noite, logado na sua conta, de um
-  só ponto da Grande São Paulo, **coletadas por script** (o próprio arquivo diz que isso é a "consulta automática" que
-  a política do Google veda; a decisão de manter está na fila do owner). Números preliminares: resumo de IA em 73 das
-  79 buscas; bloco de mapa em 68; anúncio em 60; 10 domínios com 39% dos resultados; 50 dos 67 sites de serviço lidos
-  têm páginas por bairro, região ou cidade; só 12 dos 67 mostram o número da licença — mas os 11 domínios que o
-  mostram ocupam 37 das 79 primeiras posições. A classificação dos sites foi feita por ferramenta que resume a página:
-  "não visto" não prova ausência.
+- **Item 4, duas ressalvas:** (1) as 22 correções pedidas pelo verificador foram aplicadas por mim e ainda não
+  foram relidas por terceiro; (2) tudo vem de **uma** amostra — 89 buscas numa sexta à noite, logado na sua conta, de
+  um só ponto da Grande São Paulo, **coletadas por script** (o próprio arquivo diz que isso é a "consulta
+  automática" que a política do Google veda; a decisão de manter está na fila do owner). O que o item diz, nas 79
+  buscas principais: resumo de IA em 73; bloco de mapa em 68; anúncio em 60; 10 domínios com 39% dos resultados; nas
+  buscas por bairro, 87% dos resultados são páginas com o nome do local no endereço; só 12 dos 67 sites de serviço
+  lidos mostram o número da licença — e os 11 domínios que o mostram ocupam 37 das 79 primeiras posições (28 delas
+  de dois domínios; coincidência observada, não prova). Nas 10 buscas de confiança, preço e informação a página é
+  outra: bloco de mapa em 2, e imprensa, loja e governo entre os primeiros. Cinco buscas repetidas de 2 a 3,1 horas
+  depois deram quase o mesmo. A classificação dos sites foi feita por ferramenta que resume a página: "não visto"
+  não prova ausência; nenhum número de licença foi conferido em base oficial.
 - **Item 6, uma ressalva:** o desenho passou por dois leitores independentes; os 10 ajustes pedidos pelo segundo
   foram aplicados por mim e ainda não foram relidos por terceiro. No desenho, 17 escolhas são premissas sem evidência
   (lista na seção 10 dele). **Não levantados:** o tratamento do endereço IP que o servidor registra junto do toque no
@@ -116,13 +123,22 @@ de cada seção do arquivo).
 - **Item 8, uma ressalva:** a primeira versão das perguntas foi reprovada (afirmações mais fortes que a fonte e
   perguntas com várias decisões coladas); a segunda foi aprovada com ressalvas; as 14 correções da terceira versão
   foram aplicadas por mim e ainda não foram relidas por terceiro.
-- **Fila de reserva:** o modelo de planilha de medição
-  (`/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md`) está escrito e **não verificado**.
-- **Não feito:** as 10 buscas de confiança, preço e informação e 5 repetições (só depois das 23:17); a lista completa
-  do Google Maps; normas e guias que só existem em PDF; o Diário Oficial; o site do Centro de Vigilância Sanitária
-  (erro 403); valores de domínio, hospedagem e advogado.
-- **Erros meus, já registrados:** três intervalos de busca abaixo dos 20 segundos da regra (17, 18 e 19 segundos);
-  lotes de teste descartados (cerca de 15 buscas perdidas); verificação de robô do Google às 21:16, não resolvida.
+- **Fila de reserva:** fechadas, cada uma com verificador e com correções ainda não relidas por terceiro — a análise
+  de dez páginas que ranqueiam (`/home/ancastelo/pessoal/SEO_Project/docs/mercado/paginas_top10.md`; só mudou no protótipo o tamanho de títulos
+  e descrições), os pontos de um contrato de venda de leads (`/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md`; levantamento, não
+  minuta) e o modelo de planilha de medição (`/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md`). O plano de conteúdo de 90 dias
+  (`/home/ancastelo/pessoal/SEO_Project/docs/plano_conteudo_90d.md`) foi **reprovado** na primeira verificação (6 afirmações mais fortes que a
+  fonte) e está sendo refeito: **não use ainda**.
+- **Achado do levantamento de contrato que toca o desenho:** o Marco Civil, art. 15, pode exigir guardar registros
+  de acesso por 6 meses, o que conflita com "guardar pelo menor tempo possível"; está no desenho (seção 5.1) e na
+  pergunta 8 como ponto para o advogado. Não foi levantado a fundo.
+- **Não feito:** a lista completa do Google Maps e os dados de cada perfil; o que o resumo de IA cita em cada busca;
+  buscas em outro dia, outro lugar, deslogado ou no celular; normas e guias que só existem em PDF; o Diário Oficial;
+  o site do Centro de Vigilância Sanitária (erro 403); valores de domínio, hospedagem e advogado.
+- **Erros meus, já registrados:** três intervalos de busca abaixo dos 20 segundos da regra (17, 18 e 19 segundos) e
+  lotes de teste com buscas sobrepostas (cerca de 15 buscas perdidas) — a regra do intervalo **foi descumprida**
+  nesses casos; verificação de robô do Google às 21:16 de 13/11, não resolvida, com pausa de duas horas e retomada
+  sem nova ocorrência.
 
 ## 7. Arquivos para abrir, na ordem (soma = 19 min)
 
@@ -134,4 +150,4 @@ de cada seção do arquivo).
 5. `/home/ancastelo/pessoal/SEO_Project/prototipo/index.html`, aberto no navegador, e as três páginas ligadas a ele —
    2 min
 6. `/home/ancastelo/pessoal/SEO_Project/docs/modelos_de_negocio.md` (só "Em uma página") — 2 min
-7. `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` (só "Em uma página"; não verificado) — 2 min
+7. `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` (só "Em uma página") — 2 min

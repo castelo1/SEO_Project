@@ -41,8 +41,8 @@ PUBLICO_CHAVES = [('restaurante', ['restaurante', 'bares', 'lanchonete']), ('con
 INTENCAO_GRUPO = {'A': 'contratar', 'B': 'contratar', 'C': 'contratar', 'D': 'contratar', 'E': 'contratar', 'F': 'contratar'}
 def intencao_gh(t):
     if any(k in t for k in ('urgente', '24h', '24 horas', 'hoje', 'emergencial', 'aberta agora')): return 'urgência'
-    if any(k in t for k in ('preço', 'orçamento')): return 'preço'
-    if any(k in t for k in ('confiável', 'licen')): return 'confiança'
+    if any(k in t for k in ('preço', 'orçamento', 'quanto custa')): return 'preço'
+    if any(k in t for k in ('confiável', 'licen', 'melhor dedetizadora')): return 'confiança'
     return 'informativa'
 coletados = {}
 for r in csv.DictReader(open(os.path.join(BASE, 'serp_consultas.csv'), encoding='utf-8')): coletados[r['termo'].lower()] = [r['id'], 'planejado']
@@ -60,7 +60,7 @@ def add(termo, praga, tipo_local, local, intencao, publico, origem='combinação
 for r in csv.DictReader(open(os.path.join(BASE, 'serp_consultas.csv'), encoding='utf-8')):
     t = r['termo'].lower()   # as 89 consultas da coleta entram primeiro, como foram escritas; praga, local e público inferidos do texto
     praga = next((p for p, chaves in PRAGA_CHAVES if any(k in t for k in chaves)), 'geral')
-    tipo, local = next(((tp, l) for tp, l in sorted(LOCAIS, key=lambda x: -len(x[1])) if l in t or (l == 'são paulo' and (t.endswith(' sp') or ' sp ' in t))), ('sem local', ''))
+    tipo, local = next(((tp, l) for tp, l in sorted(LOCAIS, key=lambda x: (x[0] == 'cidade', -len(x[1]))) if l in t or (l == 'são paulo' and (t.endswith(' sp') or ' sp ' in t))), ('sem local', ''))
     if tipo == 'sem local' and 'penha' in t: tipo, local = 'bairro', 'penha'
     pub = next((p for p, chaves in PUBLICO_CHAVES if any(k in t for k in chaves)), 'residencial/geral')
     add(t, praga, tipo, local, intencao_gh(t) if (r['grupo'] in 'GH' or intencao_gh(t) != 'informativa') else 'contratar', pub)
