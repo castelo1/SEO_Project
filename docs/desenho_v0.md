@@ -11,7 +11,7 @@
   H). **Segunda passada em 14/11/2026:** revisor novo, sem acesso às leituras anteriores
   (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item6.md`: aprovado com ressalvas; 0 falha em 12 no sorteio; 140
   remissões conferidas, nenhuma para trecho inexistente; 27 achados). Os 27 foram aplicados pela sessão principal em
-  14/11 às 01:49, **sem nova leitura**. Nada aqui foi publicado, comprado, cadastrado nem enviado.
+  14/11 às 01:49, **sem nova leitura**; depois entraram, sem mudar a numeração de linhas, alinhamentos com as correções da segunda passada dos outros arquivos (01:54, 02:23 e 02:40: itens 4 e 5, ampliação, planilha de medição, regulamento do Marco Civil). Nada aqui foi publicado, comprado, cadastrado nem enviado.
 - **O que é:** o desenho de um site que capta pedidos de controle de pragas na cidade de São Paulo e os leva a
   empresas licenciadas, dentro das quatro restrições lidas na fonte. É proposta para o owner aprovar, mudar ou
   recusar; **não é plano de execução**.

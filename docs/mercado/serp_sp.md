@@ -128,7 +128,7 @@ plausíveis, não os termos mais buscados:** não há volume medido (seção 10)
    a premissa do guia (a) de que vêm acima **não foi conferida nesta amostra**; a ampliação de 14/11 registrou a
    posição vertical em 40 buscas (`/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md`, seção 4;
    a ampliação foi verificada em 14/11/2026 — aprovada com ressalvas, 21 correções aplicadas à 01:38 —, relatório em
-   `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva1.md`).
+   `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva1.md`; relida na segunda passada, com 14 achados aplicados às 02:30: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_reserva1.md`).
 5. **"Visão geral criada por IA": só a presença.** O script detectou o rótulo na página; não registrou se o resumo
    estava aberto, o que dizia nem que fontes citava.
 6. **Títulos e caminhos cortados.** Título em até 60 caracteres nos lotes 1 e 2 e em 34 nos lotes 3 a 8 (três títulos do

@@ -1,9 +1,9 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sáb 14/11 02:06 (Brasília, lido de `date`)** · fase: **segunda passada** (os 8 itens e as 5 tarefas
-de reserva estão fechados) · em curso: corretores dos achados dos itens 4 e 5; revisores novos das tarefas de reserva
-1 a 5 (6 subagentes) · próximo: conferir e registrar essas correções; aplicar os achados das reservas; reescrever a
-leitura; depois, "RODADA CONCLUÍDA" e espera
+**Atualizado em sáb 14/11 02:44 (Brasília, lido de `date`)** · fase: **segunda passada concluída** (os 8 itens e as 5
+tarefas de reserva estão fechados; os 14 relatórios da segunda passada voltaram "aprovado com ressalvas" e os 209
+achados foram aplicados) · em curso: nada · próximo: conferência final do repositório e espera até segunda 16/11,
+06:00; só volto a trabalhar se aparecer `RESPOSTAS_OWNER.md`
 
 ## Itens
 
@@ -38,12 +38,16 @@ portão descumprido e nenhum veredito do item 2 mudou.**
 | 2 Restrições (39 endereços reabertos) | aprovado com ressalvas; 1 falha em 12 | 16 achados aplicados por corretor à 01:45; três trechos dos termos da Meta conferidos por mim no navegador às 02:01; anexos alinhados à 01:59 | `verificacao2_item2.md`, `correcoes2_item2.md` |
 | 3 Guias (a) e (b) | aprovado com ressalvas; 12 de 12 em cada | 15 achados aplicados por corretor à 01:46; três sobras sobre a grade de posição, por mim, à 01:55 | `verificacao2_item3_guias_a_b.md`, `correcoes2_item3_guias_a_b.md` |
 | 3 IA, ChatGPT e roteiro | aprovado com ressalvas; 0 falha em 12 | 15 de 17 aplicados por corretor à 01:50, 1 em parte; o 17º (ajuda da OpenAI com erro 403) resolvido por releitura mecânica minha no navegador às 02:06; pergunta 27 do roteiro reescrita por mim à 01:55 | `verificacao2_item3_ia_chatgpt.md`, `correcoes2_item3_ia_chatgpt.md` |
-| 4 Mapa do mercado | aprovado com ressalvas; 0 falha em 12; registro das 89 buscas sem divergência | 20 achados (força das afirmações, remissões, redação) — **corretor em curso** | `verificacao2_item4.md` |
-| 5 Modelos de negócio | aprovado com ressalvas; 0 falha em 12 | 20 achados — **corretor em curso** | `verificacao2_item5.md` |
+| 4 Mapa do mercado | aprovado com ressalvas; 0 falha em 12; registro das 89 buscas sem divergência | 20 achados aplicados por corretor às 02:14 (força das afirmações, remissões, redação; os números citados por outros arquivos não mudaram); script que separa nome e nota do perfil corrigido por mim às 02:22 (2 linhas do CSV) | `verificacao2_item4.md`, `correcoes2_item4.md` |
+| 5 Modelos de negócio | aprovado com ressalvas; 0 falha em 12 | 20 achados aplicados por corretor às 02:12; o "R$ 20 a 60 por lead" fica "não confirmado"; entrou a marca A\* (termo da própria empresa sobre si; não vale para consenso) | `verificacao2_item5.md`, `correcoes2_item5.md` |
 | 6 Desenho (140 remissões) | aprovado com ressalvas; 0 falha em 12 | 27 achados aplicados à 01:49 por mim | `verificacao2_item6.md` |
 | 7 Protótipo | aprovado com ressalvas; 0 falha em 12 | 11 achados aplicados à 01:54 por mim (aviso do botão, política, bloco de bairros) | `verificacao2_item7.md` |
 | 8 Perguntas | aprovado com ressalvas; 3 falhas em 52 | 12 achados aplicados à 01:58 por mim; a opção padrão da pergunta 10 passou a "sim, no passo (d) da fase 1" | `verificacao2_item8.md` |
-| Reservas 1 a 5 | **revisores em curso** (lançados entre 01:59 e 02:01) | — | `verificacao2_reserva<N>.md` |
+| Reserva 1 Ampliação | aprovado com ressalvas; 0 falha em 12 | 14 achados aplicados por corretor às 02:30 (95 perfis distintos, não 96); script corrigido por mim às 02:38 | `verificacao2_reserva1.md`, `correcoes2_reserva1.md` |
+| Reserva 2 Dez páginas | aprovado com ressalvas; 2 falhas em 12 | 12 achados aplicados por corretor às 02:28 (contagens de palavra de licença viram "ao menos") | `verificacao2_reserva2.md`, `correcoes2_reserva2.md` |
+| Reserva 3 Plano de 90 dias | aprovado com ressalvas; 1 falha em 12 | 17 achados aplicados por corretor às 02:35 (4ª versão; cobertura de 235 a 239 dos 2.721 termos) | `verificacao2_reserva3.md`, `correcoes2_reserva3.md` |
+| Reserva 4 Pontos de contrato | aprovado com ressalvas; 0 falha em 12; leis brasileiras reabertas | 12 achados aplicados por corretor às 02:37; art. 13, § 2º, e art. 15-A do Decreto nº 8.771 lidos por mim no navegador às 02:38 | `verificacao2_reserva4.md`, `correcoes2_reserva4.md` |
+| Reserva 5 Planilha de medição | aprovado com ressalvas; 0 falha em 12 | 10 achados aplicados por corretor às 02:36 (uma linha de exemplo com contas; duas premissas novas) | `verificacao2_reserva5.md`, `correcoes2_reserva5.md` |
 
 As correções da segunda passada não foram relidas por um terceiro leitor: a rodada pede uma segunda passada, não uma
 terceira.
@@ -60,9 +64,9 @@ terceira.
 
 ## Dúvidas e premissas
 
-- Navegador: em todas as conferências de `list_connected_browsers` (13/11 19:33 a 14/11 02:05) havia um único
+- Navegador: em todas as conferências de `list_connected_browsers` (13/11 19:33 a 14/11 02:38) havia um único
   navegador, "Browser 1", `deviceId` `1347159a-d718-417a-876e-0c616de91a3a` (não é o profissional); selecionado por
-  `deviceId`; abas próprias, todas fechadas (a última às 02:06).
+  `deviceId`; abas próprias, todas fechadas (a última às 02:39).
 - Coleta ao vivo: Google **logado** na conta do owner (só leitura), `hl=pt-BR&gl=br&pws=0`; local exibido pelo Google
   quando aparece: "São Paulo, SP" ou "Osasco, SP". Total da rodada: ≈ 155 de 600 buscas; nenhuma desde 01:17.
 - **Verificação de robô ("tráfego incomum") em 13/11 às 21:16**, 49 minutos depois do início da coleta, a ~28 s por
@@ -80,7 +84,8 @@ terceira.
   Plataforma do WhatsApp Business e da política de mensagens; conferi três trechos (cláusulas 1.3 e 4.1(a)(b);
   "other than the content of message threads"). Sem login, sem aceitar nada; a barra de login do Facebook não foi
   tocada. Às 02:05–02:06 reabri a ajuda pública da OpenAI sobre a busca do ChatGPT (erro 403 nas ferramentas dos
-  revisores) e testei por comparação de texto os dez trechos citados: os dez estão na página.
+  revisores) e testei por comparação de texto os dez trechos citados: os dez estão na página. Às 02:38 li no
+  planalto.gov.br o art. 13, § 2º, e o art. 15-A do Decreto nº 8.771/2016 (regulamento do Marco Civil).
 - Segunda passada, o que mudou de conteúdo: o aviso ao lado do botão e a política passam a dizer tudo o que o
   servidor registra (endereço IP e identificação do navegador) e a ressalva do Marco Civil, art. 15; a licenciada
   informa ao site só números agregados; o bloco de bairros do protótipo virou remissão; a grade de posição no mapa
@@ -93,7 +98,11 @@ terceira.
   passada foi o novo leitor. Os commits meus às vezes levam junto arquivos em edição por subagentes (inofensivo).
 - `free -m` antes de cada lote de subagentes: de 3.311 a 3.734 MB disponíveis. Erro meu em 13/11 às 22:40: lancei
   um subagente sem conferir antes (conferido logo depois).
-- `RESPOSTAS_OWNER.md` não existe (conferido de 13/11 19:28 a 14/11 01:59, antes de cada item e de cada tarefa).
+- `RESPOSTAS_OWNER.md` não existe (conferido de 13/11 19:28 a 14/11 02:44, antes de cada item e de cada tarefa).
+- Subagentes da segunda passada, desvios relatados por eles: um corretor gravou a saída de um script na pasta
+  temporária da sessão (fora do projeto) e a apagou; em dois, a ferramenta moveu uma busca demorada para segundo
+  plano e abriu sozinha um arquivo de saída fora do projeto, não lido; em um, uma busca por nome de arquivo mostrou
+  linhas soltas de relatórios que ele não devia abrir, não usadas.
 - Horas: toda hora registrada vem de `date`; os erros de hora estimada que cometi foram corrigidos na hora.
 - Conteúdo de página tratado como dado: um artigo do X pede criar conta numa ferramenta, conectar o Search Console e
   enviar e-mails de prospecção (13/11 19:35); páginas de agências pedem a uma IA que "guarde o domínio na memória"
@@ -115,6 +124,9 @@ terceira.
 - Levantar a norma sanitária de serviços de alimentação sobre controle de pragas (bloco "[A ESCREVER]" da página de
   restaurantes do protótipo).
 - Levantar valores de domínio, hospedagem e consulta jurídica (o desenho fala em "despesa", sem número).
+- Ler o Decreto nº 12.975/2026, que altera o regulamento do Marco Civil (só o art. 15-A que ele incluiu foi lido).
+- Conferir no navegador se as dez páginas comparadas trazem palavra de licença em perguntas frequentes ou rodapé
+  (o revisor da reserva 2 achou indício numa delas, por ferramenta de resumo).
 
 ## Hooks ignorados
 
@@ -123,7 +135,7 @@ terceira.
   rodada e `CLAUDE.md` do projeto). Os subagentes receberam a mesma instrução e também não executaram.
 - Hook `conversational-analytics` pede `report_conversation` com `start_time` a cada evento: **não executado**
   (plugin corporativo). Ocorrências: 29 em 13/11, de 19:28 a 23:31; em 14/11, 00:00, 00:03, 00:04, 00:20, 01:35,
-  01:37, 01:38, 01:49, 01:52 (duas), 01:54 e 01:58.
+  01:37, 01:38, 01:49, 01:52 (duas), 01:54, 01:58, 02:14, 02:18 (quatro), 02:20 e 02:38 (cinco).
 - Hook de início de sessão (após cada compactação) pede usar a skill `gestao` e rodar `gestao propor` em
   `/home/ancastelo/work/gestao`: **não executado** (ferramenta da empresa e pasta fora da fronteira). Ocorrências:
   13/11 20:51 e 21:58; 14/11 00:02 e na compactação anterior às 01:52.
