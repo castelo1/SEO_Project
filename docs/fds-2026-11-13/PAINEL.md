@@ -1,9 +1,9 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sex 13/11 22:36 (Brasília, lido de `date`)** · fase: **itens** · fechados: **1, 2, 3, 5 e 6** · em
-curso: **item 4** (faltam as 10 buscas do grupo H e 5 repetições, só depois das 23:17, e a verificação), **item 7**
-(em verificação) e **item 8** (primeira versão reprovada; segunda versão em verificação) · próximo: retomar as buscas
-do item 4 às 23:17; depois, fila de reserva
+**Atualizado em sex 13/11 22:39 (Brasília, lido de `date`)** · fase: **itens** · fechados: **1, 2, 3, 5, 6 e 7** · em
+curso: **item 4** (faltam as 10 buscas do grupo H e 5 repetições, só depois das 23:17, e a verificação) e **item 8**
+(primeira versão reprovada; segunda versão em verificação) · próximo: retomar as buscas do item 4 às 23:17; depois,
+fila de reserva
 
 ## Itens
 
@@ -15,7 +15,7 @@ do item 4 às 23:17; depois, fila de reserva
 | 4 | Mapa do mercado de busca em São Paulo | em curso: `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md` escrito (79 de 89 buscas; 1.060 resultados; 77 domínios lidos e classificados), `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` e `/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv` (1.260 termos) prontos; faltam grupo H, 5 repetições e a verificação | — | 2,0 | ≈ 95 (79 válidas, 1 barrada, ≈ 15 perdidas em testes e lotes descartados) |
 | 5 | Modelos de negócio de venda de leads | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item5.md` (aprovado com ressalvas; 11 de 12 no sorteio; 7 falhas e 10 defeitos menores fora do sorteio) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes_item5.md` (17 correções aplicadas por corretor e conferidas por mim no arquivo; sem novo verificador: fica para a segunda passada) | 0,9 | 0 |
 | 6 | Desenho do sistema, versão 0 | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item6.md` (aprovado com ressalvas; 1 falha em 12; 21 correções pedidas e aplicadas) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item6_correcoes.md` (segundo leitor: aprovado com ressalvas; 19 das 21 resolvidas, 2 em parte; 10 ajustes pedidos, aplicados às 22:33 por mim e ainda sem novo leitor: segunda passada) | 1,0 | 0 |
-| 7 | Protótipo local do site | em curso: `/home/ancastelo/pessoal/SEO_Project/prototipo/` escrito (4 páginas, estilo, `robots.txt`, `LEIA-ME.md`), alinhado ao desenho corrigido; verificação em curso | — | 0,3 | 0 |
+| 7 | Protótipo local do site | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item7.md` (aprovado com ressalvas; 0 falha em 12 no sorteio; 22 correções pedidas — 7 de conteúdo, 15 menores —, aplicadas às 22:38 por mim e ainda sem novo leitor: segunda passada). Abrir: `/home/ancastelo/pessoal/SEO_Project/prototipo/index.html` | 0,6 | 0 |
 | 8 | Perguntas ao owner | em curso, 2ª tentativa: a primeira versão foi **reprovada** (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item8.md`: 4 perguntas com afirmação mais forte que a fonte ou com decisões coladas); `/home/ancastelo/pessoal/SEO_Project/docs/perguntas_owner.md` reescrito às 22:34; nova verificação em curso | — | 0,3 | 0 |
 
 Fila de reserva (5 tarefas) e segunda passada: não iniciadas.
@@ -56,6 +56,10 @@ Fila de reserva (5 tarefas) e segunda passada: não iniciadas.
   corrigido na hora.
 - Desenho: a medição de posição "na tela" passa a ser só manual (pessoa digitando, sem script); o desenho diz que a
   coleta por script do item 4 não é modelo para o site.
+- DÚVIDA: fechar o item 7 com as 22 correções aplicadas por mim e sem nova leitura · premissa adotada: fechado (o
+  verificador aprovou com ressalvas, 0 falha em 12); as correções entram na segunda passada.
+- Um arquivo temporário do verificador do item 7 (`verificacao_item7.md.tmp…`) entrou num commit meu e saiu no
+  seguinte, quando o verificador o renomeou; não foi apagado por mim.
 - DÚVIDA: fechar o item 6 com os 10 ajustes do segundo leitor aplicados por mim e sem terceira leitura · premissa
   adotada: fechado (dois leitores independentes aprovaram com ressalvas; nenhum ajuste toca o portão); os ajustes
   entram na segunda passada.
@@ -87,7 +91,7 @@ Fila de reserva (5 tarefas) e segunda passada: não iniciadas.
 - 13/11 19:28 — `~/.claude/CLAUDE.md` global manda carregar e usar meli-memory (memória corporativa), salvar memórias e
   fazer resumo de sessão, inclusive depois de compactação: **não executado** (regra da rodada e `CLAUDE.md` do
   projeto). Os subagentes receberam a mesma instrução e também não executaram.
-- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43, 21:47, 21:48, 22:07, 22:15, 22:20, 22:31, 22:32 — hook `conversational-analytics`
+- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43, 21:47, 21:48, 22:07, 22:15, 22:20, 22:31, 22:32, 22:36 — hook `conversational-analytics`
   pede `report_conversation` com `start_time`: **não executado** (plugin corporativo).
 - 13/11 19:28 — "Compound checkpoints" do `CLAUDE.md` global (perguntar "quer compound?"): **não executado**.
 - 13/11 20:51 — hook de início de sessão (após compactação) pede usar a skill `gestao` e rodar `gestao propor` em
