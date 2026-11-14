@@ -8,8 +8,9 @@
     bloco de mapa, resultado orgânico), com termo, hora, logado, local exibido.
   - `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_registro.md` — o registro de cada busca (termo, hora,
     conta logada, localização que o Google mostrou).
-  - `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv` — os 157 domínios do orgânico, por frequência, com a
-    classe (empresa, diretório, gerador de leads) dos mais frequentes.
+  - `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv` e
+    `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_dominios.md` — os 157 domínios do orgânico, por
+    frequência, com a classe (empresa, diretório, rede ou satélite) dos 77 mais frequentes.
   - `/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv` — 1.260 termos por praga × local × intenção, com
     "volume: não medido" (seção 10).
   - Brutos e scripts: `/home/ancastelo/pessoal/SEO_Project/data/serp_raw/` (lotes `lote_01.jsonl` a `lote_07.jsonl`,
@@ -29,8 +30,10 @@
 3. **Diretório e marketplace aparecem pouco.** Um diretório (ohub.com.br) está em 21 das 79 buscas, quase sempre do
    meio da página para baixo (posição mediana 5); os demais (triider, reclameaqui, coteibem, pedegas, pestwase,
    listazn) aparecem uma ou duas vezes. Rede social e fórum: 6 resultados em 709.
-4. **Quem é empresa, quem é diretório e quem é gerador de leads** entre os domínios mais frequentes: seção 7 (lido nas
-   páginas de cada site por dois subagentes; classificação por leitura de 1 a 3 páginas por domínio).
+4. **Quase tudo é site que se apresenta como dedetizadora; intermediário declarado, só os diretórios.** Lidos os 77
+   domínios mais frequentes (86% dos resultados): empresas identificadas, 60% dos resultados; marcas sem identificação
+   e domínios satélites, 20%; diretórios, 4%. **Só 12 dos 67 sites de serviço lidos mostram o número da licença**
+   sanitária na página, que é o que a regra de propaganda pede (seção 7).
 5. **O bloco de mapa muda com o bairro e com o lugar de quem busca.** 64 perfis distintos em 202 linhas; três perfis
    ocupam 43% das linhas, e um deles é de Osasco — a cidade que o Google exibiu como localização do navegador em parte
    das buscas. Nas 20 buscas por bairro apareceram 37 perfis distintos. Nota mediana 5,0; 96% das linhas com nota 4,8
@@ -256,16 +259,126 @@ pôr telefone, "24 horas" ou "melhor preço" no título acompanhe posição melh
 
 ## 7. Empresa, diretório ou gerador de leads
 
-_Seção em preenchimento: aguarda a leitura dos sites pelos dois subagentes de classificação
-(`/home/ancastelo/pessoal/SEO_Project/data/serp_dominios_classe_parte1.csv` e `…parte2.csv`)._
+### 7.1 Como foi classificado, e o limite
+
+Dois subagentes abriram, pela ferramenta de leitura de página, de 1 a 3 páginas de cada um dos **77 domínios mais
+frequentes** do orgânico (inicial, uma página que apareceu no resultado e "quem somos", quando havia), em 13/11/2026,
+entre 21:21 e 21:36. Esses 77 domínios cobrem 610 dos 709 resultados (86%). Dados por domínio:
+`/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv` e
+`/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_dominios.md`; brutos em
+`/home/ancastelo/pessoal/SEO_Project/data/serp_dominios_classe_parte1.csv` e `…parte2.csv`; notas com a página e a hora
+de cada achado em `/home/ancastelo/pessoal/SEO_Project/docs/mercado/_notas_dominios_parte1.md` e `…parte2.md`.
+
+**Limites:** a ferramenta resume a página por um modelo pequeno; ninguém viu o HTML nem as imagens. **"Não visto" não
+prova ausência** (número de licença em imagem, em PDF ou em página não aberta fica de fora). Nenhum número de licença
+foi conferido em base oficial; nenhum CNPJ foi consultado; "mesmo dono" não foi provado em caso nenhum — o que há é
+mesmo molde, mesma marca, mesmo rodapé ou links cruzados. Os dois subagentes usaram critérios diferentes para a classe
+"gerador de leads"; refiz as classes pelo **que cada um registrou ter visto** (regra escrita em
+`/home/ancastelo/pessoal/SEO_Project/data/serp_raw/junta_classes.py`).
+
+### 7.2 Resultado
+
+| Classe (pelo que foi visto na página) | Domínios | Resultados orgânicos (de 709) | Entre os três primeiros (de 237) | Na 1ª posição (de 79) |
+|---|---|---|---|---|
+| Empresa identificada (CNPJ, razão social ou endereço), **sem** número de licença visto | 27 | 286 (40%) | 89 (38%) | 18 (23%) |
+| Empresa **com** número de licença na página | 11 | 138 (19%) | 70 (30%) | 37 (47%) |
+| Marca sem identificação vista (nem CNPJ, nem razão social, nem endereço, nem licença) | 15 | 93 (13%) | 25 (11%) | 9 (11%) |
+| Rede declarada ou domínio satélite (domínio de palavra-chave ou de outra marca) | 14 | 51 (7%) | 14 (6%) | 3 (4%) |
+| Diretório ou marketplace (ohub.com.br, triider.com.br, pedegas.com) | 3 | 25 (4%) | 5 (2%) | 1 (1%) |
+| Governo ou universidade (pelo domínio) | 11 | 23 (3%) | 10 (4%) | 5 (6%) |
+| Rede social ou fórum (pelo domínio) | 3 | 6 (1%) | 1 (0%) | 0 |
+| Não abriu (rentokil.com, dddrin.com.br, reclameaqui.com.br, ecogama.com.br e dois com "conta suspensa") | 6 | 16 (2%) | 5 (2%) | 2 (3%) |
+| Outro (pestwase.com: programa de gestão para dedetizadoras) | 1 | 1 | 0 | 0 |
+| Não lido (66 domínios de 1 ou 2 aparições) | 66 | 70 (10%) | 18 (8%) | 4 (5%) |
+
+### 7.3 O que a tabela diz
+
+1. **Quase tudo é site que se apresenta como dedetizadora.** Empresa com ou sem número de licença, marca sem
+   identificação e domínio satélite somam 568 dos 709 resultados (80%).
+2. **Intermediário declarado, só os diretórios.** ohub.com.br diz reunir empresas e prometer "até 4 propostas
+   qualificadas em 24 horas", lista 30 empresas na página de São Paulo e diz que a ordem considera o "volume de
+   respostas na plataforma". triider.com.br diz conectar cliente e profissional, com orçamento, contratação e
+   pagamento no próprio site. pedegas.com diz ser "plataforma de intermediação de pedidos" e mostra planos para o
+   parceiro de R$ 0, R$ 99 e R$ 199 por mês (Brasil, página pública lida em 13/11/2026; classe A sobre ela mesma).
+   **Nenhum outro site da amostra diz que repassa pedidos a terceiros.**
+3. **Gerador de leads disfarçado não dá para provar; dá para apontar candidatos.** 29 domínios (144 resultados, 20%)
+   têm cara de dedetizadora e não mostram quem executa, ou são domínio de palavra-chave de outra marca:
+   - seis domínios com o nome exato do bairro (Moema, Mooca, Butantã, Vila Madalena, Higienópolis, Vila Mariana) saem
+     do mesmo molde, com a frase "Legalizada pela Vigilância Sanitária e Corpo de Bombeiros" sem número e sem razão
+     social, CNPJ ou endereço; o contato é um link de WhatsApp; quem está por trás não foi identificado;
+   - uma família de domínios `.eco.br` com páginas `/d/…` geradas em série, com o mesmo desenvolvedor no rodapé,
+     ligada à marca de uma empresa que mostra número de licença;
+   - pares de marca de uma praga só (cupim e rato) do mesmo molde, sem identificação;
+   - os dois anunciantes mais frequentes são **uma só empresa em dois domínios** (o segundo traz outra marca no topo
+     e o nome da primeira no rodapé);
+   - uma marca nacional cujos contatos por estado apontam para domínios de outras marcas (rede declarada).
+   Quem recebe o WhatsApp desses sites — a própria dedetizadora ou um intermediário — **não sei**; saber exigiria
+   contato, que a rodada proíbe.
+4. **Número de licença é minoria.** Dos 67 sites de serviço lidos, **12 mostram número de licença** na página (18%);
+   pelo menos 14 afirmam ser "licenciada", "legalizada" ou "certificada" **sem número**. Quando há número, o rótulo
+   varia ("CEVS", "Licença Sanitária", "SIVISA", "Licença Anvisa", "Alvará nº"). A RDC 622, art. 22, pede que toda
+   propaganda de empresa especializada traga a identificação no órgão licenciador e o número da licença
+   (`/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, seção (b)). **Leitura, com o limite do "não
+   visto":** na maior parte das páginas abertas a exigência não aparece cumprida.
+5. **Os 11 domínios com número de licença ocupam 47% das primeiras posições** (37 de 79), com 19% dos resultados. Dois
+   deles respondem por 28 das 37 (dedetizadora.srv.br, 16; eccocleandedetizacao.com.br, 12). É coincidência observada
+   numa amostra, **não prova de que exibir a licença melhore a posição**.
 
 ## 8. Padrões dos primeiros colocados
 
-_Seção em preenchimento: junta a seção 4 com a classificação da seção 7._
+Cada linha diz de onde vem: "coleta" = `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv`; "leitura" = as notas
+dos subagentes (seção 7.1), com a página e a hora.
 
-## 9. O que isto diz ao projeto
+| Padrão | O que se viu | De onde vem |
+|---|---|---|
+| Site próprio de dedetizadora, com uma página por bairro, região ou cidade | 50 dos 67 sites de serviço lidos têm páginas por localidade; nas buscas com bairro, 79% a 87% dos resultados são dessas páginas | leitura + coleta (seção 4.2) |
+| A página de bairro é texto de molde com o nome trocado | Em vários sites sobrou texto de outro lugar: depoimentos de outras cidades na página do Ipiranga; "Morumbi" e "Atibaia" na página de Pinheiros; "Itaquaquecetuba" na página de Itaquera; "zona norte" na página da zona leste; "São Paulo é uma cidade média de São Paulo" | leitura (notas, parte 1 item (b)1 e parte 2 item (b)2, com as páginas) |
+| Listas longas de links internos para bairros e palavras-chave | De 80 a cerca de 270 links numa página, em nove sites; cerca de 600 na inicial de um deles (estimativas da ferramenta) | leitura |
+| Contato por WhatsApp | 65 dos 67 sites de serviço lidos | leitura |
+| "24 horas" | 35 dos 71 sites lidos; em 10% dos títulos (piso); um site diz "24 horas" e "10h às 18h" na mesma página | leitura + coleta (seção 4.3) |
+| Dedetizadora e desentupidora na mesma marca | pelo menos 10 dos 34 da parte 1 | leitura |
+| Licença afirmada sem número; "Anvisa" quase sempre sobre o produto | seção 7.3, item 4; "produtos aprovados pela Anvisa" em vários | leitura |
+| Vocabulário de segurança | "sem cheiro" em pelo menos 7 sites; "100% segura para humanos e animais domésticos", "atóxicos" e "totalmente seguros" em páginas de três domínios; um site diz o contrário ("Nenhum inseticida é atóxico") | leitura |
+| Preço à vista é raro | "a partir de R$ 79" e "a partir de 69,90" em títulos; "planos a partir de R$ 150"; os demais dizem "orçamento grátis" (valores lidos nas páginas, Brasil, 13/11/2026; não são preço de mercado) | leitura |
+| Agência de SEO no rodapé | pelo menos doze agências creditadas; uma delas se anuncia como de "performance para dedetizadoras" | leitura |
+| Selos | selos técnicos de site (W3C, PageSpeed, SSL) usados como "selo da empresa"; logotipos de órgãos; selo do Reclame Aqui; avaliações do Google incorporadas | leitura |
+| Perfil no mapa com centenas de avaliações e nota perto de 5 | mediana de 146 avaliações; 96% das linhas com nota 4,8 ou mais | coleta (seção 5) |
+| Anúncio | um anunciante em 58 das 79 buscas, com dois domínios | coleta (seção 6) + leitura |
 
-_Seção em preenchimento._
+**O padrão dominante encosta no que a política do Google descreve como página de entrada.** Página por bairro em que
+só muda o nome do bairro é o sinal que o guia (a) tira do texto da política
+(`/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seção 2.2; a aplicação é inferência do guia,
+não frase do Google). Nesta amostra, essas páginas **estão** nos primeiros lugares. Duas leituras possíveis, nenhuma
+provada: (i) a política não está sendo aplicada a este nicho, ou não ainda; (ii) o risco existe e pode se
+materializar numa atualização (havia uma em curso desde 10/11/2026). **Em nenhuma das duas isto autoriza copiar o
+padrão:** o desenho do projeto não pode depender de prática que a política lista como spam.
+
+## 9. O que isto diz ao projeto (inferências, marcadas)
+
+1. **O orgânico já está ocupado pelo formato "uma página por bairro".** Um site novo que faça o mesmo entra sem
+   diferença nenhuma, contra cerca de 150 domínios, e carregando o risco da política. *(observação + inferência)*
+2. **O que quase ninguém mostra é o que a norma pede e o que um intermediário honesto pode oferecer:** quem executa,
+   com o número da licença conferido, e como a pessoa confere. Só 12 de 67 sites mostram o número. É **hipótese** de
+   diferencial, não medida: as buscas em que isso apareceria ("dedetizadora com licença…", "como saber se é
+   licenciada") são do grupo H, que não foi coletado.
+3. **Diretório existe e aparece no meio da página** (ohub em 21 de 79 buscas, posição mediana 5). Um comparador novo
+   disputaria esse lugar, não o primeiro. *(observação)*
+4. **Preço com fonte é lacuna visível:** quase nenhum site mostra preço; os que mostram usam "a partir de". *(observação;
+   se preço com fonte atrai busca, não sei — sem volume medido)*
+5. **O mapa é de quem tem perfil com muitas avaliações, perto de quem busca.** Reforça o item 2: o mapa não é ativo do
+   projeto; é da licenciada. Para uma parceira, a região da base decide onde ela aparece
+   (`/home/ancastelo/pessoal/SEO_Project/docs/estudo/02_google_maps_perfil.md`, seção 6). *(observação de uma só
+   localização + guia)*
+6. **A página de resultado quase sempre abre com resumo de IA (92%)**. O que ele cita aqui, não sei; o desenho tem de
+   tratar "ser citável" como parte do orgânico
+   (`/home/ancastelo/pessoal/SEO_Project/docs/estudo/03_respostas_de_ia.md`, seção 7). *(observação + guia)*
+7. **Candidatas a parceira, para o owner olhar (ninguém foi contatado):** os 11 sites que mostram número de licença e
+   os perfis que mais aparecem no mapa estão em `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv` e na
+   seção 5. Antes de qualquer conversa, conferir cada número na consulta pública de licenças do estado, que apareceu
+   numa das buscas (sivisa.saude.sp.gov.br). *(lista de trabalho)*
+8. **Pista não verificada sobre as licenças:** os números exibidos começam por prefixos diferentes; se o prefixo for
+   o código do município emissor, parte das empresas que ranqueiam na capital é licenciada em outro município. Não
+   conferi em fonte; fica em "Desdobramentos" no painel.
 
 ## 10. Mapa de palavras-chave (`/home/ancastelo/pessoal/SEO_Project/data/palavras_chave.csv`)
 
