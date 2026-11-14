@@ -1,6 +1,6 @@
 # Notas da classificação de domínios — parte 2 (42 domínios)
 
-Dados: `data/serp_dominios_classe_parte2.csv`. Coleta de busca de 13/11/2026; leituras de página em 13/11/2026.
+Dados: `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios_classe_parte2.csv`. Coleta de busca de 13/11/2026; leituras de página em 13/11/2026.
 
 ## Limites desta classificação (ler antes de usar)
 

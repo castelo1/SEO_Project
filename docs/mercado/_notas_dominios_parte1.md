@@ -1,6 +1,6 @@
 # Notas da classificação de domínios — parte 1 (35 domínios)
 
-Arquivo de dados: `data/serp_dominios_classe_parte1.csv`. Leituras feitas em 13/11/2026, das 21:21 às 21:36 (horário de São Paulo).
+Arquivo de dados: `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios_classe_parte1.csv`. Leituras feitas em 13/11/2026, das 21:21 às 21:36 (horário de São Paulo).
 
 ## Limite desta classificação
 
