@@ -1,6 +1,6 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sáb 14/11 01:24 (Brasília, lido de `date`)** · fase: **reserva** (tarefa 1 em verificação) com a
+**Atualizado em sáb 14/11 01:22 (Brasília, lido de `date`)** · fase: **reserva** (tarefa 1 em verificação) com a
 **segunda passada** já iniciada em paralelo · em curso: verificação da reserva 1; segunda passada dos itens 2, 3, 5
 e 6 (cinco revisores novos, lançados entre 01:20 e 01:23) · próximo: aplicar os achados; segunda passada dos itens
 1, 4, 7 e 8 e das tarefas de reserva; reescrever a leitura
