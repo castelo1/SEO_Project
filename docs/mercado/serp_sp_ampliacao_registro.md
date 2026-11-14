@@ -38,15 +38,15 @@ do título do bloco "Empresas" e do primeiro resultado orgânico; os números s�
 | J08 | praga × bairro novo | controle de escorpião pirituba | 00:50:26 | sim | — | sim | 2 | 0 | 8 | IA > orgânico > anúncio | 172 | 1450 | — | 626 | ampliacao_03.jsonl |
 | J09 | praga × bairro novo | desratização vila leopoldina | 00:51:43 | sim | — | sim | 1 | 3 + 1 | 9 | IA > mapa > orgânico > anúncio | 250 | 2408 | 666 | 1654 | ampliacao_03.jsonl |
 | J10 | praga × bairro novo | dedetização de baratas são miguel paulista | 00:52:57 | sim | — | sim | 1 | 3 + 1 | 9 | IA > orgânico > mapa > anúncio | 250 | 3685 | 2643 | 2072 | ampliacao_03.jsonl |
-| K01 | praga ou serviço novo + cidade | dedetização de traças são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| K02 | praga ou serviço novo + cidade | controle de mosquitos são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| K03 | praga ou serviço novo + cidade | remoção de marimbondos são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| K04 | praga ou serviço novo + cidade | dedetização de moscas são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| K05 | praga ou serviço novo + cidade | dedetização de lacraias são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| K06 | praga ou serviço novo + cidade | controle de ratos são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| K07 | praga ou serviço novo + cidade | tratamento cupim de solo são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| K08 | praga ou serviço novo + cidade | tratamento broca de madeira são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| K09 | praga ou serviço novo + cidade | fumacê para condomínio são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
-| K10 | praga ou serviço novo + cidade | dedetização piolho de pombo são paulo | **não buscado** | — | — | — | — | — | — | — | — | — | — | — | — |
+| K01 | praga ou serviço novo + cidade | dedetização de traças são paulo | 00:54:31 | sim | São Paulo, SP | sim | 2 | 3 | 9 | IA > orgânico > mapa > anúncio | 250 | 2124 | 814 | 704 | ampliacao_04.jsonl |
+| K02 | praga ou serviço novo + cidade | controle de mosquitos são paulo | 00:55:45 | sim | São Paulo, SP | sim | 2 | 3 + 1 | 9 | IA > orgânico > mapa > anúncio | 250 | 2311 | 1253 | 704 | ampliacao_04.jsonl |
+| K03 | praga ou serviço novo + cidade | remoção de marimbondos são paulo | 00:57:06 | sim | — | sim | 0 | 0 | 9 | IA > orgânico | 172 | — | — | 626 | ampliacao_04.jsonl |
+| K04 | praga ou serviço novo + cidade | dedetização de moscas são paulo | 00:58:20 | sim | São Paulo, SP | sim | 2 | 3 + 1 | 9 | IA > mapa > orgânico > anúncio | 250 | 2316 | 666 | 1662 | ampliacao_04.jsonl |
+| K05 | praga ou serviço novo + cidade | dedetização de lacraias são paulo | 00:59:33 | sim | — | sim | 2 | 0 | 9 | IA > orgânico > anúncio | 172 | 1428 | — | 626 | ampliacao_04.jsonl |
+| K06 | praga ou serviço novo + cidade | controle de ratos são paulo | 01:00:55 | sim | São Paulo, SP | sim | 2 | 3 + 1 | 8 | IA > orgânico > mapa > anúncio | 250 | 2295 | 1253 | 704 | ampliacao_04.jsonl |
+| K07 | praga ou serviço novo + cidade | tratamento cupim de solo são paulo | 01:02:10 | sim | São Paulo, SP | sim | 2 | 3 | 8 | IA > orgânico > anúncio > mapa | 250 | 1825 | 2516 | 704 | ampliacao_04.jsonl |
+| K08 | praga ou serviço novo + cidade | tratamento broca de madeira são paulo | 01:03:30 | sim | — | sim | 2 | 0 | 8 | IA > orgânico > anúncio | 172 | 1708 | — | 626 | ampliacao_04.jsonl |
+| K09 | praga ou serviço novo + cidade | fumacê para condomínio são paulo | 01:04:43 | sim | — | sim | 0 | 0 | 7 | IA > orgânico | 172 | — | — | 1604 | ampliacao_04.jsonl |
+| K10 | praga ou serviço novo + cidade | dedetização piolho de pombo são paulo | 01:06:01 | sim | — | sim | 1 | 0 | 9 | IA > orgânico > anúncio | 172 | 1428 | — | 626 | ampliacao_04.jsonl |
 
-Total: 30 buscas com registro, de 40 planejadas.
+Total: 40 buscas com registro, de 40 planejadas.
