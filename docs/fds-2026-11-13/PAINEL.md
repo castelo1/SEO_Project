@@ -1,6 +1,6 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sáb 14/11 02:04 (Brasília, lido de `date`)** · fase: **segunda passada** (os 8 itens e as 5 tarefas
+**Atualizado em sáb 14/11 02:06 (Brasília, lido de `date`)** · fase: **segunda passada** (os 8 itens e as 5 tarefas
 de reserva estão fechados) · em curso: corretores dos achados dos itens 4 e 5; revisores novos das tarefas de reserva
 1 a 5 (6 subagentes) · próximo: conferir e registrar essas correções; aplicar os achados das reservas; reescrever a
 leitura; depois, "RODADA CONCLUÍDA" e espera
@@ -37,7 +37,7 @@ portão descumprido e nenhum veredito do item 2 mudou.**
 | 1 Reenquadramento | aprovado com ressalvas; 50 de 51 remissões conferem | 6 achados aplicados à 01:56 por mim (`ESTADO.md` atualizado) | `verificacao2_item1.md` |
 | 2 Restrições (39 endereços reabertos) | aprovado com ressalvas; 1 falha em 12 | 16 achados aplicados por corretor à 01:45; três trechos dos termos da Meta conferidos por mim no navegador às 02:01; anexos alinhados à 01:59 | `verificacao2_item2.md`, `correcoes2_item2.md` |
 | 3 Guias (a) e (b) | aprovado com ressalvas; 12 de 12 em cada | 15 achados aplicados por corretor à 01:46; três sobras sobre a grade de posição, por mim, à 01:55 | `verificacao2_item3_guias_a_b.md`, `correcoes2_item3_guias_a_b.md` |
-| 3 IA, ChatGPT e roteiro | aprovado com ressalvas; 0 falha em 12 | 15 de 17 aplicados por corretor à 01:50, 1 em parte, 1 é pendência do owner (ajuda da OpenAI deu erro 403); pergunta 27 do roteiro reescrita por mim à 01:55 | `verificacao2_item3_ia_chatgpt.md`, `correcoes2_item3_ia_chatgpt.md` |
+| 3 IA, ChatGPT e roteiro | aprovado com ressalvas; 0 falha em 12 | 15 de 17 aplicados por corretor à 01:50, 1 em parte; o 17º (ajuda da OpenAI com erro 403) resolvido por releitura mecânica minha no navegador às 02:06; pergunta 27 do roteiro reescrita por mim à 01:55 | `verificacao2_item3_ia_chatgpt.md`, `correcoes2_item3_ia_chatgpt.md` |
 | 4 Mapa do mercado | aprovado com ressalvas; 0 falha em 12; registro das 89 buscas sem divergência | 20 achados (força das afirmações, remissões, redação) — **corretor em curso** | `verificacao2_item4.md` |
 | 5 Modelos de negócio | aprovado com ressalvas; 0 falha em 12 | 20 achados — **corretor em curso** | `verificacao2_item5.md` |
 | 6 Desenho (140 remissões) | aprovado com ressalvas; 0 falha em 12 | 27 achados aplicados à 01:49 por mim | `verificacao2_item6.md` |
@@ -57,13 +57,12 @@ terceira.
 | O Google lista "consultas automáticas" entre as práticas vedadas (guia 3a, seção 8). A rodada autoriza até 600 buscas ao vivo com 20 s de intervalo. Mantém? | Manter o limite da rodada; parar no primeiro sinal de verificação de robô | Sim |
 | O roteiro de teste do ChatGPT tinha 5 perguntas de dono de bar ou restaurante; o portão pede "morador ou síndico". Manter as 5 dentro das 30? | Não: as 30 ficam só de morador e síndico; as 5 de comerciante vão para um apêndice opcional | Sim |
 | No mesmo roteiro, 2 das 30 perguntas (12 e 25) não têm bairro, de propósito. O portão diz "por praga, bairro, urgência". Aceita? | Sim: mantidas, com o motivo escrito no roteiro | Sim |
-| A ajuda da OpenAI sobre a busca do ChatGPT devolve erro 403 às ferramentas da sessão; dez trechos citados dela não puderam ser relidos. Você os confere no seu navegador (lista em `/home/ancastelo/pessoal/SEO_Project/docs/estudo/03b_chatgpt.md`, complemento, linhas 43–52)? | Não conferido; os trechos seguem com a ressalva escrita | Sim |
 
 ## Dúvidas e premissas
 
-- Navegador: em todas as conferências de `list_connected_browsers` (13/11 19:33 a 14/11 02:00) havia um único
+- Navegador: em todas as conferências de `list_connected_browsers` (13/11 19:33 a 14/11 02:05) havia um único
   navegador, "Browser 1", `deviceId` `1347159a-d718-417a-876e-0c616de91a3a` (não é o profissional); selecionado por
-  `deviceId`; abas próprias, todas fechadas (a última às 02:02).
+  `deviceId`; abas próprias, todas fechadas (a última às 02:06).
 - Coleta ao vivo: Google **logado** na conta do owner (só leitura), `hl=pt-BR&gl=br&pws=0`; local exibido pelo Google
   quando aparece: "São Paulo, SP" ou "Osasco, SP". Total da rodada: ≈ 155 de 600 buscas; nenhuma desde 01:17.
 - **Verificação de robô ("tráfego incomum") em 13/11 às 21:16**, 49 minutos depois do início da coleta, a ~28 s por
@@ -80,7 +79,8 @@ terceira.
 - Segunda passada, navegador (14/11 02:00–02:02): abri, só para ler, as páginas públicas dos termos da Meta para a
   Plataforma do WhatsApp Business e da política de mensagens; conferi três trechos (cláusulas 1.3 e 4.1(a)(b);
   "other than the content of message threads"). Sem login, sem aceitar nada; a barra de login do Facebook não foi
-  tocada.
+  tocada. Às 02:05–02:06 reabri a ajuda pública da OpenAI sobre a busca do ChatGPT (erro 403 nas ferramentas dos
+  revisores) e testei por comparação de texto os dez trechos citados: os dez estão na página.
 - Segunda passada, o que mudou de conteúdo: o aviso ao lado do botão e a política passam a dizer tudo o que o
   servidor registra (endereço IP e identificação do navegador) e a ressalva do Marco Civil, art. 15; a licenciada
   informa ao site só números agregados; o bloco de bairros do protótipo virou remissão; a grade de posição no mapa

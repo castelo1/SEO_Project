@@ -36,12 +36,16 @@ A página de ajuda que deu 403 à ferramenta do subagente abriu no navegador pes
 sobre o próprio produto; quem ganha: OpenAI). Fonte: "Searching the web with ChatGPT",
 https://help.openai.com/en/articles/9237897-searching-the-web-with-chatgpt (a página diz "atualizada há 25 dias", isto
 é, por volta de 19/10/2026). **Limite:** só a sessão principal leu esta página; o verificador independente recebeu
-erro 403 nas três tentativas e não pôde reconferir os trechos. O que ela diz, com o trecho curto que decide:
+erro 403 nas três tentativas e não pôde reconferir os trechos. **Releitura mecânica em 14/11/2026, às 02:06:** a sessão
+principal reabriu a página no navegador pessoal (sem conta, só leitura; a página segue "atualizada há 25 dias") e
+testou por comparação de texto os dez trechos literais da tabela abaixo: **os dez estão na página, palavra por
+palavra**; "Bing" não aparece em lugar nenhum dela. Não é leitura de terceiro: é a mesma sessão, com teste
+automático de igualdade. O que ela diz, com o trecho curto que decide:
 
 | Ponto | Trecho literal (lido no texto da página) | O que significa |
 |---|---|---|
 | Provedores parceiros | "ChatGPT search sometimes partners with other search providers." | A OpenAI **declara** que usa provedores de busca de terceiros, "às vezes". Não diz quais são todos |
-| Quais provedores aparecem | A página manda ver a política de privacidade de dois: "Microsoft privacy statement" e "Shopify privacy policy" | **A Microsoft é a única empresa de busca nomeada**, e só pela remissão à declaração de privacidade. A página **não escreve "Bing"**: ler "Microsoft" como "Bing" é **inferência** minha, não frase da fonte. O Google não é citado. Isso não prova que o Google não é usado por via indireta (ponto disputado da seção 1) |
+| Quais provedores aparecem | A página manda ver a política de privacidade de dois: "Microsoft privacy statement" e "Shopify privacy policy" | **A Microsoft é a única empresa de busca nomeada**, e só pela remissão à declaração de privacidade. A página **não escreve "Bing"**: ler "Microsoft" como "Bing" é **inferência** minha, não frase da fonte. O Google não é citado como provedor de busca (a palavra aparece só em "Google Chrome" e no atalho `!g`, que manda a busca ao Google em vez do ChatGPT). Isso não prova que o Google não é usado por via indireta (ponto disputado da seção 1) |
 | Reescrita da consulta | "ChatGPT search typically rewrites your query into one or more targeted queries that it sends those providers." | Confirma, em fonte primária, a reescrita em uma ou mais buscas curtas (seção 6) |
 | Localização na busca | ChatGPT "collects general location information based on your IP address and may share that general location with third-party search providers"; exemplo da página: "good restaurants near me" vira "top restaurants San Francisco" | Pedido local sem bairro é reescrito com a cidade inferida do IP. **Para o roteiro de teste: escrever o bairro na pergunta e anotar se a rede tinha VPN** |
 | Memória | "If memory is enabled, ChatGPT may use relevant saved memories when rewriting a search query." | Conta com memória ligada muda a busca: o roteiro deve usar conversa temporária ou memória desligada (deixa de ser premissa não conferida) |

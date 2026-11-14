@@ -153,8 +153,8 @@ resultado de busca e não entram).
 **De quem é o WhatsApp.** Sempre da licenciada. O item 2 deixa dois caminhos de captação
 (`/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, seção (d), "Os dois desenhos"):
 
-- **Via A — botão:** o botão da página abre o WhatsApp **da licenciada** pelo link oficial (Desenho B, linhas 438–441,
-  **permitido com condição**). "Limite: o site só registra o clique, não o telefone nem a conversa."
+- **Via A — botão:** o botão da página abre o WhatsApp **da licenciada** pelo link `wa.me` (Desenho B, linhas 438–441,
+  **permitido com condição**; que o link é recurso oficial e aceita mensagem pré-preenchida leva **[S]** no item 2). "Limite: o site só registra o clique, não o telefone nem a conversa."
 - **Via B — formulário:** o site colhe o contato num formulário próprio, com consentimento que nomeia a licenciada, e
   é ela que chama a pessoa (linhas 442–446; o item 2 marca isso como **inferência**, não frase da fonte).
 - **Fora:** número do site que conversa, tria e repassa (Desenho A, linhas 434–437; ver 5.3).
@@ -163,14 +163,14 @@ resultado de busca e não entram).
 
 | Risco | O que é | Remissão |
 |---|---|---|
-| Dependência do Google | O site não tem perfil no mapa e disputa só o orgânico. Na amostra de 79 buscas de 13/11/2026: 709 resultados orgânicos de 157 domínios; os 10 mais frequentes somam 39%; um diretório (ohub.com.br) aparece em 21 buscas; resumo de IA em 73; anúncio de texto em 60; um mesmo anunciante como perfil patrocinado em 47; no bloco de mapa, 64 perfis, três deles em 43% das linhas. Páginas por bairro que só afunilam para um botão são o exemplo de "página de entrada" da política de spam | `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` e `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv` (contas refeitas por mim); `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md`, seção 1; item 2, seção (a), "Caminhos que sobram", linha 131; `/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seções 2.1 e 2.2 (linhas 152–200) |
-| Propaganda | Cada página de oferta exibe a identificação da licenciada e o número da licença com o órgão emissor; por prudência, também a razão social por extenso e o endereço dela (a exigência estadual é **não conclusiva** no item 2: fonte primária inacessível); o site se declara intermediário; sem medo, sem "aprovado", "seguro", "atóxico"; "24 horas", "garantia" e "melhor preço" só com prova guardada | item 2, seção (b), "Conclusão para o site", (i) a (iv) e veredito (linhas 231–258); razão social e endereço: quadro, linha 32, e linhas 235–236 e 471 |
+| Dependência do Google | O site não tem perfil no mapa e disputa só o orgânico. Na amostra principal (79 buscas dos grupos A a G, 13/11/2026): 709 resultados orgânicos de 157 domínios; os 10 mais frequentes somam 39%; um diretório (ohub.com.br) aparece em 21 buscas; resumo de IA em 73; anúncio de texto em 60; um mesmo anunciante como perfil patrocinado em 47; no bloco de mapa, 64 perfis, três deles em 43% das linhas. A ampliação (40 buscas de bairro e praga novos, madrugada de 14/11/2026 — outra hora e outros termos, não se soma à amostra principal) mostra as mesmas camadas: resumo de IA em 39, bloco de mapa em 31, anúncio de texto em 35, perfil patrocinado em 25; o mesmo anunciante em 33 e em 25. Páginas por bairro que só afunilam para um botão são o exemplo de "página de entrada" da política de spam | `/home/ancastelo/pessoal/SEO_Project/data/serp_sp.csv` e `/home/ancastelo/pessoal/SEO_Project/data/serp_dominios.csv` (contas refeitas por mim); `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md`, seção 1 (item 4, fechado); `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md`, seção 1 (item 6) e seção 3; item 2, seção (a), "Caminhos que sobram", linha 131; `/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seções 2.1 e 2.2 (linhas 152–200) |
+| Propaganda | Cada página de oferta exibe a identificação da licenciada e o número da licença com o órgão emissor; por prudência, também a razão social por extenso e o endereço dela (a exigência estadual é **não conclusiva** no item 2: fonte primária não lida — site do Centro de Vigilância Sanitária com erro 403 e PDF oficial sem texto extraível; só cópia de terceiro); o site se declara intermediário; sem medo, sem "aprovado", "seguro", "atóxico"; "24 horas", "garantia" e "melhor preço" só com prova guardada | item 2, seção (b), "Conclusão para o site", (i) a (iv) e veredito (linhas 231–258); razão social e endereço: quadro, linha 32, e linhas 235–236 e 471 |
 | Responsabilidade perante o consumidor | Se o intermediário responde junto com a dedetizadora por dano do serviço "é leitura de tribunal, **não levantada**" no item 2. Não faço parecer | item 2, seção (b), "Código de Defesa do Consumidor" (linhas 225–229) |
 | LGPD | Consentimento específico e destacado para o repasse; registro de quem recebeu; aviso às empresas na exclusão; sem campo de saúde | item 2, seção (c), "Conclusão operacional" e "Vereditos" (linhas 346–364) |
-| WhatsApp | Só as vias A e B acima; a licenciada só chama a pessoa com opt-in que a nomeie | item 2, seção (d), linhas 395–402 e 432–451 |
+| WhatsApp | Só as vias A e B acima; a licenciada só chama a pessoa com opt-in que a nomeie (a exigência de nomear a empresa vem da documentação de opt-in e leva **[S]** no item 2, linha 398) | item 2, seção (d), linhas 395–402 e 432–451 |
 | Conflito com o parceiro | Lead disputado, lead inválido, parceiro que atende e não paga | Tabela 4.0.1 abaixo |
 
-**4.0.1 Como as plataformas tratam lead inválido e devolução (classe A, cada uma sobre si mesma).**
+**4.0.1 Como as plataformas tratam lead inválido e devolução (Google: classe A; as demais: A\*, cada uma sobre si mesma).**
 
 | Plataforma | País | O que devolve | O que **não** devolve | Forma | Fonte |
 |---|---|---|---|---|---|
@@ -178,11 +178,11 @@ resultado de busca e não entram).
 | Google, Anúncios de Serviços Locais | fora da Europa — dos países de R28, EUA e Canadá, por exclusão (a página exclui o Espaço Econômico Europeu do crédito automático e a região EMEA de qualquer crédito) | "Charged leads get reassessed by our models over time, and may be issued credits automatically if determined to be low quality."; avaliação "over a 30-day period"; novo contato do mesmo número em 15 dias não é cobrado de novo (resumo) | — | Crédito automático; o anunciante opina numa pesquisa por lead | F29 |
 | oHub | BR | "Devolução de 100% dos créditos usados caso não consiga contato com o comprador." | — (não consta) | Crédito | F8 |
 | Cronoshare | BR | Parte de comissão do contato, se o trabalho não sair | Gastos de gestão (salvo "em alguns casos"); nada em dinheiro | Saldo na plataforma | F20 |
-| GetNinjas | BR | **Não conferido** (a página de reembolso devolveu erro 500, duas vezes) | Os termos dizem que o profissional paga pelo acesso aos dados e não pode responsabilizar a plataforma "pelo insucesso de uma eventual negociação" (resumo da ferramenta: inclusive por dado desatualizado) | — | F1 |
+| GetNinjas | BR | Página de reembolso: **não abriu** (erro 500, duas vezes em 13/11/2026 e de novo em 14/11/2026). Pelos termos (F1, relidos em 14/11/2026): as moedas perdidas numa suspensão "serão devolvidas para a conta do Anunciante" se a conta for "plenamente reestabelecida" (cláusula 15.b.i). Devolução por pedido inválido, falso ou sem resposta: **não consta** dos termos (resumo da ferramenta — conferir na página) | Moedas adquiridas "não serão devolvidas ao Anunciante ou convertidas em moeda corrente", "caso o Anunciante decida parar de usar a Plataforma GetNinjas" (cláusula 9.a). O profissional paga pelo acesso aos dados e não pode responsabilizar a plataforma "pelo insucesso de uma eventual negociação" (resumo da ferramenta: inclusive por dado desatualizado) | Moedas, só no caso da cláusula 15.b.i | F1 |
 | Thumbtack | EUA | **Não conferido** (as páginas de ajuda vieram sem texto) | — | — | — |
 
-Padrão nas quatro que abriram (classe A, mas cada fonte fala só de si): devolve-se **crédito, não dinheiro** (no Google,
-só fora da Europa). Pagamento adiantado só nas brasileiras (oHub, Cronoshare; GetNinjas pelas moedas). O Google cobra
+Padrão nas quatro que abriram (Google: classe A; as demais: A\*; cada fonte fala só de si): devolve-se **crédito ou saldo** (no Google,
+só fora da Europa). Só a Cronoshare diz com todas as letras que não reembolsa em dinheiro ("Não reembolsamos valores pagos em sua conta bancária.", F20); as páginas da Angi, do Google e do oHub falam só em crédito e não dizem nada sobre dinheiro (relidas em 14/11/2026). Pagamento adiantado só nas brasileiras (oHub, Cronoshare; GetNinjas pelas moedas). O Google cobra
 por lead recebido ("You're charged for each valid lead you receive through your Local Services ad.", F29); a página da
 Angi não fala em pagamento adiantado: o crédito é abatido de "future lead charges" (F30). "O cliente não respondeu" ou
 "fechou com outro" **não** é lead inválido na Angi, e **é** motivo de devolução no oHub. Não há regra única.
@@ -225,7 +225,7 @@ Conta ilustrativa (**não é previsão**): 2.000 visitas `PREMISSA` × 3% `PREMI
 
 | Risco | Neste modelo | Remissão |
 |---|---|---|
-| Google | Quem ocupa o orgânico são sites de dedetizadoras com uma página por bairro; um diretório aparece em 21 de 79 buscas, quase sempre do meio da página para baixo (posição mediana 5). Página de comparação por bairro sem conteúdo próprio cai no exemplo de página de entrada | 4.0; `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md`, seção 4.4 |
+| Google | Quem ocupa o orgânico são sites de dedetizadoras com uma página por bairro; na amostra principal, um diretório aparece em 21 de 79 buscas, quase sempre do meio da página para baixo (posição mediana 5). Nas buscas de confiança e de preço do grupo H o quadro é outro: o diretório é o primeiro resultado em "dedetizadora confiável são paulo" e há marketplace nas três buscas de preço (dez buscas não sustentam regra). Na ampliação, o mesmo diretório está em 5 das 20 buscas de bairro novo. Página de comparação por bairro sem conteúdo próprio cai no exemplo de página de entrada | 4.0; `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp.md`, seções 4.4 e 12; `/home/ancastelo/pessoal/SEO_Project/docs/mercado/serp_sp_ampliacao.md`, seção 5.2 |
 | Propaganda | Lista de "melhores" exige critério que se possa provar (CDC, arts. 36, parágrafo único, e 38). O oHub declara o seu: "A ordem desta lista considera fatores como volume de respostas na plataforma" (F15) | item 2, seção (b), linhas 217–224 e 243–244 |
 | LGPD | Só com formulário (via B). Com botão, o site não recebe dado de contato | 4.0 |
 | WhatsApp | Via A ou B | 4.0 |
@@ -243,7 +243,7 @@ WhatsApp da licenciada, **permitido com condição**); seção (c), "Conclusão 
 **Como opera.**
 1. A pessoa chega a uma página que nomeia a licenciada (4.1).
 2. **Via A:** clica no botão e fala no WhatsApp **da licenciada**. O site registra o clique (data, página, empresa). O
-   que se cobra é o **clique**, porque é só isso que o site consegue provar.
+   que se cobra é o **clique**, porque é só isso que o site consegue provar. O desenho, escrito depois (`/home/ancastelo/pessoal/SEO_Project/docs/desenho_v0.md`, seções 5.1, 6 e 8), **não** adota o clique como unidade de cobrança: o site não distingue toques repetidos da mesma pessoa. Lá o toque é indicador, o "lead válido" é o contato que a licenciada confirma ter recebido com o código do site, e a unidade (lead válido ou mensalidade da região) é decisão do owner.
    **Via B:** preenche o formulário, marca a autorização separada que nomeia a(s) empresa(s); o site entrega o pedido
    à licenciada (por e-mail ou painel — o canal é escolha do item 6) e **ela** chama a pessoa, do WhatsApp dela. O que
    se cobra é o **pedido**, e o site guarda o texto exibido, a data e quem recebeu (linhas 353–355).
@@ -263,8 +263,8 @@ Conta ilustrativa da receita (**não é previsão**):
 | 100 | R$ 2.000 | R$ 4.000 |
 | 300 | R$ 6.000 | R$ 12.000 |
 
-R$ 20 e R$ 40 são os dois extremos de R3 `[BR, classe A]`, arredondados — e R3 é **outro produto** (pedido de empresa,
-compartilhado com até 4 a 6 fornecedores — R4, artigo de 2021, **pode estar desatualizada**). Uso só para a ordem de
+R$ 20 e R$ 40 são os dois extremos de R3 `[BR, classe A*]`, arredondados — e R3 é **outro produto** (pedido de empresa,
+compartilhado com até 4 fornecedores, ou 6 com acréscimo de 40% e 80% — R4). Uso só para a ordem de
 grandeza.
 
 Conta ilustrativa do teto, por praga (**não é previsão**): ticket base de R17 `[BR, HIPÓTESE 25/09, classe D]`;
@@ -310,7 +310,7 @@ para servir de preço; serve para mostrar **o que precisa ser medido**.
 | Google | Receita proporcional ao tráfego: cai junto com a posição | 4.0 |
 | Propaganda | Igual a 4.1 | 4.0 |
 | LGPD | Via B: é o modelo que mais depende do texto de consentimento; "vender o contato só com base em legítimo interesse" é **não conclusivo** (quadro, linha 35) | item 2, seção (c), linhas 298–301 e 358–364 |
-| WhatsApp | Via A entrega só o clique; a licenciada pode dizer que a pessoa não escreveu. Via B: a licenciada chama a pessoa com opt-in que a nomeia | item 2, seção (d), linhas 395–398 e 438–446 |
+| WhatsApp | Via A entrega só o clique; a licenciada pode dizer que a pessoa não escreveu; toque repetido e acesso de robô incham a contagem (desenho, seção 5.1). Via B: a licenciada chama a pessoa com opt-in que a nomeia | item 2, seção (d), linhas 395–398 e 438–446; `/home/ancastelo/pessoal/SEO_Project/docs/desenho_v0.md`, seção 5.1 |
 | Parceiro | Disputa de validade em toda unidade. As plataformas resolvem com regra escrita e crédito (4.0.1). Número de telefone do site que encaminha a ligação só vale **no site**, nunca no perfil da parceira; gravação de chamada **não foi levantada** | item 2, seção (a), "Pesquisa de 25/09", linhas 155–157 |
 
 ---
@@ -320,8 +320,8 @@ para servir de preço; serve para mostrar **o que precisa ser medido**.
 **Veredito do item 2:** os mesmos de 4.2, na forma mais leve —
 `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`, "Quadro de vereditos", linha 33 ("Captar o contato
 e repassá-lo a **uma** empresa" → **permitido com condição**), linha 38 (botão para o WhatsApp da licenciada) e linha 30
-(propaganda); seção (b), veredito: "Um desenho em que **toda** página de oferta nomeia a licenciada que atende aquela
-região cumpre as condições" (linhas 257–258).
+(propaganda); seção (b), veredito, como está desde a correção de 14/11/2026: "Um desenho em que **toda** página de oferta nomeia a licenciada que atende aquela
+região atende ao que as normas lidas pedem da propaganda da empresa especializada; se isso basta para o site de terceiro, a norma é silente." (linhas 257–258). A frase já não diz que o desenho "cumpre as condições".
 
 **Como opera.**
 1. O site divide a cidade em regiões (e, se quiser, por praga) e fecha cada uma com **uma** licenciada.
@@ -332,7 +332,7 @@ região cumpre as condições" (linhas 257–258).
 5. É o "aluguel de site ranqueado" **sem** perfil e **com** a empresa nomeada. A versão com perfil está em 5.4.
 
 **As contas.** `mensalidade máxima = unidades esperadas na região × taxa de fechamento × ticket × fração aceita`.
-Conta ilustrativa (**não é previsão**): 40 contatos por mês `PREMISSA` × 30% `PREMISSA` × R$ 280 `[BR, HIPÓTESE 25/09]`
+Conta ilustrativa (**não é previsão**): 40 contatos por mês `PREMISSA` × 30% `PREMISSA` × R$ 280 `[BR, HIPÓTESE 25/09, classe D]`
 × 15% `PREMISSA` = R$ 504 por mês por região. Os 30% são arbitrários (ver 4.2); com 10% `PREMISSA`, a mesma conta dá
 R$ 168.
 Referências de outros países, **só estrutura**: caso único de Nova York, cerca de 2015, US$ 45 mil por ano pelas
@@ -376,7 +376,7 @@ site **dela**" → **permitido com condição**; seção (a), subseção "4. Cam
    emissor, em toda página que oferece o serviço, e nenhum termo vedado (RDC 622, art. 22; item 2, seção (b), linhas
    186–194); o mesmo nome e o mesmo telefone do perfil (guia (b), seção 10.1, passo 13); e os elementos de página e os
    dados estruturados que o Google documenta — guia (a),
-   `/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seções 4 e 5 (linhas 240–283).
+   `/home/ancastelo/pessoal/SEO_Project/docs/estudo/01_google_organico.md`, seções 4 e 5 (linhas 240–283). A frase da fonte é "Website content must be owned and managed by the business owner." (item 2, linha 117): se o conteúdo escrito por um terceiro autorizado atende a "managed by the business owner" **não foi levantado** no item 2; por prudência (leitura minha), a licenciada aprova e publica o conteúdo.
 6. Cobra-se mensalidade pelo trabalho. **Não se promete posição** (linhas 126–128).
 7. Não há WhatsApp do projeto no caminho: o contato vai direto ao número dela.
 
@@ -398,7 +398,7 @@ Conta ilustrativa (**não é previsão**): 3 clientes `PREMISSA` × R$ 600 por m
 
 | Risco | Neste modelo | Remissão |
 |---|---|---|
-| Google | "If a merchant's account is restricted, all Business Profiles associated with that account will be suspended.": um erro derruba os perfis de todas as clientes geridas pela mesma conta. Violação séria pode suspender também a conta do gestor | item 2, seção (a), linhas 89–103 e 120–121 |
+| Google | "If a merchant's account is restricted, all Business Profiles associated with that account will be suspended.": um erro pode derrubar os perfis de todas as clientes geridas pela mesma conta — o item 2 marca isso como **inferência**: a página não diz se "associated" inclui perfis só administrados (linhas 102–103). Violação séria pode suspender também a conta do gestor | item 2, seção (a), linhas 89–103 e 120–121 |
 | Propaganda | O art. 22 da RDC 622 se dirige à empresa especializada: o perfil e o site dela têm de trazer a licença e evitar os termos vedados; o gestor que escreve o texto responde ao menos perante ela (**inferência minha; não levantado**) | item 2, seção (b), linhas 181–194 |
 | LGPD | Papel do gestor que acessa contatos da cliente (operador?): **não levantado** no item 2 | — |
 | WhatsApp | É o dela; nada a repassar | item 2, seção (d), linhas 438–441 |
@@ -422,7 +422,7 @@ publicidade onde a posição ou o destaque for pago (CDC, art. 36)" (linhas 233�
 
 **As contas.** `receita = licenciadas pagantes × mensalidade do destaque`.
 Conta ilustrativa (**não é previsão**): 5 pagantes `PREMISSA` × R$ 99 por mês = R$ 495 por mês. R$ 99 é o plano "Pro"
-de uma plataforma brasileira de outro ramo que também colhe pedidos de dedetização (R15, `[BR, classe A]` sobre ela
+de uma plataforma brasileira de outro ramo que também colhe pedidos de dedetização (R15, `[BR, classe A*]` sobre ela
 mesma); não é preço de mercado de dedetização.
 Outros sinais brasileiros: um diretório não aceita mais cadastro gratuito (R16); o oHub não declara destaque pago, e
 ordena por "volume de respostas na plataforma" (F15) — quem compra mais crédito responde mais (**inferência minha**).
@@ -455,7 +455,7 @@ vereditos", linhas 33, 34 e 38). O item 2 não trata da forma de cobrança entre
 **Como opera.** A licenciada compra um pacote (créditos ou meses) antes de receber; cada unidade consome crédito; há
 validade e regra de devolução. O contato continua indo ao WhatsApp dela (via A) ou pelo formulário (via B).
 É o padrão das plataformas brasileiras lidas: oHub — pacotes de R$ 172 a R$ 682, válidos por 12 meses, e assinatura
-de 1 ou 3 meses sem preço na página (R2, F8, F11); GetNinjas — pacotes de moedas válidas por 3 meses (R6, R9).
+sem preço público: "1 ou 3 meses" na página de planos (F8); "mensal, bimestral, trimestral e semestral" no artigo de ajuda de 09/01/2026 (F11) — as duas páginas da plataforma não dizem o mesmo (R2; relidas em 14/11/2026); GetNinjas — pacotes de moedas válidas por 3 meses (R6, R9).
 
 **As contas.** `caixa do mês = pacotes vendidos × preço do pacote`; a receita só se confirma quando o crédito é
 consumido ou vence. Conta ilustrativa (**não é previsão**): 4 licenciadas `PREMISSA` × pacote de R$ 300 `PREMISSA` =
@@ -483,14 +483,14 @@ passar a receber o pagamento do consumidor, o modelo muda de natureza e vai para
 **Como opera.**
 1. Captação igual a 4.2 (via A ou B; WhatsApp da licenciada).
 2. A licenciada informa o que fechou e paga um percentual.
-3. Conferência: por amostra, com a própria pessoa atendida — o que exige autorização dela para esse contato (item 2,
-   seção (c), linha 356: contato futuro é outra finalidade).
+3. Conferência: por amostra, com a própria pessoa atendida — **só possível na via B**, em que o site tem o contato, e com autorização dela para esse contato (item 2,
+   seção (c), linha 356: contato futuro é outra finalidade). Na via A o site não tem o contato da pessoa: a conferência depende só do que a licenciada declara.
 
 **As contas.** `receita = serviços fechados declarados × ticket × percentual`.
-Conta ilustrativa (**não é previsão**): 20 serviços `PREMISSA` × R$ 280 `[BR, HIPÓTESE 25/09]` × 10% `PREMISSA` =
+Conta ilustrativa (**não é previsão**): 20 serviços `PREMISSA` × R$ 280 `[BR, HIPÓTESE 25/09, classe D]` × 10% `PREMISSA` =
 R$ 560 por mês. Percentuais brasileiros de plataforma: Cronoshare, até 15%, média de 6% a 10% (R11, classe D:
 estimativa da própria plataforma); Triider, 21% a 25%, **mas com o pagamento do cliente passando pela plataforma**
-(R14, classe A: termos dela).
+(R14, classe A\*: termos dela).
 
 **Precificação do lead.** O preço por lead é implícito: `ticket × percentual × taxa de fechamento`.
 - *Por tipo de praga:* acompanha o ticket automaticamente.
@@ -502,7 +502,7 @@ estimativa da própria plataforma); Triider, 21% a 25%, **mas com o pagamento do
 
 | Risco | Neste modelo | Remissão |
 |---|---|---|
-| Google, propaganda, LGPD, WhatsApp | Os de 4.2; mais a autorização para a pesquisa de conferência | 4.0 |
+| Google, propaganda, LGPD, WhatsApp | Os de 4.2; mais a autorização para a pesquisa de conferência (só na via B) | 4.0 |
 | Parceiro | É o modelo que mais depende da palavra dela; sem processar o pagamento, o site não vê o fechamento. As plataformas brasileiras lidas ou cobram antes (oHub, GetNinjas, Cronoshare) ou processam o pagamento (Triider) | R11, R14 |
 
 ---
