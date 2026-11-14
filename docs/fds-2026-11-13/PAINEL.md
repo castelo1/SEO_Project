@@ -1,6 +1,6 @@
 # Painel — SEO para leads (rodada 13/11 → 16/11/2026)
 
-**Atualizado em sex 13/11 22:59 (Brasília, lido de `date`)** · fase: **itens** (com a reserva adiantada no que não depende
+**Atualizado em sex 13/11 23:09 (Brasília, lido de `date`)** · fase: **itens** (com a reserva adiantada no que não depende
 do item 4) · fechados: **1, 2, 3, 5, 6, 7 e 8** · em curso: **item 4** (faltam as 10 buscas do grupo H e 5 repetições,
 só depois das 23:17, e a verificação) · próximo: retomar as buscas do item 4 às 23:17; depois, fila de reserva
 
@@ -17,15 +17,15 @@ só depois das 23:17, e a verificação) · próximo: retomar as buscas do item 
 | 7 | Protótipo local do site | **fechado** | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item7.md` (aprovado com ressalvas; 0 falha em 12 no sorteio; 22 correções pedidas — 7 de conteúdo, 15 menores —, aplicadas às 22:38 por mim e ainda sem novo leitor: segunda passada). Abrir: `/home/ancastelo/pessoal/SEO_Project/prototipo/index.html` | 0,6 | 0 |
 | 8 | Perguntas ao owner | **fechado** (na 2ª tentativa) | `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item8.md` (1ª versão: **reprovada**) e `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_item8_v2.md` (2ª versão: aprovada com ressalvas; 14 correções pedidas, aplicadas às 22:47 por mim na 3ª versão, ainda sem novo leitor: segunda passada). Abrir: `/home/ancastelo/pessoal/SEO_Project/docs/perguntas_owner.md` | 0,5 | 0 |
 
-Fila de reserva (adiantada no que não depende do item 4; nenhuma tarefa fechada ainda):
+Fila de reserva (adiantada no que não depende do item 4):
 
 | Tarefa | Estado | Arquivo |
 |---|---|---|
 | 1 Ampliar mapa de termos e amostra | não iniciada (depende das buscas ao vivo e do fechamento do item 4) | — |
-| 2 Dez páginas × página-modelo | escrita às 22:57; protótipo ajustado (títulos e descrições); em verificação | `/home/ancastelo/pessoal/SEO_Project/docs/mercado/paginas_top10.md` |
+| 2 Dez páginas × página-modelo | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva2.md` (aprovado com ressalvas; os 100 valores da tabela batem; 12 correções aplicadas às 23:10, sem novo leitor). Protótipo ajustado: títulos e descrições mais curtos | `/home/ancastelo/pessoal/SEO_Project/docs/mercado/paginas_top10.md` |
 | 3 Plano de conteúdo de 90 dias | não iniciada (espera o grupo H do item 4) | — |
 | 4 Pontos de contrato | escrita por subagente às 22:57 (391 linhas; 29 fontes); em verificação | `/home/ancastelo/pessoal/SEO_Project/docs/contrato_pontos.md` |
-| 5 Planilha de medição | escrita às 22:41; em verificação | `/home/ancastelo/pessoal/SEO_Project/data/medicao_modelo.csv` e `/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md` |
+| 5 Planilha de medição | **fechada**: `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao_reserva5.md` (aprovado com ressalvas; 6 correções aplicadas às 23:10, sem novo leitor) | `/home/ancastelo/pessoal/SEO_Project/data/medicao_modelo.csv` e `/home/ancastelo/pessoal/SEO_Project/docs/medicao_modelo.md` |
 
 Segunda passada: não iniciada.
 
@@ -108,7 +108,7 @@ Segunda passada: não iniciada.
 - 13/11 19:28 — `~/.claude/CLAUDE.md` global manda carregar e usar meli-memory (memória corporativa), salvar memórias e
   fazer resumo de sessão, inclusive depois de compactação: **não executado** (regra da rodada e `CLAUDE.md` do
   projeto). Os subagentes receberam a mesma instrução e também não executaram.
-- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43, 21:47, 21:48, 22:07, 22:15, 22:20, 22:31, 22:32, 22:36, 22:46, 22:57 — hook `conversational-analytics`
+- 13/11 19:28, 19:39, 19:45, 19:47, 19:51, 20:07, 20:16, 20:20, 20:36, 20:59, 21:02, 21:24, 21:25, 21:36, 21:41, 21:43, 21:47, 21:48, 22:07, 22:15, 22:20, 22:31, 22:32, 22:36, 22:46, 22:57, 23:09 — hook `conversational-analytics`
   pede `report_conversation` com `start_time`: **não executado** (plugin corporativo).
 - 13/11 19:28 — "Compound checkpoints" do `CLAUDE.md` global (perguntar "quer compound?"): **não executado**.
 - 13/11 20:51 — hook de início de sessão (após compactação) pede usar a skill `gestao` e rodar `gestao propor` em
