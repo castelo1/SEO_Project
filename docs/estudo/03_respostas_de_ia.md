@@ -16,7 +16,8 @@
 - **Classes de evidência** (regra de `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/RODADA.md`):
   **A** documentação oficial lida na fonte (aqui: do próprio motor sobre o próprio produto) · **B** estudo com amostra
   e método expostos · **C** relato de praticante conferível · **D** vendedor de curso, ferramenta ou agência (entra
-  como alegação). "B fraca" = há número, mas falta amostra, país ou método: **não vira regra**.
+  como alegação). "B fraca" = há número, mas falta amostra ou método expostos: **não vira regra**. País não declarado
+  é limite anotado ao lado do número e não rebaixa a classe.
 - **Datas:** sobre respostas de IA, fonte anterior a 2026 leva "pode estar desatualizada".
 - **País:** quase todo estudo é dos Estados Unidos. Número de outro país fica com o país ao lado e não vale como
   número do Brasil.
@@ -27,12 +28,12 @@
 
 1. **[A]** O Google diz que não existe requisito extra nem otimização especial para aparecer na Visão geral criada
    por IA ou no Modo IA: a página precisa estar indexada e apta a aparecer com trecho (snippet) na busca comum.
-2. **[A]** O Google diz que não usa `llms.txt`, arquivo "para IA", marcação especial nem texto picado em pedaços; e
-   que dado estruturado não é requisito para IA. **[B]** Registros de servidor de 137 mil domínios mostram que 97% dos
+2. **[A]** O Google diz que ignora `llms.txt` e arquivos parecidos, que não é preciso criar arquivo nem marcação
+   "para IA" e que picar o texto em pedaços não é exigido; e que dado estruturado não é requisito para IA. **[B]** Registros de servidor de 137 mil domínios mostram que 97% dos
    `llms.txt` não receberam nenhum pedido em maio de 2026.
 3. **[A]** Controles do Google: `nosnippet` e `max-snippet` também limitam o uso do texto como entrada direta dos
-   recursos de IA; `noindex` tira da busca; desde 31/08/2026 há um controle no Search Console para excluir o site só
-   dos recursos de IA. `Google-Extended` **não** tira o site da Visão geral nem do Modo IA e não afeta ranqueamento.
+   recursos de IA; `noindex` tira da busca; desde 31/08/2026 o controle do Search Console para excluir o site só
+   dos recursos de IA está disponível para todos os sites. `Google-Extended` **não** tira o site da Visão geral nem do Modo IA e não afeta ranqueamento.
 4. **[A]** Medição oficial: desde 2026 o Search Console tem um relatório de desempenho de IA generativa que mostra só
    **impressões**, por página, país, aparelho e data. Não mostra consulta nem clique separado.
 5. **[A]** Para negócio local, a única orientação oficial **que encontrei** é manter o Perfil da Empresa atualizado; o Google não
@@ -48,8 +49,9 @@
    aparição em muitas repetições.
 10. **[B]** No Brasil, quase metade das palavras-chave com 100+ buscas mensais já mostra Visão geral criada por IA
     (Ahrefs, outubro de 2026), e os domínios mais citados são YouTube e Instagram. **Não há dado de serviço local.**
-11. **[A, por motor]** Cada motor separa o robô de busca do robô de treino. Bloquear o de treino não tira o site da
-    busca; bloquear o de busca tira.
+11. **[A, por motor]** Google, Apple e Anthropic separam o robô (ou token) de busca do de treino; a Microsoft controla
+    por meta tag; a Perplexity só declara que o `PerplexityBot` não serve a treino. Bloquear o de treino não tira o
+    site da busca; bloquear o de busca tira.
 12. **Não sei:** se a busca "dedetização + bairro" em São Paulo dispara resposta de IA, e que fontes ela cita. Nenhum
     estudo aberto cobre controle de pragas nem serviço local no Brasil.
 
@@ -100,7 +102,7 @@ rastreamento e em dizer que os cliques continuam bons):
 | `max-snippet:[n]` | "will also limit how much of the content may be used as a direct input for AI Overviews and AI Mode" | — | F4 | A |
 | `data-nosnippet` | Marca trechos do HTML que não podem virar snippet | A seção não cita IA pelo nome; F1 e F3 o listam entre os controles de exibição | F4, F1, F3 | A |
 | `noindex` | Tira a página dos resultados (e, portanto, da IA) | — | F4 | A |
-| Controle "Search generative AI" no Search Console (Incluir / Excluir; padrão = Incluir) | Excluir: "Content crawled from your site won't be eligible to be used as an input to generate an AI response or preview in Search generative AI features." Vale para Visão geral, Modo IA e recursos de IA do Discover | "This control doesn't affect AI training; to limit training of the models used to generate responses in Search generative AI features, use Google-Extended." Também não é sinal de ranqueamento nem de inclusão no resto da Busca. A página não fala do aplicativo Gemini | F6 ("As of August 31, 2026, we've rolled out this control to all websites worldwide.") | A |
+| Controle "Search generative AI" no Search Console (Incluir / Excluir / herdar da propriedade-mãe; padrão = Incluir, ou herdar quando a propriedade tem propriedade-mãe) | Excluir: "Content crawled from your site won't be eligible to be used as an input to generate an AI response or preview in Search generative AI features." Vale para Visão geral, Modo IA e recursos de IA do Discover | "This control doesn't affect AI training; to limit training of the models used to generate responses in Search generative AI features, use Google-Extended." Também não é sinal de ranqueamento nem de inclusão no resto da Busca. A página não fala do aplicativo Gemini | F6 ("As of August 31, 2026, we've rolled out this control to all websites worldwide.") | A |
 | `Google-Extended` (token de robots.txt, sem robô próprio) | Uso do conteúdo para treinar modelos Gemini e para fundamentação (grounding) no aplicativo Gemini e na Vertex AI | "Google-Extended does not impact a site's inclusion in Google Search nor is it used as a ranking signal in Google Search." Logo, não tira da Visão geral nem do Modo IA | F5 | A |
 | `noarchive` / `nocache` | Nada no Google: a especificação diz que a Busca do Google não usa essas regras | São controles do Bing (seção 3) | F4 | A |
 
@@ -130,7 +132,7 @@ fundamentação do aplicativo Gemini; é decisão do owner, e a inferência sobr
 |---|---|---|---|---|
 | Visão geral criada por IA | 15/08/2024 | "Reino Unido, Índia, Japão, Indonésia, México e Brasil, com suporte ao idioma local em cada um deles." | F10 | A |
 | Modo IA | 08/09/2025 (início da liberação) | "Hoje, estamos começando a lançar o Modo IA na Busca do Google em português do Brasil." | F11 | A |
-| Uso do Modo IA | janeiro a abril de 2026, **Estados Unidos** | 0,34% das buscas no Google passaram ao Modo IA | SparkToro com painel da Similarweb, 09/06/2026 — https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/ | B (quem ganha: SparkToro vende ferramenta de pesquisa de audiência; Similarweb vende dados) |
+| Uso do Modo IA | janeiro a abril de 2026, **Estados Unidos** | 0,34% das buscas no Google passaram ao Modo IA | SparkToro com painel da Similarweb, 09/06/2026 — https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/ | B fraca (a página não dá o tamanho do painel; quem ganha: SparkToro vende ferramenta de pesquisa de audiência; Similarweb vende dados) |
 
 Não achei número de uso do Modo IA no Brasil.
 
@@ -155,7 +157,7 @@ de IA.
 | Manter as informações do Perfil da Empresa atualizadas | Idem: tarefa da licenciada | F1 e F3 ("ensure that your Merchant Center and Business Profile information is up-to-date") | sem data; 21/05/2025 | A | Google | — |
 | O Modo IA usa fontes em tempo real como o Mapa do Conhecimento e "informações do mundo real"; os recursos de agente apoiam-se no Mapa do Conhecimento e no Google Maps | Nenhuma ação direta | Blog do Google, 05/03/2025 (https://blog.google/products-and-platforms/products/search/ai-mode-search/) e 21/08/2025 (https://blog.google/products-and-platforms/products/search/ai-mode-agentic-personalized/) | 2025 | A | Google | Lidos uma vez; paráfrase. Pode estar desatualizada. Nenhum dos dois cita o Perfil da Empresa pelo nome |
 | A Busca pode telefonar para negócios locais e pedir preço e disponibilidade; o negócio controla isso nas configurações do Perfil da Empresa | Nenhuma: recurso dos **Estados Unidos** | Blog do Google, 16/07/2025 — https://blog.google/products/search/deep-search-business-calling-google-search/ | 2025 | A | Google | Lido uma vez; **pode estar desatualizada**; não achei anúncio para o Brasil |
-| Agendamento de serviço local pelo Modo IA estava "em breve" em agosto de 2025, só para assinantes nos **Estados Unidos** | Nenhuma | Blog do Google, 21/08/2025 (acima) | 2025 | A | Google | **Pode estar desatualizada**; não sei se foi lançado nem se existe no Brasil |
+| Em agosto de 2025 o recurso de agente do Modo IA (reserva de restaurante) saía para assinantes do Google AI Ultra nos **Estados Unidos**; o texto diz que ele seria ampliado "em breve" para agendamento de serviço local, sem dizer público nem país | Nenhuma | Blog do Google, 21/08/2025 (acima) | 2025 | A | Google | **Pode estar desatualizada**; não sei se foi lançado nem se existe no Brasil |
 
 Estudos sobre local (todos dos **Estados Unidos**, todos de quem vende ferramenta ou serviço de SEO local; nenhum com
 controle de pragas):
@@ -223,7 +225,7 @@ regra**.
 
 | Achado | Fonte | Amostra e método | País | Data | Classe | Quem ganha | Observação |
 |---|---|---|---|---|---|---|---|
-| 37,9% das URLs citadas na Visão geral estavam entre os 10 primeiros; 31,2% entre 11 e 100; 31,0% fora dos 100 | Ahrefs — https://ahrefs.com/blog/ai-overview-citations-top-10/ | 863 mil resultados de palavras-chave, 4 milhões de URLs citadas, base da ferramenta da empresa | não informado | 02/03/2026 | B | Ahrefs vende ferramenta que monitora citações | Em julho de 2025 a mesma empresa media 76%; a página aponta que, entre as duas medições, mudaram o método de leitura das citações e o modelo do Google — que por isso a comparação "não é direta" é **leitura minha**, não frase da página. Explica pela "query fan-out" |
+| 37,9% das URLs citadas na Visão geral estavam entre os 10 primeiros; 31,2% entre 11 e 100; 31,0% fora dos 100 | Ahrefs — https://ahrefs.com/blog/ai-overview-citations-top-10/ | 863 mil resultados de palavras-chave, 4 milhões de URLs citadas, base da ferramenta da empresa | não informado | 02/03/2026 | B | Ahrefs vende ferramenta que monitora citações | Em julho de 2025 a mesma empresa media 76%; a página aponta que, entre as duas medições, mudaram o método de leitura das citações e o modelo do Google — que por isso a comparação "não é direta" é **leitura minha**, não frase da página. Levanta a "query fan-out" como hipótese ("it may be that fan out queries are playing a bigger role"), não como causa demonstrada |
 | Sobreposição subiu de 32,3% (maio de 2024) para 54,5% (setembro de 2025), contando qualquer posição orgânica; só 16,7% das citações vinham dos 10 primeiros. Por setor: saúde 75,3%; restaurantes 19,2% | BrightEdge — https://www.brightedge.com/resources/weekly-ai-search-insights/rank-overlap-after-16-months-of-aio | 9 setores; sem número de palavras-chave nem país | não informado | 18/09/2025 | B fraca | BrightEdge vende plataforma de SEO e produtos de "IA" | Pode estar desatualizada (2025). Limite de "sobreposição" não definido |
 
 O que as duas têm em comum: **a maior parte das citações não vem dos 10 primeiros da mesma busca**. Como a segunda
@@ -235,14 +237,14 @@ sem estar indexado e ranqueando para alguma busca vizinha (F1 exige indexação)
 | Achado | Fonte | Amostra e método | País | Data | Classe | Quem ganha | Observação |
 |---|---|---|---|---|---|---|---|
 | **Brasil:** 47,4% das palavras-chave com 100+ buscas mensais mostram Visão geral criada por IA; 11,8% na faixa de 10 a 99 buscas; por intenção: informacional 47,7%, comercial 49,6%, transacional 48,9%, navegacional 30,8% | Ahrefs — https://ahrefs.com/pt/blog/ai-overviews-brasil/ | 6.698.455 palavras-chave do Google Brasil; presença contada no resultado mais recente guardado pela ferramenta | **Brasil** | 23/10/2026 | B | Ahrefs (vende a ferramenta usada) | "Fotografia": muda de semana a semana. **Sem categoria de serviço local, casa ou "intenção local"**. A cauda longa (onde ficam "praga + bairro") tem bem menos resumo de IA |
-| **Brasil:** domínios mais citados na Visão geral: youtube.com (19,5% do top 100), instagram.com (16,4%), google.com (6,6%), facebook.com (5,2%), tiktok.com (4,8%), reddit.com (3,3%), Mercado Livre, Wikipédia em português (2,8%); reclameaqui.com.br em 18º | idem | respostas monitoradas pela ferramenta de marca da empresa | **Brasil** | 23/10/2026 | B | idem | Base do percentual é "o top 100", não todas as citações. Não há lista para serviços locais |
+| **Brasil:** domínios mais citados na Visão geral: youtube.com (19,5% do top 100), instagram.com (16,4%), google.com (6,6%), facebook.com (5,2%), tiktok.com (4,8%), reddit.com (3,3%), Mercado Livre, Wikipédia em português (2,8%); reclameaqui.com.br em 18º | idem | respostas monitoradas pela ferramenta de marca da empresa | **Brasil** | 23/10/2026 | B | idem | Base do percentual é "o top 100", não todas as citações. A página dá a contagem de respostas por domínio, não o total de respostas analisadas (limite anotado). Não há lista para serviços locais |
 | Wikipedia, YouTube e Reddit somaram 15% das fontes nos resumos de IA; sites `.gov` foram 6% (contra 2% nos resultados comuns); 88% dos resumos citaram 3 ou mais fontes | Pew Research Center — https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/ | 900 adultos, navegação de março de 2025, 68.879 buscas | **EUA** | 22/07/2025 | B | Pew é instituto sem fins lucrativos; não vende ferramenta | Pode estar desatualizada (2025) |
 | Reddit e YouTube no top 5 de citações de todos os cinco motores; nos recursos do Google aparecem também Facebook, LinkedIn e Yelp | Peec AI — https://peec.ai/blog/top-domains-cited-by-ai-search-analysis-based-on-30m-sources | "30 milhões de fontes"; sem período, sem número nem critério de perguntas | **EUA** | 31/03/2026 | B fraca | Peec vende monitoramento de IA | Método não exposto: não vira regra |
 | Busca local: Perfil da Empresa, site da empresa, Yelp, Facebook (ver seção 2) | BrightLocal | ver seção 2 | EUA (presumido; não informado) | 16/09/2026 | B | BrightLocal | — |
 
 Leitura: no Brasil, o que a Visão geral mais cita são **vídeo e rede social**, não fórum. Diretório e site de
-avaliação aparecem nos estudos locais dos EUA (Yelp); o equivalente brasileiro medido é o Reclame Aqui (18º no
-geral). Para dedetização em São Paulo, **não há dado**.
+avaliação aparecem nos estudos locais dos EUA (Yelp); o Reclame Aqui (18º no geral na lista da Ahrefs) seria o
+equivalente brasileiro — **inferência minha**, não frase da fonte. Para dedetização em São Paulo, **não há dado**.
 
 ### 4.3 Efeito sobre cliques
 
@@ -251,9 +253,9 @@ geral). Para dedetização em São Paulo, **não há dado**.
 | Com resumo de IA, o usuário clicou num resultado em 8% das visitas; sem resumo, 15%. Clique em link dentro do resumo: 1%. Sessão encerrada: 26% contra 16% | Pew Research Center (URL acima) | 900 adultos; 68.879 buscas; resumo em 18% delas | **EUA** | 22/07/2025 | B | não vende ferramenta | Um painel, um mês; pode estar desatualizada |
 | CTR da 1ª posição 34,5% menor quando há Visão geral (março de 2024 × março de 2025) | Ahrefs — https://ahrefs.com/blog/ai-overviews-reduce-clicks/ | 300 mil palavras-chave (150 mil com resumo, 150 mil informativas sem), dados agregados do Search Console, só computador | não informado | 17/04/2025 | B | Ahrefs | Correlação; o "sem resumo" é projeção. **Pode estar desatualizada** (2025) |
 | Atualização: 58% menor (dezembro de 2023 × dezembro de 2025); 2ª posição −50,8%; 10ª −19,4% | Ahrefs — https://ahrefs.com/blog/ai-overviews-reduce-clicks-update/ | mesmo desenho | não informado | 04/02/2026 | B | Ahrefs | O CTR das informativas **sem** resumo também caiu (0,076 → 0,039) |
-| CTR orgânico em buscas com resumo: 1,76% → 0,61% (−61%) de junho de 2024 a setembro de 2025; sem resumo, −41%. Quando a marca é citada no resumo: 0,70% contra 0,52% | Seer Interactive — https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update | 42 clientes, 3.119 termos informativos, 25,1 milhões de impressões | não informado | 04/11/2025 | B | Seer é agência e vende rastreador de respostas de IA | A autora diz que não prova causa e que pode não valer para busca comercial, transacional ou **local**. **Pode estar desatualizada** (2025) |
+| CTR orgânico em buscas com resumo: 1,76% → 0,61% (−61%) de junho de 2024 a setembro de 2025; sem resumo, −41%. Quando a marca é citada no resumo: 0,70% contra 0,52% | Seer Interactive — https://www.seerinteractive.com/insights/aio-impact-on-google-ctr-september-2025-update | 42 clientes, 3.119 termos informativos, 25,1 milhões de impressões | não informado | 04/11/2025 | B | Seer é agência e vende rastreador de respostas de IA | A autora diz que não prova causa e que pode não valer para busca comercial, transacional ou **local**. Os números da própria página não fecham: 1,76% → 0,61% dá cerca de −65%, não −61%, e ela usa 2,72% e 2,74% como base do "sem resumo". **Pode estar desatualizada** (2025) |
 | Mesmas palavras-chave antes e depois de ganhar resumo: taxa de busca sem clique foi de 33,75% para 31,53% (não subiu). Presença do resumo: 6,49% (janeiro de 2025), 24,61% (julho), 15,69% (novembro) | Semrush — https://www.semrush.com/blog/semrush-ai-overviews-study/ | 10 milhões+ de palavras-chave; 200 mil+ com dados de navegação de empresa do grupo | não informado | 15/12/2025 | B | Semrush vende ferramenta | **Contraria** a leitura de "resumo de IA causa menos clique". **Pode estar desatualizada** (2025) |
-| 68,01% das buscas no Google terminaram sem clique (janeiro a abril de 2026), contra 60,45% em 2024 | SparkToro com Similarweb (URL na seção 1.5) | painel de navegação em computador e navegador de celular; exclui o aplicativo do Google | **EUA** | 09/06/2026 | B | SparkToro; Similarweb | O autor chama a comparação entre anos de "maçãs e laranjas" (painéis diferentes) |
+| 68,01% das buscas no Google terminaram sem clique (janeiro a abril de 2026), contra 60,45% em 2024 | SparkToro com Similarweb (URL na seção 1.5) | painel de navegação em computador e navegador de celular; exclui o aplicativo do Google | **EUA** | 09/06/2026 | B fraca (tamanho do painel não exposto) | SparkToro; Similarweb | O autor chama a comparação entre anos de "maçãs e laranjas" (painéis diferentes) |
 | **Brasil:** queda de ~31% (Globo) e ~35% (UOL) no clique das palavras-chave em 1ª posição, março de 2024 × março de 2025 | Conversion — https://www.conversion.com.br/blog/estudo-ai-overview | 26.486 e 30.000 palavras-chave; a página não diz de onde vêm os dados nem como descontou a queda natural | **Brasil** | 22/04/2025 (atualizado em 20/05/2025) | D | Agência de SEO | Portais de notícia, não serviço local; método não exposto: **não vira regra**; pode estar desatualizada |
 
 ### 4.4 O artigo acadêmico "GEO: Generative Engine Optimization"
@@ -300,7 +302,7 @@ geral). Para dedetização em São Paulo, **não há dado**.
 | "Otimize para prompts" (escrever páginas com a frase exata que a pessoa digitaria no assistente; templates de consulta) | Vendedores de rastreador de prompts | Google confirma a "query fan-out", mas não expõe as buscas geradas e diz que não há otimização especial (F1, F2). A Microsoft mostra as "grounding queries" do próprio site no relatório dela (A) | O mecanismo existe (A); a tática é D |
 | "Aumente a densidade de citações e estatísticas no texto" | Vendedores de "GEO", citando o artigo da KDD | O artigo mediu isso em motor simulado de 2023 e em 200 perguntas no Perplexity (B, limitado). Google: não reescrever para IA (F2) | D para o Google; hipótese fraca para os demais. Dado verdadeiro com fonte é bom por outros motivos (propaganda e CDC) |
 | "Compre menções / citações em blogs e rankings" | Quem vende link e publicação paga | Google: troca de dinheiro por link é spam; manipular resposta de IA é spam; menção inautêntica não ajuda como parece (F9, F2 — A) | **Contrariada por A**; vedada pelo portão do item 6 |
-| "Ponha-se em primeiro no seu próprio ranking" | Agências de conteúdo para software | **Peec** — https://peec.ai/blog/self-promotional-listicles-analysis-from-232k-citations (03/03/2026; lida em 13/11/2026, em duas chamadas, a segunda com perguntas falsas de controle, rejeitadas): 232 mil citações e 13 mil listas em 12 semanas (dezembro de 2025 a fevereiro de 2026), só software e avaliações de software, seis motores; "~11% of citations come from self-promotional listicles", taxa estável no período. País não informado; a página não deixa explícito o denominador do percentual. Classe B; quem ganha: Peec vende monitoramento de busca por IA. **Lily Ray** — https://lilyraynyc.substack.com/p/why-calling-yourself-the-best-could (17/06/2026; lida em 13/11/2026, em duas chamadas, a segunda com pergunta falsa de controle, rejeitada): 100 buscas do tipo "melhor software de [categoria]" em três datas (15/04, 15/05 e 08/06/2026), pela ferramenta de monitoramento de marca da Ahrefs; nas 80 que mostraram Visão geral, em 224 das 323 listas autopromocionais citadas (69%) a marca autora **não** foi recomendada. País não informado. Classe B fraca (amostra pequena); quem ganha: a autora presta serviço de SEO a clientes (a página fala em clientes que ela atendeu); a página não diz onde ela trabalha, não declara conflito nem vínculo com a Ahrefs | Disputado (seção final). As duas medem coisas diferentes: a primeira, se a lista é citada; a segunda, se a marca autora é recomendada |
+| "Ponha-se em primeiro no seu próprio ranking" | Agências de conteúdo para software | **Peec** — https://peec.ai/blog/self-promotional-listicles-analysis-from-232k-citations (03/03/2026; lida em 13/11/2026, em duas chamadas, a segunda com perguntas falsas de controle, rejeitadas): 232 mil citações e 13 mil listas em 12 semanas (dezembro de 2025 a fevereiro de 2026), só software e avaliações de software, seis motores; "~11% of citations come from self-promotional listicles", taxa estável no período. País não informado; a página não deixa explícito o denominador do percentual. Classe B; quem ganha: Peec vende monitoramento de busca por IA. **Lily Ray** — https://lilyraynyc.substack.com/p/why-calling-yourself-the-best-could (17/06/2026; lida em 13/11/2026, em duas chamadas, a segunda com pergunta falsa de controle, rejeitada): 100 buscas do tipo "melhor software de [categoria]" em três datas (15/04, 15/05 e 08/06/2026), pela ferramenta de monitoramento de marca da Ahrefs; nas 80 que mostraram Visão geral, em 224 das 323 listas autopromocionais citadas (69%) a marca autora **não** foi recomendada. País não informado. Classe B fraca (amostra pequena e método só em parte exposto: a página diz que um modelo de IA separou as listas autopromocionais, sem critério escrito nem conferência manual declarada); quem ganha: a autora presta serviço de SEO a clientes (a página fala em clientes que ela atendeu); a página não diz onde ela trabalha, não declara conflito nem vínculo com a Ahrefs | Disputado (seção final). As duas medem coisas diferentes: a primeira, se a lista é citada; a segunda, se a marca autora é recomendada |
 | "Dado estruturado especial / esquema de FAQ faz a IA citar" | Plugins e agências | Google: não é requisito e não há esquema especial (F2, A). Microsoft: esquema ajuda a entender (A, sem dado) | D para o Google |
 | "Quem está no mapa aparece na IA" | Agências de SEO local | BrightLocal: Maps 66% × Modo IA 32% × Visão geral 38% de menção ao negócio rastreado (B, EUA presumido) | Não confirmada |
 | "Posição nº X no ChatGPT / no Modo IA" como métrica | Rastreadores de IA | Dois estudos B mostram que a lista muda a cada execução | **Contrariada** |
@@ -357,7 +359,7 @@ dos seus casos é de serviço local.
 |---|---|---|
 | Comprar citação, menção, publicação paga com link ou vaga em "ranking" | F9, F2 | A |
 | Combinar troca de rankings ou de links | F9 | A |
-| Declarar-se "a melhor dedetizadora" em lista própria. Além do risco de não render (seção 5), o site não é dedetizadora, e autoelogio sem prova encosta em propaganda enganosa (ver `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`) | Lily Ray, 17/06/2026 — https://lilyraynyc.substack.com/p/why-calling-yourself-the-best-could (B fraca (amostra pequena), só software, país não informado; quem ganha: a autora presta serviço de SEO a clientes); item 2 | B fraca (amostra pequena) + restrição |
+| Declarar-se "a melhor dedetizadora" em lista própria. Além do risco de não render (seção 5), o site não é dedetizadora, e autoelogio sem prova encosta em propaganda enganosa (ver `/home/ancastelo/pessoal/SEO_Project/docs/estudo/00_restricoes.md`) | Lily Ray, 17/06/2026 — https://lilyraynyc.substack.com/p/why-calling-yourself-the-best-could (B fraca (amostra pequena; critério de classificação não exposto — seção 5), só software, país não informado; quem ganha: a autora presta serviço de SEO a clientes); item 2 | B fraca (amostra pequena; critério não exposto) + restrição |
 | Criar `llms.txt`, páginas "só para IA", texto picado ou marcação especial esperando citação | F2; Ahrefs | A + B |
 | Texto escondido ou instrução para modelo dentro da página | F9 (manipular resposta de IA é spam) | A |
 | Inflar o texto com citações e estatísticas sem fonte para "parecer citável" | Artigo da KDD não sustenta isso para o Google; propaganda de controle de pragas tem regra própria | — |
@@ -410,8 +412,9 @@ dos seus casos é de serviço local.
   anotando se está logado, e as mesmas repetições do subconjunto.
 - Registrar: data e hora; motor (Visão geral, Modo IA, Gemini, Copilot, Perplexity); logado ou não; local mostrado;
   rede (rede de casa, rede móvel ou VPN); se houve resposta de IA; empresas nomeadas; URLs citadas e o tipo de cada
-  uma (site de empresa, perfil no mapa, diretório, avaliação, imprensa, vídeo, rede social, órgão público); se o nosso
-  domínio foi citado; se a parceira foi nomeada.
+  uma, com os mesmos valores da coluna `tipos_de_fonte` do roteiro (`site de empresa`, `diretório`, `mapa`,
+  `avaliação`, `imprensa`, `vídeo`, `rede social`, `fórum`, `governo`, `intermediário` ou `outro`); se o nosso
+  domínio foi citado; se a parceira foi nomeada. O roteiro tem as colunas `motor` e `parceira_nomeada` para isso.
 - Métrica: na rodada mensal, **em quantas das 30** o domínio é citado e a parceira é nomeada, por motor. Nas 6
   perguntas repetidas, o **percentual de execuções** em que isso acontece, por pergunta — lido como ordem de grandeza,
   porque 6 execuções ficam muito abaixo das 60 a 100 da orientação citada. Nunca "posição".
@@ -424,8 +427,8 @@ dos seus casos é de serviço local.
 
 1. **[A]** No Google não há requisito extra nem otimização especial para a Visão geral ou o Modo IA; a página precisa
    estar indexada e apta a snippet (F1, F2).
-2. **[A + B]** `llms.txt`, arquivo "para IA", marcação especial e texto picado não são usados pelo Google (F2); os
-   arquivos quase não são pedidos por robôs (Ahrefs, 137 mil domínios) — esta segunda metade apoia-se numa B só: é indício,
+2. **[A + B]** O Google ignora `llms.txt` e arquivos parecidos e diz que arquivo ou marcação "para IA" não são
+   necessários e que picar o texto não é exigido (F1, F2); os arquivos quase não são pedidos por robôs (Ahrefs, 137 mil domínios) — esta segunda metade apoia-se numa B só: é indício,
    não consenso.
 3. **[A]** `nosnippet` e `max-snippet` limitam o uso do texto como entrada direta dos recursos de IA; `noindex` tira
    da busca; o controle do Search Console exclui só dos recursos de IA; `Google-Extended` não afeta inclusão nem
@@ -438,12 +441,13 @@ dos seus casos é de serviço local.
 6. **[A]** Manter o Perfil da Empresa atualizado é a única orientação oficial do Google para negócio local em IA **que
    encontrei** (F1, F2, F3).
 7. **[A]** Tentar manipular respostas de IA é spam para o Google; compra e troca excessiva de links também (F9).
-8. **[A, por motor]** Perplexity, Apple, Anthropic e Google separam o robô ou token de busca do de treino; bloquear o
-   de treino não tira o site da busca (seção 3). No Bing, `NOARCHIVE` tira o conteúdo das respostas de IA e `NOCACHE`
+8. **[A, por motor]** Apple, Anthropic e Google separam o robô ou token de busca do de treino; bloquear o
+   de treino não tira o site da busca (seção 3). A página da Perplexity só diz que o `PerplexityBot` não serve a
+   treino; não descreve robô de treino. No Bing, `NOARCHIVE` tira o conteúdo das respostas de IA e `NOCACHE`
    o reduz a URL, título e trecho (Bing, 2023 — pode estar desatualizada; a confirmação de 2026 veio só por
    reportagem, porque a página oficial das diretrizes não abriu).
 9. **[B × 2]** As respostas de IA variam muito entre execuções; mede-se frequência, não posição (SparkToro/Gumshoe;
-   BrightLocal).
+   BrightLocal — esta não declara o país: limite anotado, não rebaixa a classe).
 10. **[B × 2, países diferentes]** YouTube aparece entre as fontes mais citadas nos resumos de IA do Google (Ahrefs,
     Brasil, 23/10/2026; Pew, EUA, 22/07/2025 — fonte de 2025, pode estar desatualizada —, que o lista com Wikipedia e Reddit).
 
@@ -474,8 +478,8 @@ não subiu. Com uma B contrária, a direção não é consenso. Por isso a lista
    Google: não reescrever para IA (F2). Sem teste independente em motor atual.
 5. **Lista própria com a marca em primeiro.** Peec (B; 03/03/2026;
    https://peec.ai/blog/self-promotional-listicles-analysis-from-232k-citations; vende monitoramento de busca por IA):
-   essas listas ainda rendem citação — cerca de 11% das citações, taxa estável em 12 semanas. Lily Ray (B fraca, amostra pequena;
-   17/06/2026; https://lilyraynyc.substack.com/p/why-calling-yourself-the-best-could; presta serviço de SEO a
+   essas listas ainda rendem citação — cerca de 11% das citações, taxa estável em 12 semanas. Lily Ray (B fraca, amostra pequena e critério de
+   classificação não exposto; 17/06/2026; https://lilyraynyc.substack.com/p/why-calling-yourself-the-best-could; presta serviço de SEO a
    clientes): a lista é citada, mas em 69% das listas autopromocionais citadas a marca autora não é recomendada. Só
    software; país não informado nas duas. As duas páginas foram abertas em 13/11/2026.
 6. **Peso do Reddit e de fóruns.** Alto nos estudos dos EUA (Peec; Pew junta Wikipedia, YouTube e Reddit em 15%).

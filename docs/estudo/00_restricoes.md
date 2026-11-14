@@ -1,10 +1,10 @@
 # Restrições que decidem o modelo — lidas na fonte atual (item 2)
 
-- **Leitura:** sexta, 13/11/2026, das 19:31 às 19:57 (Brasília, lido de `date`).
+- **Leitura:** sexta, 13/11/2026, das 19:31 às 19:57 (Brasília, lido de `date`). **Estado:** segunda passada em 14/11/2026 (`/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item2.md`: aprovado com ressalvas; 1 falha em 12; 16 achados), correções aplicadas por corretor em 14/11/2026 às 01:45 (Brasília, lido de `date`; `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes2_item2.md`), sem nova leitura — o que o corretor alterou leva **[S]**.
 - **Natureza:** levantamento com fonte, **não é parecer jurídico**. Onde a norma não trata de intermediário está
   escrito "silente"; a aplicação ao caso concreto é de advogado.
-- **Classe de evidência:** tudo o que está entre aspas é **classe A** (política da plataforma ou norma, lida na página
-  oficial), **com uma exceção**: o item 10.4 da Portaria CVS 9/2000, lido em cópia hospedada por terceiro, entra só
+- **Classe de evidência:** todas as fontes são **classe A** (página oficial da plataforma ou do Estado), citadas entre aspas ou resumidas;
+  o que é inferência do autor está marcado como inferência; **com uma exceção**: o item 10.4 da Portaria CVS 9/2000, lido em cópia hospedada por terceiro, entra só
   como indício (ver seção b). **Quem ganha com a afirmação:** em (a) e (d), o dono da plataforma (Google, Meta), que define e aplica a
   regra e não vende método de SEO; em (b) e (c), o Estado. Nenhuma fonte de vendedor, agência ou blog foi usada.
 - **Como foi conferido (duas leituras independentes):**
@@ -29,13 +29,13 @@
 | (a) | Avaliação comprada, incentivada ou escrita por quem tem vínculo | **Vedado** |
 | (b) Propaganda | Site de terceiro divulgar o serviço de dedetizadoras licenciadas | **Permitido com condição** (identificar a executora e a licença; sem termos vedados; site declarado intermediário) |
 | (b) | Página que oferece o serviço **sem** nomear a empresa que executa | **Não conclusivo** (norma silente; é o ponto de maior risco) |
-| (b) | Exigência estadual de exibir também razão social e endereço (Portaria CVS 9/2000, item 10.4) | **Não conclusivo** (fonte primária inacessível; só cópia de terceiro) |
+| (b) | Exigência estadual de exibir também razão social e endereço (Portaria CVS 9/2000, item 10.4) | **Não conclusivo** (fonte primária não lida: site do Centro de Vigilância Sanitária com erro 403 e PDF oficial sem texto extraível; só cópia de terceiro) |
 | (c) LGPD | Captar o contato e repassá-lo a **uma** empresa | **Permitido com condição** (consentimento específico e destacado para o repasse) |
 | (c) | Repassar a **várias** empresas | **Permitido com condição** (as mesmas, mais: dizer a quantas — se é obrigatório nomear cada uma, não conclusivo; registrar quem recebeu; avisar todas na exclusão) |
 | (c) | Vender o contato só com base em legítimo interesse, sem consentimento | **Não conclusivo** (guia da ANPD não lido) |
-| (d) WhatsApp | Número do site na API (Plataforma) faz a triagem e **repassa** o contato | **Vedado** pela letra dos termos da Meta (leitura literal; o alcance de "Dados da Plataforma" sobre o que a própria pessoa escreve na conversa não está definido na fonte) |
+| (d) WhatsApp | Número do site na API (Plataforma) faz a triagem e **repassa** o contato | **Vedado** pela letra dos termos da Meta (leitura literal; a cláusula 1.3 faz os Termos prevalecerem sobre a Política de Mensagens **[S]** — a conferir no texto bruto pela sessão principal) |
 | (d) | O mesmo pelo aplicativo gratuito WhatsApp Business | **Não conclusivo** (termos silentes sobre repasse) |
-| (d) | Botão do site abre direto o WhatsApp **da licenciada** (link oficial) | **Permitido com condição** |
+| (d) | Botão do site abre direto o WhatsApp **da licenciada** (link oficial) | **Permitido com condição** (a pessoa inicia a conversa com a empresa que vai atender; o site não se passa por ela; mensagens posteriores dependem do opt-in dela) |
 
 ---
 
@@ -99,8 +99,8 @@ do intermediário no perfil: **vedado**.
 - Sanção ao perfil por avaliação falsa: fica sem receber avaliações novas por um período, tem as existentes
   despublicadas por um período e exibe aviso público de que avaliações falsas foram removidas. — 14114287 **[N]**
 
-Consequência que pesa no desenho: restrição da **conta** derruba todos os perfis ligados a ela, inclusive os de
-parceiras que o projeto administrasse pela mesma conta.
+Inferência (consequência que pesa no desenho): restrição da **conta** derruba todos os perfis ligados a ela, inclusive os de
+parceiras que o projeto administrasse pela mesma conta (a página não diz se "associated" inclui perfis só administrados).
 
 ### 4. Caminhos legítimos para o mapa
 
@@ -122,7 +122,7 @@ parceiras que o projeto administrasse pela mesma conta.
 
 **Caminhos que sobram:**
 1. **Administrar o perfil da licenciada como representante autorizado** — permitido com condição: consentimento
-   expresso (não verbal); ela é a proprietária e o projeto entra como administrador; telefone e site do perfil são os
+   expresso (não verbal); ela é a proprietária e o projeto entra como administrador (que não acrescenta nem remove usuários e não remove o perfil — 3403100 **[S]**); telefone e site do perfil são os
    dela; devolução do acesso em até 7 dias úteis quando ela pedir; nenhuma promessa de posição ("Third parties can't
    promise nor directly influence your business's ranking on Google Search or Maps through any special means." —
    https://support.google.com/business/answer/7163406?hl=en **[S]**).
@@ -136,7 +136,7 @@ telefone do intermediário; perfil "alugado" cuja propriedade fica com o interme
 **O que isso corta do plano:** no mapa o projeto não constrói patrimônio próprio. O que ele pode vender ali é um
 **serviço de gestão** do perfil da licenciada; o perfil, as avaliações e as ligações são dela e ela pode retomá-los.
 A tática do artigo do owner "negócio local: ranquear o perfil, não o site"
-(`/home/ancastelo/pessoal/SEO_Project/docs/estudo/00x_metodo_do_exemplo_x.md`, linha 2.12) só se aplica ao perfil
+(`/home/ancastelo/pessoal/SEO_Project/docs/estudo/00x_metodo_do_exemplo_x.md`, item 2.12 (linha 46)) só se aplica ao perfil
 **da licenciada**.
 
 **Não conclusivo em (a):** o que mudou nas regras em 2025–2026 (páginas sem data; arquivo histórico inacessível);
@@ -171,10 +171,10 @@ recurso e duração das restrições.
   Só foi lida uma cópia em arquivo .doc numa pasta de arquivos do site da Prefeitura de São Paulo, que não
   identifica quem a publicou, tem acentos corrompidos e um trecho truncado:
   https://drive.prefeitura.sp.gov.br/cidade/secretarias/upload/arquivos/secretarias/abastecimento/legislacao/0001/upload_fs/cvs09-00.doc
-  — vale como **indício**, não como fonte
+  — vale como **indício**, não como fonte (há cópia em PDF no portal da Secretaria de Estado da Saúde, domínio oficial, ainda não lida: ver "O que não foi lido e por quê" **[S]**)
 - Município de São Paulo: Lei 13.725/2004 (Código Sanitário),
   https://legislacao.prefeitura.sp.gov.br/leis/lei-13725-de-09-de-janeiro-de-2004; Portaria SMS 266/2025,
-  https://legislacao.prefeitura.sp.gov.br/portaria-secretaria-municipal-da-saude-sms-266-de-6-de-maio-de-2025
+  https://legislacao.prefeitura.sp.gov.br/portaria-secretaria-municipal-da-saude-sms-266-de-6-de-maio-de-2025 (alterada pela Portaria SMS 456/2025 no preâmbulo e nos arts. 23, 40 e 45 **[S]**)
 
 ### O que a RDC 622 diz (texto que decide)
 
@@ -184,7 +184,7 @@ recurso e duração das restrições.
 - Art. 5º: a contratação "somente pode ser efetuada com empresa especializada" **[N]**.
 - Art. 21: a nota fiscal "somente é valida se for emitida por pessoa jurídica de direito privado" **[N]**.
 - **Art. 22, caput:** "toda e qualquer forma de propaganda de empresa especializada deve conter claramente a
-  identificação dela nos órgãos licenciadores competentes, bem como o número de sua licença" **[N]**
+  identificação dela nos órgãos licenciadores competentes, bem como o número de sua licença" **[N]**. O caput ressalva o art. 58, § 2º, da Lei 6.360/1976 (https://www.planalto.gov.br/ccivil_03/leis/l6360.htm; propaganda de produtos, entre eles saneantes: norma própria) **[S]**; a regulamentação desse parágrafo não foi lida
 - **Art. 22, I:** "não provocar temor, angústia ou utilizar expressões ou imagens sugerindo que a saúde das pessoas
   será ou poderá ser afetada por não usar produtos ou prestação de serviço" **[N]**
 - **Art. 22, II:** não publicar mensagens como "Aprovado", "Recomendado por especialista", "Demonstrado em ensaios
@@ -247,7 +247,7 @@ III) — "sem risco para crianças e animais" é exemplo meu de frase que cai ne
 §§ 1º e 3º (publicidade enganosa, inclusive por omissão de dado essencial), e da RDC 622, arts. 5º e 21 (a
 contratação é com a empresa especializada; a nota é de pessoa jurídica). O site não é dedetizadora, não tem licença
 e não executa; capta o pedido e o encaminha a empresa licenciada; contrato, nota fiscal e comprovante de execução
-são da licenciada. Evitar "nossa equipe", "nossos técnicos", "nossa licença" é **escolha de desenho** para não
+(RDC 622, art. 19 **[S]**) são da licenciada. Evitar "nossa equipe", "nossos técnicos", "nossa licença" é **escolha de desenho** para não
 induzir a erro.
 
 **(iv) Onde a norma é silente:** página genérica ("dedetização em Pinheiros — peça orçamento") sem empresa nomeada;
@@ -255,7 +255,7 @@ se o dono do site pode ser autuado como quem "concorreu" ou "se beneficiou"; qua
 art. 37, § 3º.
 
 **Veredito: permitido com condição.** Um desenho em que **toda** página de oferta nomeia a licenciada que atende
-aquela região cumpre as condições mesmo com os pontos não conclusivos em aberto.
+aquela região atende ao que as normas lidas pedem da propaganda da empresa especializada; se isso basta para o site de terceiro, a norma é silente.
 
 **O que isso corta do plano:** páginas praga × bairro "anônimas", com cara de dedetizadora e botão de orçamento, são
 o formato de maior risco. Ou a página nomeia a licenciada que atende, ou é página de conteúdo e comparação que
@@ -270,7 +270,7 @@ o formato de maior risco. Ou a página nomeia a licenciada que atende, ou é pá
   executa";
 - linha 157 ("vale para o texto do site", confiança Alta): **texto confirmado, alcance rebaixado** — que o art. 22
   alcance o site de terceiro é interpretação (norma silente);
-- linha 158 (comprovante é da licenciada): **continua valendo**;
+- linha 158 (comprovante é da licenciada): **continua valendo** (RDC 622, art. 19 **[S]**);
 - linha 159 (formato seguro): continua como leitura; a RDC 622 pede a identificação no órgão licenciador e o número
   da licença — CNPJ não é exigido por ela (razão social e endereço são indício da CVS 9/2000, não conferido);
 - linha 163 (solidariedade "na cadeia"): **formulação corrigida** — "cadeia de fornecimento" não está no texto da lei;
@@ -284,7 +284,7 @@ o formato de maior risco. Ou a página nomeia a licenciada que atende, ou é pá
 
 **Fontes primárias (lidas em 13/11/2026):** Lei 13.709/2018, texto compilado
 (https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm; última alteração exibida: Lei 15.352/2026,
-que não mexe nos artigos usados aqui **[S]**); Resolução CD/ANPD nº 2/2022, texto compilado no site da ANPD
+que altera o art. 5º, VIII e XIX, e os arts. 55-A e 55-C; não mexe nos incisos II, VI e XII nem nos demais artigos usados aqui **[S]**); Resolução CD/ANPD nº 2/2022, texto compilado no site da ANPD
 (https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/resolucao-cd-anpd-no-2-de-27-de-janeiro-de-2022);
 Agenda Regulatória da ANPD (https://www.gov.br/anpd/pt-br/assuntos/regulacao/agenda-regulatoria-1, tabela de
 12/11/2026); perguntas frequentes da ANPD (https://www.gov.br/anpd/pt-br/acesso-a-informacao/perguntas-frequentes, modificadas em
@@ -307,17 +307,17 @@ Agenda Regulatória da ANPD (https://www.gov.br/anpd/pt-br/assuntos/regulacao/ag
   procedimento gratuito e facilitado" **[N]**
 - Art. 9º, § 1º: consentimento nulo se a informação for enganosa ou não tiver sido apresentada antes, com clareza
   **[S]**; art. 6º, III: só o mínimo necessário **[S]**.
-- ANPD: **não há** guia nem norma sobre consentimento, sobre venda de dados ou sobre "agregadores de dados"; os três
-  temas estão na agenda como "em andamento", em elaboração interna **[S]**.
+- ANPD: a agenda regulatória (tabela de 12/11/2026) traz "Hipótese Legal – Consentimento" e "Agregadores de dados pessoais" como "Em andamento", em elaboração interna; não há item sobre
+  venda de dados. Se algum guia já publicado trata de consentimento: não conferido (guias em PDF) **[S]**.
 
 ### Quem é controlador
 
-- Controlador é quem toma "as decisões referentes ao tratamento" (art. 5º, VI) **[S]**: o site que capta é
-  controlador; a dedetizadora que recebe também é (o próprio § 5º fala em "outros controladores").
+- Controlador é quem toma "as decisões referentes ao tratamento" (art. 5º, VI) **[S]**: pela definição, o site que capta decide sobre o tratamento e tende a ser
+  controlador (inferência); a dedetizadora que recebe, também (o próprio § 5º fala em "outros controladores").
 - Art. 42, § 1º, II: os controladores diretamente envolvidos "respondem solidariamente" **[N]**, salvo as
   exclusões do art. 43 (não tratou; não violou a lei; culpa exclusiva do titular ou de terceiro) **[S]**, com direito
   de regresso (§ 4º) **[S]**.
-- Se são controladores independentes ou conjuntos: **não conclusivo** (guia da ANPD em PDF, não lido).
+- Se são controladores independentes ou conjuntos: **não conclusivo** (guia da ANPD em PDF, não lido; o glossário da ANPD, modificado em 23/01/2025, define controladoria conjunta como determinação "conjunta, comum ou convergente", por dois ou mais controladores, das finalidades e dos elementos essenciais do tratamento, e cita esse guia **[S]**).
 
 ### Direito de exclusão
 
@@ -338,7 +338,7 @@ Agenda Regulatória da ANPD (https://www.gov.br/anpd/pt-br/assuntos/regulacao/ag
 - Resolução CD/ANPD nº 2/2022: microempresa, empresa de pequeno porte e MEI (art. 2º) não precisam indicar
   encarregado, mas têm de manter um canal de comunicação com o titular (art. 11), registro simplificado das operações
   (art. 9º) e segurança básica (art. 13) **[S]**; perdem o regime se o tratamento for de alto risco (arts. 3º e 4º:
-  larga escala somada a dado sensível, a decisão só automatizada ou a dado de idosos) **[S]**.
+  um critério geral somado a um específico — por exemplo, larga escala somada a dado sensível, a decisão só automatizada ou a dado de crianças, adolescentes e idosos) **[S]**.
 - Nome, telefone, bairro, tipo de praga e tipo de imóvel não são dado sensível. "Dado referente à saúde" é
   (art. 5º, II) **[S]**: alergia, asma, picada de escorpião. Consequência: não perguntar nada de saúde; evitar campo
   de texto livre.
@@ -358,8 +358,8 @@ quanto tempo guardar: a lei não fixa prazo — **não conclusivo**. Na exclusã
 **Vereditos:** repassar a **uma** empresa — **permitido com condição**. Repassar a **várias** — **permitido com
 condição**, com mais exigências (dizer a quantas, e a quais ou onde ver a lista; limitar ao necessário — art. 6º, III;
 registrar quem recebeu cada contato; avisar todas na exclusão; sem revenda posterior nem reuso para outra finalidade
-— isto é **inferência** do art. 7º, § 5º, e do art. 6º, I, não frase da lei). **Vedado** pela letra da lei: repassar sem informar;
-repassar com autorização genérica ("aceito os termos"). **Não conclusivo:** vender só com legítimo interesse; apoiar
+— isto é **inferência** do art. 7º, § 5º, e do art. 6º, I, não frase da lei). **Pela letra da lei:** repassar sem informar contraria o art. 9º, V;
+a autorização genérica ("aceito os termos") é nula (art. 8º, § 4º), e o repasse apoiado só nela fica sem consentimento válido. **Não conclusivo:** vender só com legítimo interesse; apoiar
 o repasse só no art. 7º, V; prazo de guarda da prova em anos; caixa pré-marcada (a lei não usa a expressão; por
 prudência, não usar).
 
@@ -418,22 +418,22 @@ pede autorização própria.
 - **Aplicativo e API — Política de Mensagens:** "You are responsible for and must secure all necessary notices,
   permissions, and consents to collect, use, and share people's content and information" **[N]** — a frase admite
   que a empresa compartilhe conteúdo e informação das pessoas **com consentimento**, o que cria tensão com a cláusula
-  4.1(b) acima; a fonte não resolve qual prevalece para o que a própria pessoa escreveu na conversa (os Termos da
-  Meta dizem prevalecer sobre documentos incorporados em caso de conflito? **não conferido**); "You may not
+  4.1(b) acima; a cláusula 1.3 dos Termos da Meta faz os Termos prevalecerem sobre as políticas incorporadas no uso da Plataforma ("estes Termos prevalecerão no que se refere à prestação da Meta e ao seu uso da Plataforma do WhatsApp Business, salvo indicação em contrário");
+  a alínea (a) da 4.1 excepciona "o conteúdo de seus tópicos de mensagens" e a alínea (b) não **[S]** (a conferir no texto bruto pela sessão principal); "You may not
   forward or otherwise share information from a customer chat with any other customer." **[N]**; dados obtidos do
-  WhatsApp sobre a pessoa não se usam "for any purpose other than as reasonably necessary to support messaging with
-  that person" **[N]**.
+  WhatsApp sobre a pessoa, "other than the content of message threads" **[S]**, não se usam "for any purpose other than as reasonably necessary to support messaging with
+  that person" **[N]** — a trava não cobre o conteúdo da conversa.
 - **Aplicativo gratuito:** os termos não têm cláusula que proíba nem que permita repassar o contato a terceiro
   **[S]**: **silente**.
-- A palavra "lead" não aparece nos dois documentos **[S]**. Serviço de dedetização não está entre os conteúdos
-  restritos; a venda de inseticida e pesticida químico está (política comercial da Meta,
-  https://www.facebook.com/policies_center/commerce) **[S]**.
+- A palavra "lead" não aparece nos dois documentos **[S]**. Nos recursos de comércio da Meta (catálogo, loja), "Serviços" é categoria restrita: só no aplicativo WhatsApp Business ou em Horas marcadas; dedetização não é citada nominalmente.
+  A venda de inseticida e pesticida químico é proibida (política comercial da Meta, https://www.facebook.com/policies_center/commerce, e a subpágina de materiais perigosos,
+  https://www.facebook.com/policies_center/commerce/hazardous_goods_and_materials) **[S]**. O projeto não usa recursos de comércio.
 
 ### Os dois desenhos
 
 - **Desenho A — o número do site faz a triagem no WhatsApp e repassa o contato à licenciada.** Pela API: **vedado**
-  pela letra da cláusula 4.1(b) — leitura literal, com a ressalva de alcance registrada acima. Pelo aplicativo gratuito: **não conclusivo** (silente; pesam contra a trava de
-  finalidade e a exigência de consentimento). Em qualquer caso, a licenciada só pode chamar a pessoa com opt-in que a
+  pela letra da cláusula 4.1(b) — leitura literal; sobre o alcance, ver acima a cláusula 1.3 e as alíneas (a) e (b) da 4.1 **[S]**. Pelo aplicativo gratuito: **não conclusivo** (termos silentes; a trava de finalidade da Política não alcança o conteúdo da conversa;
+  pesa a exigência de avisos e consentimentos para compartilhar). Em qualquer caso, a licenciada só pode chamar a pessoa com opt-in que a
   nomeie.
 - **Desenho B — o botão do site abre direto o WhatsApp da licenciada** (link `wa.me`, recurso oficial, com mensagem
   pré-preenchida **[S]**). **Permitido com condição:** a conversa é iniciada pela pessoa, com a empresa que vai
@@ -452,8 +452,8 @@ orientar a pessoa e entregar a ela o link da licenciada; a prova de que houve co
 
 **Não obtido / não conclusivo em (d):** tarifas da API para o Brasil (as duas páginas oficiais de preço se
 contradizem; a documentação — https://developers.facebook.com/docs/whatsapp/pricing — diz que, desde 01/10/2026, a mensagem de
-serviço é gratuita só até 1.000 por número por mês **[S]**); se os termos comuns do WhatsApp
-(https://www.whatsapp.com/legal/terms-of-service, que vedam vender "dados obtidos de nós" **[S]**) valem para a conta
+serviço é gratuita só até 1.000 por número por mês **[S]**; https://whatsappbusiness.com/products/platform-pricing ainda diz que mensagem de serviço não é cobrada **[S]**); se os termos comuns do WhatsApp
+(https://www.whatsapp.com/legal/terms-of-service, vigência 04/01/2021, que vedam vender "dados obtidos a partir dos nossos Serviços ou de nós de forma não autorizada" **[S]**) valem para a conta
 do aplicativo Business.
 
 ### Pesquisa de 25/09 — continua valendo ou foi corrigida
@@ -491,9 +491,9 @@ terceiro e passou a **não conclusivo** (F3); ressalvas que faltavam no veredito
   da ANPD de legítimo interesse, de agentes de tratamento e de cookies): a ferramenta de leitura não extrai texto de
   PDF. Tudo o que dependia deles está marcado "não conclusivo".
 - **Diário Oficial da União** (`in.gov.br`): não abriu em nenhuma tentativa; a RDC 622 foi lida na base de
-  legislação da Anvisa e as resoluções da ANPD, no site da ANPD.
+  legislação da Anvisa e as resoluções da ANPD, no site da ANPD. O conteúdo das "notas de alteração" da RDC 622 nessa base (há o botão na página) não foi lido: a ferramenta de leitura não o mostra **[S]**.
 - **Site do Centro de Vigilância Sanitária** (`cvs.saude.sp.gov.br`): erro 403; a vigência da Portaria CVS 9/2000
-  não foi confirmada.
+  não foi confirmada. Portaria CVS 9/2000 em PDF no portal da Secretaria de Estado da Saúde (https://portal.saude.sp.gov.br/resources/vetores/homepage/outros-destaques/orientacao-para-empresas-de-servicos-de-controle-vetorial/e_pt-cvs-09_161100.pdf): abre, mas a ferramenta não extrai o texto (registro do anexo `00b_propaganda.md`, linha 325, e da segunda passada); leitura pelo navegador pendente; vigência a confirmar **[S]**.
 - **Jurisprudência** sobre responsabilidade de site de indicação e **autorregulamentação publicitária**: fora do
   escopo deste item.
 - A lista completa do que cada subagente tentou abrir está no fim de cada anexo.

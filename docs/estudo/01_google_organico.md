@@ -4,8 +4,8 @@
   procura dedetização em São Paulo (capital) e os repassa a empresas licenciadas. O site **não presta o serviço**
   (intermediário, diretório ou comparador). Mapa e perfil de empresa ficam no guia (b); respostas de IA, no guia (c).
 - **Leitura das fontes:** sexta, 13/11/2026, das 19:38 às 19:57; guia gravado às 20:05 (Brasília, saída de
-  `TZ=America/Sao_Paulo date`).
-  Toda "data de leitura" deste guia é 13/11/2026.
+  `TZ=America/Sao_Paulo date`). Toda "data de leitura" deste guia é 13/11/2026.
+- **Estado:** segunda passada em 14/11/2026 (relatório `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/verificacao2_item3_guias_a_b.md`: aprovado com ressalvas; 12 de 12 no sorteio); correções aplicadas por corretor em 14/11/2026 às 01:46 (Brasília, saída de `TZ=America/Sao_Paulo date`; registro em `/home/ancastelo/pessoal/SEO_Project/docs/fds-2026-11-13/_runs/correcoes2_item3_guias_a_b.md`), sem nova leitura.
 - **Como li:** só por busca na web e leitura de página pública. A ferramenta de leitura devolve o texto em inglês mesmo
   quando peço a versão em português; por isso as citações literais estão **em inglês, com tradução minha ao lado**.
   Só está entre aspas o trecho que conferi em **duas leituras separadas** da página oficial. O que li uma vez só está
@@ -47,7 +47,7 @@ no fim.
 | 9 | Na página: um título único e descritivo, um título principal visível, descrição única, endereço legível, links internos de verdade (`<a href>`) com texto descritivo. Não há contagem mágica de palavras, de títulos nem de links; palavra-chave no domínio quase não conta; a meta tag de palavras-chave não é usada | A |
 | 10 | Dados estruturados só do que está visível e é verdadeiro. Estrelas de avaliação que a empresa controla sobre si mesma não valem. O resultado rico de perguntas frequentes (FAQ) deixou de existir em maio de 2026 | A |
 | 11 | O Google indexa pela versão de celular; HTTPS e os indicadores de velocidade (Core Web Vitals) entram na conta, mas não passam por cima de relevância | A |
-| 12 | Links de outros sites continuam sendo um sinal declarado pelo Google. Quanto pesam, ninguém de fora sabe: os estudos mostram correlação fraca a moderada (0,25 no geral e 0,33 em buscas locais, Estados Unidos) | A (é sinal) + B (o tamanho) |
+| 12 | Links de outros sites continuam sendo um sinal declarado pelo Google. Quanto pesam, ninguém de fora sabe: um estudo (Ahrefs, 2025, Estados Unidos) mostra correlação fraca (0,25 no geral; 0,33 em buscas locais) | A (é sinal) + B (o tamanho) |
 | 13 | Prazo: o Google não dá prazo. Uma mudança leva de horas a meses para aparecer. Num estudo da Ahrefs de 2025 (abrangência — país — da amostra não informada pela fonte), 1,74% de 1 milhão de páginas novas chegaram aos dez primeiros em um ano | A + B |
 | 14 | Em busca com intenção local, o resultado muda com a localização de quem busca e os recursos da página de resultado mudam com a busca (A). Que mapa e anúncios fiquem acima do orgânico **não está na fonte A**: é premissa minha, a conferir na observação ao vivo do item 4. Os estudos de clique de classe B (Near Media, Backlinko, Pew, SparkToro) são dos Estados Unidos e da Europa; o da First Page Sage é classe D e não sustenta esta regra; não achei dado do Brasil | A (o mecanismo) + B (os cliques) + premissa minha (mapa e anúncios acima do orgânico) |
 | 15 | O placar é o Search Console, que só o dono do site abre. Ferramenta de terceiro não tem dado interno do Google, e raspar o resultado para checar posição está na lista de práticas vedadas | A |
@@ -68,7 +68,7 @@ no fim.
 | O Google resume o ranqueamento em cinco grupos: sentido da busca (intenção), relevância, qualidade, usabilidade e contexto (localização, histórico, configurações) | Escrever para a intenção de quem quer contratar; o resto deste guia detalha cada grupo | `https://www.google.com/search/howsearchworks/how-search-works/ranking-results/` | página viva, sem data | A | Google | — |
 | Para medir relevância o Google usa também "aggregated and anonymized interaction data to assess whether search results are relevant to queries" (dados de interação agregados e anônimos) | Página que promete e não entrega tende a perder; não há o que "otimizar" além de entregar o que a busca pede | idem | idem | A | Google | Citação conferida em 2 leituras. É a confirmação oficial de que comportamento do usuário entra; detalhes na seção 6.3 |
 | Um dos fatores de qualidade é outros sites conhecidos apontarem ou se referirem ao conteúdo | Ver seção 6 | idem | idem | A | Google | — |
-| Camada 1, requisitos técnicos: o mínimo para a página poder aparecer (o robô do Google não bloqueado, página que funciona, conteúdo indexável) | Conferir no protótipo: sem bloqueio no `robots.txt`, sem `noindex` | `D:essentials` | página viva, sem data | A | Google | — |
+| Camada 1, requisitos técnicos: o mínimo para a página poder aparecer (o robô do Google não bloqueado, página que funciona, conteúdo indexável) | Conferir no protótipo: sem bloqueio no `robots.txt`, sem `noindex` | `D:essentials`; os três requisitos do parêntese estão em `D:essentials/technical` | página viva, sem data | A | Google | — |
 | Camada 2, políticas de spam: o que leva a posição mais baixa ou à remoção | Seção 2 | `D:essentials/spam-policies` | idem | A | Google | — |
 | Camada 3, boas práticas: conteúdo útil e feito para pessoas; palavras que as pessoas usam, postas em lugares de destaque (título, título principal, texto alternativo, texto de link); links rastreáveis; divulgar o site | Seções 3 e 4 | `D:essentials` | idem | A | Google | (1 leitura) |
 | O guia de iniciantes diz que não há segredo que ponha o site em primeiro automaticamente, e lista mitos: meta tag de palavras-chave não é usada; repetir palavra cansa e é spam; palavra no domínio ou no endereço quase não tem efeito; não há contagem mágica de palavras; ordem dos títulos não importa; E-E-A-T não é fator direto; conteúdo duplicado não gera ação manual | Não gastar tempo com nada disso; desconfiar de quem vende qualquer um desses itens | `D:fundamentals/seo-starter-guide` | idem | A | Google | Conferidas em 2 leituras: "Google Search doesn't use the keywords meta tag."; "there's no magical word count target, minimum or maximum"; palavra no domínio com "hardly any effect beyond appearing in breadcrumbs" |
@@ -265,8 +265,8 @@ Classe A e "quem ganha: Google" em todas as linhas. Páginas vivas, sem data exi
 
 ## 5. Dados estruturados para um site assim
 
-Classe A e "quem ganha: Google" em todas as linhas. O Google diz que usa dados estruturados para entender a página e
-mostrar o conteúdo de forma mais rica, e que **não garante** que o recurso apareça.
+Classe A e "quem ganha: Google" em todas as linhas. Páginas vivas do Google, sem data exibida (as datas do registro de mudanças estão no texto da linha).
+O Google diz que usa dados estruturados para entender a página e mostrar o conteúdo de forma mais rica, e que **não garante** que o recurso apareça.
 
 | Tipo ou regra | O que o Google diz | O que fazer aqui | Fonte | Observação |
 |---|---|---|---|---|
@@ -288,7 +288,7 @@ mostrar o conteúdo de forma mais rica, e que **não garante** que o recurso apa
 
 ### 6.1 O que o Google documenta
 
-| Afirmação | O que fazer aqui | Fonte | Classe | Quem ganha | Observação |
+| Afirmação | O que fazer aqui | Fonte (páginas vivas do Google, sem data exibida) | Classe | Quem ganha | Observação |
 |---|---|---|---|---|---|
 | "Google uses links as a signal when determining the relevancy of pages and to find new pages to crawl." (usa links como sinal de relevância e para achar páginas) | Links de fora importam por dois motivos: ser achado e ser considerado relevante | `D:crawling-indexing/links-crawlable` | A | Google | Conferida em 2 leituras |
 | PageRank continua entre os sistemas centrais; o guia de iniciantes lembra que há muitos sinais e o PageRank é só um | Não tratar link como o único fator | `D:appearance/ranking-systems-guide`; `D:fundamentals/seo-starter-guide` | A | Google | — |
@@ -336,8 +336,8 @@ os detalhes: a página tem de satisfazer quem clicou. Tentar fabricar cliques é
 | Em geral, no máximo duas páginas do mesmo site no topo de uma busca | Não esperar dominar a tela. "Uma página por busca" é escolha de desenho, inferência minha: a fonte diz "em geral até duas" | `D:appearance/ranking-systems-guide` | página viva | A | Google | — |
 | Páginas de serviço × páginas de localidade: **não há documento do Google** que diga como estruturar; só a política de páginas de entrada (seção 2) | Usar a matriz da seção 2.2; a página de praga (serviço) carrega o conteúdo técnico, a de bairro só existe se tiver algo próprio | — | — | sem fonte A ou B | — | Inferência minha, sem fonte aberta nesta leitura: o que circula sobre "página de serviço + página de cidade" é prática de agência (se for citado, entra como classe D) |
 | Diretórios e agregadores no orgânico: não afirmo quem aparece em busca alguma (isso é o item 4, no navegador) | Registrar no item 4 que tipo de site ocupa cada busca | — | — | — | — | Hipótese antiga em `/home/ancastelo/pessoal/SEO_Project/research/02_mercado_servicos_precos.md` linhas 26–30 |
-| Estudo de uso na Europa, serviços para casa: perfis de empresa visíveis em 78% das buscas com localização explícita e com 42% dos cliques quando visíveis; cerca de 8 em 10 cliques foram para empresas, 1 em 10 para agregadores; o tráfego dos agregadores veio 73% do orgânico | Indício de que agregador recebe a menor fatia e depende do orgânico | `https://www.nearmedia.co/eu-home-services-search-behavior/` | 20/11/2024 | B, **pode estar desatualizada** | Near Media vende consultoria e critica o Google na regulação europeia | **Alemanha, França e Irlanda**; 300 pessoas; uma tarefa (reforma de cozinha), em laboratório; página é trecho do estudo |
-| Cliques no bloco do mapa: 42% das pessoas em buscas locais clicaram num resultado do mapa; 65% clicaram em algum resultado orgânico; 19% em anúncio | Ordem de grandeza: o mapa leva uma fatia grande | `https://backlinko.com/google-user-behavior` | atualizada em 14/04/2025; dados de cerca de 2020 | B, **pode estar desatualizada** | Backlinko pertence à Semrush | **Estados Unidos**; 259 pessoas, 1.801 sessões, sete tarefas dadas; a própria página tem número divergente (65% no texto, 76% num gráfico) |
+| Estudo de uso na Europa, serviços para casa: perfis de empresa visíveis em 78% das buscas com localização explícita e com 42% dos cliques quando visíveis; cerca de 8 em 10 cliques foram para empresas, 1 em 10 para agregadores; o tráfego dos agregadores veio 73% do orgânico | Indício de que agregador recebe a menor fatia e depende do orgânico | `https://www.nearmedia.co/eu-home-services-search-behavior/` | 20/11/2024 | B, **pode estar desatualizada** | Near Media vende consultoria e critica o Google na regulação europeia | **Alemanha, França e Irlanda**; 300 pessoas; uma tarefa (reforma de cozinha), painel recrutado, com tela e voz gravadas; página é trecho do estudo |
+| Cliques no bloco do mapa: 42% das pessoas em buscas locais clicaram num resultado do mapa. No conjunto das sete tarefas do estudo (só uma local), 65% clicaram em algum resultado orgânico e 19% em anúncio; a fonte não dá esses dois números só para as buscas locais | Ordem de grandeza: o mapa leva uma fatia grande | `https://backlinko.com/google-user-behavior` | atualizada em 14/04/2025; a página não informa a data da coleta (cerca de 2020 é estimativa minha) | B, **pode estar desatualizada** | Backlinko pertence à Semrush | **Estados Unidos**; 259 pessoas, 1.801 sessões, sete tarefas dadas; a própria página tem número divergente (65% no texto, 76% num gráfico) |
 | Taxa de clique por posição, 2026: primeira posição orgânica 7,1% no geral, 22,6% sem resposta de IA e 3,6% com resposta de IA; bloco local 14,8%, 12,6% e 11,9% nas posições 1 a 3 | Só alegação (classe D): não vira regra nem entra em consenso. O que a fonte afirma: a primeira posição orgânica vale muito menos quando há resposta de IA; o bloco local rende mais que o orgânico abaixo dele | `https://firstpagesage.com/reports/google-click-through-rates-ctrs-by-ranking-position/` | 22/09/2026 | D (alegação: agência de SEO; amostra de clientes e painel próprios; método pouco exposto) | First Page Sage é agência de SEO e ganha quando o número convence o leitor a contratar SEO; a amostra são os próprios clientes e um painel próprio | **Estados Unidos**; 1.184 domínios, março a agosto de 2026; método pouco exposto; não dá a primeira posição orgânica com mapa presente |
 | Taxa de clique por posição, base antiga: primeira posição 27,6%; os três primeiros somam 54,4%; 0,63% dos cliques vão à segunda página | Só como referência de formato da curva (cai rápido) | `https://backlinko.com/google-ctr-stats` | atualizada em 16/04/2025; dados anteriores | B, **pode estar desatualizada** | Backlinko/Semrush | País não informado; anterior às respostas de IA; inclui buscas de marca, que inflam a primeira posição |
 | Resumo de IA reduz o clique: 8% das visitas a resultados com resumo de IA tiveram clique num resultado tradicional, contra 15% sem resumo; cerca de 1% clicou em link dentro do resumo | Buscas informativas ("como acabar com barata") rendem menos visita; buscas de contratação tendem a ter menos resumo (hipótese, não medida aqui) | `https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/` | 22/07/2025 | B | Pew é instituto de pesquisa sem produto de SEO | **Estados Unidos**; 900 adultos, 68.879 buscas em março de 2025; associação, não causa. É a única fonte B sem interesse comercial deste guia |
@@ -347,15 +347,15 @@ os detalhes: a página tem de satisfazer quem clicou. Tentar fabricar cliques é
 Nenhuma dessas fontes é do Brasil, nenhuma é de dedetização, e os números não se somam entre si (métodos diferentes).
 O que se repete em duas fontes B de métodos diferentes, as duas com interesse comercial e uma delas antiga (Near
 Media e Backlinko; a First Page Sage aponta na mesma direção, mas é classe D e não conta como evidência): **em busca
-local o bloco do mapa leva uma fatia grande dos cliques** (na Backlinko, 42% clicaram no mapa e 65% em algum resultado
-orgânico: o orgânico não fica sem clique). Isso sustenta, como hipótese, que o canal orgânico do intermediário rende mais na
+local o bloco do mapa leva uma fatia grande dos cliques** (na Backlinko, 42% clicaram no mapa nas buscas
+locais; o estudo não dá a fatia do orgânico só para buscas locais). Isso sustenta, como hipótese, que o canal orgânico do intermediário rende mais na
 cauda longa e em buscas de comparação e de dúvida do que em "dedetizadora perto de mim".
 
 ---
 
 ## 8. Medição
 
-| Afirmação | O que fazer aqui | Fonte | Classe | Quem ganha | Observação |
+| Afirmação | O que fazer aqui | Fonte (páginas vivas do Google, sem data exibida) | Classe | Quem ganha | Observação |
 |---|---|---|---|---|---|
 | O relatório de desempenho do Search Console mede: cliques ("The number of times a user clicked your site from Google Search results."), impressões ("How many times your site appeared in Search results."), taxa de clique ("The click count divided by the impression count.") e posição média ("The average position of the topmost result from your site.") | São as quatro colunas do placar. Posição média é a média da posição mais alta do site em cada busca em que apareceu | `https://support.google.com/webmasters/answer/7576553?hl=en` | A | Google | Conferidas em 2 leituras. Visão padrão: últimos três meses |
 | Dimensões: buscas, páginas, países, aparelhos, aparência na busca, datas | Filtrar por página (cada praga × bairro) e por busca | idem; `https://support.google.com/webmasters/answer/17011259?hl=en` | A | Google | (1 leitura) |
@@ -378,7 +378,7 @@ medição; decidir se assina alguma ferramenta paga.
 
 ## 9. Prazo realista para site novo
 
-| Afirmação | Fonte | Classe | Quem ganha | Observação |
+| Afirmação | Fonte (classe A: páginas vivas do Google, sem data exibida; classes B e D: a data está no texto) | Classe | Quem ganha | Observação |
 |---|---|---|---|---|
 | "Some changes might take effect in a few hours, others could take several months." (algumas mudanças valem em horas, outras levam vários meses); em geral, esperar algumas semanas para avaliar | `D:fundamentals/seo-starter-guide` | A | Google | Citação conferida em 2 leituras |
 | Rastreamento de página nova: de alguns dias a algumas semanas; sem garantia de inclusão | `D:crawling-indexing/ask-google-to-recrawl` | A | Google | 2 leituras |
@@ -534,6 +534,7 @@ Documentação do Google (classe A):
 - `https://developers.google.com/search/docs/fundamentals/how-search-works`
 - `https://www.google.com/search/howsearchworks/how-search-works/ranking-results/`
 - `https://developers.google.com/search/docs/essentials`
+- `https://developers.google.com/search/docs/essentials/technical`
 - `https://developers.google.com/search/docs/essentials/spam-policies`
 - `https://developers.google.com/search/docs/appearance/ranking-systems-guide`
 - `https://developers.google.com/search/docs/fundamentals/seo-starter-guide`
