@@ -9,8 +9,7 @@ ele sair com cada pendência decidida e com um plano de integração ao trabalho
   94% em subagentes. O que estava em subagente no instante do corte pode ter ficado pela metade.
 - **Orçamento agora: cerca de US$ 80 por dia para tudo.** Esta sessão roda em Opus 5.5 e deve custar de US$ 20
   a 40. Por isso: **não lance subagentes** (se um for indispensável, diga por quê e o custo estimado, e espere o
-  "sim"); não releia arquivo grande por inteiro (as revisões passam de 200 KB: busque o trecho); não rode
-  consulta pesada no BigQuery nem refaça trabalho da rodada.
+  "sim"); não releia arquivo grande por inteiro (busque o trecho); não refaça trabalho da rodada.
 - O que as raias escreveram é **relato, não fato**: antes de apresentar ao dono um número ou um "fechado" que
   pese na decisão, abra o artefato e confira aquele ponto. Diga o que conferiu e o que não conferiu.
 - Visão geral da rodada e minha avaliação de valor (a confirmar):
