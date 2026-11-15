@@ -40,16 +40,15 @@ em `REVISAO_RESPOSTAS.md` na pasta da leitura da raia (data, pendência, decisã
 
 ## Passo 3 — Integração
 
-Com as decisões tomadas, proponha em uma tabela: o que muda nos arquivos do projeto e o texto novo do `docs/ESTADO.md`; o que é arquivado. **Execute só o que o dono aprovar.** Projeto pessoal: sem memória corporativa, commit e push no repositório pessoal ao fim de cada etapa. (ignore o restante deste parágrafo:) o que vira linha no
-`meli/SDD_DEV_LEDGER.md`, task ou pendência do projeto; o texto novo do `STATE.md`; o que é arquivado. **Execute
-só o que o dono aprovar, item a item.**
+Com as decisões tomadas, proponha em uma tabela: o que muda nos arquivos do projeto, o texto novo do
+`docs/ESTADO.md` e o que é arquivado. **Execute só o que o dono aprovar, item a item.**
 
 ## Fronteira
 
-Sem mensagem ou candidatura enviada, sem criar conta, sem preencher formulário, sem comprar ou publicar nada, sem abrir o LinkedIn sem o pedido do dono. (ignore:) sem commit ou push
-sem o "sim" do dono para aquele commit. Mudança de job ou de view: linha no ledger antes, e o comando fica
-pronto para ele rodar. Forma de todo texto: português, caminho absoluto no que ele precisa abrir, cada número
-com unidade, população, período e fonte, sem nomes de pessoas.
+Projeto pessoal: sem memória corporativa e sem material da empresa. Sem mensagem ou candidatura enviada, sem
+criar conta, sem preencher formulário, sem comprar ou publicar nada, sem abrir o LinkedIn a não ser a pedido do
+dono, presente. Commit e push no repositório pessoal ao fim de cada etapa. Forma de todo texto: português,
+caminho absoluto no que ele precisa abrir, cada número com unidade, período e fonte.
 
 ## Encerramento
 
